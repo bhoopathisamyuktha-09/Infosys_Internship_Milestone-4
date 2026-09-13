@@ -1,0 +1,801 @@
+indicator_id,indicator_type,indicator_value,threat_name,threat_actor,confidence,severity
+IOC001,IP Address,16.132.105.97,Web App Exploitation Campaign,Unknown,Critical,Critical
+IOC002,IP Address,138.102.217.236,Phishing Campaign,Unknown,High,Critical
+IOC003,IP Address,43.129.10.224,Web App Exploitation Campaign,Unknown,High,Critical
+IOC004,IP Address,101.183.91.182,Malware Distribution Network,Unknown,Critical,Critical
+IOC005,IP Address,95.25.88.81,Web App Exploitation Campaign,Unknown,High,Critical
+IOC006,IP Address,85.164.190.238,Phishing Campaign,Unknown,High,Critical
+IOC007,IP Address,94.137.83.213,Malware Distribution Network,Unknown,High,Critical
+IOC008,IP Address,116.143.245.117,Malware Distribution Network,Unknown,High,Critical
+IOC009,IP Address,101.40.211.168,Insider/Priv-Esc Toolkit,Unknown,Critical,Critical
+IOC010,IP Address,9.219.212.91,Web App Exploitation Campaign,Unknown,High,Critical
+IOC011,IP Address,92.144.110.238,Credential Stuffing Campaign,Unknown,Critical,Critical
+IOC012,IP Address,69.218.182.251,Insider/Priv-Esc Toolkit,Unknown,Critical,Critical
+IOC013,IP Address,97.4.100.18,Insider/Priv-Esc Toolkit,Unknown,Critical,Critical
+IOC014,IP Address,182.97.36.91,Insider/Priv-Esc Toolkit,Unknown,High,Critical
+IOC015,IP Address,14.148.232.12,Malware Distribution Network,Unknown,Critical,Critical
+IOC016,IP Address,84.59.25.178,Phishing Campaign,Unknown,High,Critical
+IOC017,IP Address,134.188.137.57,Credential Stuffing Campaign,Unknown,High,Critical
+IOC018,IP Address,91.94.252.157,Phishing Campaign,Unknown,High,Critical
+IOC019,IP Address,63.237.37.214,Credential Stuffing Campaign,Unknown,High,Critical
+IOC020,IP Address,93.181.229.132,Credential Stuffing Campaign,Unknown,High,Critical
+IOC0021,IP Address,13.165.44.168,Trojan,Emotet,Low,Medium
+IOC0022,IP Address,179.17.64.139,Supply Chain Compromise,LockBit,Medium,Medium
+IOC0023,IP Address,213.167.44.31,Data Exfiltration,Unknown,Medium,Medium
+IOC0024,Domain,update-5548.info,Backdoor,Hive,Low,High
+IOC0025,Email Address,billing623@service-2038.com,Data Exfiltration,APT29,Low,Low
+IOC0026,File Hash (SHA256),59bc3d8bfd97cd02abca5e5001a8b1a41030a73ac7e2178bbca707dfce4fe33a,Info Stealer,APT29,High,Medium
+IOC0027,URL,http://secure-6293.info/api/v1/payload.bin,Botnet Recruitment,Unknown,Low,Low
+IOC0028,IP Address,56.131.16.78,Malware Download,Conti,High,High
+IOC0029,URL,http://service-7782.net/api/v1/payload.bin,Backdoor,Unknown,Medium,Medium
+IOC0030,IP Address,83.181.101.23,DDoS Botnet,Unknown,High,Medium
+IOC0031,File Hash (SHA256),ba5342a173ab82c58746b16fc75ab2938b3cfc1a4486b7281b5c9281f451e05d,Phishing Campaign,FIN7,Low,Medium
+IOC0032,File Hash (SHA256),1a84bbc9f9906d3b14eb771c9440e2bf1d1bc94e777daf263e021abca476aa35,Phishing Campaign,Unknown,Medium,High
+IOC0033,IP Address,20.62.237.196,Supply Chain Compromise,TeamTNT,Low,Critical
+IOC0034,IP Address,217.125.35.175,Cryptominer,Unknown,Critical,High
+IOC0035,IP Address,95.186.167.55,Credential Stuffing Campaign,APT28,Low,High
+IOC0036,Domain,service-1342.com,Ransomware,Unknown,High,Medium
+IOC0037,IP Address,163.106.31.82,Botnet Recruitment,Unknown,Medium,High
+IOC0038,File Hash (SHA256),f8cfd179627b15d12a153c9fbd8272459d2b0a08759272b15f67a2568dff7c98,Credential Stuffing Campaign,Unknown,Low,Medium
+IOC0039,Domain,api-5510.info,Data Exfiltration,Unknown,Low,High
+IOC0040,URL,http://service-7011.net/api/v1/payload.bin,Data Exfiltration,Unknown,Medium,Medium
+IOC0041,IP Address,170.174.119.233,Backdoor,TeamTNT,High,High
+IOC0042,IP Address,175.128.42.208,Botnet Recruitment,Kinsing,Low,Medium
+IOC0043,URL,http://service-1601.info/api/v1/payload.bin,Phishing Campaign,Unknown,Medium,Critical
+IOC0044,IP Address,199.32.191.80,DDoS Botnet,Unknown,Medium,Medium
+IOC0045,File Hash (SHA256),b8df91c07dfeefc341de03674ab7c6ac86402dadc292f2f95a52058a96468a42,Malware Download,Emotet,Low,Critical
+IOC0046,IP Address,6.84.113.168,Cryptominer,Lazarus Group,Critical,Low
+IOC0047,Domain,update-6811.xyz,Backdoor,Unknown,High,Critical
+IOC0048,IP Address,32.207.38.151,Command and Control,TrickBot,Medium,Medium
+IOC0049,IP Address,124.42.218.244,Trojan,Unknown,Medium,Medium
+IOC0050,File Hash (SHA256),763e899f7476106427aa1b7b8dc64032922105b5862fbb287c5617cf251e700d,Credential Stuffing Campaign,Unknown,Medium,High
+IOC0051,URL,http://cdn-294.com/api/v1/payload.bin,Command and Control,Unknown,Critical,Medium
+IOC0052,IP Address,17.47.105.92,Ransomware,Unknown,Low,Critical
+IOC0053,URL,http://cloud-5408.com/api/v1/payload.bin,Malware Download,Emotet,High,Low
+IOC0054,IP Address,153.56.57.170,Malware Download,Unknown,Medium,High
+IOC0055,IP Address,141.92.93.106,Phishing Campaign,DarkSide,Low,High
+IOC0056,Domain,update-4734.xyz,Ransomware,Conti,High,Medium
+IOC0057,File Hash (SHA256),e30124c7cf79f9a9da6c6abfb1f5197c8832cfdd3f637b724d5053ce6a425f11,Info Stealer,Unknown,High,Low
+IOC0058,Email Address,admin509@secure-2745.com,Ransomware,LockBit,Medium,High
+IOC0059,URL,http://login-4468.net/api/v1/payload.bin,Web Shell,TeamTNT,Critical,High
+IOC0060,Domain,service-7802.info,Command and Control,Unknown,Medium,High
+IOC0061,File Hash (SHA256),8e578b7d6418699354012de7755234a19d1be7a667e8f1924baeb7d94d5f2b76,Command and Control,Unknown,Medium,High
+IOC0062,File Hash (SHA256),61cb8b2b4e5f5763a223e947986b48397ef5f6b839fc641e842ad5a72fe17d93,Supply Chain Compromise,Hive,High,High
+IOC0063,IP Address,85.46.70.32,Data Exfiltration,Kinsing,High,Critical
+IOC0064,IP Address,206.252.121.167,Backdoor,Unknown,High,Low
+IOC0065,IP Address,94.113.64.235,Cryptominer,APT29,High,High
+IOC0066,Domain,secure-4941.xyz,Supply Chain Compromise,Unknown,Low,Medium
+IOC0067,Email Address,security186@update-5604.com,Malware Download,LockBit,Medium,Medium
+IOC0068,IP Address,56.109.234.2,Command and Control,DarkSide,Medium,High
+IOC0069,IP Address,131.31.235.232,Malware Download,Kinsing,Medium,High
+IOC0070,IP Address,12.219.61.191,Backdoor,Unknown,Medium,Medium
+IOC0071,Email Address,no-reply260@api-5193.info,Botnet Recruitment,Unknown,Medium,Medium
+IOC0072,Domain,cdn-6249.net,Botnet Recruitment,Unknown,High,Medium
+IOC0073,Domain,service-5838.info,Malware Download,Kinsing,Medium,High
+IOC0074,File Hash (SHA256),cfadfc1c40d4fa768ee5c942ae09c3b9565cda2bdc86e9cc06b626fab526ded7,Ransomware,LockBit,High,Low
+IOC0075,Domain,api-4313.com,DDoS Botnet,FIN7,High,High
+IOC0076,IP Address,122.185.231.3,Malware Download,Lazarus Group,Low,High
+IOC0077,IP Address,107.234.250.247,Trojan,Unknown,Low,Medium
+IOC0078,File Hash (SHA256),a76d4d2bdb81851b7ac7ec2336c3c8e66389e09ea9f8e5b783846226c7cf9c05,Phishing Campaign,Unknown,High,Low
+IOC0079,IP Address,208.95.58.254,Ransomware,Unknown,Medium,Medium
+IOC0080,Domain,secure-3270.xyz,Botnet Recruitment,TrickBot,Low,High
+IOC0081,Email Address,support627@secure-1384.net,Cryptominer,Unknown,Medium,High
+IOC0082,IP Address,139.183.129.181,Info Stealer,TrickBot,Low,Medium
+IOC0083,Domain,service-1013.xyz,Cryptominer,Emotet,Low,Medium
+IOC0084,File Hash (SHA256),3e0aa5dd39e8b89bf99b37ad4ffaa0209fdcf68993d36812157871a8d709e5c7,Command and Control,Unknown,Medium,Medium
+IOC0085,Domain,cloud-5977.com,Botnet Recruitment,Unknown,Critical,High
+IOC0086,Email Address,security357@api-696.com,Command and Control,Unknown,Low,Medium
+IOC0087,Email Address,no-reply741@secure-7228.info,DDoS Botnet,Unknown,Low,High
+IOC0088,IP Address,84.6.53.125,Cryptominer,TrickBot,High,Medium
+IOC0089,Domain,login-3254.info,Trojan,Unknown,High,Low
+IOC0090,Domain,service-2026.xyz,Backdoor,Unknown,Low,Low
+IOC0091,Domain,cloud-6750.xyz,Data Exfiltration,Unknown,Low,High
+IOC0092,IP Address,11.223.98.70,Info Stealer,Unknown,Medium,Critical
+IOC0093,File Hash (SHA256),f3f9b4fd36d660c1073bc596ac159e197da89a8b3caaed8198fef25a52dafc3e,Backdoor,Unknown,Medium,Low
+IOC0094,IP Address,92.223.130.116,Ransomware,Unknown,High,Medium
+IOC0095,File Hash (SHA256),e5da46f95f67c80e022ea45507aca22d2aa98b42274948b7f8696026a235f350,Malware Download,Unknown,High,Critical
+IOC0096,Domain,service-4522.info,Trojan,Unknown,Medium,High
+IOC0097,Email Address,security106@api-2582.xyz,Supply Chain Compromise,APT28,Critical,Medium
+IOC0098,IP Address,53.235.162.8,Command and Control,BlackCat,Low,High
+IOC0099,IP Address,125.69.138.236,Botnet Recruitment,Unknown,Medium,High
+IOC0100,IP Address,172.42.213.169,Cryptominer,Unknown,High,Medium
+IOC0101,IP Address,218.10.117.126,Backdoor,DarkSide,High,Low
+IOC0102,Domain,api-8253.info,Trojan,Unknown,Low,Medium
+IOC0103,IP Address,70.200.144.122,Command and Control,Unknown,Medium,High
+IOC0104,Email Address,billing384@secure-6298.com,Malware Download,Lazarus Group,Medium,High
+IOC0105,File Hash (SHA256),babec0f59904c388cc856b3a56fa593ff69fd901e591700696578920a2fa9e8a,Credential Stuffing Campaign,FIN7,Medium,High
+IOC0106,IP Address,206.46.79.213,Command and Control,LockBit,Medium,High
+IOC0107,File Hash (SHA256),11155f60408960f03a28b8395560b785d12f119498c60335e4f6149ea8247809,Trojan,TeamTNT,Medium,High
+IOC0108,File Hash (SHA256),e8cd4cb6229c6866b2254965eaa5399d4d3b50640203fd0c7c9671ddb6ef741b,Malware Download,Hive,Low,Medium
+IOC0109,IP Address,12.217.255.186,Trojan,Unknown,Low,High
+IOC0110,IP Address,40.50.82.104,Trojan,Unknown,Medium,Low
+IOC0111,File Hash (SHA256),a891f28986832ff78b854db3d34d47128979e85541626523d409181e599d7898,Backdoor,BlackCat,Low,High
+IOC0112,File Hash (SHA256),19b3d7b78b41a47dd7bb3bd53b8406b79ff276f7a7996b29389c749932bf7a1c,Malware Download,Unknown,Low,Low
+IOC0113,IP Address,44.158.107.91,Malware Download,Unknown,High,Medium
+IOC0114,IP Address,94.145.148.195,Info Stealer,Emotet,Critical,Medium
+IOC0115,Domain,api-4951.net,Trojan,Unknown,High,Low
+IOC0116,File Hash (SHA256),092980554a56dbb2b70950c0378fa4446647c94bc4e8e129e8539852ad4b4f07,Malware Download,Unknown,High,High
+IOC0117,IP Address,175.40.23.189,Botnet Recruitment,Unknown,Low,High
+IOC0118,Domain,update-2807.com,Supply Chain Compromise,FIN7,Critical,Critical
+IOC0119,File Hash (SHA256),1795bf5fc1c1b5d8b44d423c173df8a120ab71e1ab76dfbf262793ac4c8aa902,Trojan,Unknown,Medium,Low
+IOC0120,IP Address,87.170.48.47,Command and Control,Unknown,Critical,High
+IOC0121,IP Address,158.12.188.177,Phishing Campaign,Conti,Medium,Low
+IOC0122,File Hash (SHA256),00317684c3a5c85647b544efe8cc079ca67144471962fbcf18b3df10692ee3ba,Backdoor,BlackCat,High,High
+IOC0123,IP Address,183.44.9.87,Cryptominer,DarkSide,Critical,Low
+IOC0124,IP Address,210.6.116.110,Data Exfiltration,Unknown,Low,Critical
+IOC0125,IP Address,193.131.239.104,Credential Stuffing Campaign,Unknown,Low,High
+IOC0126,IP Address,129.121.219.68,Trojan,Unknown,High,Medium
+IOC0127,Email Address,support247@cdn-6451.xyz,Supply Chain Compromise,Unknown,Medium,Medium
+IOC0128,IP Address,69.119.48.207,Credential Stuffing Campaign,Unknown,Medium,Medium
+IOC0129,IP Address,191.163.30.81,Botnet Recruitment,APT29,Low,Critical
+IOC0130,IP Address,119.165.122.234,Web Shell,FIN7,Medium,Medium
+IOC0131,Email Address,no-reply529@cdn-7526.net,Phishing Campaign,Unknown,High,High
+IOC0132,IP Address,48.215.137.135,Cryptominer,Conti,High,High
+IOC0133,URL,http://login-2983.info/api/v1/payload.bin,Supply Chain Compromise,Unknown,High,Medium
+IOC0134,IP Address,59.12.207.118,Malware Download,Kinsing,Medium,Critical
+IOC0135,Email Address,support323@service-9398.xyz,Data Exfiltration,Unknown,Low,Critical
+IOC0136,File Hash (SHA256),2571176a09aa58fbb72b05bedde65b7c5d4faf40fd371c2254401962c0db7dd0,Credential Stuffing Campaign,APT28,Low,Low
+IOC0137,Domain,login-7213.com,Botnet Recruitment,Emotet,Medium,Medium
+IOC0138,Email Address,support870@cdn-898.xyz,Credential Stuffing Campaign,Unknown,Medium,Low
+IOC0139,IP Address,129.152.23.95,Backdoor,APT29,High,High
+IOC0140,IP Address,35.10.242.103,Info Stealer,APT29,Critical,Medium
+IOC0141,Domain,service-6828.net,Backdoor,TeamTNT,Low,Low
+IOC0142,Domain,login-590.net,Backdoor,LockBit,High,Medium
+IOC0143,IP Address,122.30.113.191,Phishing Campaign,Emotet,High,High
+IOC0144,Email Address,support455@login-3912.com,Web Shell,Unknown,High,High
+IOC0145,Domain,secure-508.net,Cryptominer,APT29,High,High
+IOC0146,IP Address,22.38.180.84,Credential Stuffing Campaign,Unknown,Medium,Medium
+IOC0147,IP Address,120.15.5.46,Malware Download,Unknown,Medium,High
+IOC0148,Domain,cdn-8852.xyz,Command and Control,TrickBot,Medium,Low
+IOC0149,File Hash (SHA256),ae42af972cbd76bb75f5de61db556bdb4ce0a098d31664bf9a695e224c69e08d,Info Stealer,Unknown,Medium,High
+IOC0150,Domain,login-7794.com,Info Stealer,Unknown,Medium,High
+IOC0151,IP Address,7.225.125.175,Cryptominer,Unknown,Critical,Medium
+IOC0152,IP Address,89.161.94.138,Data Exfiltration,Emotet,Medium,Critical
+IOC0153,IP Address,59.79.214.133,Backdoor,Unknown,Medium,Critical
+IOC0154,Email Address,support323@cloud-8941.net,Cryptominer,APT28,High,Medium
+IOC0155,IP Address,185.195.199.50,Ransomware,Unknown,Low,Medium
+IOC0156,Domain,service-8697.xyz,Data Exfiltration,Lazarus Group,Low,Low
+IOC0157,URL,http://update-7428.xyz/api/v1/payload.bin,Trojan,Unknown,Critical,Critical
+IOC0158,Domain,login-3653.xyz,Trojan,Unknown,High,Medium
+IOC0159,Domain,api-8903.xyz,Supply Chain Compromise,Unknown,Critical,Medium
+IOC0160,Domain,cloud-8666.net,Botnet Recruitment,Kinsing,High,High
+IOC0161,File Hash (SHA256),e5e36a72de25cbd4065f3c34d4c9284d530564d98089fdd1cd5a305e1da7fe8f,Web Shell,Unknown,Medium,Low
+IOC0162,File Hash (SHA256),78dac42f5d30c6c6601dc5f3fec60c7cdc26a85700be7e878c07eda22de4c670,Phishing Campaign,Unknown,Low,High
+IOC0163,IP Address,171.202.138.119,Trojan,Conti,Low,High
+IOC0164,Domain,api-3716.xyz,Phishing Campaign,FIN7,Critical,Low
+IOC0165,Domain,update-2044.xyz,Data Exfiltration,Unknown,Medium,Low
+IOC0166,Email Address,admin916@login-6814.net,Cryptominer,APT29,Low,High
+IOC0167,File Hash (SHA256),20c156829fa026da5d73c26d9ac3438da2f008e53e8eed55fb3f24aa77bd07e9,Data Exfiltration,Unknown,Low,Critical
+IOC0168,URL,http://service-8709.info/api/v1/payload.bin,Info Stealer,Conti,Medium,Critical
+IOC0169,IP Address,158.109.200.118,Cryptominer,Conti,High,High
+IOC0170,IP Address,70.85.190.71,Supply Chain Compromise,Unknown,Medium,Medium
+IOC0171,File Hash (SHA256),3eab799e81f874ebced3fd8faa2a2a132d79789f206cd129fa08b237f3993f45,Web Shell,Unknown,High,High
+IOC0172,IP Address,95.119.51.19,Info Stealer,Unknown,Medium,Low
+IOC0173,IP Address,137.213.255.135,Backdoor,Unknown,Critical,High
+IOC0174,File Hash (SHA256),22fcdbea03b613064b2e5fda9be8a00469fbdae38be830bad3a27ae03540f418,Backdoor,FIN7,Medium,High
+IOC0175,Email Address,security250@login-5982.xyz,Info Stealer,Unknown,High,High
+IOC0176,IP Address,166.212.218.45,Data Exfiltration,Unknown,Medium,Medium
+IOC0177,IP Address,169.99.127.15,Cryptominer,FIN7,Low,Medium
+IOC0178,IP Address,19.22.70.14,Data Exfiltration,Unknown,High,High
+IOC0179,IP Address,67.173.67.135,Phishing Campaign,Unknown,High,High
+IOC0180,IP Address,58.215.2.103,Phishing Campaign,Unknown,Low,Medium
+IOC0181,IP Address,137.117.44.104,Ransomware,Unknown,Medium,Medium
+IOC0182,IP Address,43.192.135.48,Web Shell,BlackCat,Low,High
+IOC0183,File Hash (SHA256),224cd53fcf4e59ab56be7d090822226be7289d6b4e2fc4712f9c8ec03bc2d7bb,Malware Download,Kinsing,Critical,High
+IOC0184,IP Address,190.228.141.147,Ransomware,Unknown,Low,Critical
+IOC0185,URL,http://cdn-5035.xyz/api/v1/payload.bin,Trojan,Unknown,Medium,Low
+IOC0186,File Hash (SHA256),9a9165b3b5f0e64e5c636395133ee67942054950ea600a18e5643d4392f83f4c,Botnet Recruitment,Unknown,Low,Critical
+IOC0187,Email Address,no-reply905@secure-6943.xyz,Info Stealer,Unknown,High,High
+IOC0188,URL,http://login-3891.net/api/v1/payload.bin,Cryptominer,Unknown,High,High
+IOC0189,IP Address,104.222.173.118,Backdoor,FIN7,High,Medium
+IOC0190,Domain,api-8464.net,Malware Download,Lazarus Group,Critical,Low
+IOC0191,IP Address,171.44.207.85,Data Exfiltration,Unknown,Medium,Low
+IOC0192,IP Address,162.70.208.235,Malware Download,FIN7,Medium,Medium
+IOC0193,IP Address,94.236.248.157,Backdoor,Unknown,Medium,High
+IOC0194,IP Address,146.85.40.135,Backdoor,Emotet,High,Medium
+IOC0195,URL,http://service-3607.com/api/v1/payload.bin,Cryptominer,TrickBot,Low,High
+IOC0196,IP Address,120.175.125.63,Cryptominer,Unknown,Low,Medium
+IOC0197,Domain,service-241.com,Trojan,Unknown,Medium,High
+IOC0198,Email Address,admin362@update-5437.net,Web Shell,Unknown,Low,High
+IOC0199,IP Address,130.44.50.223,Botnet Recruitment,LockBit,Medium,Medium
+IOC0200,File Hash (SHA256),d501fdeed70264c987f74a0529679f8a6b11b46dd62ae9ee18604abf4ca7cabb,Info Stealer,FIN7,Medium,High
+IOC0201,File Hash (SHA256),fd088670e2a8db3b70280920c15b9d47bd88a35f630c89f535cd6ab8bf4b855e,Cryptominer,Unknown,Medium,Critical
+IOC0202,Domain,service-3920.info,Botnet Recruitment,DarkSide,Low,High
+IOC0203,IP Address,188.76.239.185,Phishing Campaign,Unknown,Low,Medium
+IOC0204,Email Address,admin34@secure-2718.info,Botnet Recruitment,Unknown,Critical,High
+IOC0205,IP Address,63.126.117.177,Data Exfiltration,Unknown,Critical,Medium
+IOC0206,URL,http://secure-3625.xyz/api/v1/payload.bin,Malware Download,Unknown,Low,Medium
+IOC0207,Domain,secure-1656.info,Botnet Recruitment,LockBit,Medium,Low
+IOC0208,IP Address,165.21.70.223,Command and Control,Unknown,Low,Low
+IOC0209,Email Address,admin389@api-1317.net,Malware Download,Unknown,Medium,Critical
+IOC0210,URL,http://secure-4893.xyz/api/v1/payload.bin,Backdoor,Conti,Medium,Critical
+IOC0211,Domain,service-2288.com,Trojan,Kinsing,High,High
+IOC0212,URL,http://service-4289.info/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Medium,High
+IOC0213,IP Address,196.212.250.61,DDoS Botnet,Unknown,Medium,Medium
+IOC0214,File Hash (SHA256),94c09afcce3b70cb2f2bf2b273c4bca2ceb8c4613f74b5c1c145fa1823649956,Data Exfiltration,TrickBot,Low,Medium
+IOC0215,Domain,cdn-5529.com,Malware Download,Unknown,Low,Medium
+IOC0216,IP Address,103.64.84.16,Info Stealer,Unknown,High,Low
+IOC0217,Domain,api-669.net,Supply Chain Compromise,TrickBot,Low,Low
+IOC0218,Email Address,support225@service-3896.info,DDoS Botnet,Unknown,High,Low
+IOC0219,IP Address,116.128.61.106,Cryptominer,Unknown,Medium,High
+IOC0220,File Hash (SHA256),a00ad970787532539c8617e039d748e4885742d299aed7c6df9c3e6b4e9f4a94,Web Shell,Unknown,Critical,High
+IOC0221,IP Address,178.102.14.228,Credential Stuffing Campaign,Unknown,Critical,Low
+IOC0222,IP Address,222.122.145.13,Command and Control,Lazarus Group,Critical,Low
+IOC0223,Email Address,admin370@cdn-2776.xyz,Data Exfiltration,TeamTNT,High,Low
+IOC0224,Domain,secure-4257.net,Malware Download,Unknown,Low,High
+IOC0225,IP Address,135.17.174.79,Web Shell,Unknown,Medium,Medium
+IOC0226,File Hash (SHA256),d94a95c834ad6adb3c61689df6f9f4e5e057ccd6456d1af3e6d14d40ab474746,Command and Control,Unknown,High,High
+IOC0227,IP Address,155.43.56.144,Supply Chain Compromise,Lazarus Group,Medium,Medium
+IOC0228,IP Address,210.143.98.230,DDoS Botnet,Unknown,Medium,Low
+IOC0229,File Hash (SHA256),413f64aad6bdbae9d9c3faf145c92285ae2e822f37d2119550e09c4b2c96a732,Info Stealer,Unknown,High,Medium
+IOC0230,IP Address,153.178.115.161,Command and Control,BlackCat,High,Low
+IOC0231,File Hash (SHA256),53c27634ca7ae05578edbfb931a8d6dec2e35dc201fcb54542d821e0906b3ede,Supply Chain Compromise,Unknown,Medium,High
+IOC0232,File Hash (SHA256),a4825c538b0d4a71f9bd67cde02797fb141881394f6e14e63c4a216768e16bc2,Supply Chain Compromise,Kinsing,Medium,Low
+IOC0233,IP Address,140.164.13.245,Phishing Campaign,DarkSide,Medium,High
+IOC0234,IP Address,203.152.104.42,DDoS Botnet,Hive,Medium,Medium
+IOC0235,Email Address,security226@secure-3088.com,DDoS Botnet,APT28,Critical,Medium
+IOC0236,IP Address,107.18.121.114,Cryptominer,Unknown,High,Medium
+IOC0237,IP Address,90.26.164.24,Info Stealer,Unknown,Medium,Medium
+IOC0238,Domain,cdn-5116.xyz,Trojan,Unknown,Medium,High
+IOC0239,IP Address,37.106.211.85,Phishing Campaign,Unknown,Medium,Critical
+IOC0240,Domain,api-8245.info,Web Shell,Unknown,Medium,Medium
+IOC0241,IP Address,182.148.133.22,DDoS Botnet,Unknown,Low,High
+IOC0242,File Hash (SHA256),7dd8d38109785daa8289d9ece99f1768fd2837d2836615512689f427d1e65abc,Phishing Campaign,Unknown,Medium,High
+IOC0243,IP Address,104.37.220.114,Supply Chain Compromise,Unknown,Medium,Medium
+IOC0244,URL,http://service-9268.com/api/v1/payload.bin,Backdoor,Unknown,Medium,Critical
+IOC0245,Email Address,billing785@login-4895.net,Backdoor,BlackCat,Low,Low
+IOC0246,Domain,secure-6267.com,Command and Control,Hive,Critical,Low
+IOC0247,URL,http://api-9954.xyz/api/v1/payload.bin,Ransomware,Hive,Medium,Medium
+IOC0248,IP Address,76.113.24.180,Cryptominer,Unknown,Low,High
+IOC0249,Domain,cdn-4667.info,Web Shell,FIN7,High,Medium
+IOC0250,IP Address,176.89.128.63,Trojan,Unknown,High,Medium
+IOC0251,IP Address,79.150.12.80,Data Exfiltration,Unknown,High,Low
+IOC0252,IP Address,211.33.5.79,Supply Chain Compromise,Unknown,Low,Medium
+IOC0253,Email Address,security509@cloud-6198.com,Supply Chain Compromise,Unknown,Medium,Low
+IOC0254,Email Address,security110@service-3289.com,Malware Download,BlackCat,Low,High
+IOC0255,URL,http://api-9082.net/api/v1/payload.bin,DDoS Botnet,Unknown,Medium,Critical
+IOC0256,IP Address,38.244.35.142,Cryptominer,Unknown,Low,High
+IOC0257,Domain,login-1600.com,Ransomware,TeamTNT,Medium,Medium
+IOC0258,IP Address,19.235.67.43,Supply Chain Compromise,BlackCat,High,Medium
+IOC0259,URL,http://cloud-9185.com/api/v1/payload.bin,Web Shell,Emotet,High,Medium
+IOC0260,File Hash (SHA256),fd47cd2d29a0dc3912579fc838c6bcbf0490300eae56410dd93021e0088e1d9c,Backdoor,Unknown,Medium,Low
+IOC0261,File Hash (SHA256),dc64a7b8ccdeb7f807d931e666d4728a4b313886e1b75074253d1a9f36df3186,Botnet Recruitment,Unknown,Medium,Medium
+IOC0262,Domain,login-6446.net,Trojan,LockBit,Low,Critical
+IOC0263,Domain,update-445.net,Botnet Recruitment,Kinsing,Medium,Low
+IOC0264,Email Address,security426@cloud-145.info,Phishing Campaign,Unknown,Medium,Medium
+IOC0265,IP Address,127.199.170.37,Botnet Recruitment,FIN7,Low,Critical
+IOC0266,IP Address,53.169.64.86,DDoS Botnet,DarkSide,Medium,Medium
+IOC0267,Email Address,admin222@service-732.xyz,Backdoor,Unknown,Critical,Medium
+IOC0268,Domain,cloud-7725.xyz,Data Exfiltration,TeamTNT,Low,Medium
+IOC0269,URL,http://secure-5489.xyz/api/v1/payload.bin,Info Stealer,Hive,High,High
+IOC0270,Domain,update-174.xyz,Command and Control,TeamTNT,Critical,Low
+IOC0271,IP Address,143.214.135.232,Web Shell,Unknown,High,Low
+IOC0272,IP Address,48.6.196.30,Malware Download,Unknown,Medium,Low
+IOC0273,IP Address,50.247.177.235,Phishing Campaign,Unknown,Low,Medium
+IOC0274,IP Address,158.179.32.167,Malware Download,APT29,Low,Medium
+IOC0275,IP Address,135.176.88.184,Malware Download,Unknown,High,Medium
+IOC0276,Domain,service-4296.net,DDoS Botnet,FIN7,Critical,Low
+IOC0277,Email Address,admin487@cloud-4453.net,Phishing Campaign,Unknown,High,Medium
+IOC0278,Domain,secure-5965.xyz,Command and Control,APT28,Low,Medium
+IOC0279,File Hash (SHA256),0a8e0a1cd5449d475902719e4fe39ab2ceb7b85e92a1bd73d003296f51309d1c,Credential Stuffing Campaign,Unknown,High,Medium
+IOC0280,Domain,secure-1439.net,DDoS Botnet,Conti,Low,Critical
+IOC0281,IP Address,175.180.35.234,Command and Control,Unknown,Critical,High
+IOC0282,IP Address,163.178.241.202,Web Shell,Unknown,Medium,Low
+IOC0283,Domain,service-8577.net,Credential Stuffing Campaign,DarkSide,Low,High
+IOC0284,Domain,cloud-6950.com,Botnet Recruitment,Unknown,Medium,High
+IOC0285,Domain,service-5967.net,Web Shell,Unknown,High,Medium
+IOC0286,IP Address,194.37.57.213,Malware Download,TrickBot,Medium,Low
+IOC0287,File Hash (SHA256),de2de5694f13383911af1a1be88b31ae203b33d38832515f25330f4110e48d42,Ransomware,Unknown,High,High
+IOC0288,URL,http://api-8638.net/api/v1/payload.bin,Credential Stuffing Campaign,FIN7,High,Critical
+IOC0289,File Hash (SHA256),a22ea1e2860fd81c17f50c6d2aef5ce616527d9c355cf44aa75d66f41a6d4c93,Web Shell,Emotet,High,Medium
+IOC0290,IP Address,193.60.37.121,Command and Control,Unknown,Low,Critical
+IOC0291,Domain,cdn-7454.xyz,Data Exfiltration,APT28,Medium,Medium
+IOC0292,IP Address,87.128.7.24,Data Exfiltration,Unknown,Low,Medium
+IOC0293,Domain,api-3250.com,Backdoor,Unknown,Medium,Low
+IOC0294,File Hash (SHA256),db3b77ec25a5b0cb2e88524f12017957ebd16586ea1f78265219639c62fc37c8,Backdoor,Lazarus Group,Critical,Low
+IOC0295,IP Address,42.61.136.15,Backdoor,BlackCat,Critical,High
+IOC0296,URL,http://update-7092.xyz/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Medium,Critical
+IOC0297,Email Address,security216@api-2632.com,Data Exfiltration,APT28,Low,Low
+IOC0298,IP Address,17.163.164.139,Botnet Recruitment,Unknown,High,Critical
+IOC0299,URL,http://api-1802.xyz/api/v1/payload.bin,Info Stealer,Unknown,Low,Critical
+IOC0300,File Hash (SHA256),b7d2597c50c19a5281d7b5eac7c8c8a4238d936e951d829855c75bbbd665f9cd,Supply Chain Compromise,LockBit,Medium,Medium
+IOC0301,Domain,cloud-5399.info,Command and Control,Unknown,Medium,Medium
+IOC0302,Email Address,admin841@cdn-1599.com,Malware Download,Emotet,High,Medium
+IOC0303,Email Address,no-reply746@secure-6184.xyz,DDoS Botnet,DarkSide,Low,Medium
+IOC0304,IP Address,183.191.188.6,Malware Download,Unknown,High,Medium
+IOC0305,File Hash (SHA256),49a0d6e44a3fe44d5ba88995322990d20683b2c2741c871a4000ec42062ce244,Data Exfiltration,Hive,High,Medium
+IOC0306,Email Address,security138@cloud-3537.xyz,Data Exfiltration,DarkSide,Critical,High
+IOC0307,IP Address,28.151.139.110,Phishing Campaign,Unknown,Medium,Medium
+IOC0308,IP Address,60.44.185.42,Credential Stuffing Campaign,Unknown,Medium,High
+IOC0309,Domain,cdn-1467.net,Web Shell,DarkSide,High,Medium
+IOC0310,Email Address,admin485@cdn-8696.info,Supply Chain Compromise,Unknown,Medium,High
+IOC0311,File Hash (SHA256),2606f2f5a6d5d8d7a2495b44334a1b7a9c3af5a6529ca64650908e7f55a31c51,Credential Stuffing Campaign,TrickBot,Medium,Critical
+IOC0312,Email Address,billing186@cloud-1247.info,Credential Stuffing Campaign,Unknown,High,High
+IOC0313,IP Address,198.105.117.48,Data Exfiltration,Kinsing,Medium,High
+IOC0314,Email Address,billing163@cloud-1857.xyz,Backdoor,Lazarus Group,Low,High
+IOC0315,Email Address,billing925@secure-512.xyz,Trojan,Unknown,High,High
+IOC0316,URL,http://update-3631.xyz/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Critical,Medium
+IOC0317,IP Address,41.95.153.158,Botnet Recruitment,Unknown,Medium,Low
+IOC0318,IP Address,28.241.105.165,Credential Stuffing Campaign,Unknown,High,High
+IOC0319,IP Address,58.213.29.78,Backdoor,FIN7,Low,High
+IOC0320,IP Address,108.31.83.10,Cryptominer,Unknown,High,Medium
+IOC0321,IP Address,160.127.238.123,DDoS Botnet,TeamTNT,Medium,High
+IOC0322,File Hash (SHA256),c58820f6cd171e48db730faa708a1e239206d5e161dedbe14e9cfe89a398e558,Botnet Recruitment,Conti,High,Medium
+IOC0323,IP Address,66.232.3.117,DDoS Botnet,TeamTNT,Medium,Low
+IOC0324,Domain,login-948.com,Supply Chain Compromise,Unknown,Medium,Low
+IOC0325,Domain,secure-3343.com,Phishing Campaign,APT29,Medium,High
+IOC0326,File Hash (SHA256),c2e4b17adb74d8c153bac98ea4d88666705a51961533ade58464ce3605ffc03b,Trojan,LockBit,Critical,Low
+IOC0327,Domain,secure-4795.net,Supply Chain Compromise,Unknown,Low,High
+IOC0328,IP Address,156.225.224.175,Supply Chain Compromise,Unknown,Medium,Critical
+IOC0329,Domain,update-9462.com,Web Shell,Conti,Low,High
+IOC0330,IP Address,76.39.34.238,DDoS Botnet,APT29,Medium,Critical
+IOC0331,URL,http://cdn-5459.com/api/v1/payload.bin,Botnet Recruitment,Unknown,Low,Medium
+IOC0332,IP Address,210.20.164.197,Credential Stuffing Campaign,FIN7,Medium,Critical
+IOC0333,File Hash (SHA256),cee698771adcbcfae7d27a52a86b934da55ca3ef73b553914aee02b5ae3af650,Phishing Campaign,Kinsing,Low,High
+IOC0334,IP Address,83.110.103.5,Backdoor,DarkSide,High,High
+IOC0335,URL,http://api-2974.info/api/v1/payload.bin,Phishing Campaign,LockBit,Medium,Medium
+IOC0336,Domain,login-8567.info,Data Exfiltration,Hive,Low,Low
+IOC0337,IP Address,134.90.188.212,DDoS Botnet,Unknown,Medium,High
+IOC0338,URL,http://service-865.com/api/v1/payload.bin,Botnet Recruitment,TeamTNT,Low,Medium
+IOC0339,IP Address,185.46.203.218,Supply Chain Compromise,Unknown,Low,Low
+IOC0340,URL,http://cloud-4776.xyz/api/v1/payload.bin,Trojan,Unknown,High,High
+IOC0341,Domain,service-4512.xyz,Data Exfiltration,APT29,Medium,High
+IOC0342,IP Address,84.162.53.118,Phishing Campaign,Unknown,Low,Medium
+IOC0343,Domain,api-1074.com,Info Stealer,Unknown,Medium,Medium
+IOC0344,File Hash (SHA256),1cdfabff731135b24837b8d591e9e10ace6c9c44b42f07c8cfc348ed69876506,Credential Stuffing Campaign,Conti,Medium,Medium
+IOC0345,Email Address,admin132@secure-3269.info,Botnet Recruitment,TeamTNT,High,Low
+IOC0346,IP Address,22.51.94.152,Trojan,Unknown,Medium,High
+IOC0347,IP Address,57.230.13.74,Malware Download,Unknown,Low,Medium
+IOC0348,Email Address,admin404@login-2155.net,Botnet Recruitment,APT28,High,Medium
+IOC0349,IP Address,80.243.45.2,Web Shell,Unknown,Low,High
+IOC0350,Domain,cloud-4498.info,DDoS Botnet,TeamTNT,Medium,Critical
+IOC0351,Domain,api-8228.xyz,Backdoor,Unknown,High,High
+IOC0352,IP Address,34.152.185.155,Ransomware,Unknown,Low,Medium
+IOC0353,Email Address,no-reply238@secure-6134.net,Info Stealer,Unknown,Medium,Medium
+IOC0354,URL,http://cdn-9349.net/api/v1/payload.bin,Ransomware,APT29,Low,Low
+IOC0355,File Hash (SHA256),f5f194008236abcf8c4b1e4436f6c2f8cf2b3ac2ceabe94d484f66fad056dff3,Credential Stuffing Campaign,Hive,Medium,Low
+IOC0356,IP Address,54.173.148.127,Malware Download,Unknown,Medium,Medium
+IOC0357,File Hash (SHA256),8e889ccbb5a1f5a59e05e79d1c209596704bf89c1033e81659236da7556d8492,Malware Download,Unknown,High,Low
+IOC0358,Domain,secure-6423.info,Info Stealer,Unknown,Low,Critical
+IOC0359,IP Address,181.222.198.61,Info Stealer,Unknown,High,Medium
+IOC0360,IP Address,140.144.171.31,Ransomware,Unknown,High,Medium
+IOC0361,IP Address,68.200.213.95,Info Stealer,Unknown,Medium,Medium
+IOC0362,IP Address,134.1.28.160,Trojan,Unknown,Low,Critical
+IOC0363,IP Address,179.225.13.157,DDoS Botnet,Unknown,High,Medium
+IOC0364,IP Address,80.207.214.149,DDoS Botnet,Unknown,Medium,Medium
+IOC0365,Email Address,no-reply778@login-2943.net,Phishing Campaign,Unknown,Medium,High
+IOC0366,IP Address,181.143.132.52,Botnet Recruitment,Unknown,Low,Low
+IOC0367,IP Address,66.155.66.120,Data Exfiltration,LockBit,Medium,Low
+IOC0368,File Hash (SHA256),329fafac092083abff05c5cfbe9890e9f395e22d6bceadd179838e8a5d78c8bb,Cryptominer,DarkSide,Medium,Critical
+IOC0369,URL,http://secure-6529.net/api/v1/payload.bin,Command and Control,Conti,Medium,High
+IOC0370,IP Address,85.194.157.202,Phishing Campaign,TrickBot,Critical,Medium
+IOC0371,Email Address,billing556@api-7421.net,DDoS Botnet,BlackCat,High,Critical
+IOC0372,IP Address,103.215.74.227,Phishing Campaign,Unknown,High,Medium
+IOC0373,IP Address,138.189.207.200,Web Shell,TrickBot,Medium,High
+IOC0374,IP Address,144.87.244.11,Web Shell,Unknown,Medium,Medium
+IOC0375,Domain,update-8528.com,Info Stealer,LockBit,High,Low
+IOC0376,IP Address,149.63.103.216,Data Exfiltration,TeamTNT,Low,Critical
+IOC0377,IP Address,103.40.50.150,Ransomware,Unknown,High,Low
+IOC0378,Email Address,no-reply43@login-6059.xyz,Phishing Campaign,Unknown,Critical,Medium
+IOC0379,Email Address,no-reply762@api-8878.info,Credential Stuffing Campaign,Unknown,Critical,Low
+IOC0380,Email Address,no-reply920@service-9637.xyz,Web Shell,Unknown,Low,High
+IOC0381,Email Address,support980@update-3840.info,Malware Download,Unknown,Critical,Low
+IOC0382,Domain,cdn-3836.com,Backdoor,LockBit,High,Medium
+IOC0383,Email Address,no-reply305@cloud-3810.info,Botnet Recruitment,FIN7,Medium,Medium
+IOC0384,IP Address,217.41.182.51,Cryptominer,Unknown,High,High
+IOC0385,URL,http://cdn-4794.xyz/api/v1/payload.bin,Data Exfiltration,Unknown,Medium,Low
+IOC0386,Email Address,admin908@secure-8070.net,Info Stealer,Unknown,Medium,Critical
+IOC0387,IP Address,3.95.229.23,Credential Stuffing Campaign,APT28,High,Medium
+IOC0388,Domain,cdn-5488.com,Supply Chain Compromise,Unknown,Medium,Medium
+IOC0389,Email Address,billing518@secure-3524.info,Phishing Campaign,FIN7,Medium,High
+IOC0390,IP Address,220.114.64.242,Trojan,Unknown,Low,Low
+IOC0391,Email Address,support935@api-9945.xyz,Supply Chain Compromise,BlackCat,Low,Medium
+IOC0392,URL,http://secure-5733.info/api/v1/payload.bin,Command and Control,Unknown,Medium,High
+IOC0393,Domain,service-7804.net,Ransomware,Hive,High,High
+IOC0394,Email Address,admin821@api-110.info,Malware Download,Kinsing,Low,High
+IOC0395,Email Address,security99@api-4357.com,Data Exfiltration,Unknown,High,High
+IOC0396,File Hash (SHA256),2922a935b9b0d9116dfd4108943b37db4fc127cd05ffaaf61ae95e3165f19044,Malware Download,APT29,Low,Low
+IOC0397,IP Address,1.49.170.47,Backdoor,Unknown,High,Medium
+IOC0398,File Hash (SHA256),9b324ec655297e8003db8fb08dfdaee1e6e701e8d789b7ced419d61a3afedc77,Ransomware,LockBit,Low,Low
+IOC0399,File Hash (SHA256),acea17529efe31b19837115d32e1c4b1a2b7a6e9fc4d71e3debddc01324317ce,Cryptominer,Kinsing,Low,Critical
+IOC0400,IP Address,94.64.169.176,Backdoor,BlackCat,Medium,Medium
+IOC0401,IP Address,151.12.133.99,Trojan,APT28,Medium,Medium
+IOC0402,File Hash (SHA256),851e965a45cf1ebc1a60eef35053656afb7c8fc5cf142469301f72575815817e,Credential Stuffing Campaign,Lazarus Group,Low,Critical
+IOC0403,Domain,login-7120.net,Web Shell,DarkSide,Medium,Medium
+IOC0404,Domain,api-8454.net,Cryptominer,Lazarus Group,Low,Medium
+IOC0405,Email Address,no-reply711@cdn-1590.info,Web Shell,FIN7,Medium,High
+IOC0406,Domain,update-551.net,Phishing Campaign,Unknown,High,High
+IOC0407,IP Address,110.71.171.203,Ransomware,DarkSide,Medium,Low
+IOC0408,File Hash (SHA256),21ef3e92f31c27ad506a304bde04ceacf24d628deea0bdfd30fafd75a6df2a14,Web Shell,APT29,Critical,Critical
+IOC0409,Domain,secure-4875.xyz,Info Stealer,Unknown,Low,Low
+IOC0410,Email Address,billing659@service-1204.com,Credential Stuffing Campaign,Unknown,Medium,High
+IOC0411,IP Address,160.18.184.179,Supply Chain Compromise,DarkSide,High,Medium
+IOC0412,File Hash (SHA256),a020c3bc090944835168a8a4b60c7d80216f2dfbee5cc94b76392cab127bbbf8,Command and Control,APT29,High,Low
+IOC0413,Email Address,billing339@cdn-4140.info,Data Exfiltration,Unknown,Medium,High
+IOC0414,Domain,login-4682.info,DDoS Botnet,Unknown,Low,High
+IOC0415,IP Address,186.22.172.180,Web Shell,LockBit,Medium,Medium
+IOC0416,Email Address,support96@cdn-1957.xyz,Supply Chain Compromise,Unknown,Medium,High
+IOC0417,IP Address,166.60.2.109,Botnet Recruitment,FIN7,Low,Medium
+IOC0418,Domain,update-5383.com,Supply Chain Compromise,Unknown,Medium,Low
+IOC0419,IP Address,210.178.125.195,Trojan,Conti,Low,Critical
+IOC0420,IP Address,76.44.116.164,DDoS Botnet,Kinsing,High,Low
+IOC0421,IP Address,72.65.161.148,Command and Control,BlackCat,Low,High
+IOC0422,URL,http://cdn-8405.com/api/v1/payload.bin,DDoS Botnet,Unknown,Medium,Medium
+IOC0423,File Hash (SHA256),671aa2a3c6a5d9127e9eaef3b8659a47c0d817e35feb40dffb3cdf95d79f6428,Backdoor,BlackCat,High,High
+IOC0424,Domain,update-222.net,Botnet Recruitment,Kinsing,High,Medium
+IOC0425,IP Address,52.72.10.201,Backdoor,Unknown,Low,Low
+IOC0426,File Hash (SHA256),f29f5123d8cb3d786ce056011ca0fe8a5a0e0325e054c4a5604fc0ff9bb6ad54,DDoS Botnet,Unknown,Low,Low
+IOC0427,Domain,api-6685.net,Web Shell,TeamTNT,Medium,Low
+IOC0428,IP Address,130.115.30.11,DDoS Botnet,LockBit,Low,High
+IOC0429,Domain,api-8800.info,Cryptominer,FIN7,Medium,Medium
+IOC0430,IP Address,126.225.222.60,Malware Download,Unknown,Low,Low
+IOC0431,File Hash (SHA256),6d978022db0433ea68a0ad5f9b844e24552bcd0f983c201d59a89c88c28fa745,Credential Stuffing Campaign,Unknown,Medium,Medium
+IOC0432,File Hash (SHA256),30223f72d361f25c80026cc1a0cdf83e42a1569a2017026732b0d64c3770f209,Phishing Campaign,Emotet,High,Critical
+IOC0433,Domain,login-4380.info,Command and Control,Emotet,Medium,Medium
+IOC0434,URL,http://update-6535.com/api/v1/payload.bin,Cryptominer,Unknown,High,High
+IOC0435,Email Address,admin826@cdn-1781.com,Command and Control,Unknown,High,Low
+IOC0436,IP Address,191.196.202.128,Command and Control,TrickBot,Low,Medium
+IOC0437,IP Address,161.82.178.221,Data Exfiltration,FIN7,Low,High
+IOC0438,URL,http://update-6184.com/api/v1/payload.bin,Trojan,TeamTNT,Medium,Medium
+IOC0439,Email Address,security387@cdn-3167.xyz,Botnet Recruitment,Unknown,High,Critical
+IOC0440,IP Address,79.118.0.187,Supply Chain Compromise,DarkSide,High,Medium
+IOC0441,Email Address,admin849@cloud-4215.info,Command and Control,FIN7,High,Critical
+IOC0442,File Hash (SHA256),29fbc8604a8ed1115c6f085560f27c5195801ddfd435692321fef2124939f331,Phishing Campaign,Emotet,Medium,Medium
+IOC0443,File Hash (SHA256),710a212f43e696b3db24eff91be53c82e0b9cf4ef642792f74e859c4fcc6c523,Backdoor,Kinsing,High,Medium
+IOC0444,IP Address,211.221.195.138,Info Stealer,Unknown,Low,Medium
+IOC0445,URL,http://secure-7582.xyz/api/v1/payload.bin,Info Stealer,Unknown,Medium,High
+IOC0446,IP Address,125.61.157.156,Supply Chain Compromise,Unknown,Low,High
+IOC0447,URL,http://secure-3292.info/api/v1/payload.bin,Credential Stuffing Campaign,Hive,Medium,Critical
+IOC0448,Domain,update-4803.net,Web Shell,Unknown,Medium,High
+IOC0449,Email Address,no-reply434@login-6054.net,Cryptominer,BlackCat,Critical,Low
+IOC0450,IP Address,19.106.165.193,Phishing Campaign,Unknown,High,Medium
+IOC0451,IP Address,210.13.113.212,Cryptominer,Unknown,High,High
+IOC0452,IP Address,221.113.119.67,Command and Control,Unknown,Medium,Medium
+IOC0453,Domain,api-8568.xyz,Credential Stuffing Campaign,Conti,Medium,Low
+IOC0454,File Hash (SHA256),883f168379a4b21fb4f8d6a78464229ef38a66605f12c1bd8a2092dc5c09a1e9,Botnet Recruitment,Unknown,Medium,Low
+IOC0455,IP Address,163.70.155.136,Command and Control,Unknown,Medium,High
+IOC0456,IP Address,97.1.156.111,Info Stealer,APT28,Low,High
+IOC0457,Email Address,billing240@service-2524.info,Credential Stuffing Campaign,Kinsing,High,High
+IOC0458,File Hash (SHA256),33cb40cd792a8d61d5c1441c13fdc7e9cc9b795d4fcda286c6131e6ec4500b57,Credential Stuffing Campaign,Unknown,Low,Low
+IOC0459,URL,http://login-3048.info/api/v1/payload.bin,Cryptominer,DarkSide,Medium,High
+IOC0460,File Hash (SHA256),12f93c4a95d08663d43ca28f4b88e5508aeb75d423032ffc47d30cba5ce2d31d,Trojan,BlackCat,High,High
+IOC0461,IP Address,108.211.18.34,Phishing Campaign,Unknown,Medium,Medium
+IOC0462,URL,http://service-1920.com/api/v1/payload.bin,Web Shell,Unknown,High,Medium
+IOC0463,Domain,login-7247.xyz,Malware Download,Unknown,Medium,Low
+IOC0464,URL,http://cdn-3106.info/api/v1/payload.bin,Data Exfiltration,DarkSide,High,High
+IOC0465,Domain,api-6362.info,Ransomware,Unknown,Medium,Low
+IOC0466,File Hash (SHA256),5fee41dc6dc2a0d7211a79a367988c9948e0b1951fd0e13030117836ecfc684d,Command and Control,Lazarus Group,Low,High
+IOC0467,IP Address,1.114.98.242,Phishing Campaign,Unknown,High,Medium
+IOC0468,Domain,secure-5383.info,Ransomware,Hive,Low,High
+IOC0469,Email Address,no-reply932@api-3198.net,Supply Chain Compromise,DarkSide,Medium,High
+IOC0470,File Hash (SHA256),5dee8fab9888cb59179c73b86f22055a130418e5747acce0dacfe53df4c28e69,Ransomware,Unknown,Critical,Medium
+IOC0471,Domain,api-2762.com,Backdoor,Unknown,Critical,Low
+IOC0472,Domain,service-8460.com,Botnet Recruitment,Unknown,Medium,Medium
+IOC0473,IP Address,16.34.53.102,Backdoor,TeamTNT,Medium,Low
+IOC0474,File Hash (SHA256),c2e0cc399edb214c5cd3c0954b2595890630758603f4b53de2534437f2af7579,Malware Download,Unknown,High,High
+IOC0475,IP Address,10.89.78.182,Backdoor,BlackCat,Medium,Low
+IOC0476,URL,http://cloud-2577.xyz/api/v1/payload.bin,Supply Chain Compromise,LockBit,Medium,Medium
+IOC0477,File Hash (SHA256),e5b1a0d04488ef0e7644ee6b9cd68c92b2d447874577199dd3201d0365bd16e5,DDoS Botnet,TeamTNT,Low,Medium
+IOC0478,IP Address,188.13.240.199,Backdoor,Unknown,Medium,Low
+IOC0479,Domain,secure-6833.xyz,Data Exfiltration,Unknown,Medium,High
+IOC0480,IP Address,150.230.26.86,Info Stealer,Emotet,High,Low
+IOC0481,Domain,secure-7458.net,Web Shell,Hive,Low,Critical
+IOC0482,Email Address,no-reply246@service-4219.net,Info Stealer,Unknown,High,Low
+IOC0483,IP Address,4.1.202.79,Cryptominer,Emotet,High,Low
+IOC0484,IP Address,58.18.251.112,Credential Stuffing Campaign,BlackCat,High,Medium
+IOC0485,File Hash (SHA256),a96ba4cce1e4967634f5927d516301e6dca8fe7e769ca846ad77ea8094caa4eb,Backdoor,Unknown,High,Low
+IOC0486,IP Address,76.213.79.234,Ransomware,Conti,Medium,Medium
+IOC0487,File Hash (SHA256),e1091262ed47b809696c389795333372b58d0dd7f38a8bf2594234df5d5608bd,Data Exfiltration,Emotet,Critical,Medium
+IOC0488,Email Address,admin799@update-870.net,Backdoor,Unknown,Medium,Medium
+IOC0489,Domain,cdn-3312.com,Backdoor,Unknown,High,Low
+IOC0490,IP Address,19.89.93.126,Ransomware,Unknown,Low,Low
+IOC0491,File Hash (SHA256),207003a1b86bd4200d0abdaddf3957264afc4f0c9ecffd50a9b7926ad65beb64,Info Stealer,Unknown,Medium,High
+IOC0492,Email Address,billing17@api-9680.com,Info Stealer,Conti,Low,High
+IOC0493,File Hash (SHA256),f6f6238c1fa6dcc65f1f1ae9f5313536ed161a18c3e26fc19aed1623d25fa929,Malware Download,Unknown,High,Medium
+IOC0494,File Hash (SHA256),3ae0b11d2977ed18db7a293ae64b11cce09f8a1cae53e5575b6984c7158da88b,Malware Download,APT29,Medium,Critical
+IOC0495,URL,http://cloud-576.info/api/v1/payload.bin,Botnet Recruitment,Unknown,Medium,Low
+IOC0496,IP Address,223.246.110.177,Supply Chain Compromise,Unknown,Medium,Medium
+IOC0497,URL,http://login-1329.xyz/api/v1/payload.bin,Web Shell,Unknown,High,Medium
+IOC0498,IP Address,187.135.240.237,Trojan,BlackCat,High,High
+IOC0499,IP Address,12.198.210.69,Info Stealer,Unknown,Low,High
+IOC0500,IP Address,186.35.70.190,Trojan,Kinsing,Low,Low
+IOC0501,IP Address,82.93.69.137,Botnet Recruitment,Unknown,Medium,High
+IOC0502,Domain,login-2988.net,Info Stealer,Unknown,Medium,Medium
+IOC0503,File Hash (SHA256),46fa7852f9600fb61febde434f375bd397eb96e1b7f0db52f4937bdf0c48eb2d,Trojan,Unknown,High,Low
+IOC0504,Email Address,security171@secure-7486.info,Botnet Recruitment,Unknown,Medium,Medium
+IOC0505,File Hash (SHA256),e590f4924be14057d2bf37d647b2c64d980d6f7e7f3f3aff3619c50dff116606,Supply Chain Compromise,TeamTNT,Medium,Low
+IOC0506,Domain,cloud-5948.info,Backdoor,Unknown,Low,Medium
+IOC0507,File Hash (SHA256),5be6bc42e03fd7e35447ce935153091cdf8558b4cf44ea554aea83299d64a4f1,Credential Stuffing Campaign,Unknown,High,Low
+IOC0508,Email Address,support666@cdn-5728.xyz,Malware Download,Unknown,Medium,Critical
+IOC0509,IP Address,80.37.92.208,Backdoor,Kinsing,High,Medium
+IOC0510,Domain,update-8107.info,Malware Download,Emotet,Medium,Low
+IOC0511,IP Address,131.77.198.210,Malware Download,Kinsing,Low,High
+IOC0512,File Hash (SHA256),10029d588dd1c15ba16c1f9b5e2fee97c884ebf7f628a002229569a459844456,DDoS Botnet,Unknown,Medium,Medium
+IOC0513,File Hash (SHA256),dc741d9f54090eda185fe67eee614462a4d73547787e5f623bccb78f135b9ab5,Backdoor,Lazarus Group,Medium,High
+IOC0514,File Hash (SHA256),4180a6912b4fb782cd51be38a7cc7ddd5fd054dd5c9ccdc7423c058859e55f42,Malware Download,Unknown,High,High
+IOC0515,URL,http://service-6912.com/api/v1/payload.bin,Cryptominer,Unknown,High,High
+IOC0516,IP Address,78.61.246.223,Trojan,DarkSide,Medium,Critical
+IOC0517,IP Address,90.43.135.16,Data Exfiltration,Kinsing,Low,Critical
+IOC0518,IP Address,54.151.111.81,Credential Stuffing Campaign,Unknown,Low,Critical
+IOC0519,IP Address,108.61.58.186,Phishing Campaign,Unknown,High,Critical
+IOC0520,IP Address,216.86.214.160,Botnet Recruitment,Unknown,High,Critical
+IOC0521,File Hash (SHA256),0a32295c1983e69649e7966d3a1bb180f6d68453d6d8cc88a980d002f99b2a95,Cryptominer,TeamTNT,Medium,Low
+IOC0522,URL,http://service-8054.net/api/v1/payload.bin,Data Exfiltration,Conti,Low,High
+IOC0523,IP Address,139.177.188.236,Trojan,Unknown,High,Low
+IOC0524,File Hash (SHA256),22a0443ae5ddd727f71d3e7c05ece357bd912925341be444fc941bfa44001256,Ransomware,Unknown,Medium,Medium
+IOC0525,URL,http://api-1361.com/api/v1/payload.bin,Ransomware,FIN7,Critical,High
+IOC0526,Domain,update-9038.xyz,Supply Chain Compromise,TrickBot,Critical,Medium
+IOC0527,Email Address,admin565@cdn-9346.com,Malware Download,Unknown,Medium,Low
+IOC0528,URL,http://service-9291.info/api/v1/payload.bin,Command and Control,Unknown,Medium,Critical
+IOC0529,URL,http://service-7751.com/api/v1/payload.bin,Botnet Recruitment,Unknown,Medium,High
+IOC0530,URL,http://login-9828.xyz/api/v1/payload.bin,DDoS Botnet,Unknown,Critical,High
+IOC0531,IP Address,164.136.219.61,Credential Stuffing Campaign,LockBit,Low,High
+IOC0532,IP Address,200.189.249.126,Botnet Recruitment,Unknown,Medium,Medium
+IOC0533,IP Address,161.235.231.144,Ransomware,Unknown,Medium,Medium
+IOC0534,URL,http://cdn-4236.info/api/v1/payload.bin,Trojan,Unknown,Medium,Medium
+IOC0535,IP Address,28.119.193.244,Cryptominer,Unknown,Medium,High
+IOC0536,URL,http://login-8328.info/api/v1/payload.bin,DDoS Botnet,Hive,High,Low
+IOC0537,IP Address,173.95.119.171,Phishing Campaign,APT28,Medium,Critical
+IOC0538,IP Address,73.8.227.93,Botnet Recruitment,Unknown,High,Low
+IOC0539,Domain,update-8574.com,Trojan,Lazarus Group,Low,High
+IOC0540,IP Address,220.92.239.56,Trojan,Hive,Medium,Medium
+IOC0541,IP Address,165.94.114.180,Botnet Recruitment,TrickBot,High,Medium
+IOC0542,URL,http://service-4721.info/api/v1/payload.bin,Cryptominer,Unknown,Medium,Medium
+IOC0543,Domain,cloud-6633.xyz,Command and Control,Unknown,Medium,Low
+IOC0544,IP Address,98.24.173.67,Command and Control,Unknown,Low,High
+IOC0545,IP Address,52.79.32.246,Cryptominer,APT28,Low,Low
+IOC0546,URL,http://cdn-4484.info/api/v1/payload.bin,Supply Chain Compromise,Unknown,Low,Medium
+IOC0547,File Hash (SHA256),d7309f6989167e186e6b03ea334cba2ad104c20d889ea58fe62352725a181528,Supply Chain Compromise,Unknown,Low,Medium
+IOC0548,URL,http://secure-4785.com/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Low,High
+IOC0549,File Hash (SHA256),11f1aa9ef9eb704ecd624534dc07d675bc6da35753f8e1b342fa4a63746e9320,Data Exfiltration,Lazarus Group,High,High
+IOC0550,Domain,update-4221.com,DDoS Botnet,Unknown,Low,Medium
+IOC0551,URL,http://cdn-5700.info/api/v1/payload.bin,Info Stealer,APT28,Low,Critical
+IOC0552,IP Address,3.81.227.90,Command and Control,BlackCat,Critical,Critical
+IOC0553,File Hash (SHA256),b7eeacd6f8733393787fc9dfa7921961035d72ee8c5a472900bb147f417e9ed0,Trojan,Unknown,Low,Medium
+IOC0554,URL,http://secure-5581.net/api/v1/payload.bin,Phishing Campaign,FIN7,Medium,Medium
+IOC0555,File Hash (SHA256),401d09835f48b9caa05d96c6d5a6f5b10c09a9f67339161f9c95c8a59685588f,Credential Stuffing Campaign,Unknown,Low,Medium
+IOC0556,IP Address,116.55.233.30,Info Stealer,TrickBot,High,Medium
+IOC0557,URL,http://cdn-8908.xyz/api/v1/payload.bin,Info Stealer,Unknown,Medium,High
+IOC0558,URL,http://secure-9548.xyz/api/v1/payload.bin,Trojan,BlackCat,Medium,High
+IOC0559,IP Address,46.238.68.79,Command and Control,Unknown,Low,High
+IOC0560,URL,http://service-9254.xyz/api/v1/payload.bin,Cryptominer,Unknown,Low,Low
+IOC0561,Domain,api-6634.com,Data Exfiltration,Unknown,High,Low
+IOC0562,IP Address,14.236.0.105,Info Stealer,Unknown,Medium,Critical
+IOC0563,IP Address,87.199.30.67,Credential Stuffing Campaign,Kinsing,High,Critical
+IOC0564,Domain,api-2089.xyz,Web Shell,Unknown,Medium,Critical
+IOC0565,File Hash (SHA256),43d3a6945b4e85c2af8513eb75a0568b60eae4a27ce4e05ea92fd692db111502,Credential Stuffing Campaign,Unknown,High,Low
+IOC0566,IP Address,178.11.42.238,Cryptominer,Unknown,Medium,Medium
+IOC0567,Domain,service-1619.info,DDoS Botnet,Kinsing,Medium,Medium
+IOC0568,IP Address,208.202.56.164,Malware Download,Conti,Medium,Low
+IOC0569,IP Address,131.68.145.157,Data Exfiltration,Unknown,Low,Medium
+IOC0570,Domain,secure-2592.xyz,Trojan,Unknown,Low,High
+IOC0571,IP Address,179.193.46.173,Backdoor,Unknown,Medium,Medium
+IOC0572,Domain,api-6798.com,Malware Download,Unknown,Medium,High
+IOC0573,IP Address,129.167.28.172,Ransomware,Unknown,High,Medium
+IOC0574,Domain,cdn-8340.net,Cryptominer,Lazarus Group,Low,Low
+IOC0575,IP Address,203.128.55.179,Malware Download,Unknown,Low,High
+IOC0576,IP Address,219.75.102.38,Cryptominer,Hive,Low,Medium
+IOC0577,IP Address,79.75.187.106,Trojan,Unknown,High,Medium
+IOC0578,IP Address,213.194.171.253,Credential Stuffing Campaign,Lazarus Group,Medium,High
+IOC0579,URL,http://login-5145.com/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,High,High
+IOC0580,IP Address,187.215.73.235,Malware Download,Hive,Medium,Low
+IOC0581,IP Address,154.252.209.219,Command and Control,Unknown,Low,Low
+IOC0582,URL,http://service-1259.com/api/v1/payload.bin,Phishing Campaign,Unknown,Medium,Medium
+IOC0583,URL,http://cloud-7397.info/api/v1/payload.bin,Cryptominer,Conti,Medium,Critical
+IOC0584,Domain,cloud-6472.xyz,Botnet Recruitment,APT29,Medium,Low
+IOC0585,Email Address,admin728@update-5736.xyz,Credential Stuffing Campaign,APT29,Low,Medium
+IOC0586,IP Address,27.98.85.203,Supply Chain Compromise,Unknown,High,Critical
+IOC0587,URL,http://service-2528.info/api/v1/payload.bin,Trojan,APT29,High,Medium
+IOC0588,Domain,api-3548.info,Backdoor,Unknown,Low,High
+IOC0589,URL,http://cdn-4785.xyz/api/v1/payload.bin,Ransomware,Unknown,Medium,Low
+IOC0590,Domain,update-3653.xyz,Malware Download,Unknown,High,Critical
+IOC0591,IP Address,166.159.166.30,Phishing Campaign,FIN7,Low,High
+IOC0592,IP Address,118.237.206.118,Trojan,APT28,High,Medium
+IOC0593,URL,http://cloud-8783.net/api/v1/payload.bin,Phishing Campaign,Emotet,Medium,High
+IOC0594,Domain,login-9193.com,Ransomware,Unknown,Low,Medium
+IOC0595,IP Address,15.84.255.228,Web Shell,BlackCat,High,Low
+IOC0596,IP Address,202.48.235.176,Botnet Recruitment,FIN7,Medium,Medium
+IOC0597,Domain,login-2004.com,Malware Download,BlackCat,Low,Medium
+IOC0598,IP Address,186.232.145.209,Phishing Campaign,Unknown,Low,High
+IOC0599,IP Address,158.74.235.80,Ransomware,Hive,Low,High
+IOC0600,Email Address,no-reply374@cdn-9640.net,Ransomware,TeamTNT,Medium,High
+IOC0601,IP Address,60.235.210.152,Ransomware,Unknown,Medium,Low
+IOC0602,IP Address,50.104.63.171,Data Exfiltration,Unknown,High,High
+IOC0603,Email Address,admin378@api-2242.info,Phishing Campaign,Unknown,Medium,Medium
+IOC0604,IP Address,60.144.159.233,Trojan,Lazarus Group,Medium,Medium
+IOC0605,IP Address,120.32.215.162,DDoS Botnet,Unknown,High,Low
+IOC0606,URL,http://api-9904.info/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Medium,Critical
+IOC0607,IP Address,118.156.20.18,DDoS Botnet,Unknown,Critical,High
+IOC0608,IP Address,177.252.157.123,Data Exfiltration,Emotet,High,High
+IOC0609,File Hash (SHA256),ae5b6f8d67f3693889d133b382ce80be3c114ed1c207c2ecc2234b99ec6b4e9c,Web Shell,Unknown,Medium,Low
+IOC0610,URL,http://api-2644.com/api/v1/payload.bin,Botnet Recruitment,APT28,Medium,Medium
+IOC0611,Domain,update-2741.net,Command and Control,Unknown,High,Low
+IOC0612,Email Address,support629@api-6085.xyz,Backdoor,Unknown,Critical,Low
+IOC0613,Email Address,security16@login-5261.xyz,Cryptominer,Unknown,Low,High
+IOC0614,IP Address,124.94.242.54,Botnet Recruitment,Kinsing,Low,Low
+IOC0615,IP Address,111.166.219.46,Info Stealer,APT29,Low,High
+IOC0616,IP Address,168.147.204.192,Data Exfiltration,Lazarus Group,High,Medium
+IOC0617,IP Address,120.229.145.59,DDoS Botnet,Unknown,Critical,High
+IOC0618,Domain,login-2703.com,Info Stealer,Unknown,Low,High
+IOC0619,Email Address,security363@secure-4203.net,Data Exfiltration,Unknown,Medium,Low
+IOC0620,IP Address,106.192.162.66,Backdoor,Unknown,Medium,Critical
+IOC0621,IP Address,103.208.223.73,Botnet Recruitment,Emotet,Low,High
+IOC0622,Email Address,admin695@secure-4548.net,Backdoor,FIN7,Critical,High
+IOC0623,File Hash (SHA256),09b67758eb7bcdd83feb3ec09f75708e3c0d6169c90a87f583667eb3379171c9,Data Exfiltration,Emotet,Low,Critical
+IOC0624,Domain,cdn-2507.info,Malware Download,Unknown,High,Critical
+IOC0625,IP Address,217.172.69.34,DDoS Botnet,Unknown,High,High
+IOC0626,IP Address,135.229.188.147,Trojan,Emotet,Medium,Medium
+IOC0627,IP Address,14.207.179.177,Supply Chain Compromise,LockBit,Low,Low
+IOC0628,URL,http://api-3155.com/api/v1/payload.bin,Ransomware,Unknown,High,Medium
+IOC0629,IP Address,136.103.172.67,Web Shell,DarkSide,High,High
+IOC0630,IP Address,8.69.245.5,DDoS Botnet,APT28,Low,Low
+IOC0631,Domain,service-875.net,Botnet Recruitment,Unknown,Medium,Low
+IOC0632,URL,http://cloud-1112.com/api/v1/payload.bin,Credential Stuffing Campaign,LockBit,Critical,Low
+IOC0633,IP Address,61.62.255.93,Botnet Recruitment,Conti,Critical,High
+IOC0634,IP Address,103.113.249.185,Info Stealer,Unknown,Medium,High
+IOC0635,IP Address,91.241.236.152,Data Exfiltration,Lazarus Group,Critical,Medium
+IOC0636,IP Address,177.181.246.77,Command and Control,Hive,Medium,Medium
+IOC0637,IP Address,109.24.174.75,Ransomware,Hive,Medium,High
+IOC0638,IP Address,28.124.236.217,Ransomware,LockBit,Critical,Critical
+IOC0639,Domain,cloud-2307.info,DDoS Botnet,Lazarus Group,High,Medium
+IOC0640,Domain,api-6584.com,Info Stealer,Hive,High,Medium
+IOC0641,URL,http://service-8750.com/api/v1/payload.bin,Command and Control,Unknown,Medium,Medium
+IOC0642,IP Address,74.74.46.55,Command and Control,Unknown,Low,Critical
+IOC0643,IP Address,63.235.198.224,Trojan,Unknown,High,Medium
+IOC0644,IP Address,199.56.247.92,Botnet Recruitment,Unknown,High,High
+IOC0645,URL,http://api-8485.com/api/v1/payload.bin,Trojan,LockBit,Medium,Low
+IOC0646,URL,http://api-3724.net/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Medium,Low
+IOC0647,URL,http://cloud-5773.net/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,High,Medium
+IOC0648,Email Address,billing626@api-1948.com,Command and Control,APT28,Medium,High
+IOC0649,URL,http://cdn-1413.xyz/api/v1/payload.bin,Botnet Recruitment,Emotet,High,Low
+IOC0650,URL,http://cdn-8862.com/api/v1/payload.bin,Ransomware,Unknown,Medium,Low
+IOC0651,IP Address,17.81.254.158,Backdoor,Unknown,Low,High
+IOC0652,Domain,update-1584.com,Malware Download,FIN7,Low,Medium
+IOC0653,IP Address,207.220.135.159,Phishing Campaign,TrickBot,Low,Low
+IOC0654,File Hash (SHA256),f7f7f23bbf0499c5bbb85234b18a5b2cbb09c1efd09c761529a6749a35b27407,Supply Chain Compromise,Unknown,Critical,Medium
+IOC0655,IP Address,3.219.189.254,Ransomware,Unknown,High,Critical
+IOC0656,IP Address,4.175.201.191,Supply Chain Compromise,Unknown,Medium,Low
+IOC0657,IP Address,165.183.54.164,Credential Stuffing Campaign,Hive,Critical,Critical
+IOC0658,IP Address,121.138.73.1,Ransomware,APT28,Low,Medium
+IOC0659,URL,http://service-5295.net/api/v1/payload.bin,Backdoor,Unknown,High,Critical
+IOC0660,IP Address,220.75.16.164,Data Exfiltration,DarkSide,Medium,Low
+IOC0661,Domain,login-3465.xyz,Web Shell,TeamTNT,Critical,Critical
+IOC0662,URL,http://login-7580.xyz/api/v1/payload.bin,Malware Download,Conti,Medium,Critical
+IOC0663,IP Address,56.114.68.244,Info Stealer,Unknown,High,Low
+IOC0664,Domain,cloud-8504.net,Supply Chain Compromise,Unknown,Medium,Low
+IOC0665,IP Address,89.191.95.102,Data Exfiltration,Unknown,Medium,Low
+IOC0666,IP Address,176.149.89.127,Info Stealer,Unknown,High,Medium
+IOC0667,File Hash (SHA256),7e44ab39be1042ac9787a80d4962b6ab7c3781a333614233931ff321ed70aa2a,Botnet Recruitment,Unknown,Medium,Medium
+IOC0668,IP Address,49.41.46.6,Backdoor,Unknown,High,Low
+IOC0669,File Hash (SHA256),f6b73e2857d264741c0e249fb6bfa36368ec88f20effb4c391f8c493c0a0c933,Data Exfiltration,TeamTNT,Low,Low
+IOC0670,URL,http://api-9187.info/api/v1/payload.bin,DDoS Botnet,Unknown,High,High
+IOC0671,Email Address,support888@cdn-6035.com,Cryptominer,APT29,Medium,Critical
+IOC0672,URL,http://secure-755.net/api/v1/payload.bin,Web Shell,DarkSide,Medium,Critical
+IOC0673,IP Address,168.231.12.33,Botnet Recruitment,Unknown,Low,Medium
+IOC0674,File Hash (SHA256),3d35b8ecf2394a619d6077a189bbac76eb606728dfd371d1cf181600466cce4a,Trojan,BlackCat,High,Medium
+IOC0675,URL,http://service-604.net/api/v1/payload.bin,Botnet Recruitment,Unknown,Medium,High
+IOC0676,IP Address,47.62.26.167,Botnet Recruitment,Unknown,Medium,Medium
+IOC0677,IP Address,92.110.196.79,Backdoor,Unknown,Critical,Low
+IOC0678,URL,http://cloud-7464.com/api/v1/payload.bin,Phishing Campaign,Unknown,Low,High
+IOC0679,Domain,update-7779.xyz,Phishing Campaign,Unknown,High,Critical
+IOC0680,IP Address,219.113.227.33,Ransomware,Unknown,Medium,Low
+IOC0681,Domain,update-6453.info,Backdoor,TrickBot,High,Critical
+IOC0682,Email Address,support306@secure-816.com,Cryptominer,Unknown,Medium,Critical
+IOC0683,IP Address,174.242.92.123,Web Shell,APT29,High,Critical
+IOC0684,File Hash (SHA256),9733b2ed8ed728c8083ffb2b8ef018bf227244f1db94b7006e464cb63f829c79,Trojan,Unknown,Low,Medium
+IOC0685,URL,http://secure-1833.net/api/v1/payload.bin,Ransomware,BlackCat,Medium,Medium
+IOC0686,File Hash (SHA256),3c399c5b7f481fa444bfecbd773ff8cb9e9ebf77321f90b30f9418cc9b5eb95f,Info Stealer,LockBit,Low,High
+IOC0687,IP Address,37.180.157.78,Supply Chain Compromise,FIN7,Low,High
+IOC0688,Domain,secure-9474.xyz,DDoS Botnet,Lazarus Group,Low,Low
+IOC0689,IP Address,146.95.251.175,Info Stealer,Kinsing,High,Low
+IOC0690,Domain,cdn-4300.com,Info Stealer,TeamTNT,High,Medium
+IOC0691,IP Address,68.66.8.195,Data Exfiltration,APT29,High,Critical
+IOC0692,Email Address,support344@login-6241.xyz,Trojan,Unknown,Low,Medium
+IOC0693,Email Address,no-reply164@service-6408.com,Ransomware,Emotet,Critical,Medium
+IOC0694,File Hash (SHA256),25de6622e1a1205944628972b120a88e30a5daac991d9f705ee6260036a3910c,Info Stealer,Unknown,Medium,Low
+IOC0695,File Hash (SHA256),141b991940b9a0f50a0a3849323af1285f93b2e037593b38f9b3d3d2d882c2d8,Credential Stuffing Campaign,Unknown,High,Low
+IOC0696,IP Address,175.62.254.45,Botnet Recruitment,Emotet,Low,High
+IOC0697,IP Address,72.165.13.110,Web Shell,Unknown,High,High
+IOC0698,Email Address,security353@secure-5002.net,Info Stealer,Kinsing,Low,Critical
+IOC0699,IP Address,207.198.220.204,Credential Stuffing Campaign,Unknown,Medium,Critical
+IOC0700,Domain,login-3475.xyz,Trojan,Unknown,High,Critical
+IOC0701,File Hash (SHA256),75f6bfaf2824e6a273c03bd2c14d22b56457a3ec1df2088a9bc13d92a5cb8998,Ransomware,APT29,Medium,Medium
+IOC0702,IP Address,109.113.153.8,DDoS Botnet,Hive,High,High
+IOC0703,Email Address,security695@update-3868.xyz,Backdoor,Unknown,Critical,Medium
+IOC0704,Email Address,admin312@api-3061.com,Data Exfiltration,DarkSide,High,Critical
+IOC0705,IP Address,151.216.193.124,Trojan,DarkSide,Medium,Low
+IOC0706,IP Address,152.95.20.216,DDoS Botnet,Unknown,High,Low
+IOC0707,IP Address,175.231.236.232,DDoS Botnet,Unknown,Medium,Medium
+IOC0708,IP Address,167.217.198.15,Command and Control,Unknown,Low,Low
+IOC0709,Domain,service-6503.xyz,Web Shell,Unknown,High,High
+IOC0710,IP Address,174.109.158.106,Backdoor,Conti,Medium,High
+IOC0711,IP Address,7.146.245.224,Info Stealer,Unknown,Low,High
+IOC0712,IP Address,164.203.82.95,Botnet Recruitment,Lazarus Group,High,Medium
+IOC0713,Domain,service-8285.net,Cryptominer,Unknown,High,Medium
+IOC0714,Domain,login-7905.info,Credential Stuffing Campaign,BlackCat,High,Low
+IOC0715,IP Address,73.19.157.245,Web Shell,Unknown,Low,Medium
+IOC0716,Domain,secure-1764.info,Credential Stuffing Campaign,Emotet,High,High
+IOC0717,File Hash (SHA256),fce48766c5cfc8677ba76d4dd0888d45987d211cadf821d488f8b00c528d3148,Info Stealer,APT29,Medium,High
+IOC0718,IP Address,83.118.143.248,Botnet Recruitment,Unknown,High,Low
+IOC0719,IP Address,78.221.88.250,Trojan,FIN7,Medium,Low
+IOC0720,IP Address,8.142.248.236,Cryptominer,Unknown,Low,Low
+IOC0721,URL,http://update-2253.xyz/api/v1/payload.bin,Ransomware,Emotet,High,Critical
+IOC0722,File Hash (SHA256),cd5dd629618c74db9744eb04283a7254c45210cd60c5163fad202d1aafc11dea,Ransomware,Unknown,Critical,Low
+IOC0723,IP Address,17.238.238.197,Data Exfiltration,Unknown,Low,Critical
+IOC0724,Email Address,support247@cloud-7648.info,Backdoor,Lazarus Group,High,Medium
+IOC0725,IP Address,56.140.44.126,Backdoor,Conti,High,Medium
+IOC0726,IP Address,81.187.78.142,Phishing Campaign,Unknown,Critical,Medium
+IOC0727,IP Address,63.35.50.114,Command and Control,Unknown,Medium,High
+IOC0728,IP Address,13.80.73.18,Malware Download,LockBit,Medium,High
+IOC0729,Email Address,admin45@cdn-9466.info,Botnet Recruitment,TrickBot,High,Medium
+IOC0730,URL,http://update-3270.xyz/api/v1/payload.bin,Credential Stuffing Campaign,Unknown,Medium,Medium
+IOC0731,Domain,service-1966.net,Phishing Campaign,Unknown,High,Medium
+IOC0732,File Hash (SHA256),6ff22b865b2c8cb2115208d2b6d35bb23df94c3eaa69d56c98ad50ca891549e1,Botnet Recruitment,Conti,High,Critical
+IOC0733,Domain,login-5632.xyz,Backdoor,Unknown,Critical,Medium
+IOC0734,IP Address,204.250.236.189,Credential Stuffing Campaign,Unknown,Medium,High
+IOC0735,IP Address,199.68.32.113,Botnet Recruitment,FIN7,Medium,High
+IOC0736,Domain,cdn-6314.com,Ransomware,Conti,Medium,Critical
+IOC0737,Email Address,admin37@cloud-1184.xyz,Ransomware,APT29,Medium,Low
+IOC0738,IP Address,123.78.30.3,DDoS Botnet,LockBit,High,Medium
+IOC0739,File Hash (SHA256),37ba4e352e9012a23c5190b8e94f268ceb2ee49d203fce819ad8b3cc172ad962,DDoS Botnet,Unknown,Medium,Medium
+IOC0740,Domain,login-2130.info,Info Stealer,DarkSide,Medium,Medium
+IOC0741,IP Address,10.181.225.161,Backdoor,Unknown,Low,Low
+IOC0742,IP Address,208.188.238.82,Backdoor,Kinsing,High,High
+IOC0743,IP Address,15.55.249.172,Data Exfiltration,Unknown,Low,Critical
+IOC0744,IP Address,10.124.21.91,Ransomware,Unknown,Medium,Medium
+IOC0745,IP Address,77.161.167.91,Cryptominer,DarkSide,Medium,High
+IOC0746,File Hash (SHA256),46a0bd15cd5ee717f5559c8c36111b86621f90b6451a0f0ad74a01d153804b16,Data Exfiltration,Lazarus Group,Medium,High
+IOC0747,IP Address,35.198.93.224,Botnet Recruitment,Unknown,High,High
+IOC0748,IP Address,5.48.128.19,DDoS Botnet,Unknown,High,High
+IOC0749,URL,http://service-2521.info/api/v1/payload.bin,Botnet Recruitment,Hive,Medium,Low
+IOC0750,IP Address,112.162.30.136,Info Stealer,Lazarus Group,Low,Medium
+IOC0751,File Hash (SHA256),4dbcc1cafaa73ee003c347763a843fbb81081f0135a658fb9e785e23e39331e7,Supply Chain Compromise,APT29,Low,Medium
+IOC0752,IP Address,219.204.24.154,Credential Stuffing Campaign,Kinsing,Medium,Low
+IOC0753,IP Address,53.23.190.113,Data Exfiltration,Unknown,High,Critical
+IOC0754,Domain,login-3674.com,Phishing Campaign,Unknown,Medium,Critical
+IOC0755,IP Address,34.238.225.161,Web Shell,Unknown,Critical,Low
+IOC0756,Domain,api-6277.net,Malware Download,LockBit,Medium,Medium
+IOC0757,IP Address,164.192.32.185,Web Shell,Unknown,High,Low
+IOC0758,URL,http://secure-483.com/api/v1/payload.bin,Ransomware,TrickBot,Medium,Low
+IOC0759,IP Address,24.118.215.99,Command and Control,Conti,Medium,Low
+IOC0760,Email Address,security575@cdn-3838.net,Supply Chain Compromise,Conti,Low,Low
+IOC0761,IP Address,82.74.82.64,Backdoor,Unknown,Low,Medium
+IOC0762,IP Address,78.76.93.211,Malware Download,Unknown,Medium,Medium
+IOC0763,IP Address,170.132.140.43,Info Stealer,BlackCat,High,Low
+IOC0764,Email Address,billing478@api-911.xyz,Malware Download,Unknown,Low,High
+IOC0765,URL,http://update-7348.com/api/v1/payload.bin,Backdoor,Unknown,Low,High
+IOC0766,IP Address,208.191.59.124,DDoS Botnet,Emotet,High,Medium
+IOC0767,IP Address,123.240.55.129,Supply Chain Compromise,Hive,Medium,Low
+IOC0768,Domain,login-7560.com,Cryptominer,Unknown,High,Medium
+IOC0769,File Hash (SHA256),09307a29c3bb2a76446ae476e927539b7aa807c71fe1ae9e16be910e972b3ddc,Malware Download,Unknown,Low,Medium
+IOC0770,Domain,cdn-8387.xyz,Supply Chain Compromise,Unknown,Critical,Medium
+IOC0771,Email Address,support45@service-9267.net,Trojan,TrickBot,Critical,High
+IOC0772,IP Address,180.112.95.198,DDoS Botnet,Unknown,Medium,Medium
+IOC0773,IP Address,66.253.24.93,Credential Stuffing Campaign,Unknown,Low,Medium
+IOC0774,URL,http://update-8012.com/api/v1/payload.bin,Phishing Campaign,APT29,Low,Low
+IOC0775,Domain,service-4243.xyz,Info Stealer,Unknown,Medium,Low
+IOC0776,IP Address,34.183.251.186,Phishing Campaign,Unknown,Medium,High
+IOC0777,IP Address,204.219.85.97,Ransomware,Conti,Low,High
+IOC0778,Domain,update-2093.net,Credential Stuffing Campaign,Lazarus Group,High,High
+IOC0779,Email Address,support175@update-1371.com,Data Exfiltration,Unknown,High,Low
+IOC0780,Email Address,admin388@api-7394.com,Data Exfiltration,APT28,High,High
+IOC0781,Domain,secure-1343.net,Botnet Recruitment,Kinsing,High,High
+IOC0782,Domain,login-4654.com,Web Shell,Unknown,Medium,Low
+IOC0783,IP Address,186.161.64.13,Credential Stuffing Campaign,Unknown,Critical,Medium
+IOC0784,IP Address,108.228.3.181,Info Stealer,Conti,Medium,Low
+IOC0785,IP Address,3.29.56.50,Command and Control,Unknown,Medium,Low
+IOC0786,Domain,login-2091.xyz,Trojan,Unknown,Medium,High
+IOC0787,Email Address,billing466@api-766.net,Command and Control,Unknown,High,Low
+IOC0788,IP Address,17.188.236.186,DDoS Botnet,APT29,Medium,Critical
+IOC0789,IP Address,31.177.133.224,Phishing Campaign,Unknown,High,Medium
+IOC0790,IP Address,17.95.7.4,DDoS Botnet,APT28,Medium,Medium
+IOC0791,Email Address,no-reply964@cdn-2358.com,Command and Control,Unknown,Medium,High
+IOC0792,Email Address,admin432@api-149.com,Credential Stuffing Campaign,APT29,Critical,Critical
+IOC0793,File Hash (SHA256),bb32c2811f393f5230b6ebfd5a73b503ecf3942560a7cce500c6548a7610969a,Supply Chain Compromise,Unknown,High,Medium
+IOC0794,IP Address,223.47.125.171,Malware Download,Unknown,Medium,Medium
+IOC0795,IP Address,68.159.20.98,Phishing Campaign,Unknown,Low,Low
+IOC0796,IP Address,112.136.11.135,Botnet Recruitment,Unknown,High,High
+IOC0797,IP Address,69.122.238.143,Command and Control,APT28,Low,Low
+IOC0798,IP Address,81.71.130.114,Info Stealer,Unknown,Medium,Low
+IOC0799,Domain,secure-7485.com,Ransomware,Unknown,Low,Low
+IOC0800,IP Address,42.23.48.248,Trojan,Unknown,Low,Medium

@@ -1,0 +1,30 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: threat_dashboard_mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    container_name: threat_dashboard_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+volumes:
+  mongo_data:

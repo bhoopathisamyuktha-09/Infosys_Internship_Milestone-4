@@ -1,0 +1,567 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   SentinelAI SOC Platform — Comprehensive Enterprise Theme Styles
+   Official Project: Creation of Security Operations Dashboard for Threat Detection with Risk Mitigation Analytics
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Light Mode Base Variables & Layout
+   -------------------------------------------------------------------------- */
+html.light {
+  color-scheme: light;
+}
+
+html.light,
+html.light body,
+html.light #root,
+html.light main,
+html.light .bg-\[\#0F172A\],
+html.light [class~="bg-[#0F172A]"],
+html.light [class*=" bg-[#0F172A]"]:not(.fixed),
+html.light [class^="bg-[#0F172A]"]:not(.fixed) {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+/* --------------------------------------------------------------------------
+   2. Header, Sidebar & Core Navigation
+   -------------------------------------------------------------------------- */
+html.light header,
+html.light .bg-\[\#0B1329\],
+html.light [class~="bg-[#0B1329]"],
+html.light [class*=" bg-[#0B1329]"] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  color: #0F172A !important;
+}
+
+html.light aside,
+html.light .bg-\[\#020817\],
+html.light [class~="bg-[#020817]"],
+html.light [class*=" bg-[#020817]"],
+html.light [class^="bg-[#020817]"] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  color: #0F172A !important;
+}
+
+/* --------------------------------------------------------------------------
+   3. Cards, Panels, Dropdowns & Modals
+   -------------------------------------------------------------------------- */
+html.light .bg-\[\#111827\],
+html.light [class~="bg-[#111827]"],
+html.light [class*=" bg-[#111827]"],
+html.light [class^="bg-[#111827]"],
+html.light .bg-\[\#111827\]\/95,
+html.light .bg-\[\#111827\]\/90,
+html.light .bg-\[\#111827\]\/85,
+html.light .bg-\[\#111827\]\/80,
+html.light .bg-\[\#111827\]\/70,
+html.light .bg-\[\#111827\]\/60,
+html.light .bg-\[\#111827\]\/50,
+html.light [class*=" bg-[#111827]/"],
+html.light [class^="bg-[#111827]/"],
+html.light .bg-\[\#0B1329\]\/95,
+html.light [class*=" bg-[#0B1329]/"],
+html.light [class^="bg-[#0B1329]/"] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04), 0 1px 2px -1px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* Reset Dark Gradient Backgrounds in Light Mode */
+html.light [class*="from-[#111827]"]:not([class*="from-white"]),
+html.light [class*="from-[#0B1329]"],
+html.light [class*="from-[#020817]"],
+html.light [class*="from-[#0F172A]"] {
+  background-image: none !important;
+  background-color: #FFFFFF !important;
+}
+
+/* --------------------------------------------------------------------------
+   4. Sub-boxes, Secondary Containers, Filter Bars & Chips
+   -------------------------------------------------------------------------- */
+html.light .bg-\[\#1E293B\],
+html.light [class~="bg-[#1E293B]"],
+html.light [class*=" bg-[#1E293B]"],
+html.light [class^="bg-[#1E293B]"],
+html.light .bg-\[\#1E293B\]\/95,
+html.light .bg-\[\#1E293B\]\/90,
+html.light .bg-\[\#1E293B\]\/80,
+html.light .bg-\[\#1E293B\]\/70,
+html.light .bg-\[\#1E293B\]\/60,
+html.light .bg-\[\#1E293B\]\/50,
+html.light .bg-\[\#1E293B\]\/40,
+html.light .bg-\[\#1E293B\]\/30,
+html.light .bg-\[\#1E293B\]\/20,
+html.light [class*=" bg-[#1E293B]/"],
+html.light [class^="bg-[#1E293B]/"] {
+  background-color: #F8FAFC !important;
+  border-color: #E2E8F0 !important;
+}
+
+/* General Slate Containers */
+html.light .bg-slate-900,
+html.light [class~="bg-slate-900"] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+}
+
+html.light .bg-slate-800,
+html.light [class~="bg-slate-800"],
+html.light .bg-slate-800\/80,
+html.light .bg-slate-800\/50 {
+  background-color: #F1F5F9 !important;
+  border-color: #CBD5E1 !important;
+  color: #1E293B !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. Borders & Dividers
+   -------------------------------------------------------------------------- */
+html.light .border-\[\#1F2937\],
+html.light [class*="border-[#1F2937]"],
+html.light .border-\[\#1E293B\],
+html.light [class*="border-[#1E293B]"],
+html.light .border-slate-800,
+html.light [class~="border-slate-800"],
+html.light .border-slate-700,
+html.light [class~="border-slate-700"] {
+  border-color: #E2E8F0 !important;
+}
+
+html.light .hover\:border-slate-700:hover,
+html.light .hover\:border-slate-600:hover {
+  border-color: #CBD5E1 !important;
+}
+
+html.light [class*="divide-[#1F2937]"] > * + *,
+html.light .divide-\[\#1F2937\] > * + *,
+html.light .divide-slate-800 > * + * {
+  border-color: #E2E8F0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   6. Form Inputs, Selects & Search Bars
+   -------------------------------------------------------------------------- */
+html.light input:not([type="checkbox"]):not([type="radio"]),
+html.light select,
+html.light textarea {
+  background-color: #FFFFFF !important;
+  border-color: #CBD5E1 !important;
+  color: #0F172A !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #94A3B8 !important;
+}
+
+html.light select option {
+  background-color: #FFFFFF !important;
+  color: #0F172A !important;
+}
+
+/* --------------------------------------------------------------------------
+   7. Typography & Text Hierarchy
+   -------------------------------------------------------------------------- */
+html.light .text-slate-100 {
+  color: #0F172A !important;
+}
+
+html.light .text-slate-200 {
+  color: #1E293B !important;
+}
+
+html.light .text-slate-300 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-400 {
+  color: #475569 !important;
+}
+
+html.light .text-slate-500 {
+  color: #64748B !important;
+}
+
+/* Primary Button & Badge Text Invariance (Always Crisp White) */
+html.light .bg-blue-600,
+html.light [class*="bg-blue-600"],
+html.light .bg-red-600,
+html.light [class*="bg-red-600"],
+html.light .bg-purple-600,
+html.light [class*="bg-purple-600"],
+html.light .bg-amber-600,
+html.light [class*="bg-amber-600"],
+html.light .bg-emerald-600,
+html.light [class*="bg-emerald-600"] {
+  color: #FFFFFF !important;
+}
+
+html.light .bg-blue-600 *,
+html.light [class*="bg-blue-600"] *,
+html.light .bg-red-600 *,
+html.light [class*="bg-red-600"] *,
+html.light .bg-purple-600 *,
+html.light [class*="bg-purple-600"] * {
+  color: #FFFFFF !important;
+}
+
+/* --------------------------------------------------------------------------
+   8. Interactive States & Hover Effects
+   -------------------------------------------------------------------------- */
+html.light .hover\:bg-\[\#111827\]:hover,
+html.light [class*="hover:bg-[#111827]"]:hover,
+html.light .hover\:bg-\[\#1E293B\]:hover,
+html.light [class*="hover:bg-[#1E293B]"]:hover,
+html.light .hover\:bg-slate-800:hover,
+html.light .hover\:bg-slate-700:hover {
+  background-color: #F1F5F9 !important;
+}
+
+/* Fix Dark-on-Light text issue when hovering over light containers */
+html.light .hover\:text-white:hover:not(.bg-blue-600):not(.bg-red-600):not([class*="bg-blue-600"]):not([class*="bg-red-600"]):not([class*="bg-purple-600"]):not([class*="bg-amber-600"]) {
+  color: #0F172A !important;
+}
+
+/* --------------------------------------------------------------------------
+   9. Tables, Headers & Steppers
+   -------------------------------------------------------------------------- */
+html.light thead,
+html.light thead tr,
+html.light th,
+html.light tr[class*="bg-[#0B1329]"] {
+  background-color: #F1F5F9 !important;
+  border-color: #E2E8F0 !important;
+  color: #475569 !important;
+}
+
+html.light tr.border-b {
+  border-color: #E2E8F0 !important;
+}
+
+html.light tbody tr:hover {
+  background-color: #F8FAFC !important;
+}
+
+html.light tfoot,
+html.light tfoot tr {
+  background-color: #F8FAFC !important;
+  border-color: #E2E8F0 !important;
+}
+
+/* Stepper line in attack chains */
+html.light .before\:bg-\[\#1F2937\]::before {
+  background-color: #CBD5E1 !important;
+}
+
+/* --------------------------------------------------------------------------
+   10. Semantic Badges & Status Indicators (Tailored Light-Mode Contrast)
+   -------------------------------------------------------------------------- */
+
+/* Critical / Red Badges */
+html.light .bg-red-500\/20,
+html.light .bg-red-500\/15,
+html.light .bg-red-500\/10,
+html.light [class*="bg-red-500/"] {
+  background-color: #FEF2F2 !important;
+  color: #B91C1C !important;
+  border-color: #FCA5A5 !important;
+}
+
+html.light .text-red-300,
+html.light .text-red-400,
+html.light [class*="text-red-300"],
+html.light [class*="text-red-400"] {
+  color: #DC2626 !important;
+}
+
+/* Suspicious / High / Amber / Orange Badges */
+html.light .bg-amber-500\/20,
+html.light .bg-amber-500\/15,
+html.light .bg-amber-500\/10,
+html.light .bg-orange-500\/20,
+html.light .bg-orange-500\/10,
+html.light .bg-yellow-500\/20,
+html.light [class*="bg-amber-500/"],
+html.light [class*="bg-orange-500/"] {
+  background-color: #FFFBEB !important;
+  color: #B45309 !important;
+  border-color: #FCD34D !important;
+}
+
+html.light .text-amber-300,
+html.light .text-amber-400,
+html.light .text-orange-300,
+html.light .text-orange-400,
+html.light .text-yellow-400,
+html.light [class*="text-amber-300"],
+html.light [class*="text-amber-400"] {
+  color: #D97706 !important;
+}
+
+/* Normal / Low / Emerald Badges */
+html.light .bg-emerald-500\/20,
+html.light .bg-emerald-500\/15,
+html.light .bg-emerald-500\/10,
+html.light [class*="bg-emerald-500/"] {
+  background-color: #ECFDF5 !important;
+  color: #047857 !important;
+  border-color: #6EE7B7 !important;
+}
+
+html.light .text-emerald-300,
+html.light .text-emerald-400,
+html.light [class*="text-emerald-300"],
+html.light [class*="text-emerald-400"] {
+  color: #059669 !important;
+}
+
+/* Blue Info Badges */
+html.light .bg-blue-500\/20,
+html.light .bg-blue-500\/15,
+html.light .bg-blue-500\/10,
+html.light [class*="bg-blue-500/"] {
+  background-color: #EFF6FF !important;
+  color: #1D4ED8 !important;
+  border-color: #93C5FD !important;
+}
+
+html.light .text-blue-300,
+html.light .text-blue-400,
+html.light [class*="text-blue-300"],
+html.light [class*="text-blue-400"] {
+  color: #2563EB !important;
+}
+
+/* Purple Signals & Attack Chains */
+html.light .bg-purple-500\/20,
+html.light .bg-purple-500\/15,
+html.light .bg-purple-500\/10,
+html.light [class*="bg-purple-500/"] {
+  background-color: #F3E8FF !important;
+  color: #7E22CE !important;
+  border-color: #D8B4FE !important;
+}
+
+html.light .text-purple-300,
+html.light .text-purple-400,
+html.light [class*="text-purple-300"],
+html.light [class*="text-purple-400"] {
+  color: #9333EA !important;
+}
+
+/* Cyan Discovery Badges */
+html.light .bg-cyan-500\/20,
+html.light .bg-cyan-500\/10,
+html.light [class*="bg-cyan-500/"] {
+  background-color: #ECFEFF !important;
+  color: #0E7490 !important;
+  border-color: #A5F3FC !important;
+}
+
+html.light .text-cyan-300,
+html.light .text-cyan-400 {
+  color: #0891B2 !important;
+}
+
+/* --------------------------------------------------------------------------
+   11. Modals & Overlay Windows
+   -------------------------------------------------------------------------- */
+html.light .fixed .relative[class*="bg-[#0F172A]"],
+html.light .fixed .relative[class*="bg-[#111827]"] {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+  color: #0F172A !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+}
+
+html.light .fixed [class*="border-[#1E293B]"] {
+  border-color: #E2E8F0 !important;
+}
+
+/* --------------------------------------------------------------------------
+   12. Dedicated Login Screen Isolation (Preserve Dark SOC Aesthetics)
+   -------------------------------------------------------------------------- */
+html .login-screen,
+html.light .login-screen,
+html.dark .login-screen,
+.login-screen {
+  color-scheme: dark !important;
+  background-color: #020617 !important;
+  color: #F8FAFC !important;
+}
+
+html .login-screen .bg-slate-900\/90,
+html.light .login-screen .bg-slate-900\/90,
+html.dark .login-screen .bg-slate-900\/90,
+.login-screen .bg-slate-900\/90 {
+  background-color: rgba(15, 23, 42, 0.95) !important;
+  border-color: #1E293B !important;
+}
+
+html .login-screen .bg-slate-950,
+html.light .login-screen .bg-slate-950,
+html.dark .login-screen .bg-slate-950,
+.login-screen .bg-slate-950 {
+  background-color: #020617 !important;
+}
+
+/* Headings: Bright Crisp White */
+html .login-screen .text-white,
+html.light .login-screen .text-white,
+html.dark .login-screen .text-white,
+.login-screen .text-white {
+  color: #FFFFFF !important;
+}
+
+/* Secondary Headings / Accents: Vibrant Blue */
+html .login-screen .text-blue-300,
+html.light .login-screen .text-blue-300,
+html.dark .login-screen .text-blue-300,
+.login-screen .text-blue-300 {
+  color: #93C5FD !important;
+}
+
+html .login-screen .text-blue-400,
+html.light .login-screen .text-blue-400,
+html.dark .login-screen .text-blue-400,
+.login-screen .text-blue-400 {
+  color: #60A5FA !important;
+}
+
+/* Feature list and prominent labels: Light Slate 200 (#E2E8F0) */
+html .login-screen .text-slate-100,
+html.light .login-screen .text-slate-100,
+html.dark .login-screen .text-slate-100,
+.login-screen .text-slate-100,
+html .login-screen .text-slate-200,
+html.light .login-screen .text-slate-200,
+html.dark .login-screen .text-slate-200,
+.login-screen .text-slate-200 {
+  color: #E2E8F0 !important;
+}
+
+/* Body / descriptions / subtitles: Readable Muted-Light Tone (#CBD5E1) */
+html .login-screen .text-slate-300,
+html.light .login-screen .text-slate-300,
+html.dark .login-screen .text-slate-300,
+.login-screen .text-slate-300 {
+  color: #CBD5E1 !important;
+}
+
+/* Metadata, placeholders, footer notes, icons: Subtle but clearly readable (#94A3B8) */
+html .login-screen .text-slate-400,
+html.light .login-screen .text-slate-400,
+html.dark .login-screen .text-slate-400,
+.login-screen .text-slate-400,
+html .login-screen .text-slate-500,
+html.light .login-screen .text-slate-500,
+html.dark .login-screen .text-slate-500,
+.login-screen .text-slate-500,
+html .login-screen .text-slate-600,
+html.light .login-screen .text-slate-600,
+html.dark .login-screen .text-slate-600,
+.login-screen .text-slate-600 {
+  color: #94A3B8 !important;
+}
+
+/* Inputs: Always dark background with crisp white text and readable placeholder */
+html .login-screen input:not([type="checkbox"]):not([type="radio"]),
+html.light .login-screen input:not([type="checkbox"]):not([type="radio"]),
+html.dark .login-screen input:not([type="checkbox"]):not([type="radio"]),
+.login-screen input:not([type="checkbox"]):not([type="radio"]) {
+  background-color: #020617 !important;
+  border-color: #334155 !important;
+  color: #FFFFFF !important;
+}
+
+html .login-screen input:not([type="checkbox"]):not([type="radio"]):focus,
+html.light .login-screen input:not([type="checkbox"]):not([type="radio"]):focus,
+html.dark .login-screen input:not([type="checkbox"]):not([type="radio"]):focus,
+.login-screen input:not([type="checkbox"]):not([type="radio"]):focus {
+  border-color: #3B82F6 !important;
+}
+
+html .login-screen input::placeholder,
+html.light .login-screen input::placeholder,
+html.dark .login-screen input::placeholder,
+.login-screen input::placeholder {
+  color: #94A3B8 !important;
+}
+
+/* Checkbox label and SVG icons inside inputs */
+html .login-screen svg.text-slate-400,
+html.light .login-screen svg.text-slate-400,
+html.dark .login-screen svg.text-slate-400,
+.login-screen svg.text-slate-400,
+html .login-screen svg.text-slate-500,
+html.light .login-screen svg.text-slate-500,
+html.dark .login-screen svg.text-slate-500,
+.login-screen svg.text-slate-500 {
+  color: #94A3B8 !important;
+}
+
+/* --------------------------------------------------------------------------
+   13. CRITICAL/HIGH IMMEDIATE Priority Badge — Light Mode Contrast Fix
+       These use bg-red-600/25 and bg-orange-600/25 which aren't caught by
+       the bg-red-500/* selectors above, so we address them explicitly.
+   -------------------------------------------------------------------------- */
+html.light [class*="bg-red-600\/"] {
+  background-color: #DC2626 !important;
+  color: #FFFFFF !important;
+  border-color: #B91C1C !important;
+}
+
+html.light [class*="bg-orange-600\/"] {
+  background-color: #EA580C !important;
+  color: #FFFFFF !important;
+  border-color: #C2410C !important;
+}
+
+/* --------------------------------------------------------------------------
+   14. Action Buttons — Solid High-Contrast Blue Primary Action
+       Ensure all functional action buttons (Investigate, Correlate, View)
+       clearly look clickable BEFORE hover with crisp white text in both themes.
+   -------------------------------------------------------------------------- */
+html.light a[class*="bg-blue-600"],
+html.light button[class*="bg-blue-600"],
+html.light a[class*="hover:bg-blue-600"],
+html.light button[class*="hover:bg-blue-600"],
+html.light a[class*="hover:bg-blue-700"],
+html.light button[class*="hover:bg-blue-700"] {
+  background-color: #2563EB !important;
+  color: #FFFFFF !important;
+  border-color: #1D4ED8 !important;
+}
+
+html.light a[class*="bg-blue-600"]:hover,
+html.light button[class*="bg-blue-600"]:hover,
+html.light a[class*="hover:bg-blue-600"]:hover,
+html.light button[class*="hover:bg-blue-600"]:hover,
+html.light a[class*="hover:bg-blue-700"]:hover,
+html.light button[class*="hover:bg-blue-700"]:hover {
+  background-color: #1D4ED8 !important;
+  color: #FFFFFF !important;
+  border-color: #1E40AF !important;
+}
+
+html.dark a[class*="hover:bg-blue-600"],
+html.dark button[class*="hover:bg-blue-600"],
+html.dark a[class*="hover:bg-blue-700"],
+html.dark button[class*="hover:bg-blue-700"] {
+  background-color: #2563EB !important;
+  color: #FFFFFF !important;
+  border-color: #3B82F6 !important;
+}
+
+html.dark a[class*="hover:bg-blue-600"]:hover,
+html.dark button[class*="hover:bg-blue-600"]:hover,
+html.dark a[class*="hover:bg-blue-700"]:hover,
+html.dark button[class*="hover:bg-blue-700"]:hover {
+  background-color: #3B82F6 !important;
+  color: #FFFFFF !important;
+  border-color: #60A5FA !important;
+}

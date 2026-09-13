@@ -1,0 +1,501 @@
+asset_id,asset_name,asset_type,owner,department,criticality,operating_system
+AST001,HR-PC-01,Workstation,John,HR,Medium,Windows 11
+AST002,Finance-PC-02,Workstation,Priya,Finance,Medium,Windows 11
+AST003,WebServer,Server,IT Team,IT,Critical,Linux
+AST004,Database-01,Server,IT Team,IT,Critical,Linux
+AST005,Firewall,Network Device,IT Team,IT,Critical,
+AST006,LEG-CLD-001,Cloud Instance,Sarah,Legal,High,Linux
+AST007,FIN-MOB-001,Mobile Device,Lucy,Finance,Low,Android
+AST008,HR-IOT-001,IoT Device,Sarah,HR,Low,N/A
+AST009,FIN-LAP-001,Laptop,Sofia,Finance,Medium,Windows 10
+AST010,FIN-SRV-001,Server,Tariq,Finance,Critical,Linux
+AST011,FIN-CLD-001,Cloud Instance,Tariq,Finance,High,Linux
+AST012,ENG-WKS-001,Workstation,Sarah,Engineering,Medium,Windows 10
+AST013,OPS-MOB-001,Mobile Device,Fatima,Operations,Low,iOS
+AST014,IT-SRV-001,Server,Grace,IT,Critical,Windows Server 2022
+AST015,IT-WKS-001,Workstation,Lucy,IT,Medium,Windows 10
+AST016,FIN-SRV-002,Server,Tariq,Finance,Critical,Linux
+AST017,HR-SRV-001,Server,Grace,HR,Critical,Windows Server 2022
+AST018,ENG-MOB-001,Mobile Device,Tariq,Engineering,Low,iOS
+AST019,SUP-LAP-001,Laptop,Emma,Support,Medium,Windows 10
+AST020,SALES-WKS-001,Workstation,Ivan,Sales,Medium,Windows 11
+AST021,SUP-MOB-001,Mobile Device,Nina,Support,Low,iOS
+AST022,FIN-WKS-001,Workstation,Emma,Finance,Medium,Windows 11
+AST023,LEG-WKS-001,Workstation,Fatima,Legal,Medium,Windows 11
+AST024,HR-CLD-001,Cloud Instance,Grace,HR,High,Linux
+AST025,LEG-LAP-001,Laptop,Elena,Legal,Medium,Windows 11
+AST026,SUP-SRV-001,Server,Priya,Support,Critical,Windows Server 2022
+AST027,FIN-CLD-002,Cloud Instance,Priya,Finance,High,Linux
+AST028,HR-NET-001,Network Device,Tariq,HR,Critical,N/A
+AST029,SUP-WKS-001,Workstation,Lucy,Support,Medium,Windows 11
+AST030,HR-CLD-002,Cloud Instance,Emma,HR,High,Linux
+AST031,FIN-LAP-002,Laptop,Nina,Finance,Medium,Windows 10
+AST032,IT-NET-001,Network Device,Wei,IT,Critical,N/A
+AST033,SUP-WKS-002,Workstation,Wei,Support,Medium,Windows 11
+AST034,OPS-WKS-001,Workstation,Fatima,Operations,Medium,Windows 10
+AST035,OPS-WKS-002,Workstation,Lucy,Operations,Medium,Windows 11
+AST036,ENG-CLD-001,Cloud Instance,Priya,Engineering,High,Linux
+AST037,IT-WKS-002,Workstation,John,IT,Medium,Windows 10
+AST038,SUP-MOB-002,Mobile Device,Victor,Support,Low,Android
+AST039,MKT-WKS-001,Workstation,Grace,Marketing,Medium,Windows 11
+AST040,LEG-SRV-001,Server,Alex,Legal,Critical,Windows Server 2022
+AST041,OPS-CLD-001,Cloud Instance,Carlos,Operations,High,Linux
+AST042,OPS-LAP-001,Laptop,Wei,Operations,Medium,Windows 11
+AST043,FIN-LAP-003,Laptop,Sarah,Finance,Medium,Windows 11
+AST044,SALES-WKS-002,Workstation,Carlos,Sales,Medium,Windows 10
+AST045,IT-WKS-003,Workstation,Ramesh,IT,Medium,Windows 10
+AST046,HR-SRV-002,Server,Lucy,HR,Critical,Linux
+AST047,HR-WKS-001,Workstation,Elena,HR,Medium,Windows 10
+AST048,ENG-WKS-002,Workstation,Lucy,Engineering,Medium,Windows 11
+AST049,LEG-LAP-002,Laptop,Mei,Legal,Medium,Windows 10
+AST050,SUP-LAP-002,Laptop,Priya,Support,Medium,Windows 11
+AST051,IT-WKS-004,Workstation,Victor,IT,Medium,Windows 11
+AST052,SUP-MOB-003,Mobile Device,Ivan,Support,Low,Android
+AST053,HR-WKS-002,Workstation,Alex,HR,Medium,Windows 11
+AST054,OPS-IOT-001,IoT Device,Priya,Operations,Low,Embedded Linux
+AST055,MKT-LAP-001,Laptop,Lucy,Marketing,Medium,Windows 10
+AST056,SALES-SRV-001,Server,Sofia,Sales,Critical,Windows Server 2022
+AST057,SALES-MOB-001,Mobile Device,Sofia,Sales,Low,iOS
+AST058,SALES-LAP-001,Laptop,John,Sales,Medium,Windows 11
+AST059,HR-MOB-001,Mobile Device,Victor,HR,Low,iOS
+AST060,SALES-NET-001,Network Device,Carlos,Sales,Critical,N/A
+AST061,LEG-CLD-002,Cloud Instance,Priya,Legal,High,Linux
+AST062,SALES-WKS-003,Workstation,David,Sales,Medium,Windows 11
+AST063,LEG-WKS-002,Workstation,Mei,Legal,Medium,Windows 10
+AST064,LEG-MOB-001,Mobile Device,Ramesh,Legal,Low,Android
+AST065,ENG-MOB-002,Mobile Device,Mei,Engineering,Low,Android
+AST066,IT-LAP-001,Laptop,Omar,IT,Medium,macOS
+AST067,FIN-MOB-002,Mobile Device,Carlos,Finance,Low,iOS
+AST068,ENG-NET-001,Network Device,Emma,Engineering,Critical,N/A
+AST069,IT-CLD-001,Cloud Instance,Alex,IT,High,Linux
+AST070,SUP-MOB-004,Mobile Device,Elena,Support,Low,Android
+AST071,SUP-SRV-002,Server,Alex,Support,Critical,Windows Server 2022
+AST072,OPS-SRV-001,Server,John,Operations,Critical,Linux
+AST073,FIN-SRV-003,Server,Fatima,Finance,Critical,Linux
+AST074,SALES-MOB-002,Mobile Device,John,Sales,Low,Android
+AST075,MKT-WKS-002,Workstation,Tariq,Marketing,Medium,Windows 10
+AST076,LEG-WKS-003,Workstation,Alex,Legal,Medium,Windows 11
+AST077,HR-IOT-002,IoT Device,Carlos,HR,Low,Embedded Linux
+AST078,OPS-LAP-002,Laptop,Alex,Operations,Medium,macOS
+AST079,OPS-WKS-003,Workstation,Carlos,Operations,Medium,Windows 10
+AST080,IT-SRV-002,Server,Emma,IT,Critical,Linux
+AST081,IT-LAP-002,Laptop,Ramesh,IT,Medium,macOS
+AST082,OPS-WKS-004,Workstation,Ramesh,Operations,Medium,Windows 11
+AST083,OPS-WKS-005,Workstation,Victor,Operations,Medium,Windows 10
+AST084,HR-MOB-002,Mobile Device,Grace,HR,Low,iOS
+AST085,HR-NET-002,Network Device,Carlos,HR,Critical,N/A
+AST086,LEG-SRV-002,Server,Victor,Legal,Critical,Linux
+AST087,SUP-LAP-003,Laptop,Ivan,Support,Medium,Windows 11
+AST088,SALES-NET-002,Network Device,Grace,Sales,Critical,N/A
+AST089,SALES-MOB-003,Mobile Device,Fatima,Sales,Low,Android
+AST090,FIN-LAP-004,Laptop,Priya,Finance,Medium,Windows 11
+AST091,SALES-LAP-002,Laptop,Nina,Sales,Medium,Windows 10
+AST092,FIN-IOT-001,IoT Device,Lucy,Finance,Low,N/A
+AST093,IT-WKS-005,Workstation,Carlos,IT,Medium,Windows 10
+AST094,SALES-NET-003,Network Device,Wei,Sales,Critical,N/A
+AST095,SUP-WKS-003,Workstation,Emma,Support,Medium,Windows 10
+AST096,ENG-CLD-002,Cloud Instance,Omar,Engineering,High,Linux
+AST097,ENG-WKS-003,Workstation,Priya,Engineering,Medium,Windows 11
+AST098,LEG-WKS-004,Workstation,Carlos,Legal,Medium,Windows 11
+AST099,HR-LAP-001,Laptop,Elena,HR,Medium,macOS
+AST100,MKT-LAP-002,Laptop,Ramesh,Marketing,Medium,Windows 10
+AST101,SALES-CLD-001,Cloud Instance,Priya,Sales,High,Linux
+AST102,MKT-WKS-003,Workstation,Victor,Marketing,Medium,Windows 10
+AST103,IT-MOB-001,Mobile Device,Wei,IT,Low,iOS
+AST104,IT-SRV-003,Server,Omar,IT,Critical,Windows Server 2022
+AST105,FIN-WKS-002,Workstation,Fatima,Finance,Medium,Windows 10
+AST106,FIN-WKS-003,Workstation,Priya,Finance,Medium,Windows 10
+AST107,MKT-WKS-004,Workstation,Priya,Marketing,Medium,Windows 10
+AST108,MKT-MOB-001,Mobile Device,John,Marketing,Low,iOS
+AST109,LEG-CLD-003,Cloud Instance,Victor,Legal,High,Linux
+AST110,IT-WKS-006,Workstation,Ramesh,IT,Medium,Windows 10
+AST111,IT-WKS-007,Workstation,David,IT,Medium,Windows 10
+AST112,MKT-SRV-001,Server,Nina,Marketing,Critical,Linux
+AST113,SUP-LAP-004,Laptop,Victor,Support,Medium,Windows 10
+AST114,LEG-MOB-002,Mobile Device,Sarah,Legal,Low,iOS
+AST115,HR-WKS-003,Workstation,Ivan,HR,Medium,Windows 10
+AST116,SUP-WKS-004,Workstation,Ramesh,Support,Medium,Windows 11
+AST117,ENG-SRV-001,Server,Ivan,Engineering,Critical,Windows Server 2022
+AST118,MKT-NET-001,Network Device,Omar,Marketing,Critical,N/A
+AST119,SALES-MOB-004,Mobile Device,Wei,Sales,Low,Android
+AST120,LEG-CLD-004,Cloud Instance,John,Legal,High,Linux
+AST121,FIN-SRV-004,Server,Fatima,Finance,Critical,Windows Server 2022
+AST122,IT-WKS-008,Workstation,Ivan,IT,Medium,Windows 11
+AST123,MKT-SRV-002,Server,Sarah,Marketing,Critical,Windows Server 2022
+AST124,SUP-WKS-005,Workstation,Carlos,Support,Medium,Windows 11
+AST125,HR-WKS-004,Workstation,Grace,HR,Medium,Windows 11
+AST126,LEG-WKS-005,Workstation,David,Legal,Medium,Windows 11
+AST127,LEG-WKS-006,Workstation,Wei,Legal,Medium,Windows 11
+AST128,FIN-LAP-005,Laptop,David,Finance,Medium,macOS
+AST129,SALES-LAP-003,Laptop,Priya,Sales,Medium,Windows 10
+AST130,MKT-MOB-002,Mobile Device,Wei,Marketing,Low,Android
+AST131,HR-LAP-002,Laptop,Nina,HR,Medium,Windows 11
+AST132,SALES-WKS-004,Workstation,Elena,Sales,Medium,Windows 10
+AST133,ENG-MOB-003,Mobile Device,Alex,Engineering,Low,iOS
+AST134,MKT-NET-002,Network Device,Sarah,Marketing,Critical,N/A
+AST135,OPS-SRV-002,Server,Ivan,Operations,Critical,Linux
+AST136,OPS-SRV-003,Server,Tariq,Operations,Critical,Linux
+AST137,SALES-WKS-005,Workstation,Alex,Sales,Medium,Windows 10
+AST138,LEG-CLD-005,Cloud Instance,Carlos,Legal,High,Linux
+AST139,OPS-WKS-006,Workstation,Grace,Operations,Medium,Windows 10
+AST140,SALES-LAP-004,Laptop,Carlos,Sales,Medium,Windows 10
+AST141,FIN-NET-001,Network Device,Ivan,Finance,Critical,N/A
+AST142,FIN-NET-002,Network Device,Victor,Finance,Critical,N/A
+AST143,FIN-MOB-003,Mobile Device,David,Finance,Low,Android
+AST144,SALES-NET-004,Network Device,Mei,Sales,Critical,N/A
+AST145,ENG-WKS-004,Workstation,Sarah,Engineering,Medium,Windows 11
+AST146,SALES-WKS-006,Workstation,Omar,Sales,Medium,Windows 10
+AST147,MKT-SRV-003,Server,Elena,Marketing,Critical,Windows Server 2022
+AST148,IT-WKS-009,Workstation,Mei,IT,Medium,Windows 10
+AST149,MKT-CLD-001,Cloud Instance,David,Marketing,High,Linux
+AST150,SUP-WKS-006,Workstation,Carlos,Support,Medium,Windows 11
+AST151,SUP-LAP-005,Laptop,Grace,Support,Medium,Windows 10
+AST152,SALES-LAP-005,Laptop,Mei,Sales,Medium,Windows 10
+AST153,HR-WKS-005,Workstation,Ivan,HR,Medium,Windows 10
+AST154,SUP-CLD-001,Cloud Instance,David,Support,High,Linux
+AST155,SALES-WKS-007,Workstation,Alex,Sales,Medium,Windows 10
+AST156,OPS-WKS-007,Workstation,Alex,Operations,Medium,Windows 11
+AST157,OPS-WKS-008,Workstation,Lucy,Operations,Medium,Windows 10
+AST158,SALES-LAP-006,Laptop,Wei,Sales,Medium,Windows 11
+AST159,HR-WKS-006,Workstation,Carlos,HR,Medium,Windows 11
+AST160,ENG-LAP-001,Laptop,Fatima,Engineering,Medium,Windows 10
+AST161,LEG-LAP-003,Laptop,Omar,Legal,Medium,Windows 10
+AST162,HR-LAP-003,Laptop,Wei,HR,Medium,Windows 11
+AST163,FIN-IOT-002,IoT Device,John,Finance,Low,N/A
+AST164,MKT-WKS-005,Workstation,Wei,Marketing,Medium,Windows 10
+AST165,ENG-CLD-003,Cloud Instance,Lucy,Engineering,High,Linux
+AST166,ENG-NET-002,Network Device,Victor,Engineering,Critical,N/A
+AST167,FIN-WKS-004,Workstation,Alex,Finance,Medium,Windows 11
+AST168,SALES-CLD-002,Cloud Instance,Ivan,Sales,High,Linux
+AST169,LEG-WKS-007,Workstation,Fatima,Legal,Medium,Windows 11
+AST170,HR-MOB-003,Mobile Device,Grace,HR,Low,iOS
+AST171,OPS-WKS-009,Workstation,Sarah,Operations,Medium,Windows 10
+AST172,ENG-LAP-002,Laptop,Nina,Engineering,Medium,Windows 10
+AST173,SUP-WKS-007,Workstation,Emma,Support,Medium,Windows 10
+AST174,SUP-LAP-006,Laptop,Nina,Support,Medium,Windows 11
+AST175,MKT-NET-003,Network Device,Wei,Marketing,Critical,N/A
+AST176,SALES-LAP-007,Laptop,Wei,Sales,Medium,macOS
+AST177,FIN-WKS-005,Workstation,Priya,Finance,Medium,Windows 10
+AST178,SALES-LAP-008,Laptop,Grace,Sales,Medium,Windows 11
+AST179,SALES-LAP-009,Laptop,Carlos,Sales,Medium,Windows 11
+AST180,ENG-WKS-005,Workstation,Sofia,Engineering,Medium,Windows 10
+AST181,FIN-WKS-006,Workstation,Omar,Finance,Medium,Windows 10
+AST182,SALES-LAP-010,Laptop,David,Sales,Medium,macOS
+AST183,HR-NET-003,Network Device,Wei,HR,Critical,N/A
+AST184,ENG-NET-003,Network Device,Wei,Engineering,Critical,N/A
+AST185,MKT-LAP-003,Laptop,Mei,Marketing,Medium,Windows 10
+AST186,MKT-SRV-004,Server,Alex,Marketing,Critical,Windows Server 2022
+AST187,OPS-SRV-004,Server,Priya,Operations,Critical,Linux
+AST188,MKT-IOT-001,IoT Device,Wei,Marketing,Low,Embedded Linux
+AST189,SUP-LAP-007,Laptop,John,Support,Medium,Windows 11
+AST190,IT-WKS-010,Workstation,Tariq,IT,Medium,Windows 11
+AST191,SUP-WKS-008,Workstation,Ivan,Support,Medium,Windows 11
+AST192,SUP-CLD-002,Cloud Instance,Ramesh,Support,High,Linux
+AST193,SALES-WKS-008,Workstation,Carlos,Sales,Medium,Windows 10
+AST194,FIN-SRV-005,Server,John,Finance,Critical,Linux
+AST195,IT-WKS-011,Workstation,Nina,IT,Medium,Windows 10
+AST196,IT-SRV-004,Server,Ramesh,IT,Critical,Windows Server 2022
+AST197,FIN-WKS-007,Workstation,Wei,Finance,Medium,Windows 10
+AST198,MKT-WKS-006,Workstation,John,Marketing,Medium,Windows 10
+AST199,OPS-LAP-003,Laptop,Victor,Operations,Medium,Windows 11
+AST200,LEG-SRV-003,Server,Mei,Legal,Critical,Linux
+AST201,OPS-WKS-010,Workstation,John,Operations,Medium,Windows 10
+AST202,ENG-NET-004,Network Device,Sarah,Engineering,Critical,N/A
+AST203,HR-WKS-007,Workstation,Priya,HR,Medium,Windows 11
+AST204,MKT-WKS-007,Workstation,Lucy,Marketing,Medium,Windows 11
+AST205,SALES-LAP-011,Laptop,Omar,Sales,Medium,macOS
+AST206,ENG-LAP-003,Laptop,David,Engineering,Medium,Windows 11
+AST207,HR-MOB-004,Mobile Device,David,HR,Low,Android
+AST208,SUP-CLD-003,Cloud Instance,David,Support,High,Linux
+AST209,SALES-LAP-012,Laptop,Nina,Sales,Medium,Windows 11
+AST210,FIN-CLD-003,Cloud Instance,Elena,Finance,High,Linux
+AST211,IT-IOT-001,IoT Device,Fatima,IT,Low,Embedded Linux
+AST212,HR-CLD-003,Cloud Instance,Wei,HR,High,Linux
+AST213,HR-WKS-008,Workstation,Fatima,HR,Medium,Windows 10
+AST214,HR-NET-004,Network Device,Wei,HR,Critical,N/A
+AST215,SUP-IOT-001,IoT Device,Ramesh,Support,Low,Embedded Linux
+AST216,FIN-IOT-003,IoT Device,David,Finance,Low,Embedded Linux
+AST217,IT-SRV-005,Server,Sarah,IT,Critical,Windows Server 2022
+AST218,MKT-SRV-005,Server,Lucy,Marketing,Critical,Windows Server 2022
+AST219,LEG-LAP-004,Laptop,John,Legal,Medium,Windows 10
+AST220,FIN-WKS-008,Workstation,Fatima,Finance,Medium,Windows 11
+AST221,FIN-SRV-006,Server,Wei,Finance,Critical,Linux
+AST222,LEG-MOB-003,Mobile Device,Fatima,Legal,Low,iOS
+AST223,FIN-WKS-009,Workstation,David,Finance,Medium,Windows 11
+AST224,LEG-SRV-004,Server,David,Legal,Critical,Windows Server 2022
+AST225,LEG-LAP-005,Laptop,John,Legal,Medium,Windows 11
+AST226,ENG-WKS-006,Workstation,Sarah,Engineering,Medium,Windows 11
+AST227,ENG-WKS-007,Workstation,Sarah,Engineering,Medium,Windows 10
+AST228,MKT-WKS-008,Workstation,Elena,Marketing,Medium,Windows 10
+AST229,LEG-LAP-006,Laptop,Elena,Legal,Medium,Windows 11
+AST230,HR-WKS-009,Workstation,Victor,HR,Medium,Windows 11
+AST231,MKT-WKS-009,Workstation,John,Marketing,Medium,Windows 10
+AST232,SALES-WKS-009,Workstation,Wei,Sales,Medium,Windows 11
+AST233,MKT-IOT-002,IoT Device,Alex,Marketing,Low,Embedded Linux
+AST234,SUP-WKS-009,Workstation,Alex,Support,Medium,Windows 11
+AST235,SALES-LAP-013,Laptop,Carlos,Sales,Medium,Windows 11
+AST236,LEG-MOB-004,Mobile Device,Ivan,Legal,Low,Android
+AST237,SALES-LAP-014,Laptop,Sofia,Sales,Medium,Windows 10
+AST238,ENG-WKS-008,Workstation,Mei,Engineering,Medium,Windows 10
+AST239,OPS-SRV-005,Server,Fatima,Operations,Critical,Linux
+AST240,FIN-CLD-004,Cloud Instance,Elena,Finance,High,Linux
+AST241,FIN-WKS-010,Workstation,Mei,Finance,Medium,Windows 11
+AST242,SUP-WKS-010,Workstation,Fatima,Support,Medium,Windows 10
+AST243,SUP-SRV-003,Server,Grace,Support,Critical,Linux
+AST244,FIN-MOB-004,Mobile Device,Nina,Finance,Low,iOS
+AST245,MKT-SRV-006,Server,Victor,Marketing,Critical,Windows Server 2022
+AST246,MKT-WKS-010,Workstation,Emma,Marketing,Medium,Windows 10
+AST247,SALES-WKS-010,Workstation,Tariq,Sales,Medium,Windows 11
+AST248,SALES-LAP-015,Laptop,Victor,Sales,Medium,Windows 11
+AST249,SALES-LAP-016,Laptop,Ramesh,Sales,Medium,Windows 10
+AST250,SUP-CLD-004,Cloud Instance,John,Support,High,Linux
+AST251,SUP-IOT-002,IoT Device,Carlos,Support,Low,N/A
+AST252,LEG-WKS-008,Workstation,Sofia,Legal,Medium,Windows 11
+AST253,FIN-WKS-011,Workstation,Priya,Finance,Medium,Windows 10
+AST254,LEG-LAP-007,Laptop,Carlos,Legal,Medium,Windows 10
+AST255,MKT-MOB-003,Mobile Device,Ramesh,Marketing,Low,Android
+AST256,LEG-WKS-009,Workstation,Omar,Legal,Medium,Windows 11
+AST257,IT-WKS-012,Workstation,Sarah,IT,Medium,Windows 11
+AST258,SALES-MOB-005,Mobile Device,Fatima,Sales,Low,iOS
+AST259,LEG-WKS-010,Workstation,Priya,Legal,Medium,Windows 11
+AST260,SALES-WKS-011,Workstation,Grace,Sales,Medium,Windows 11
+AST261,SUP-WKS-011,Workstation,Wei,Support,Medium,Windows 10
+AST262,OPS-WKS-011,Workstation,Emma,Operations,Medium,Windows 10
+AST263,ENG-NET-005,Network Device,Nina,Engineering,Critical,N/A
+AST264,MKT-LAP-004,Laptop,Nina,Marketing,Medium,Windows 10
+AST265,LEG-LAP-008,Laptop,Lucy,Legal,Medium,Windows 10
+AST266,SALES-LAP-017,Laptop,David,Sales,Medium,Windows 11
+AST267,HR-LAP-004,Laptop,Fatima,HR,Medium,Windows 10
+AST268,FIN-MOB-005,Mobile Device,Tariq,Finance,Low,iOS
+AST269,LEG-LAP-009,Laptop,Alex,Legal,Medium,Windows 10
+AST270,HR-WKS-010,Workstation,Wei,HR,Medium,Windows 10
+AST271,FIN-SRV-007,Server,Ivan,Finance,Critical,Windows Server 2022
+AST272,IT-WKS-013,Workstation,Emma,IT,Medium,Windows 11
+AST273,OPS-WKS-012,Workstation,Ramesh,Operations,Medium,Windows 10
+AST274,ENG-LAP-004,Laptop,Nina,Engineering,Medium,Windows 10
+AST275,IT-MOB-002,Mobile Device,Mei,IT,Low,Android
+AST276,LEG-WKS-011,Workstation,Priya,Legal,Medium,Windows 11
+AST277,IT-SRV-006,Server,Elena,IT,Critical,Linux
+AST278,ENG-SRV-002,Server,Mei,Engineering,Critical,Linux
+AST279,IT-SRV-007,Server,Wei,IT,Critical,Linux
+AST280,OPS-WKS-013,Workstation,Ramesh,Operations,Medium,Windows 11
+AST281,IT-WKS-014,Workstation,Sarah,IT,Medium,Windows 10
+AST282,OPS-MOB-002,Mobile Device,Omar,Operations,Low,Android
+AST283,FIN-LAP-006,Laptop,Grace,Finance,Medium,Windows 11
+AST284,MKT-SRV-007,Server,Tariq,Marketing,Critical,Windows Server 2022
+AST285,SALES-LAP-018,Laptop,Lucy,Sales,Medium,macOS
+AST286,SUP-LAP-008,Laptop,John,Support,Medium,Windows 10
+AST287,HR-SRV-003,Server,Carlos,HR,Critical,Windows Server 2022
+AST288,SALES-LAP-019,Laptop,Carlos,Sales,Medium,macOS
+AST289,IT-MOB-003,Mobile Device,Ramesh,IT,Low,iOS
+AST290,FIN-WKS-012,Workstation,Lucy,Finance,Medium,Windows 11
+AST291,FIN-MOB-006,Mobile Device,Sarah,Finance,Low,Android
+AST292,IT-WKS-015,Workstation,Ivan,IT,Medium,Windows 11
+AST293,FIN-WKS-013,Workstation,Alex,Finance,Medium,Windows 11
+AST294,HR-MOB-005,Mobile Device,David,HR,Low,Android
+AST295,IT-CLD-002,Cloud Instance,Nina,IT,High,Linux
+AST296,IT-NET-002,Network Device,Priya,IT,Critical,N/A
+AST297,LEG-SRV-005,Server,Emma,Legal,Critical,Windows Server 2022
+AST298,LEG-IOT-001,IoT Device,Carlos,Legal,Low,Embedded Linux
+AST299,IT-WKS-016,Workstation,David,IT,Medium,Windows 11
+AST300,MKT-SRV-008,Server,Omar,Marketing,Critical,Linux
+AST301,LEG-WKS-012,Workstation,Wei,Legal,Medium,Windows 10
+AST302,IT-SRV-008,Server,Omar,IT,Critical,Windows Server 2022
+AST303,ENG-WKS-009,Workstation,Ramesh,Engineering,Medium,Windows 11
+AST304,OPS-WKS-014,Workstation,Carlos,Operations,Medium,Windows 11
+AST305,OPS-SRV-006,Server,Victor,Operations,Critical,Linux
+AST306,OPS-SRV-007,Server,Lucy,Operations,Critical,Windows Server 2022
+AST307,MKT-LAP-005,Laptop,Tariq,Marketing,Medium,Windows 11
+AST308,IT-LAP-003,Laptop,Carlos,IT,Medium,Windows 10
+AST309,SALES-WKS-012,Workstation,Nina,Sales,Medium,Windows 10
+AST310,OPS-WKS-015,Workstation,John,Operations,Medium,Windows 11
+AST311,HR-WKS-011,Workstation,Elena,HR,Medium,Windows 11
+AST312,ENG-LAP-005,Laptop,Sarah,Engineering,Medium,Windows 11
+AST313,IT-LAP-004,Laptop,Sarah,IT,Medium,macOS
+AST314,HR-WKS-012,Workstation,Nina,HR,Medium,Windows 11
+AST315,FIN-SRV-008,Server,Fatima,Finance,Critical,Linux
+AST316,MKT-SRV-009,Server,Lucy,Marketing,Critical,Linux
+AST317,SUP-WKS-012,Workstation,Sofia,Support,Medium,Windows 10
+AST318,IT-LAP-005,Laptop,Alex,IT,Medium,Windows 10
+AST319,MKT-LAP-006,Laptop,John,Marketing,Medium,Windows 11
+AST320,HR-SRV-004,Server,Elena,HR,Critical,Windows Server 2022
+AST321,SUP-SRV-004,Server,Sofia,Support,Critical,Windows Server 2022
+AST322,IT-IOT-002,IoT Device,Sarah,IT,Low,N/A
+AST323,OPS-WKS-016,Workstation,Sofia,Operations,Medium,Windows 10
+AST324,IT-WKS-017,Workstation,John,IT,Medium,Windows 10
+AST325,OPS-SRV-008,Server,Alex,Operations,Critical,Linux
+AST326,ENG-WKS-010,Workstation,Elena,Engineering,Medium,Windows 11
+AST327,IT-LAP-006,Laptop,Nina,IT,Medium,Windows 10
+AST328,HR-CLD-004,Cloud Instance,Grace,HR,High,Linux
+AST329,HR-LAP-005,Laptop,Carlos,HR,Medium,Windows 11
+AST330,FIN-NET-003,Network Device,Emma,Finance,Critical,N/A
+AST331,SALES-CLD-003,Cloud Instance,Sofia,Sales,High,Linux
+AST332,HR-WKS-013,Workstation,Sarah,HR,Medium,Windows 11
+AST333,MKT-SRV-010,Server,Ivan,Marketing,Critical,Windows Server 2022
+AST334,MKT-WKS-011,Workstation,Priya,Marketing,Medium,Windows 10
+AST335,OPS-WKS-017,Workstation,Sofia,Operations,Medium,Windows 11
+AST336,SALES-CLD-004,Cloud Instance,David,Sales,High,Linux
+AST337,ENG-LAP-006,Laptop,Wei,Engineering,Medium,Windows 10
+AST338,OPS-LAP-004,Laptop,John,Operations,Medium,macOS
+AST339,HR-LAP-006,Laptop,Sofia,HR,Medium,macOS
+AST340,MKT-MOB-004,Mobile Device,Elena,Marketing,Low,iOS
+AST341,FIN-SRV-009,Server,Alex,Finance,Critical,Linux
+AST342,HR-WKS-014,Workstation,Elena,HR,Medium,Windows 10
+AST343,IT-LAP-007,Laptop,John,IT,Medium,Windows 10
+AST344,HR-WKS-015,Workstation,Priya,HR,Medium,Windows 10
+AST345,HR-WKS-016,Workstation,David,HR,Medium,Windows 11
+AST346,OPS-IOT-002,IoT Device,Wei,Operations,Low,N/A
+AST347,FIN-WKS-014,Workstation,Ramesh,Finance,Medium,Windows 10
+AST348,HR-WKS-017,Workstation,Nina,HR,Medium,Windows 10
+AST349,SUP-WKS-013,Workstation,David,Support,Medium,Windows 10
+AST350,MKT-LAP-007,Laptop,Victor,Marketing,Medium,Windows 11
+AST351,HR-LAP-007,Laptop,Sarah,HR,Medium,Windows 11
+AST352,LEG-IOT-002,IoT Device,Nina,Legal,Low,Embedded Linux
+AST353,HR-MOB-006,Mobile Device,Fatima,HR,Low,Android
+AST354,OPS-MOB-003,Mobile Device,Mei,Operations,Low,iOS
+AST355,HR-SRV-005,Server,Priya,HR,Critical,Linux
+AST356,MKT-WKS-012,Workstation,Ivan,Marketing,Medium,Windows 10
+AST357,SALES-WKS-013,Workstation,John,Sales,Medium,Windows 10
+AST358,LEG-LAP-010,Laptop,Emma,Legal,Medium,Windows 11
+AST359,SUP-SRV-005,Server,Tariq,Support,Critical,Windows Server 2022
+AST360,IT-WKS-018,Workstation,Sofia,IT,Medium,Windows 10
+AST361,SUP-WKS-014,Workstation,Mei,Support,Medium,Windows 10
+AST362,OPS-MOB-004,Mobile Device,Lucy,Operations,Low,iOS
+AST363,FIN-LAP-007,Laptop,Priya,Finance,Medium,Windows 11
+AST364,ENG-IOT-001,IoT Device,Lucy,Engineering,Low,N/A
+AST365,SALES-LAP-020,Laptop,Grace,Sales,Medium,Windows 11
+AST366,OPS-WKS-018,Workstation,Carlos,Operations,Medium,Windows 10
+AST367,IT-SRV-009,Server,Lucy,IT,Critical,Linux
+AST368,LEG-SRV-006,Server,Grace,Legal,Critical,Windows Server 2022
+AST369,LEG-WKS-013,Workstation,Victor,Legal,Medium,Windows 11
+AST370,SALES-WKS-014,Workstation,Sofia,Sales,Medium,Windows 11
+AST371,OPS-WKS-019,Workstation,Elena,Operations,Medium,Windows 11
+AST372,IT-NET-003,Network Device,Omar,IT,Critical,N/A
+AST373,OPS-LAP-005,Laptop,Omar,Operations,Medium,Windows 10
+AST374,SALES-WKS-015,Workstation,Emma,Sales,Medium,Windows 10
+AST375,FIN-WKS-015,Workstation,Alex,Finance,Medium,Windows 10
+AST376,MKT-NET-004,Network Device,Victor,Marketing,Critical,N/A
+AST377,SALES-WKS-016,Workstation,Victor,Sales,Medium,Windows 10
+AST378,SALES-IOT-001,IoT Device,Sarah,Sales,Low,Embedded Linux
+AST379,HR-LAP-008,Laptop,Sofia,HR,Medium,Windows 11
+AST380,OPS-CLD-002,Cloud Instance,Carlos,Operations,High,Linux
+AST381,HR-WKS-018,Workstation,John,HR,Medium,Windows 11
+AST382,SALES-IOT-002,IoT Device,Tariq,Sales,Low,Embedded Linux
+AST383,ENG-MOB-004,Mobile Device,Emma,Engineering,Low,Android
+AST384,FIN-LAP-008,Laptop,Victor,Finance,Medium,Windows 11
+AST385,FIN-IOT-004,IoT Device,Wei,Finance,Low,N/A
+AST386,IT-WKS-019,Workstation,Mei,IT,Medium,Windows 11
+AST387,SUP-WKS-015,Workstation,Ivan,Support,Medium,Windows 11
+AST388,IT-IOT-003,IoT Device,John,IT,Low,Embedded Linux
+AST389,ENG-MOB-005,Mobile Device,Sarah,Engineering,Low,Android
+AST390,MKT-SRV-011,Server,David,Marketing,Critical,Linux
+AST391,OPS-LAP-006,Laptop,Carlos,Operations,Medium,macOS
+AST392,OPS-WKS-020,Workstation,Ivan,Operations,Medium,Windows 11
+AST393,HR-SRV-006,Server,Ivan,HR,Critical,Windows Server 2022
+AST394,LEG-LAP-011,Laptop,David,Legal,Medium,Windows 11
+AST395,IT-LAP-008,Laptop,Elena,IT,Medium,Windows 10
+AST396,LEG-SRV-007,Server,Victor,Legal,Critical,Windows Server 2022
+AST397,ENG-LAP-007,Laptop,Priya,Engineering,Medium,Windows 10
+AST398,ENG-IOT-002,IoT Device,Tariq,Engineering,Low,Embedded Linux
+AST399,MKT-WKS-013,Workstation,Wei,Marketing,Medium,Windows 11
+AST400,OPS-CLD-003,Cloud Instance,Carlos,Operations,High,Linux
+AST401,SALES-WKS-017,Workstation,David,Sales,Medium,Windows 10
+AST402,SUP-SRV-006,Server,Alex,Support,Critical,Linux
+AST403,LEG-SRV-008,Server,Carlos,Legal,Critical,Windows Server 2022
+AST404,MKT-NET-005,Network Device,Mei,Marketing,Critical,N/A
+AST405,LEG-MOB-005,Mobile Device,Victor,Legal,Low,Android
+AST406,ENG-NET-006,Network Device,Emma,Engineering,Critical,N/A
+AST407,SUP-WKS-016,Workstation,Lucy,Support,Medium,Windows 11
+AST408,SALES-SRV-002,Server,Mei,Sales,Critical,Windows Server 2022
+AST409,SUP-LAP-009,Laptop,Priya,Support,Medium,macOS
+AST410,LEG-WKS-014,Workstation,Wei,Legal,Medium,Windows 11
+AST411,HR-WKS-019,Workstation,Alex,HR,Medium,Windows 11
+AST412,OPS-MOB-005,Mobile Device,John,Operations,Low,Android
+AST413,SALES-CLD-005,Cloud Instance,Victor,Sales,High,Linux
+AST414,FIN-SRV-010,Server,Emma,Finance,Critical,Linux
+AST415,SUP-LAP-010,Laptop,David,Support,Medium,Windows 10
+AST416,ENG-MOB-006,Mobile Device,Elena,Engineering,Low,Android
+AST417,FIN-SRV-011,Server,David,Finance,Critical,Windows Server 2022
+AST418,SUP-NET-001,Network Device,Carlos,Support,Critical,N/A
+AST419,FIN-SRV-012,Server,Fatima,Finance,Critical,Windows Server 2022
+AST420,SALES-MOB-006,Mobile Device,Mei,Sales,Low,iOS
+AST421,OPS-WKS-021,Workstation,Alex,Operations,Medium,Windows 11
+AST422,SUP-WKS-017,Workstation,Grace,Support,Medium,Windows 10
+AST423,HR-WKS-020,Workstation,Carlos,HR,Medium,Windows 11
+AST424,SUP-SRV-007,Server,Lucy,Support,Critical,Windows Server 2022
+AST425,ENG-LAP-008,Laptop,Priya,Engineering,Medium,macOS
+AST426,IT-SRV-010,Server,John,IT,Critical,Linux
+AST427,HR-NET-005,Network Device,Ramesh,HR,Critical,N/A
+AST428,OPS-LAP-007,Laptop,Sarah,Operations,Medium,Windows 10
+AST429,SALES-NET-005,Network Device,Omar,Sales,Critical,N/A
+AST430,FIN-MOB-007,Mobile Device,Omar,Finance,Low,iOS
+AST431,SUP-MOB-005,Mobile Device,Nina,Support,Low,Android
+AST432,ENG-LAP-009,Laptop,Grace,Engineering,Medium,Windows 11
+AST433,HR-MOB-007,Mobile Device,Lucy,HR,Low,iOS
+AST434,SUP-LAP-011,Laptop,Victor,Support,Medium,macOS
+AST435,OPS-LAP-008,Laptop,Mei,Operations,Medium,Windows 10
+AST436,FIN-LAP-009,Laptop,Nina,Finance,Medium,Windows 11
+AST437,IT-SRV-011,Server,Sarah,IT,Critical,Linux
+AST438,ENG-NET-007,Network Device,Grace,Engineering,Critical,N/A
+AST439,HR-LAP-009,Laptop,John,HR,Medium,Windows 10
+AST440,HR-WKS-021,Workstation,Elena,HR,Medium,Windows 11
+AST441,HR-MOB-008,Mobile Device,Elena,HR,Low,iOS
+AST442,IT-SRV-012,Server,David,IT,Critical,Linux
+AST443,HR-SRV-007,Server,Emma,HR,Critical,Windows Server 2022
+AST444,FIN-SRV-013,Server,Fatima,Finance,Critical,Linux
+AST445,FIN-IOT-005,IoT Device,Lucy,Finance,Low,N/A
+AST446,IT-MOB-004,Mobile Device,Nina,IT,Low,iOS
+AST447,IT-LAP-009,Laptop,John,IT,Medium,Windows 11
+AST448,ENG-SRV-003,Server,Mei,Engineering,Critical,Linux
+AST449,OPS-WKS-022,Workstation,Fatima,Operations,Medium,Windows 10
+AST450,ENG-LAP-010,Laptop,Wei,Engineering,Medium,Windows 10
+AST451,IT-LAP-010,Laptop,Grace,IT,Medium,Windows 11
+AST452,FIN-WKS-016,Workstation,David,Finance,Medium,Windows 11
+AST453,IT-SRV-013,Server,John,IT,Critical,Windows Server 2022
+AST454,HR-NET-006,Network Device,Priya,HR,Critical,N/A
+AST455,SALES-MOB-007,Mobile Device,Mei,Sales,Low,Android
+AST456,HR-WKS-022,Workstation,Carlos,HR,Medium,Windows 10
+AST457,IT-IOT-004,IoT Device,Alex,IT,Low,Embedded Linux
+AST458,FIN-WKS-017,Workstation,Carlos,Finance,Medium,Windows 11
+AST459,MKT-IOT-003,IoT Device,Sarah,Marketing,Low,N/A
+AST460,HR-WKS-023,Workstation,Wei,HR,Medium,Windows 10
+AST461,MKT-LAP-008,Laptop,Emma,Marketing,Medium,macOS
+AST462,SUP-SRV-008,Server,Lucy,Support,Critical,Windows Server 2022
+AST463,SUP-LAP-012,Laptop,Alex,Support,Medium,Windows 10
+AST464,FIN-LAP-010,Laptop,Emma,Finance,Medium,macOS
+AST465,ENG-LAP-011,Laptop,Victor,Engineering,Medium,Windows 11
+AST466,LEG-WKS-015,Workstation,Elena,Legal,Medium,Windows 10
+AST467,LEG-MOB-006,Mobile Device,Alex,Legal,Low,Android
+AST468,MKT-SRV-012,Server,Wei,Marketing,Critical,Linux
+AST469,ENG-NET-008,Network Device,Carlos,Engineering,Critical,N/A
+AST470,MKT-NET-006,Network Device,Victor,Marketing,Critical,N/A
+AST471,MKT-LAP-009,Laptop,Sarah,Marketing,Medium,macOS
+AST472,MKT-MOB-005,Mobile Device,Victor,Marketing,Low,Android
+AST473,OPS-NET-001,Network Device,Lucy,Operations,Critical,N/A
+AST474,OPS-WKS-023,Workstation,Wei,Operations,Medium,Windows 11
+AST475,SALES-MOB-008,Mobile Device,Nina,Sales,Low,Android
+AST476,HR-SRV-008,Server,David,HR,Critical,Windows Server 2022
+AST477,MKT-SRV-013,Server,Wei,Marketing,Critical,Linux
+AST478,SUP-SRV-009,Server,Priya,Support,Critical,Windows Server 2022
+AST479,SALES-LAP-021,Laptop,Victor,Sales,Medium,macOS
+AST480,OPS-LAP-009,Laptop,Tariq,Operations,Medium,macOS
+AST481,SALES-WKS-018,Workstation,Priya,Sales,Medium,Windows 10
+AST482,IT-MOB-005,Mobile Device,Lucy,IT,Low,iOS
+AST483,LEG-LAP-012,Laptop,Alex,Legal,Medium,macOS
+AST484,SALES-WKS-019,Workstation,Lucy,Sales,Medium,Windows 11
+AST485,FIN-LAP-011,Laptop,Priya,Finance,Medium,Windows 11
+AST486,IT-LAP-011,Laptop,Lucy,IT,Medium,Windows 10
+AST487,MKT-LAP-010,Laptop,Ramesh,Marketing,Medium,Windows 10
+AST488,HR-WKS-024,Workstation,Tariq,HR,Medium,Windows 11
+AST489,SALES-WKS-020,Workstation,Fatima,Sales,Medium,Windows 11
+AST490,FIN-CLD-005,Cloud Instance,Victor,Finance,High,Linux
+AST491,HR-LAP-010,Laptop,Wei,HR,Medium,Windows 10
+AST492,FIN-WKS-018,Workstation,Grace,Finance,Medium,Windows 10
+AST493,LEG-MOB-007,Mobile Device,Mei,Legal,Low,iOS
+AST494,FIN-MOB-008,Mobile Device,Ramesh,Finance,Low,iOS
+AST495,FIN-WKS-019,Workstation,Priya,Finance,Medium,Windows 10
+AST496,OPS-LAP-010,Laptop,Emma,Operations,Medium,Windows 11
+AST497,LEG-CLD-006,Cloud Instance,Emma,Legal,High,Linux
+AST498,HR-CLD-005,Cloud Instance,Sarah,HR,High,Linux
+AST499,OPS-IOT-003,IoT Device,Victor,Operations,Low,N/A
+AST500,OPS-NET-002,Network Device,Sarah,Operations,Critical,N/A

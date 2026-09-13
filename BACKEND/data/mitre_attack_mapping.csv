@@ -1,0 +1,11 @@
+event_type,mitre_id,technique_name,tactic
+Brute Force,T1110,Brute Force,Credential Access
+Failed Login,T1078,Valid Accounts,Defense Evasion
+File Access,T1083,File and Directory Discovery,Discovery
+Login Success,T1078,Valid Accounts,Defense Evasion
+Malware Detection,T1059,Command and Scripting Interpreter,Execution
+Phishing Email,T1566,Phishing,Initial Access
+Port Scan,T1046,Network Service Discovery,Discovery
+Privilege Escalation,T1068,Exploitation for Privilege Escalation,Privilege Escalation
+SQL Injection Attempt,T1190,Exploit Public-Facing Application,Initial Access
+USB Device Connected,T1200,Hardware Additions,Initial Access

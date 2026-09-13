@@ -1,0 +1,1001 @@
+vulnerability_id,cve_id,vulnerability_name,severity,cvss_score,affected_asset,patch_available,status
+VUL001,CVE-2024-1045,Privilege Escalation Flaw,Critical,9.5,Database-01,Yes,Open
+VUL002,CVE-2023-1234,Improper Input Validation,Medium,5.4,Finance-PC-02,Yes,Open
+VUL003,CVE-2024-2201,Information Disclosure,Medium,5.9,WebServer,No,Open
+VUL004,CVE-2024-3390,SQL Injection Vulnerability,High,8.2,WebServer,Yes,Open
+VUL005,CVE-2023-4521,Outdated Firewall Firmware,High,7.5,Firewall,No,Open
+VUL006,CVE-2024-0099,Weak SMB Configuration,Medium,6.1,HR-PC-01,Yes,Patched
+VUL0007,CVE-2019-10489,Path Traversal,Medium,6.9,IT-WKS-008,Yes,Open
+VUL0008,CVE-2023-29919,Buffer Overflow,High,8.2,SALES-LAP-013,Yes,Open
+VUL0009,CVE-2022-25880,Information Disclosure,Medium,5.1,SUP-LAP-003,No,Mitigated
+VUL0010,CVE-2022-48004,Authentication Bypass,Critical,9.3,ENG-CLD-002,No,Open
+VUL0011,CVE-2023-25451,Privilege Escalation Flaw,Critical,9.1,SALES-NET-001,No,Open
+VUL0012,CVE-2019-42180,Remote Code Execution,Critical,9.2,HR-CLD-003,Yes,Open
+VUL0013,CVE-2019-42168,Hardcoded Credentials,Medium,6.8,SALES-WKS-005,No,Open
+VUL0014,CVE-2022-37265,Privilege Escalation Flaw,High,8.4,SALES-LAP-002,Yes,Open
+VUL0015,CVE-2020-2665,Improper Input Validation,Medium,5.7,MKT-SRV-004,Yes,Open
+VUL0016,CVE-2022-8159,Path Traversal,Medium,6.1,HR-WKS-011,Yes,Accepted Risk
+VUL0017,CVE-2019-42353,Authentication Bypass,High,8.8,SALES-LAP-010,Yes,Patched
+VUL0018,CVE-2021-29315,Improper Input Validation,Medium,6.9,SALES-WKS-006,Yes,Open
+VUL0019,CVE-2020-4767,Insecure Deserialization,High,7.3,FIN-SRV-010,Yes,Mitigated
+VUL0020,CVE-2021-34474,Privilege Escalation Flaw,High,8.4,SALES-CLD-004,Yes,Open
+VUL0021,CVE-2019-27800,Authentication Bypass,High,8.1,MKT-SRV-001,Yes,Open
+VUL0022,CVE-2025-16100,Information Disclosure,Medium,4.5,HR-SRV-002,No,Mitigated
+VUL0023,CVE-2024-33471,Improper Input Validation,Medium,4.5,HR-NET-002,Yes,Patched
+VUL0024,CVE-2025-13594,Insecure Deserialization,High,7.4,ENG-CLD-001,Yes,Patched
+VUL0025,CVE-2025-48294,Cross-Site Scripting (XSS),Medium,5.5,IT-SRV-005,Yes,Mitigated
+VUL0026,CVE-2025-33310,Remote Code Execution,High,8.5,FIN-WKS-018,Yes,Mitigated
+VUL0027,CVE-2021-17275,Information Disclosure,Medium,5.4,HR-WKS-009,Yes,Patched
+VUL0028,CVE-2023-39987,SQL Injection Vulnerability,High,8.0,HR-SRV-003,No,Open
+VUL0029,CVE-2021-47831,Denial of Service,High,7.0,OPS-WKS-010,No,Mitigated
+VUL0030,CVE-2023-5011,Insecure Deserialization,High,8.7,MKT-NET-006,Yes,Patched
+VUL0031,CVE-2023-36214,Privilege Escalation Flaw,High,7.5,HR-WKS-002,Yes,Open
+VUL0032,CVE-2019-21441,Improper Input Validation,Medium,5.6,FIN-SRV-002,Yes,Mitigated
+VUL0033,CVE-2024-13785,Improper Input Validation,Medium,4.1,OPS-WKS-020,Yes,Patched
+VUL0034,CVE-2020-47048,Cross-Site Request Forgery (CSRF),Medium,4.3,SALES-MOB-001,No,Open
+VUL0035,CVE-2019-31464,Weak SMB Configuration,Medium,6.2,FIN-CLD-005,Yes,Open
+VUL0036,CVE-2022-9975,Unpatched Third-Party Library,High,7.0,FIN-NET-001,Yes,Patched
+VUL0037,CVE-2024-26992,Information Disclosure,Medium,6.4,FIN-SRV-001,No,Open
+VUL0038,CVE-2022-40127,Outdated TLS/SSL Configuration,Medium,4.1,HR-NET-001,No,Open
+VUL0039,CVE-2020-22959,Server-Side Request Forgery (SSRF),High,8.1,IT-SRV-009,No,Mitigated
+VUL0040,CVE-2025-27253,Unpatched Third-Party Library,Medium,5.6,SALES-CLD-003,Yes,Patched
+VUL0041,CVE-2021-17337,Server-Side Request Forgery (SSRF),High,7.7,LEG-CLD-001,Yes,Patched
+VUL0042,CVE-2019-22256,Server-Side Request Forgery (SSRF),Medium,6.5,FIN-MOB-007,Yes,Open
+VUL0043,CVE-2022-30735,Cross-Site Scripting (XSS),Medium,6.3,HR-CLD-001,Yes,Patched
+VUL0044,CVE-2021-45462,Improper Input Validation,Medium,5.8,SUP-LAP-001,Yes,Open
+VUL0045,CVE-2023-1895,Server-Side Request Forgery (SSRF),Medium,6.6,LEG-WKS-001,Yes,Open
+VUL0046,CVE-2024-11943,Buffer Overflow,High,7.2,FIN-NET-003,No,Open
+VUL0047,CVE-2023-35985,Privilege Escalation Flaw,High,8.4,HR-CLD-004,Yes,Open
+VUL0048,CVE-2022-38836,Insecure Deserialization,High,7.5,OPS-NET-001,Yes,Patched
+VUL0049,CVE-2025-30762,Denial of Service,Medium,6.6,MKT-SRV-002,Yes,Open
+VUL0050,CVE-2023-20903,Weak SMB Configuration,Medium,5.9,FIN-SRV-005,Yes,Open
+VUL0051,CVE-2020-34583,Unpatched Third-Party Library,Medium,6.5,OPS-CLD-002,Yes,Mitigated
+VUL0052,CVE-2020-16633,Path Traversal,Medium,6.4,MKT-SRV-009,Yes,Mitigated
+VUL0053,CVE-2020-20366,Cross-Site Scripting (XSS),Medium,6.2,ENG-WKS-003,Yes,Patched
+VUL0054,CVE-2021-29834,Cross-Site Scripting (XSS),Medium,5.5,MKT-SRV-007,Yes,Patched
+VUL0055,CVE-2023-15756,Privilege Escalation Flaw,High,8.3,SALES-NET-005,Yes,Patched
+VUL0056,CVE-2023-41026,Improper Input Validation,Medium,6.4,SALES-CLD-003,Yes,Mitigated
+VUL0057,CVE-2025-32145,Improper Input Validation,Medium,6.3,HR-NET-006,Yes,Patched
+VUL0058,CVE-2022-7773,SQL Injection Vulnerability,High,8.1,MKT-WKS-012,Yes,Patched
+VUL0059,CVE-2023-10806,Server-Side Request Forgery (SSRF),High,8.1,MKT-NET-003,No,Patched
+VUL0060,CVE-2022-30640,Cross-Site Request Forgery (CSRF),Medium,4.7,FIN-WKS-008,Yes,Open
+VUL0061,CVE-2023-40021,Missing Encryption of Sensitive Data,Medium,6.1,Database-01,No,Mitigated
+VUL0062,CVE-2022-25947,Cross-Site Request Forgery (CSRF),Medium,4.8,HR-WKS-015,Yes,Open
+VUL0063,CVE-2023-25707,Denial of Service,Medium,5.2,SUP-CLD-003,Yes,Mitigated
+VUL0064,CVE-2025-16902,Path Traversal,Medium,5.5,IT-SRV-006,No,Accepted Risk
+VUL0065,CVE-2019-4109,Improper Input Validation,Medium,5.6,HR-SRV-004,Yes,Patched
+VUL0066,CVE-2021-36291,Server-Side Request Forgery (SSRF),High,7.3,SALES-CLD-003,No,Open
+VUL0067,CVE-2022-24443,Cross-Site Scripting (XSS),Medium,5.7,MKT-SRV-005,Yes,Open
+VUL0068,CVE-2019-35422,Denial of Service,Medium,5.2,ENG-WKS-008,Yes,Patched
+VUL0069,CVE-2023-11106,Authentication Bypass,Critical,9.7,FIN-SRV-008,Yes,Patched
+VUL0070,CVE-2023-23497,Outdated TLS/SSL Configuration,Medium,5.9,SALES-SRV-001,Yes,Open
+VUL0071,CVE-2019-21357,Outdated TLS/SSL Configuration,Medium,4.4,SUP-SRV-007,No,Patched
+VUL0072,CVE-2025-34349,Server-Side Request Forgery (SSRF),High,7.6,OPS-WKS-017,Yes,Patched
+VUL0073,CVE-2023-13327,Server-Side Request Forgery (SSRF),Medium,6.5,SALES-SRV-002,Yes,Open
+VUL0074,CVE-2023-42374,Cross-Site Scripting (XSS),Medium,6.0,Firewall,No,Open
+VUL0075,CVE-2024-37236,SQL Injection Vulnerability,Critical,9.6,LEG-WKS-008,No,Patched
+VUL0076,CVE-2024-2935,Authentication Bypass,High,7.9,LEG-CLD-006,Yes,Open
+VUL0077,CVE-2024-35831,Outdated TLS/SSL Configuration,Medium,6.5,OPS-LAP-005,Yes,Patched
+VUL0078,CVE-2020-11274,Outdated TLS/SSL Configuration,Medium,5.9,IT-LAP-001,Yes,Open
+VUL0079,CVE-2023-33140,Cross-Site Request Forgery (CSRF),Medium,5.5,OPS-WKS-001,Yes,Patched
+VUL0080,CVE-2023-22156,Privilege Escalation Flaw,High,8.9,FIN-SRV-006,Yes,Open
+VUL0081,CVE-2024-7517,Remote Code Execution,Critical,9.0,FIN-MOB-006,Yes,Open
+VUL0082,CVE-2020-26951,Cross-Site Scripting (XSS),Medium,5.3,MKT-NET-005,Yes,Open
+VUL0083,CVE-2020-39469,Information Disclosure,Medium,4.8,IT-CLD-002,Yes,Patched
+VUL0084,CVE-2022-5425,Denial of Service,Medium,6.7,FIN-LAP-009,No,Open
+VUL0085,CVE-2021-27122,Weak SMB Configuration,Medium,5.0,MKT-CLD-001,Yes,Open
+VUL0086,CVE-2022-13225,SQL Injection Vulnerability,Critical,9.7,ENG-NET-003,Yes,Open
+VUL0087,CVE-2021-35979,Missing Encryption of Sensitive Data,Medium,5.3,FIN-SRV-012,Yes,Open
+VUL0088,CVE-2025-24019,Unpatched Third-Party Library,Medium,6.1,MKT-NET-001,Yes,Open
+VUL0089,CVE-2022-3288,Improper Input Validation,Medium,5.9,HR-NET-004,No,Open
+VUL0090,CVE-2020-7070,Authentication Bypass,High,8.1,HR-IOT-002,Yes,Patched
+VUL0091,CVE-2025-16740,Information Disclosure,Medium,4.9,OPS-SRV-002,No,Open
+VUL0092,CVE-2023-14635,Insecure Deserialization,High,8.9,OPS-SRV-008,Yes,Mitigated
+VUL0093,CVE-2024-9581,Improper Input Validation,Medium,5.7,MKT-SRV-007,Yes,Open
+VUL0094,CVE-2020-27486,Outdated TLS/SSL Configuration,Medium,4.5,SALES-WKS-018,Yes,Patched
+VUL0095,CVE-2023-18721,Missing Encryption of Sensitive Data,Medium,4.6,SUP-SRV-008,Yes,Open
+VUL0096,CVE-2022-47576,Remote Code Execution,Critical,9.5,OPS-NET-002,No,Open
+VUL0097,CVE-2024-8140,Remote Code Execution,Critical,9.3,LEG-LAP-005,No,Patched
+VUL0098,CVE-2020-5319,Insecure Deserialization,High,7.2,HR-NET-003,Yes,Patched
+VUL0099,CVE-2021-24324,Missing Encryption of Sensitive Data,Medium,6.6,MKT-SRV-008,No,Mitigated
+VUL0100,CVE-2025-9661,Improper Input Validation,Medium,4.5,HR-WKS-009,Yes,Patched
+VUL0101,CVE-2021-28038,SQL Injection Vulnerability,High,8.8,OPS-WKS-022,Yes,Accepted Risk
+VUL0102,CVE-2022-24076,Buffer Overflow,High,7.5,SUP-MOB-004,Yes,Patched
+VUL0103,CVE-2020-47700,Cross-Site Scripting (XSS),Medium,5.2,ENG-IOT-002,Yes,Open
+VUL0104,CVE-2021-11236,Missing Encryption of Sensitive Data,Medium,6.3,LEG-LAP-010,Yes,Patched
+VUL0105,CVE-2020-37998,Denial of Service,Medium,6.4,SUP-SRV-008,Yes,Mitigated
+VUL0106,CVE-2024-45848,Hardcoded Credentials,High,8.4,IT-CLD-001,No,Patched
+VUL0107,CVE-2021-3815,Cross-Site Scripting (XSS),Medium,6.8,ENG-NET-007,Yes,Patched
+VUL0108,CVE-2020-23653,Remote Code Execution,Critical,9.1,MKT-SRV-013,Yes,Patched
+VUL0109,CVE-2025-15470,Improper Input Validation,Medium,5.5,MKT-SRV-005,No,Open
+VUL0110,CVE-2021-46326,Outdated TLS/SSL Configuration,Medium,5.8,SALES-SRV-002,Yes,Patched
+VUL0111,CVE-2024-46760,Authentication Bypass,High,8.5,HR-LAP-005,No,Patched
+VUL0112,CVE-2022-13405,Cross-Site Scripting (XSS),Medium,6.8,FIN-LAP-007,Yes,Patched
+VUL0113,CVE-2025-42780,Denial of Service,Medium,6.4,SUP-CLD-001,No,Open
+VUL0114,CVE-2021-27977,Remote Code Execution,High,8.8,IT-WKS-011,Yes,Patched
+VUL0115,CVE-2022-44931,Weak SMB Configuration,Medium,5.5,IT-WKS-009,Yes,Patched
+VUL0116,CVE-2020-43002,Hardcoded Credentials,High,7.9,IT-LAP-002,No,Open
+VUL0117,CVE-2023-16779,Path Traversal,Medium,6.6,SUP-SRV-002,Yes,Patched
+VUL0118,CVE-2020-45369,Privilege Escalation Flaw,High,8.7,LEG-SRV-005,No,Open
+VUL0119,CVE-2020-8502,Insecure Deserialization,High,7.0,FIN-SRV-008,Yes,Open
+VUL0120,CVE-2021-20916,Authentication Bypass,High,7.8,FIN-SRV-005,Yes,Open
+VUL0121,CVE-2021-30168,Cross-Site Request Forgery (CSRF),Medium,5.4,HR-NET-003,Yes,Open
+VUL0122,CVE-2019-31704,Weak SMB Configuration,Medium,5.2,SUP-SRV-008,Yes,Patched
+VUL0123,CVE-2021-8130,Weak SMB Configuration,Medium,6.9,FIN-SRV-008,Yes,Patched
+VUL0124,CVE-2019-24546,Remote Code Execution,Critical,9.5,SUP-WKS-016,Yes,Patched
+VUL0125,CVE-2024-17476,Denial of Service,Medium,5.2,SUP-SRV-009,Yes,Patched
+VUL0126,CVE-2025-10511,Insecure Deserialization,High,7.7,FIN-SRV-010,Yes,Mitigated
+VUL0127,CVE-2024-12040,Buffer Overflow,Critical,9.0,FIN-SRV-005,No,Open
+VUL0128,CVE-2020-43421,Hardcoded Credentials,High,7.1,SALES-WKS-009,Yes,Mitigated
+VUL0129,CVE-2025-17616,Denial of Service,Medium,5.1,IT-LAP-001,Yes,Patched
+VUL0130,CVE-2025-47240,Missing Encryption of Sensitive Data,Medium,6.8,OPS-SRV-002,Yes,Patched
+VUL0131,CVE-2020-20632,Remote Code Execution,High,8.7,FIN-NET-001,Yes,Open
+VUL0132,CVE-2022-6876,Cross-Site Scripting (XSS),Medium,6.5,MKT-LAP-005,Yes,Patched
+VUL0133,CVE-2019-3098,Outdated TLS/SSL Configuration,Medium,5.1,SALES-LAP-009,Yes,Open
+VUL0134,CVE-2024-28604,Path Traversal,Medium,5.2,Firewall,Yes,Mitigated
+VUL0135,CVE-2024-11778,Missing Encryption of Sensitive Data,Medium,5.2,SUP-LAP-008,No,Patched
+VUL0136,CVE-2023-13806,Weak SMB Configuration,Medium,5.2,ENG-NET-004,Yes,Open
+VUL0137,CVE-2023-42007,Privilege Escalation Flaw,Critical,9.4,ENG-IOT-002,Yes,Mitigated
+VUL0138,CVE-2019-48367,Path Traversal,Medium,6.5,OPS-SRV-004,Yes,Open
+VUL0139,CVE-2021-32505,Privilege Escalation Flaw,High,8.1,HR-NET-004,Yes,Patched
+VUL0140,CVE-2025-13376,Denial of Service,Medium,6.7,IT-MOB-003,Yes,Open
+VUL0141,CVE-2023-25380,Unpatched Third-Party Library,High,7.0,LEG-LAP-009,Yes,Open
+VUL0142,CVE-2022-26974,Improper Input Validation,Medium,4.3,MKT-SRV-001,No,Open
+VUL0143,CVE-2024-8357,Denial of Service,High,7.2,OPS-WKS-007,Yes,Open
+VUL0144,CVE-2024-17485,Weak SMB Configuration,Medium,5.5,IT-NET-002,Yes,Patched
+VUL0145,CVE-2019-49207,Outdated TLS/SSL Configuration,Medium,6.3,LEG-SRV-006,Yes,Open
+VUL0146,CVE-2019-29804,Privilege Escalation Flaw,Critical,9.2,MKT-WKS-012,Yes,Mitigated
+VUL0147,CVE-2019-42064,Outdated TLS/SSL Configuration,Medium,4.3,IT-SRV-012,Yes,Open
+VUL0148,CVE-2020-37898,Weak SMB Configuration,Medium,6.5,HR-NET-002,Yes,Patched
+VUL0149,CVE-2022-16525,Cross-Site Scripting (XSS),Medium,5.1,HR-IOT-001,No,Accepted Risk
+VUL0150,CVE-2022-20656,Buffer Overflow,High,8.8,IT-SRV-006,No,Open
+VUL0151,CVE-2025-14212,Buffer Overflow,Critical,9.3,FIN-SRV-006,Yes,Patched
+VUL0152,CVE-2021-49239,SQL Injection Vulnerability,Critical,9.3,FIN-SRV-003,Yes,Patched
+VUL0153,CVE-2023-24393,Weak SMB Configuration,Medium,5.1,IT-LAP-008,Yes,Open
+VUL0154,CVE-2021-40521,Buffer Overflow,High,7.1,FIN-LAP-009,Yes,Open
+VUL0155,CVE-2024-30279,SQL Injection Vulnerability,Critical,9.3,SALES-IOT-001,Yes,Patched
+VUL0156,CVE-2022-8236,Remote Code Execution,Critical,9.7,SUP-WKS-004,Yes,Accepted Risk
+VUL0157,CVE-2025-46033,Missing Encryption of Sensitive Data,Medium,6.6,ENG-MOB-004,No,Patched
+VUL0158,CVE-2024-18610,Cross-Site Request Forgery (CSRF),Medium,4.0,HR-NET-004,No,Patched
+VUL0159,CVE-2022-3073,Cross-Site Scripting (XSS),Medium,4.2,MKT-NET-005,No,Patched
+VUL0160,CVE-2022-32179,Information Disclosure,Medium,5.7,FIN-WKS-012,Yes,Mitigated
+VUL0161,CVE-2023-34881,Remote Code Execution,Critical,9.0,ENG-LAP-006,Yes,Mitigated
+VUL0162,CVE-2023-41935,Cross-Site Scripting (XSS),Medium,4.6,LEG-SRV-004,No,Open
+VUL0163,CVE-2022-26420,Hardcoded Credentials,High,7.1,FIN-CLD-003,Yes,Open
+VUL0164,CVE-2019-17301,Cross-Site Request Forgery (CSRF),Medium,6.2,ENG-IOT-002,Yes,Open
+VUL0165,CVE-2024-10414,Improper Input Validation,Medium,5.1,ENG-CLD-001,Yes,Open
+VUL0166,CVE-2023-38586,Outdated TLS/SSL Configuration,Medium,5.5,HR-NET-002,No,Open
+VUL0167,CVE-2023-7242,Authentication Bypass,Critical,9.3,HR-WKS-019,Yes,Open
+VUL0168,CVE-2025-19453,Denial of Service,High,7.2,LEG-SRV-002,Yes,Open
+VUL0169,CVE-2025-23380,Hardcoded Credentials,High,7.5,SALES-CLD-005,Yes,Mitigated
+VUL0170,CVE-2024-27605,Path Traversal,Medium,5.2,HR-CLD-003,Yes,Mitigated
+VUL0171,CVE-2025-32553,Outdated TLS/SSL Configuration,Medium,4.9,MKT-CLD-001,No,Accepted Risk
+VUL0172,CVE-2020-9887,Authentication Bypass,High,7.5,ENG-LAP-009,Yes,Open
+VUL0173,CVE-2023-20818,Information Disclosure,Medium,5.5,SALES-NET-002,Yes,Open
+VUL0174,CVE-2024-38479,Unpatched Third-Party Library,High,7.1,HR-WKS-008,Yes,Open
+VUL0175,CVE-2019-39333,Information Disclosure,Medium,4.8,FIN-WKS-008,No,Open
+VUL0176,CVE-2025-46238,Server-Side Request Forgery (SSRF),High,7.8,SUP-MOB-002,No,Open
+VUL0177,CVE-2020-19079,Improper Input Validation,Medium,5.6,SALES-WKS-020,Yes,Open
+VUL0178,CVE-2024-2315,Authentication Bypass,High,7.6,IT-MOB-003,Yes,Patched
+VUL0179,CVE-2025-33893,Buffer Overflow,High,7.5,MKT-MOB-005,Yes,Open
+VUL0180,CVE-2019-6197,Remote Code Execution,Critical,9.7,SALES-WKS-015,Yes,Open
+VUL0181,CVE-2020-18736,Unpatched Third-Party Library,High,7.1,HR-IOT-001,Yes,Mitigated
+VUL0182,CVE-2020-22072,Path Traversal,High,7.2,IT-SRV-001,Yes,Open
+VUL0183,CVE-2024-23136,Information Disclosure,Medium,4.1,HR-LAP-004,No,Open
+VUL0184,CVE-2023-22923,Weak SMB Configuration,High,7.0,LEG-LAP-007,Yes,Patched
+VUL0185,CVE-2019-2686,Path Traversal,Medium,6.4,IT-SRV-004,Yes,Patched
+VUL0186,CVE-2024-22572,Information Disclosure,Medium,4.2,ENG-CLD-002,Yes,Patched
+VUL0187,CVE-2025-6889,Hardcoded Credentials,High,8.1,ENG-LAP-004,Yes,Patched
+VUL0188,CVE-2025-37372,Privilege Escalation Flaw,High,8.8,HR-SRV-006,Yes,Open
+VUL0189,CVE-2023-17897,Weak SMB Configuration,Medium,6.5,OPS-NET-002,Yes,Patched
+VUL0190,CVE-2023-47292,Cross-Site Request Forgery (CSRF),Medium,5.4,LEG-LAP-005,Yes,Accepted Risk
+VUL0191,CVE-2020-17575,SQL Injection Vulnerability,High,8.6,LEG-CLD-002,Yes,Patched
+VUL0192,CVE-2021-10869,Denial of Service,Medium,6.0,MKT-LAP-001,No,Patched
+VUL0193,CVE-2019-4943,Unpatched Third-Party Library,Medium,6.8,SUP-SRV-005,No,Open
+VUL0194,CVE-2023-24960,Privilege Escalation Flaw,Critical,9.3,OPS-WKS-023,No,Patched
+VUL0195,CVE-2023-2903,Hardcoded Credentials,High,8.1,MKT-CLD-001,Yes,Mitigated
+VUL0196,CVE-2020-42689,Hardcoded Credentials,High,8.3,MKT-SRV-006,Yes,Open
+VUL0197,CVE-2019-8065,SQL Injection Vulnerability,High,7.2,FIN-SRV-011,No,Patched
+VUL0198,CVE-2021-4931,Denial of Service,Medium,6.4,ENG-NET-005,No,Open
+VUL0199,CVE-2024-42099,Denial of Service,Medium,5.1,FIN-CLD-001,Yes,Open
+VUL0200,CVE-2020-24219,Authentication Bypass,High,8.2,LEG-WKS-011,Yes,Open
+VUL0201,CVE-2022-15195,Information Disclosure,Medium,5.2,LEG-CLD-006,Yes,Patched
+VUL0202,CVE-2025-20666,Insecure Deserialization,High,7.2,WebServer,Yes,Mitigated
+VUL0203,CVE-2020-21956,Cross-Site Request Forgery (CSRF),Medium,4.5,HR-NET-001,No,Open
+VUL0204,CVE-2024-24616,Cross-Site Scripting (XSS),Medium,6.3,MKT-SRV-007,Yes,Mitigated
+VUL0205,CVE-2021-45902,SQL Injection Vulnerability,Critical,9.3,SALES-NET-003,No,Open
+VUL0206,CVE-2021-10882,Outdated TLS/SSL Configuration,Medium,5.8,SALES-NET-001,No,Patched
+VUL0207,CVE-2022-6913,Server-Side Request Forgery (SSRF),Medium,6.8,OPS-LAP-007,No,Mitigated
+VUL0208,CVE-2019-39356,Denial of Service,Medium,5.5,SUP-WKS-016,Yes,Open
+VUL0209,CVE-2023-40005,Denial of Service,Medium,6.4,ENG-SRV-003,Yes,Open
+VUL0210,CVE-2021-5230,Buffer Overflow,High,7.3,FIN-SRV-008,No,Patched
+VUL0211,CVE-2019-12729,Denial of Service,Medium,6.7,FIN-LAP-004,Yes,Patched
+VUL0212,CVE-2019-35729,Hardcoded Credentials,High,8.2,SALES-WKS-002,Yes,Open
+VUL0213,CVE-2020-48932,Remote Code Execution,High,8.9,IT-WKS-006,Yes,Open
+VUL0214,CVE-2019-13874,Outdated TLS/SSL Configuration,Medium,4.1,IT-WKS-018,No,Open
+VUL0215,CVE-2021-46098,Cross-Site Scripting (XSS),Medium,5.9,LEG-IOT-002,Yes,Open
+VUL0216,CVE-2022-49841,Improper Input Validation,Medium,5.2,LEG-SRV-003,Yes,Open
+VUL0217,CVE-2020-26367,Missing Encryption of Sensitive Data,Medium,6.7,SUP-LAP-003,No,Patched
+VUL0218,CVE-2020-40834,Outdated TLS/SSL Configuration,Medium,6.3,OPS-WKS-008,Yes,Patched
+VUL0219,CVE-2020-14003,Buffer Overflow,High,7.2,MKT-NET-005,No,Mitigated
+VUL0220,CVE-2019-27595,Unpatched Third-Party Library,Medium,6.3,SUP-NET-001,Yes,Patched
+VUL0221,CVE-2022-38860,SQL Injection Vulnerability,High,8.3,SUP-NET-001,No,Patched
+VUL0222,CVE-2023-36794,Missing Encryption of Sensitive Data,Medium,5.1,SALES-SRV-002,No,Mitigated
+VUL0223,CVE-2021-47672,Remote Code Execution,Critical,9.1,SALES-CLD-004,Yes,Patched
+VUL0224,CVE-2025-22111,Remote Code Execution,Critical,9.4,HR-LAP-007,Yes,Mitigated
+VUL0225,CVE-2025-18362,Improper Input Validation,Medium,6.6,OPS-SRV-006,No,Open
+VUL0226,CVE-2023-32235,Denial of Service,High,7.5,ENG-CLD-001,No,Patched
+VUL0227,CVE-2023-14424,Outdated TLS/SSL Configuration,Medium,4.4,LEG-LAP-006,Yes,Open
+VUL0228,CVE-2025-44372,Cross-Site Request Forgery (CSRF),Medium,4.4,SALES-MOB-006,No,Open
+VUL0229,CVE-2022-24708,Server-Side Request Forgery (SSRF),Medium,6.3,SALES-NET-003,No,Open
+VUL0230,CVE-2021-24373,Outdated TLS/SSL Configuration,Medium,5.3,HR-MOB-005,Yes,Open
+VUL0231,CVE-2021-30242,Buffer Overflow,High,8.1,OPS-SRV-007,No,Open
+VUL0232,CVE-2023-10822,SQL Injection Vulnerability,High,8.9,HR-WKS-009,Yes,Patched
+VUL0233,CVE-2023-25299,Outdated TLS/SSL Configuration,Medium,4.9,FIN-WKS-010,Yes,Patched
+VUL0234,CVE-2019-38391,Improper Input Validation,Medium,4.2,IT-WKS-007,Yes,Patched
+VUL0235,CVE-2021-17752,Denial of Service,Medium,5.7,FIN-LAP-006,Yes,Patched
+VUL0236,CVE-2025-6821,Authentication Bypass,High,7.8,ENG-NET-003,Yes,Open
+VUL0237,CVE-2019-48015,Cross-Site Request Forgery (CSRF),Medium,4.9,HR-CLD-001,No,Open
+VUL0238,CVE-2022-29243,Improper Input Validation,Medium,5.0,SUP-SRV-003,No,Open
+VUL0239,CVE-2023-13557,Hardcoded Credentials,Medium,6.6,HR-WKS-004,Yes,Open
+VUL0240,CVE-2025-30197,Missing Encryption of Sensitive Data,Medium,5.5,HR-LAP-004,Yes,Mitigated
+VUL0241,CVE-2025-2677,Buffer Overflow,High,8.5,LEG-IOT-001,No,Patched
+VUL0242,CVE-2022-28190,Weak SMB Configuration,Medium,5.4,ENG-CLD-001,Yes,Patched
+VUL0243,CVE-2023-1623,Denial of Service,Medium,6.9,LEG-WKS-009,Yes,Mitigated
+VUL0244,CVE-2021-37297,Path Traversal,Medium,6.9,LEG-CLD-006,Yes,Open
+VUL0245,CVE-2025-6055,SQL Injection Vulnerability,High,7.3,HR-WKS-002,No,Open
+VUL0246,CVE-2022-4604,Authentication Bypass,Critical,9.1,HR-WKS-011,No,Patched
+VUL0247,CVE-2024-28389,Privilege Escalation Flaw,Critical,9.5,HR-NET-001,No,Open
+VUL0248,CVE-2021-13468,Outdated TLS/SSL Configuration,Medium,6.5,ENG-SRV-001,No,Open
+VUL0249,CVE-2021-6676,Path Traversal,Medium,6.0,HR-NET-005,No,Patched
+VUL0250,CVE-2023-28539,Cross-Site Scripting (XSS),Medium,4.9,HR-WKS-005,No,Mitigated
+VUL0251,CVE-2025-36363,Improper Input Validation,Medium,4.9,IT-SRV-002,Yes,Patched
+VUL0252,CVE-2021-31423,Weak SMB Configuration,Medium,6.4,LEG-SRV-002,Yes,Mitigated
+VUL0253,CVE-2020-30912,Unpatched Third-Party Library,High,7.2,ENG-NET-008,Yes,Patched
+VUL0254,CVE-2022-38023,Path Traversal,Medium,5.1,OPS-SRV-003,No,Open
+VUL0255,CVE-2024-14720,Cross-Site Request Forgery (CSRF),Medium,5.0,ENG-NET-008,Yes,Mitigated
+VUL0256,CVE-2019-12805,Server-Side Request Forgery (SSRF),High,8.1,SALES-MOB-002,Yes,Mitigated
+VUL0257,CVE-2019-40078,Weak SMB Configuration,Medium,5.4,ENG-LAP-011,Yes,Mitigated
+VUL0258,CVE-2022-15470,Insecure Deserialization,High,8.6,HR-WKS-014,No,Open
+VUL0259,CVE-2024-14559,Outdated TLS/SSL Configuration,Medium,4.3,SALES-LAP-001,Yes,Open
+VUL0260,CVE-2019-28177,Denial of Service,Medium,6.6,ENG-LAP-001,No,Open
+VUL0261,CVE-2022-11147,Cross-Site Scripting (XSS),Medium,6.7,IT-LAP-002,Yes,Mitigated
+VUL0262,CVE-2021-16248,Path Traversal,Medium,6.8,SUP-LAP-012,Yes,Mitigated
+VUL0263,CVE-2021-36961,Authentication Bypass,High,7.8,OPS-LAP-007,No,Open
+VUL0264,CVE-2019-22470,Missing Encryption of Sensitive Data,Medium,4.9,ENG-NET-003,Yes,Patched
+VUL0265,CVE-2019-13986,Cross-Site Request Forgery (CSRF),Medium,4.4,HR-WKS-003,Yes,Patched
+VUL0266,CVE-2019-3543,Hardcoded Credentials,Medium,6.7,SALES-WKS-004,No,Accepted Risk
+VUL0267,CVE-2023-5779,Insecure Deserialization,High,8.0,FIN-SRV-001,No,Patched
+VUL0268,CVE-2019-14140,Weak SMB Configuration,Medium,5.6,SUP-WKS-008,Yes,Patched
+VUL0269,CVE-2019-14194,Privilege Escalation Flaw,High,8.4,LEG-CLD-006,No,Mitigated
+VUL0270,CVE-2020-38931,Insecure Deserialization,High,7.1,OPS-WKS-020,Yes,Open
+VUL0271,CVE-2020-10975,Insecure Deserialization,High,7.1,FIN-CLD-003,Yes,Patched
+VUL0272,CVE-2021-49650,Hardcoded Credentials,Medium,6.9,OPS-SRV-004,No,Patched
+VUL0273,CVE-2022-7269,Unpatched Third-Party Library,Medium,5.8,MKT-LAP-002,Yes,Patched
+VUL0274,CVE-2019-3595,Outdated TLS/SSL Configuration,Medium,5.4,LEG-LAP-008,Yes,Open
+VUL0275,CVE-2023-24125,Remote Code Execution,Critical,9.1,HR-NET-005,No,Open
+VUL0276,CVE-2024-6900,Path Traversal,Medium,5.0,FIN-SRV-011,No,Patched
+VUL0277,CVE-2020-18123,Buffer Overflow,High,7.3,MKT-SRV-003,Yes,Patched
+VUL0278,CVE-2023-36457,Buffer Overflow,High,7.8,SUP-WKS-006,Yes,Patched
+VUL0279,CVE-2023-17792,Hardcoded Credentials,High,8.4,SALES-LAP-009,Yes,Open
+VUL0280,CVE-2020-16721,Unpatched Third-Party Library,Medium,6.8,SALES-LAP-001,Yes,Accepted Risk
+VUL0281,CVE-2022-46967,Authentication Bypass,Critical,9.1,FIN-NET-001,Yes,Open
+VUL0282,CVE-2025-18312,SQL Injection Vulnerability,High,8.2,ENG-NET-006,Yes,Open
+VUL0283,CVE-2019-6526,Authentication Bypass,High,8.0,MKT-SRV-011,No,Patched
+VUL0284,CVE-2025-5072,Denial of Service,Medium,5.2,HR-CLD-003,No,Open
+VUL0285,CVE-2023-46340,Information Disclosure,Medium,6.0,HR-NET-004,Yes,Patched
+VUL0286,CVE-2023-12980,SQL Injection Vulnerability,High,7.9,MKT-LAP-004,No,Open
+VUL0287,CVE-2025-17045,Privilege Escalation Flaw,Critical,9.0,ENG-NET-007,Yes,Patched
+VUL0288,CVE-2025-10199,Authentication Bypass,High,8.0,OPS-SRV-003,Yes,Patched
+VUL0289,CVE-2019-1186,Weak SMB Configuration,Medium,5.1,SALES-CLD-004,No,Mitigated
+VUL0290,CVE-2025-40551,Remote Code Execution,High,8.8,ENG-NET-006,Yes,Open
+VUL0291,CVE-2022-7054,Hardcoded Credentials,High,7.7,SUP-WKS-012,Yes,Patched
+VUL0292,CVE-2020-17993,Insecure Deserialization,High,8.8,MKT-SRV-013,Yes,Patched
+VUL0293,CVE-2024-39691,Information Disclosure,Medium,5.1,FIN-SRV-010,No,Mitigated
+VUL0294,CVE-2021-39901,Unpatched Third-Party Library,High,7.1,LEG-WKS-014,Yes,Accepted Risk
+VUL0295,CVE-2025-17515,Denial of Service,Medium,5.6,SALES-IOT-002,Yes,Open
+VUL0296,CVE-2022-38683,Cross-Site Scripting (XSS),Medium,5.1,SUP-CLD-004,No,Patched
+VUL0297,CVE-2021-25839,Missing Encryption of Sensitive Data,Medium,6.9,FIN-NET-001,Yes,Mitigated
+VUL0298,CVE-2021-44468,Server-Side Request Forgery (SSRF),High,8.0,WebServer,Yes,Patched
+VUL0299,CVE-2019-32154,Server-Side Request Forgery (SSRF),High,7.0,OPS-SRV-004,Yes,Open
+VUL0300,CVE-2020-6445,Hardcoded Credentials,High,7.3,MKT-SRV-008,Yes,Open
+VUL0301,CVE-2019-18760,Information Disclosure,Medium,5.8,SALES-LAP-018,Yes,Patched
+VUL0302,CVE-2020-8910,Authentication Bypass,Critical,9.1,HR-CLD-001,Yes,Mitigated
+VUL0303,CVE-2022-18791,Path Traversal,High,7.4,ENG-WKS-006,Yes,Open
+VUL0304,CVE-2025-40992,Missing Encryption of Sensitive Data,Medium,5.3,LEG-SRV-003,No,Patched
+VUL0305,CVE-2023-13415,Information Disclosure,Medium,5.0,Firewall,Yes,Open
+VUL0306,CVE-2020-30790,Improper Input Validation,Medium,6.1,IT-SRV-011,Yes,Patched
+VUL0307,CVE-2025-34676,Missing Encryption of Sensitive Data,Medium,4.8,SALES-WKS-019,No,Patched
+VUL0308,CVE-2019-34703,Path Traversal,Medium,6.1,MKT-SRV-004,Yes,Patched
+VUL0309,CVE-2024-45978,Missing Encryption of Sensitive Data,Medium,6.8,IT-SRV-011,Yes,Patched
+VUL0310,CVE-2022-24836,SQL Injection Vulnerability,High,7.2,HR-WKS-021,Yes,Open
+VUL0311,CVE-2021-34586,Privilege Escalation Flaw,Critical,9.0,OPS-LAP-009,Yes,Accepted Risk
+VUL0312,CVE-2022-9977,SQL Injection Vulnerability,Critical,9.7,SALES-CLD-002,Yes,Patched
+VUL0313,CVE-2023-34291,Cross-Site Scripting (XSS),Medium,6.9,MKT-MOB-001,No,Patched
+VUL0314,CVE-2021-42110,Denial of Service,Medium,5.7,LEG-IOT-002,Yes,Patched
+VUL0315,CVE-2022-43519,Remote Code Execution,Critical,9.7,IT-SRV-011,Yes,Patched
+VUL0316,CVE-2024-24608,Improper Input Validation,Medium,4.9,OPS-LAP-005,Yes,Open
+VUL0317,CVE-2023-23757,Privilege Escalation Flaw,High,7.9,OPS-WKS-001,Yes,Patched
+VUL0318,CVE-2020-45656,Insecure Deserialization,High,8.8,SALES-IOT-002,Yes,Open
+VUL0319,CVE-2021-46450,Information Disclosure,Medium,4.7,OPS-SRV-006,Yes,Open
+VUL0320,CVE-2022-27416,Buffer Overflow,High,8.7,LEG-LAP-005,Yes,Open
+VUL0321,CVE-2022-18488,Buffer Overflow,High,7.5,MKT-NET-005,Yes,Mitigated
+VUL0322,CVE-2024-11475,Path Traversal,Medium,5.1,MKT-NET-003,No,Patched
+VUL0323,CVE-2023-44948,Server-Side Request Forgery (SSRF),High,7.9,ENG-LAP-002,Yes,Patched
+VUL0324,CVE-2022-35691,Insecure Deserialization,High,8.7,FIN-SRV-003,Yes,Patched
+VUL0325,CVE-2019-35878,Insecure Deserialization,High,7.7,LEG-SRV-004,Yes,Open
+VUL0326,CVE-2019-36949,Buffer Overflow,High,8.9,IT-SRV-011,No,Mitigated
+VUL0327,CVE-2024-8292,Insecure Deserialization,High,7.3,LEG-CLD-003,No,Patched
+VUL0328,CVE-2024-8722,Missing Encryption of Sensitive Data,Medium,5.5,MKT-SRV-013,No,Open
+VUL0329,CVE-2022-23074,Hardcoded Credentials,High,8.2,FIN-WKS-017,No,Patched
+VUL0330,CVE-2023-28108,Insecure Deserialization,High,7.3,HR-CLD-003,Yes,Mitigated
+VUL0331,CVE-2019-33907,SQL Injection Vulnerability,Critical,9.4,SALES-NET-005,Yes,Open
+VUL0332,CVE-2020-38599,Improper Input Validation,Medium,6.3,ENG-NET-007,No,Mitigated
+VUL0333,CVE-2020-15560,Denial of Service,Medium,6.3,SALES-LAP-008,No,Patched
+VUL0334,CVE-2025-43522,Missing Encryption of Sensitive Data,Medium,6.7,IT-SRV-002,Yes,Mitigated
+VUL0335,CVE-2022-41131,Improper Input Validation,Medium,6.1,HR-CLD-005,Yes,Mitigated
+VUL0336,CVE-2021-40824,Authentication Bypass,Critical,9.6,FIN-SRV-005,Yes,Patched
+VUL0337,CVE-2025-6155,Hardcoded Credentials,Medium,6.5,SALES-CLD-003,Yes,Mitigated
+VUL0338,CVE-2021-15312,SQL Injection Vulnerability,High,8.3,LEG-MOB-007,Yes,Open
+VUL0339,CVE-2019-30209,Unpatched Third-Party Library,High,7.0,HR-SRV-001,Yes,Mitigated
+VUL0340,CVE-2019-32701,Denial of Service,Medium,5.7,HR-WKS-008,No,Patched
+VUL0341,CVE-2020-15277,Unpatched Third-Party Library,High,7.5,MKT-MOB-002,Yes,Accepted Risk
+VUL0342,CVE-2023-36197,SQL Injection Vulnerability,High,7.6,MKT-MOB-001,Yes,Patched
+VUL0343,CVE-2022-25537,Remote Code Execution,Critical,9.9,OPS-WKS-009,No,Patched
+VUL0344,CVE-2022-26579,Outdated TLS/SSL Configuration,Medium,6.4,ENG-NET-005,Yes,Mitigated
+VUL0345,CVE-2019-25336,Unpatched Third-Party Library,Medium,6.3,SUP-CLD-001,Yes,Patched
+VUL0346,CVE-2020-29267,Cross-Site Request Forgery (CSRF),Medium,6.4,HR-NET-006,Yes,Open
+VUL0347,CVE-2023-13446,Buffer Overflow,High,8.0,SALES-LAP-008,No,Open
+VUL0348,CVE-2023-2083,Cross-Site Request Forgery (CSRF),Medium,5.9,IT-SRV-013,No,Patched
+VUL0349,CVE-2020-37717,Insecure Deserialization,High,8.5,ENG-WKS-001,No,Patched
+VUL0350,CVE-2024-2033,Remote Code Execution,Critical,9.0,HR-WKS-010,Yes,Mitigated
+VUL0351,CVE-2024-49979,Unpatched Third-Party Library,Medium,6.2,FIN-SRV-006,Yes,Patched
+VUL0352,CVE-2021-24236,Insecure Deserialization,High,7.2,HR-SRV-008,Yes,Open
+VUL0353,CVE-2019-47738,Cross-Site Request Forgery (CSRF),Medium,5.9,HR-NET-004,Yes,Open
+VUL0354,CVE-2025-31884,Weak SMB Configuration,High,7.0,HR-CLD-003,No,Patched
+VUL0355,CVE-2025-9409,Buffer Overflow,High,8.3,SUP-CLD-001,Yes,Open
+VUL0356,CVE-2021-44013,SQL Injection Vulnerability,Critical,9.6,LEG-CLD-004,No,Accepted Risk
+VUL0357,CVE-2023-29622,Missing Encryption of Sensitive Data,Medium,4.9,OPS-MOB-002,Yes,Open
+VUL0358,CVE-2020-48702,Unpatched Third-Party Library,Medium,6.4,Firewall,No,Accepted Risk
+VUL0359,CVE-2019-31389,Cross-Site Scripting (XSS),Medium,4.6,IT-NET-003,Yes,Open
+VUL0360,CVE-2021-23180,Unpatched Third-Party Library,High,7.7,IT-LAP-004,No,Mitigated
+VUL0361,CVE-2019-16952,Authentication Bypass,Critical,9.6,SUP-WKS-010,No,Open
+VUL0362,CVE-2020-14100,Cross-Site Request Forgery (CSRF),Medium,5.1,OPS-CLD-002,No,Patched
+VUL0363,CVE-2022-5427,Cross-Site Scripting (XSS),Medium,6.5,IT-SRV-003,Yes,Patched
+VUL0364,CVE-2024-16714,Weak SMB Configuration,Medium,6.4,OPS-WKS-014,Yes,Open
+VUL0365,CVE-2022-40260,Missing Encryption of Sensitive Data,Medium,4.7,MKT-SRV-003,No,Mitigated
+VUL0366,CVE-2019-26710,Denial of Service,Medium,6.6,HR-SRV-008,Yes,Open
+VUL0367,CVE-2020-1061,Cross-Site Scripting (XSS),Medium,5.4,LEG-WKS-009,Yes,Accepted Risk
+VUL0368,CVE-2020-45032,Cross-Site Scripting (XSS),Medium,6.7,FIN-SRV-010,Yes,Open
+VUL0369,CVE-2019-11054,Cross-Site Request Forgery (CSRF),Medium,4.0,HR-WKS-024,No,Patched
+VUL0370,CVE-2024-7329,Information Disclosure,Medium,4.4,OPS-LAP-004,Yes,Patched
+VUL0371,CVE-2019-34410,Missing Encryption of Sensitive Data,Medium,6.8,WebServer,Yes,Open
+VUL0372,CVE-2024-6611,Outdated TLS/SSL Configuration,Medium,5.4,OPS-CLD-003,Yes,Patched
+VUL0373,CVE-2019-47263,Cross-Site Scripting (XSS),Medium,5.9,SUP-SRV-006,Yes,Open
+VUL0374,CVE-2019-37693,Authentication Bypass,High,7.6,ENG-WKS-010,No,Patched
+VUL0375,CVE-2019-47408,Authentication Bypass,Critical,9.0,ENG-NET-001,Yes,Open
+VUL0376,CVE-2023-24103,Buffer Overflow,High,7.2,MKT-SRV-003,No,Mitigated
+VUL0377,CVE-2019-6884,Hardcoded Credentials,High,7.0,FIN-SRV-005,No,Open
+VUL0378,CVE-2023-38764,Path Traversal,Medium,6.9,Database-01,Yes,Open
+VUL0379,CVE-2024-46381,Authentication Bypass,High,8.7,IT-CLD-002,No,Mitigated
+VUL0380,CVE-2023-43505,Authentication Bypass,Critical,9.6,MKT-LAP-009,No,Open
+VUL0381,CVE-2019-4860,SQL Injection Vulnerability,High,8.9,OPS-WKS-005,No,Open
+VUL0382,CVE-2019-12784,Insecure Deserialization,High,7.9,HR-NET-006,Yes,Patched
+VUL0383,CVE-2025-23838,SQL Injection Vulnerability,High,7.9,SALES-MOB-001,Yes,Open
+VUL0384,CVE-2024-43984,Weak SMB Configuration,Medium,6.5,SALES-WKS-019,No,Patched
+VUL0385,CVE-2021-17367,SQL Injection Vulnerability,High,8.2,FIN-CLD-001,Yes,Patched
+VUL0386,CVE-2021-22542,SQL Injection Vulnerability,Critical,9.2,OPS-NET-002,Yes,Open
+VUL0387,CVE-2019-35866,Information Disclosure,Medium,4.3,IT-SRV-004,Yes,Open
+VUL0388,CVE-2019-36211,Buffer Overflow,Critical,9.4,HR-LAP-001,Yes,Open
+VUL0389,CVE-2024-36285,Denial of Service,High,7.3,OPS-WKS-011,No,Patched
+VUL0390,CVE-2025-42385,Remote Code Execution,Critical,9.5,OPS-SRV-003,Yes,Mitigated
+VUL0391,CVE-2019-47812,Improper Input Validation,Medium,5.3,OPS-SRV-001,No,Open
+VUL0392,CVE-2022-41256,Information Disclosure,Medium,5.7,SUP-SRV-009,Yes,Open
+VUL0393,CVE-2021-17851,SQL Injection Vulnerability,High,7.3,HR-LAP-002,Yes,Patched
+VUL0394,CVE-2024-43158,Privilege Escalation Flaw,High,8.8,OPS-LAP-006,Yes,Open
+VUL0395,CVE-2019-5190,Remote Code Execution,Critical,9.3,OPS-CLD-001,Yes,Open
+VUL0396,CVE-2019-48346,Weak SMB Configuration,Medium,6.3,HR-CLD-004,Yes,Open
+VUL0397,CVE-2025-30493,Information Disclosure,Medium,6.2,SALES-LAP-006,Yes,Open
+VUL0398,CVE-2024-12352,Cross-Site Request Forgery (CSRF),Medium,6.5,SALES-LAP-001,No,Patched
+VUL0399,CVE-2021-14503,SQL Injection Vulnerability,High,8.1,SALES-LAP-004,Yes,Open
+VUL0400,CVE-2021-44956,Path Traversal,Medium,5.7,Firewall,No,Open
+VUL0401,CVE-2019-11357,Insecure Deserialization,High,8.3,MKT-SRV-001,Yes,Patched
+VUL0402,CVE-2025-4751,Missing Encryption of Sensitive Data,Medium,5.1,OPS-IOT-001,Yes,Open
+VUL0403,CVE-2019-20391,SQL Injection Vulnerability,High,7.8,IT-SRV-002,No,Open
+VUL0404,CVE-2023-48359,Information Disclosure,Medium,4.3,OPS-NET-001,Yes,Open
+VUL0405,CVE-2023-44462,Buffer Overflow,Critical,9.2,MKT-WKS-003,Yes,Open
+VUL0406,CVE-2025-2971,Denial of Service,Medium,6.6,OPS-SRV-003,No,Mitigated
+VUL0407,CVE-2020-43036,Weak SMB Configuration,Medium,5.5,Database-01,Yes,Patched
+VUL0408,CVE-2025-25205,Denial of Service,Medium,5.7,OPS-WKS-014,Yes,Open
+VUL0409,CVE-2022-37392,Weak SMB Configuration,Medium,5.2,SUP-SRV-002,Yes,Mitigated
+VUL0410,CVE-2020-28907,Cross-Site Request Forgery (CSRF),Medium,4.2,MKT-NET-001,Yes,Open
+VUL0411,CVE-2022-16668,Path Traversal,Medium,6.4,LEG-SRV-001,Yes,Patched
+VUL0412,CVE-2020-37888,Missing Encryption of Sensitive Data,Medium,4.8,IT-SRV-007,Yes,Open
+VUL0413,CVE-2020-34455,Path Traversal,Medium,5.5,ENG-WKS-002,Yes,Patched
+VUL0414,CVE-2022-48928,Privilege Escalation Flaw,High,7.6,HR-MOB-005,Yes,Open
+VUL0415,CVE-2021-44446,Hardcoded Credentials,Medium,6.6,IT-SRV-013,No,Patched
+VUL0416,CVE-2020-34392,SQL Injection Vulnerability,High,8.8,FIN-NET-003,No,Patched
+VUL0417,CVE-2024-49526,Cross-Site Scripting (XSS),Medium,5.6,SALES-NET-004,No,Patched
+VUL0418,CVE-2020-43672,Hardcoded Credentials,Medium,6.8,ENG-NET-004,No,Mitigated
+VUL0419,CVE-2021-44021,Information Disclosure,Medium,5.7,FIN-LAP-001,Yes,Mitigated
+VUL0420,CVE-2019-30450,Authentication Bypass,Critical,9.5,FIN-WKS-006,Yes,Open
+VUL0421,CVE-2020-20952,Path Traversal,Medium,6.5,ENG-CLD-001,Yes,Patched
+VUL0422,CVE-2019-24587,Weak SMB Configuration,Medium,5.5,OPS-SRV-007,Yes,Mitigated
+VUL0423,CVE-2024-33250,Authentication Bypass,High,8.9,OPS-SRV-002,Yes,Patched
+VUL0424,CVE-2021-30922,Improper Input Validation,Medium,4.7,IT-LAP-011,Yes,Open
+VUL0425,CVE-2021-28070,SQL Injection Vulnerability,High,8.6,LEG-CLD-006,Yes,Mitigated
+VUL0426,CVE-2019-11145,Improper Input Validation,Medium,5.8,OPS-SRV-006,Yes,Patched
+VUL0427,CVE-2020-18109,Denial of Service,Medium,6.4,OPS-WKS-009,No,Open
+VUL0428,CVE-2020-35223,Privilege Escalation Flaw,High,8.7,SALES-WKS-019,Yes,Open
+VUL0429,CVE-2020-6257,Cross-Site Request Forgery (CSRF),Medium,6.0,OPS-WKS-007,No,Patched
+VUL0430,CVE-2025-10880,Improper Input Validation,Medium,6.8,FIN-WKS-017,Yes,Open
+VUL0431,CVE-2025-7822,SQL Injection Vulnerability,Critical,9.5,LEG-SRV-001,Yes,Accepted Risk
+VUL0432,CVE-2025-10068,Server-Side Request Forgery (SSRF),Medium,6.2,OPS-SRV-005,No,Mitigated
+VUL0433,CVE-2024-47247,Outdated TLS/SSL Configuration,Medium,5.5,HR-SRV-003,Yes,Patched
+VUL0434,CVE-2023-45552,Hardcoded Credentials,High,8.3,OPS-MOB-004,Yes,Open
+VUL0435,CVE-2021-38376,Missing Encryption of Sensitive Data,Medium,5.0,FIN-SRV-013,No,Patched
+VUL0436,CVE-2022-25003,Outdated TLS/SSL Configuration,Medium,4.6,OPS-CLD-001,No,Open
+VUL0437,CVE-2024-31912,Authentication Bypass,Critical,9.0,Firewall,Yes,Open
+VUL0438,CVE-2025-47473,Information Disclosure,Medium,5.2,HR-WKS-007,No,Open
+VUL0439,CVE-2022-6829,Authentication Bypass,High,8.7,MKT-MOB-003,No,Mitigated
+VUL0440,CVE-2020-25301,Hardcoded Credentials,High,7.3,MKT-LAP-006,No,Open
+VUL0441,CVE-2020-42929,Authentication Bypass,Critical,9.5,IT-CLD-001,Yes,Open
+VUL0442,CVE-2022-41369,Server-Side Request Forgery (SSRF),High,7.6,IT-SRV-008,Yes,Accepted Risk
+VUL0443,CVE-2023-36581,Hardcoded Credentials,High,7.2,SALES-WKS-020,Yes,Open
+VUL0444,CVE-2022-46424,SQL Injection Vulnerability,High,8.9,HR-LAP-001,Yes,Open
+VUL0445,CVE-2024-20148,Unpatched Third-Party Library,High,7.1,OPS-MOB-005,Yes,Patched
+VUL0446,CVE-2025-13864,Hardcoded Credentials,High,8.0,SUP-LAP-007,Yes,Open
+VUL0447,CVE-2019-40395,Cross-Site Request Forgery (CSRF),Medium,6.1,OPS-LAP-010,Yes,Open
+VUL0448,CVE-2019-40027,Unpatched Third-Party Library,Medium,6.5,SALES-LAP-020,Yes,Open
+VUL0449,CVE-2019-12351,Remote Code Execution,Critical,9.5,WebServer,Yes,Open
+VUL0450,CVE-2024-16490,SQL Injection Vulnerability,High,7.1,HR-WKS-001,No,Accepted Risk
+VUL0451,CVE-2020-31793,Path Traversal,Medium,5.2,MKT-SRV-005,Yes,Open
+VUL0452,CVE-2022-17942,Path Traversal,Medium,5.1,ENG-WKS-002,Yes,Open
+VUL0453,CVE-2019-41897,Cross-Site Scripting (XSS),Medium,6.0,ENG-CLD-003,Yes,Mitigated
+VUL0454,CVE-2021-23393,Outdated TLS/SSL Configuration,Medium,5.2,ENG-SRV-001,Yes,Accepted Risk
+VUL0455,CVE-2025-4358,Privilege Escalation Flaw,Critical,9.2,OPS-WKS-012,Yes,Patched
+VUL0456,CVE-2020-21406,Remote Code Execution,Critical,9.7,SALES-MOB-001,Yes,Open
+VUL0457,CVE-2025-47383,Cross-Site Request Forgery (CSRF),Medium,6.0,FIN-NET-002,Yes,Mitigated
+VUL0458,CVE-2022-38029,Server-Side Request Forgery (SSRF),Medium,6.3,LEG-CLD-004,No,Open
+VUL0459,CVE-2025-42547,Cross-Site Request Forgery (CSRF),Medium,4.6,LEG-LAP-003,Yes,Patched
+VUL0460,CVE-2021-48476,Cross-Site Scripting (XSS),Medium,4.1,MKT-SRV-012,Yes,Patched
+VUL0461,CVE-2020-48046,Cross-Site Request Forgery (CSRF),Medium,5.5,HR-WKS-003,Yes,Open
+VUL0462,CVE-2024-18090,Privilege Escalation Flaw,High,7.8,SALES-LAP-004,Yes,Open
+VUL0463,CVE-2024-47942,Insecure Deserialization,High,7.8,MKT-WKS-011,No,Open
+VUL0464,CVE-2023-21676,Remote Code Execution,High,8.9,HR-WKS-007,Yes,Open
+VUL0465,CVE-2024-17067,Cross-Site Request Forgery (CSRF),Medium,4.1,OPS-WKS-010,Yes,Patched
+VUL0466,CVE-2023-24778,Weak SMB Configuration,Medium,6.1,OPS-NET-002,Yes,Patched
+VUL0467,CVE-2023-26364,Server-Side Request Forgery (SSRF),High,7.2,SALES-WKS-007,No,Patched
+VUL0468,CVE-2022-21856,Weak SMB Configuration,Medium,6.9,FIN-SRV-007,No,Open
+VUL0469,CVE-2022-48494,Path Traversal,Medium,6.5,LEG-MOB-001,No,Open
+VUL0470,CVE-2021-9719,Cross-Site Scripting (XSS),Medium,6.5,SUP-WKS-014,Yes,Patched
+VUL0471,CVE-2023-3301,Insecure Deserialization,High,8.3,SALES-WKS-018,Yes,Open
+VUL0472,CVE-2023-6616,Privilege Escalation Flaw,High,8.3,SALES-MOB-001,No,Patched
+VUL0473,CVE-2019-19876,Privilege Escalation Flaw,High,8.6,OPS-WKS-022,Yes,Open
+VUL0474,CVE-2023-40561,Server-Side Request Forgery (SSRF),Medium,6.4,MKT-MOB-001,Yes,Mitigated
+VUL0475,CVE-2024-23153,Hardcoded Credentials,Medium,6.7,MKT-CLD-001,Yes,Patched
+VUL0476,CVE-2019-18011,Missing Encryption of Sensitive Data,Medium,5.7,SUP-WKS-004,Yes,Open
+VUL0477,CVE-2022-26768,Authentication Bypass,Critical,9.2,OPS-WKS-003,No,Mitigated
+VUL0478,CVE-2022-8012,Outdated TLS/SSL Configuration,Medium,4.8,SALES-LAP-005,Yes,Patched
+VUL0479,CVE-2025-46568,Privilege Escalation Flaw,Critical,9.5,SUP-SRV-006,Yes,Open
+VUL0480,CVE-2024-23387,Authentication Bypass,Critical,9.0,HR-CLD-002,No,Mitigated
+VUL0481,CVE-2023-23531,SQL Injection Vulnerability,Critical,9.2,OPS-WKS-008,Yes,Mitigated
+VUL0482,CVE-2021-15937,Path Traversal,High,7.0,ENG-NET-002,No,Open
+VUL0483,CVE-2023-24126,Missing Encryption of Sensitive Data,Medium,5.4,ENG-NET-001,No,Open
+VUL0484,CVE-2024-27907,Denial of Service,High,7.0,FIN-SRV-011,No,Accepted Risk
+VUL0485,CVE-2024-12234,Privilege Escalation Flaw,Critical,9.1,OPS-WKS-007,Yes,Open
+VUL0486,CVE-2022-21126,Privilege Escalation Flaw,High,8.0,MKT-IOT-003,Yes,Mitigated
+VUL0487,CVE-2021-12315,Path Traversal,High,7.2,HR-NET-002,No,Accepted Risk
+VUL0488,CVE-2025-45363,Unpatched Third-Party Library,High,7.1,FIN-CLD-002,No,Mitigated
+VUL0489,CVE-2022-23237,Weak SMB Configuration,Medium,6.6,SALES-LAP-021,No,Open
+VUL0490,CVE-2021-24652,Denial of Service,Medium,5.2,OPS-SRV-001,Yes,Open
+VUL0491,CVE-2025-2675,Denial of Service,Medium,5.9,SUP-SRV-006,Yes,Patched
+VUL0492,CVE-2020-31282,Missing Encryption of Sensitive Data,Medium,5.3,OPS-SRV-007,No,Open
+VUL0493,CVE-2024-38795,Weak SMB Configuration,Medium,5.6,FIN-IOT-003,No,Open
+VUL0494,CVE-2025-24086,Buffer Overflow,High,8.5,SALES-CLD-003,Yes,Open
+VUL0495,CVE-2019-44616,Denial of Service,Medium,5.5,ENG-WKS-006,Yes,Mitigated
+VUL0496,CVE-2024-46606,Buffer Overflow,High,8.6,LEG-WKS-013,Yes,Patched
+VUL0497,CVE-2022-2548,Privilege Escalation Flaw,High,8.4,SALES-SRV-001,Yes,Open
+VUL0498,CVE-2023-49824,Hardcoded Credentials,Medium,6.7,MKT-SRV-013,Yes,Open
+VUL0499,CVE-2021-49336,Server-Side Request Forgery (SSRF),Medium,6.4,SALES-CLD-005,No,Mitigated
+VUL0500,CVE-2020-22447,Insecure Deserialization,Critical,9.0,FIN-NET-003,No,Open
+VUL0501,CVE-2023-33788,SQL Injection Vulnerability,High,8.9,SUP-LAP-003,Yes,Open
+VUL0502,CVE-2025-37772,Information Disclosure,Medium,4.5,FIN-SRV-012,Yes,Patched
+VUL0503,CVE-2025-38296,Hardcoded Credentials,Medium,6.6,HR-CLD-002,Yes,Open
+VUL0504,CVE-2023-47816,Authentication Bypass,High,8.7,SUP-WKS-003,Yes,Open
+VUL0505,CVE-2024-29722,SQL Injection Vulnerability,High,8.2,HR-SRV-006,Yes,Patched
+VUL0506,CVE-2020-28542,Authentication Bypass,High,8.7,IT-SRV-008,Yes,Patched
+VUL0507,CVE-2025-23295,Information Disclosure,Medium,5.9,ENG-WKS-004,Yes,Open
+VUL0508,CVE-2025-12498,Denial of Service,Medium,6.5,MKT-SRV-002,No,Patched
+VUL0509,CVE-2019-31300,Authentication Bypass,High,8.1,IT-MOB-002,No,Open
+VUL0510,CVE-2019-30007,Remote Code Execution,Critical,9.8,FIN-LAP-007,Yes,Open
+VUL0511,CVE-2022-12245,Authentication Bypass,Critical,9.8,IT-IOT-001,Yes,Patched
+VUL0512,CVE-2020-15921,Information Disclosure,Medium,6.2,LEG-MOB-003,Yes,Open
+VUL0513,CVE-2020-42615,Authentication Bypass,High,8.5,LEG-SRV-002,Yes,Open
+VUL0514,CVE-2023-20407,Information Disclosure,Medium,5.0,MKT-SRV-007,No,Patched
+VUL0515,CVE-2022-19159,Weak SMB Configuration,Medium,6.0,OPS-WKS-014,Yes,Open
+VUL0516,CVE-2020-16264,Remote Code Execution,Critical,9.0,SUP-SRV-003,No,Open
+VUL0517,CVE-2021-49106,Server-Side Request Forgery (SSRF),Medium,6.8,IT-SRV-013,Yes,Open
+VUL0518,CVE-2020-31493,Unpatched Third-Party Library,Medium,5.5,ENG-NET-008,Yes,Patched
+VUL0519,CVE-2024-45458,Missing Encryption of Sensitive Data,Medium,6.9,LEG-SRV-008,Yes,Patched
+VUL0520,CVE-2024-49929,SQL Injection Vulnerability,Critical,9.7,SALES-NET-002,Yes,Patched
+VUL0521,CVE-2022-22405,Denial of Service,Medium,5.9,ENG-CLD-002,Yes,Open
+VUL0522,CVE-2020-19720,Buffer Overflow,High,7.3,IT-SRV-001,Yes,Mitigated
+VUL0523,CVE-2022-33486,Improper Input Validation,Medium,5.1,FIN-CLD-001,Yes,Patched
+VUL0524,CVE-2021-42888,Weak SMB Configuration,Medium,5.2,OPS-WKS-008,Yes,Patched
+VUL0525,CVE-2025-18078,SQL Injection Vulnerability,High,8.0,MKT-SRV-006,Yes,Mitigated
+VUL0526,CVE-2024-36320,SQL Injection Vulnerability,High,7.8,SALES-LAP-012,Yes,Patched
+VUL0527,CVE-2024-25724,SQL Injection Vulnerability,High,7.2,HR-LAP-002,Yes,Mitigated
+VUL0528,CVE-2020-21389,Denial of Service,Medium,5.5,OPS-MOB-002,Yes,Patched
+VUL0529,CVE-2024-8019,Privilege Escalation Flaw,High,8.6,OPS-IOT-001,No,Open
+VUL0530,CVE-2025-13644,Cross-Site Scripting (XSS),Medium,6.2,MKT-NET-006,Yes,Open
+VUL0531,CVE-2025-47457,Information Disclosure,Medium,5.5,SUP-LAP-007,Yes,Open
+VUL0532,CVE-2019-3556,SQL Injection Vulnerability,High,7.9,IT-MOB-004,Yes,Open
+VUL0533,CVE-2020-8019,Information Disclosure,Medium,4.5,FIN-WKS-009,Yes,Accepted Risk
+VUL0534,CVE-2021-8922,Server-Side Request Forgery (SSRF),Medium,6.8,ENG-NET-005,Yes,Open
+VUL0535,CVE-2019-45124,Information Disclosure,Medium,4.4,SALES-NET-003,No,Patched
+VUL0536,CVE-2024-4862,Cross-Site Request Forgery (CSRF),Medium,5.3,ENG-NET-007,No,Patched
+VUL0537,CVE-2023-38728,SQL Injection Vulnerability,High,8.3,ENG-WKS-001,Yes,Open
+VUL0538,CVE-2022-34512,Privilege Escalation Flaw,Critical,9.2,SALES-LAP-020,Yes,Patched
+VUL0539,CVE-2024-26120,Information Disclosure,Medium,5.7,WebServer,Yes,Mitigated
+VUL0540,CVE-2024-34740,SQL Injection Vulnerability,Critical,9.4,LEG-LAP-005,Yes,Patched
+VUL0541,CVE-2023-25938,Server-Side Request Forgery (SSRF),Medium,6.8,IT-LAP-003,No,Mitigated
+VUL0542,CVE-2023-11568,Path Traversal,High,7.2,MKT-NET-001,Yes,Mitigated
+VUL0543,CVE-2025-44526,SQL Injection Vulnerability,Critical,9.8,HR-SRV-007,Yes,Patched
+VUL0544,CVE-2023-18189,Path Traversal,Medium,5.4,OPS-MOB-003,Yes,Open
+VUL0545,CVE-2019-33246,Cross-Site Scripting (XSS),Medium,4.4,FIN-CLD-005,Yes,Open
+VUL0546,CVE-2021-39438,Outdated TLS/SSL Configuration,Medium,5.1,WebServer,Yes,Patched
+VUL0547,CVE-2019-25670,Improper Input Validation,Medium,6.5,LEG-SRV-007,No,Open
+VUL0548,CVE-2024-17816,Remote Code Execution,Critical,9.6,FIN-SRV-012,Yes,Open
+VUL0549,CVE-2025-48304,Insecure Deserialization,High,7.4,HR-WKS-020,Yes,Patched
+VUL0550,CVE-2020-34286,Outdated TLS/SSL Configuration,Medium,6.5,IT-SRV-006,No,Patched
+VUL0551,CVE-2024-19194,Cross-Site Request Forgery (CSRF),Medium,5.6,LEG-SRV-003,Yes,Accepted Risk
+VUL0552,CVE-2022-8772,Cross-Site Scripting (XSS),Medium,6.2,SALES-NET-002,No,Open
+VUL0553,CVE-2023-36451,Privilege Escalation Flaw,High,8.2,OPS-SRV-005,No,Open
+VUL0554,CVE-2023-3179,Cross-Site Request Forgery (CSRF),Medium,5.2,IT-WKS-004,Yes,Patched
+VUL0555,CVE-2019-15117,Cross-Site Request Forgery (CSRF),Medium,5.5,SUP-SRV-008,Yes,Open
+VUL0556,CVE-2025-40895,Information Disclosure,Medium,6.4,FIN-SRV-011,No,Open
+VUL0557,CVE-2020-33777,Improper Input Validation,Medium,5.0,SALES-CLD-001,No,Open
+VUL0558,CVE-2025-15669,Improper Input Validation,Medium,4.8,SUP-WKS-002,Yes,Mitigated
+VUL0559,CVE-2023-20787,Remote Code Execution,Critical,9.4,FIN-SRV-009,Yes,Accepted Risk
+VUL0560,CVE-2020-7444,Server-Side Request Forgery (SSRF),High,8.3,IT-SRV-004,Yes,Patched
+VUL0561,CVE-2020-43767,Cross-Site Request Forgery (CSRF),Medium,5.2,HR-LAP-006,No,Mitigated
+VUL0562,CVE-2020-35121,Buffer Overflow,High,8.4,LEG-WKS-010,No,Mitigated
+VUL0563,CVE-2022-31773,Weak SMB Configuration,Medium,6.9,IT-SRV-009,Yes,Patched
+VUL0564,CVE-2025-39625,Path Traversal,Medium,5.4,SALES-LAP-001,Yes,Accepted Risk
+VUL0565,CVE-2020-33680,Insecure Deserialization,High,8.9,SUP-SRV-003,Yes,Open
+VUL0566,CVE-2025-2878,Path Traversal,Medium,5.5,FIN-SRV-003,No,Patched
+VUL0567,CVE-2021-37898,Hardcoded Credentials,High,7.5,OPS-MOB-005,Yes,Accepted Risk
+VUL0568,CVE-2024-44901,Information Disclosure,Medium,4.9,LEG-SRV-007,Yes,Open
+VUL0569,CVE-2024-17004,Remote Code Execution,Critical,9.1,HR-LAP-002,Yes,Open
+VUL0570,CVE-2023-44422,Buffer Overflow,High,8.9,ENG-WKS-004,Yes,Patched
+VUL0571,CVE-2019-13659,SQL Injection Vulnerability,High,7.7,IT-SRV-006,Yes,Open
+VUL0572,CVE-2023-46425,SQL Injection Vulnerability,High,8.4,MKT-SRV-005,No,Patched
+VUL0573,CVE-2025-12844,SQL Injection Vulnerability,High,8.6,MKT-SRV-001,No,Open
+VUL0574,CVE-2020-8970,Improper Input Validation,Medium,5.7,HR-SRV-008,Yes,Open
+VUL0575,CVE-2022-27546,SQL Injection Vulnerability,High,7.2,ENG-SRV-003,No,Open
+VUL0576,CVE-2024-18721,Outdated TLS/SSL Configuration,Medium,4.4,ENG-WKS-007,No,Open
+VUL0577,CVE-2019-4568,Server-Side Request Forgery (SSRF),High,7.6,SUP-WKS-017,Yes,Open
+VUL0578,CVE-2021-37127,Privilege Escalation Flaw,High,8.2,MKT-IOT-002,Yes,Open
+VUL0579,CVE-2020-10939,Privilege Escalation Flaw,High,7.7,SALES-MOB-002,Yes,Patched
+VUL0580,CVE-2023-7295,Unpatched Third-Party Library,Medium,6.7,IT-WKS-016,Yes,Open
+VUL0581,CVE-2019-16478,Server-Side Request Forgery (SSRF),Medium,6.4,MKT-LAP-010,Yes,Mitigated
+VUL0582,CVE-2021-16825,Remote Code Execution,Critical,9.8,FIN-LAP-008,Yes,Open
+VUL0583,CVE-2025-3724,Denial of Service,High,7.4,FIN-CLD-002,Yes,Patched
+VUL0584,CVE-2019-40586,Information Disclosure,Medium,4.5,FIN-IOT-002,Yes,Open
+VUL0585,CVE-2019-23204,Remote Code Execution,Critical,9.1,FIN-SRV-005,Yes,Patched
+VUL0586,CVE-2022-17015,Privilege Escalation Flaw,High,7.8,IT-SRV-007,Yes,Mitigated
+VUL0587,CVE-2024-34655,Server-Side Request Forgery (SSRF),High,8.3,SALES-IOT-002,Yes,Open
+VUL0588,CVE-2025-49163,Information Disclosure,Medium,6.0,IT-NET-001,Yes,Open
+VUL0589,CVE-2019-7714,Outdated TLS/SSL Configuration,Medium,5.9,SUP-SRV-008,Yes,Open
+VUL0590,CVE-2020-44882,Authentication Bypass,High,8.5,IT-SRV-010,Yes,Open
+VUL0591,CVE-2022-1233,Denial of Service,Medium,6.7,LEG-CLD-002,Yes,Open
+VUL0592,CVE-2024-19853,Hardcoded Credentials,High,7.2,ENG-NET-002,Yes,Open
+VUL0593,CVE-2019-27263,Server-Side Request Forgery (SSRF),High,7.7,ENG-SRV-002,Yes,Open
+VUL0594,CVE-2019-36586,Authentication Bypass,Critical,9.8,SALES-SRV-002,Yes,Patched
+VUL0595,CVE-2022-17580,Authentication Bypass,High,7.7,HR-SRV-004,Yes,Open
+VUL0596,CVE-2019-39621,Weak SMB Configuration,Medium,5.3,IT-WKS-002,Yes,Open
+VUL0597,CVE-2024-2648,Information Disclosure,Medium,5.4,SUP-LAP-012,Yes,Patched
+VUL0598,CVE-2025-5908,Buffer Overflow,Critical,9.0,MKT-SRV-003,Yes,Patched
+VUL0599,CVE-2024-18580,Hardcoded Credentials,Medium,6.8,HR-WKS-009,Yes,Mitigated
+VUL0600,CVE-2020-29690,Cross-Site Request Forgery (CSRF),Medium,4.4,IT-SRV-002,Yes,Patched
+VUL0601,CVE-2025-16413,Privilege Escalation Flaw,High,8.8,FIN-IOT-002,No,Open
+VUL0602,CVE-2022-7026,Denial of Service,Medium,5.0,HR-CLD-001,No,Open
+VUL0603,CVE-2021-39676,Path Traversal,High,7.1,SALES-LAP-021,No,Mitigated
+VUL0604,CVE-2023-29966,Unpatched Third-Party Library,Medium,6.0,HR-WKS-013,Yes,Patched
+VUL0605,CVE-2020-25490,Hardcoded Credentials,High,7.5,ENG-MOB-004,No,Patched
+VUL0606,CVE-2024-33957,Privilege Escalation Flaw,High,8.5,FIN-SRV-007,Yes,Patched
+VUL0607,CVE-2019-35853,Insecure Deserialization,High,7.6,LEG-CLD-006,Yes,Open
+VUL0608,CVE-2021-34907,Weak SMB Configuration,Medium,5.5,HR-CLD-004,Yes,Patched
+VUL0609,CVE-2021-27347,Cross-Site Scripting (XSS),Medium,6.4,HR-WKS-011,Yes,Patched
+VUL0610,CVE-2024-30624,Hardcoded Credentials,High,7.9,IT-CLD-002,Yes,Patched
+VUL0611,CVE-2024-43870,Authentication Bypass,Critical,9.4,IT-SRV-007,Yes,Patched
+VUL0612,CVE-2024-25015,SQL Injection Vulnerability,High,7.8,SUP-WKS-002,Yes,Open
+VUL0613,CVE-2022-40868,Outdated TLS/SSL Configuration,Medium,6.2,SUP-CLD-002,No,Open
+VUL0614,CVE-2021-31948,Buffer Overflow,High,8.8,OPS-NET-001,No,Patched
+VUL0615,CVE-2021-13913,Improper Input Validation,Medium,6.6,LEG-LAP-001,No,Mitigated
+VUL0616,CVE-2025-28533,Cross-Site Request Forgery (CSRF),Medium,4.7,ENG-CLD-002,Yes,Accepted Risk
+VUL0617,CVE-2020-47713,Information Disclosure,Medium,4.9,SUP-WKS-002,No,Mitigated
+VUL0618,CVE-2021-3405,Information Disclosure,Medium,6.2,IT-SRV-006,Yes,Open
+VUL0619,CVE-2025-25552,Outdated TLS/SSL Configuration,Medium,4.3,LEG-WKS-007,Yes,Open
+VUL0620,CVE-2023-17729,SQL Injection Vulnerability,High,8.1,ENG-SRV-001,Yes,Open
+VUL0621,CVE-2021-8475,Path Traversal,Medium,5.8,ENG-NET-007,Yes,Patched
+VUL0622,CVE-2020-2335,Denial of Service,Medium,5.7,MKT-SRV-002,No,Mitigated
+VUL0623,CVE-2020-16292,Weak SMB Configuration,Medium,6.2,OPS-LAP-005,No,Open
+VUL0624,CVE-2023-22321,Outdated TLS/SSL Configuration,Medium,5.6,HR-SRV-006,Yes,Patched
+VUL0625,CVE-2020-14946,Cross-Site Request Forgery (CSRF),Medium,4.8,LEG-LAP-009,No,Open
+VUL0626,CVE-2020-8602,Path Traversal,High,7.5,MKT-SRV-003,Yes,Open
+VUL0627,CVE-2021-39485,Denial of Service,Medium,5.9,SUP-MOB-001,Yes,Patched
+VUL0628,CVE-2021-18641,Weak SMB Configuration,Medium,6.6,MKT-LAP-005,Yes,Open
+VUL0629,CVE-2024-25924,Cross-Site Request Forgery (CSRF),Medium,4.6,ENG-NET-006,Yes,Patched
+VUL0630,CVE-2022-36936,Missing Encryption of Sensitive Data,Medium,4.9,LEG-MOB-001,No,Patched
+VUL0631,CVE-2024-29863,Remote Code Execution,Critical,9.0,MKT-NET-002,Yes,Open
+VUL0632,CVE-2019-13046,Hardcoded Credentials,Medium,6.5,ENG-NET-005,Yes,Open
+VUL0633,CVE-2024-23796,Outdated TLS/SSL Configuration,Medium,4.9,MKT-IOT-003,Yes,Patched
+VUL0634,CVE-2022-8470,Hardcoded Credentials,High,7.1,SUP-WKS-013,Yes,Mitigated
+VUL0635,CVE-2021-22985,Unpatched Third-Party Library,Medium,6.9,SALES-LAP-009,No,Patched
+VUL0636,CVE-2024-25207,Buffer Overflow,High,7.9,FIN-SRV-009,Yes,Open
+VUL0637,CVE-2024-8466,Path Traversal,Medium,5.4,ENG-WKS-001,No,Open
+VUL0638,CVE-2022-1240,Information Disclosure,Medium,6.5,FIN-SRV-004,Yes,Open
+VUL0639,CVE-2022-17932,Denial of Service,Medium,5.4,IT-SRV-013,Yes,Mitigated
+VUL0640,CVE-2021-49071,Cross-Site Scripting (XSS),Medium,4.1,OPS-SRV-003,No,Open
+VUL0641,CVE-2022-45282,Cross-Site Scripting (XSS),Medium,5.4,OPS-WKS-014,No,Patched
+VUL0642,CVE-2019-43286,Information Disclosure,Medium,5.7,LEG-LAP-003,No,Patched
+VUL0643,CVE-2024-41176,Information Disclosure,Medium,5.6,IT-SRV-004,Yes,Patched
+VUL0644,CVE-2024-32678,Buffer Overflow,High,7.3,FIN-SRV-005,Yes,Open
+VUL0645,CVE-2023-38452,Denial of Service,Medium,6.7,MKT-SRV-013,No,Patched
+VUL0646,CVE-2025-24856,Weak SMB Configuration,Medium,5.9,SALES-CLD-001,No,Patched
+VUL0647,CVE-2019-6294,Cross-Site Scripting (XSS),Medium,5.7,HR-SRV-007,No,Patched
+VUL0648,CVE-2021-5601,Information Disclosure,Medium,6.3,MKT-SRV-010,Yes,Patched
+VUL0649,CVE-2020-29837,Remote Code Execution,Critical,9.7,HR-SRV-007,Yes,Open
+VUL0650,CVE-2020-14306,Path Traversal,High,7.2,HR-CLD-003,Yes,Open
+VUL0651,CVE-2021-5331,Remote Code Execution,High,8.5,SUP-LAP-012,Yes,Open
+VUL0652,CVE-2021-45012,Improper Input Validation,Medium,4.9,OPS-NET-001,No,Mitigated
+VUL0653,CVE-2022-40512,Improper Input Validation,Medium,5.6,Database-01,No,Patched
+VUL0654,CVE-2020-21178,Remote Code Execution,Critical,9.9,IT-SRV-010,Yes,Patched
+VUL0655,CVE-2025-10404,Missing Encryption of Sensitive Data,Medium,6.2,MKT-SRV-008,Yes,Mitigated
+VUL0656,CVE-2025-13891,Denial of Service,Medium,5.7,MKT-SRV-013,No,Patched
+VUL0657,CVE-2020-46549,Insecure Deserialization,High,7.8,LEG-CLD-005,Yes,Open
+VUL0658,CVE-2025-25131,Cross-Site Request Forgery (CSRF),Medium,5.3,IT-IOT-002,Yes,Patched
+VUL0659,CVE-2025-49833,Hardcoded Credentials,High,7.3,LEG-WKS-004,Yes,Patched
+VUL0660,CVE-2024-27610,Information Disclosure,Medium,5.3,SALES-NET-003,Yes,Open
+VUL0661,CVE-2023-14737,Authentication Bypass,Critical,9.0,HR-WKS-005,Yes,Mitigated
+VUL0662,CVE-2019-18280,Improper Input Validation,Medium,5.0,FIN-SRV-003,Yes,Open
+VUL0663,CVE-2023-15270,Path Traversal,Medium,6.1,Finance-PC-02,No,Open
+VUL0664,CVE-2025-10033,Unpatched Third-Party Library,Medium,6.9,IT-SRV-009,Yes,Open
+VUL0665,CVE-2025-12136,Insecure Deserialization,High,8.3,SALES-LAP-001,No,Patched
+VUL0666,CVE-2025-31609,Server-Side Request Forgery (SSRF),High,8.1,MKT-IOT-003,No,Open
+VUL0667,CVE-2019-11232,Server-Side Request Forgery (SSRF),Medium,6.4,SALES-LAP-002,Yes,Patched
+VUL0668,CVE-2022-26427,Improper Input Validation,Medium,4.4,LEG-MOB-002,No,Mitigated
+VUL0669,CVE-2020-32132,Unpatched Third-Party Library,Medium,6.0,SUP-NET-001,Yes,Mitigated
+VUL0670,CVE-2019-14057,Cross-Site Request Forgery (CSRF),Medium,4.1,OPS-LAP-010,Yes,Open
+VUL0671,CVE-2022-15262,Insecure Deserialization,High,8.3,ENG-MOB-005,Yes,Patched
+VUL0672,CVE-2024-23725,Hardcoded Credentials,Medium,6.7,ENG-CLD-001,No,Open
+VUL0673,CVE-2021-11052,Improper Input Validation,Medium,5.6,MKT-LAP-009,No,Open
+VUL0674,CVE-2023-4308,Authentication Bypass,High,8.1,LEG-LAP-002,Yes,Mitigated
+VUL0675,CVE-2021-33070,Information Disclosure,Medium,4.6,MKT-IOT-001,No,Open
+VUL0676,CVE-2020-48364,Server-Side Request Forgery (SSRF),Medium,6.3,LEG-CLD-005,No,Open
+VUL0677,CVE-2024-8087,Cross-Site Request Forgery (CSRF),Medium,5.7,ENG-WKS-001,No,Open
+VUL0678,CVE-2019-21539,Missing Encryption of Sensitive Data,Medium,5.5,FIN-SRV-009,Yes,Open
+VUL0679,CVE-2019-41548,Outdated TLS/SSL Configuration,Medium,5.9,IT-SRV-011,Yes,Patched
+VUL0680,CVE-2025-32194,Improper Input Validation,Medium,4.5,SUP-WKS-011,No,Mitigated
+VUL0681,CVE-2020-44313,Cross-Site Scripting (XSS),Medium,5.6,LEG-SRV-005,No,Mitigated
+VUL0682,CVE-2023-34332,Buffer Overflow,High,7.2,SALES-WKS-009,No,Open
+VUL0683,CVE-2019-1870,Improper Input Validation,Medium,5.8,LEG-WKS-014,Yes,Open
+VUL0684,CVE-2025-9583,Insecure Deserialization,High,7.9,SALES-CLD-005,No,Open
+VUL0685,CVE-2024-26761,SQL Injection Vulnerability,High,8.8,FIN-CLD-001,Yes,Patched
+VUL0686,CVE-2023-40138,Denial of Service,Medium,5.8,OPS-LAP-002,Yes,Open
+VUL0687,CVE-2019-20353,Insecure Deserialization,High,8.6,HR-SRV-007,No,Open
+VUL0688,CVE-2024-43099,Remote Code Execution,Critical,10.0,OPS-SRV-004,Yes,Patched
+VUL0689,CVE-2021-47190,Information Disclosure,Medium,5.5,SALES-CLD-005,Yes,Open
+VUL0690,CVE-2019-8719,Outdated TLS/SSL Configuration,Medium,5.2,FIN-SRV-008,No,Open
+VUL0691,CVE-2022-15945,Missing Encryption of Sensitive Data,Medium,6.9,ENG-NET-004,Yes,Patched
+VUL0692,CVE-2022-26767,Outdated TLS/SSL Configuration,Medium,5.9,MKT-NET-003,No,Patched
+VUL0693,CVE-2024-30423,Improper Input Validation,Medium,6.5,SUP-WKS-005,Yes,Open
+VUL0694,CVE-2023-19099,Hardcoded Credentials,Medium,6.8,HR-WKS-013,Yes,Open
+VUL0695,CVE-2021-16601,Buffer Overflow,High,8.4,LEG-LAP-009,Yes,Patched
+VUL0696,CVE-2024-20843,Cross-Site Request Forgery (CSRF),Medium,5.8,OPS-WKS-002,Yes,Mitigated
+VUL0697,CVE-2022-20761,Outdated TLS/SSL Configuration,Medium,5.8,FIN-SRV-001,No,Open
+VUL0698,CVE-2025-32022,Remote Code Execution,High,8.5,IT-WKS-005,Yes,Patched
+VUL0699,CVE-2025-6933,Unpatched Third-Party Library,Medium,6.0,SALES-CLD-003,Yes,Open
+VUL0700,CVE-2022-29907,Improper Input Validation,Medium,5.7,IT-SRV-004,No,Open
+VUL0701,CVE-2024-7395,Unpatched Third-Party Library,High,7.9,ENG-NET-005,Yes,Open
+VUL0702,CVE-2019-7582,Server-Side Request Forgery (SSRF),Medium,6.2,FIN-IOT-005,Yes,Mitigated
+VUL0703,CVE-2025-19206,Weak SMB Configuration,Medium,5.6,OPS-LAP-005,Yes,Open
+VUL0704,CVE-2023-20600,Unpatched Third-Party Library,Medium,6.2,ENG-MOB-006,Yes,Open
+VUL0705,CVE-2023-33489,Path Traversal,Medium,5.6,SUP-MOB-004,Yes,Mitigated
+VUL0706,CVE-2021-48153,Insecure Deserialization,High,7.7,LEG-LAP-008,No,Patched
+VUL0707,CVE-2023-40211,Denial of Service,High,7.5,MKT-SRV-008,Yes,Mitigated
+VUL0708,CVE-2023-14369,Privilege Escalation Flaw,Critical,9.5,SUP-NET-001,Yes,Mitigated
+VUL0709,CVE-2019-6211,Improper Input Validation,Medium,6.5,LEG-CLD-003,Yes,Patched
+VUL0710,CVE-2020-27162,Cross-Site Request Forgery (CSRF),Medium,4.4,FIN-SRV-012,Yes,Patched
+VUL0711,CVE-2019-13087,Weak SMB Configuration,Medium,6.3,OPS-LAP-004,Yes,Open
+VUL0712,CVE-2020-26694,Missing Encryption of Sensitive Data,Medium,6.2,FIN-SRV-004,Yes,Patched
+VUL0713,CVE-2024-43612,Insecure Deserialization,High,7.8,SALES-WKS-014,Yes,Open
+VUL0714,CVE-2022-10231,Outdated TLS/SSL Configuration,Medium,5.9,IT-WKS-018,Yes,Mitigated
+VUL0715,CVE-2020-45762,Remote Code Execution,Critical,9.6,MKT-WKS-004,No,Mitigated
+VUL0716,CVE-2021-31094,Weak SMB Configuration,Medium,5.7,HR-SRV-006,Yes,Patched
+VUL0717,CVE-2025-13055,Unpatched Third-Party Library,High,7.2,FIN-WKS-002,Yes,Mitigated
+VUL0718,CVE-2023-14894,Weak SMB Configuration,Medium,5.7,LEG-CLD-002,Yes,Open
+VUL0719,CVE-2023-15656,Path Traversal,High,7.4,HR-NET-003,Yes,Open
+VUL0720,CVE-2022-1792,Server-Side Request Forgery (SSRF),Medium,6.5,MKT-SRV-008,Yes,Mitigated
+VUL0721,CVE-2022-1027,Buffer Overflow,Critical,9.4,FIN-NET-001,Yes,Open
+VUL0722,CVE-2023-7523,Cross-Site Request Forgery (CSRF),Medium,5.8,SALES-IOT-001,Yes,Open
+VUL0723,CVE-2022-19791,Authentication Bypass,Critical,9.7,LEG-MOB-004,Yes,Open
+VUL0724,CVE-2025-9166,SQL Injection Vulnerability,High,8.8,HR-WKS-018,No,Patched
+VUL0725,CVE-2023-10599,Missing Encryption of Sensitive Data,Medium,4.9,FIN-WKS-014,Yes,Open
+VUL0726,CVE-2020-13536,Remote Code Execution,Critical,9.6,IT-NET-003,No,Patched
+VUL0727,CVE-2021-40268,Server-Side Request Forgery (SSRF),High,8.3,HR-NET-003,Yes,Open
+VUL0728,CVE-2023-25320,Outdated TLS/SSL Configuration,Medium,4.3,FIN-CLD-003,Yes,Patched
+VUL0729,CVE-2024-18052,Improper Input Validation,Medium,6.7,OPS-WKS-017,Yes,Patched
+VUL0730,CVE-2025-38134,Path Traversal,High,7.3,HR-SRV-007,Yes,Mitigated
+VUL0731,CVE-2020-49686,Privilege Escalation Flaw,High,7.9,HR-LAP-002,Yes,Open
+VUL0732,CVE-2021-48687,Cross-Site Request Forgery (CSRF),Medium,5.2,SUP-SRV-001,Yes,Open
+VUL0733,CVE-2019-12435,Cross-Site Request Forgery (CSRF),Medium,4.2,HR-MOB-005,Yes,Mitigated
+VUL0734,CVE-2024-28004,Outdated TLS/SSL Configuration,Medium,6.4,SALES-LAP-017,Yes,Open
+VUL0735,CVE-2019-39422,Server-Side Request Forgery (SSRF),Medium,6.6,SUP-CLD-002,Yes,Open
+VUL0736,CVE-2019-43309,Outdated TLS/SSL Configuration,Medium,4.0,SUP-MOB-001,Yes,Accepted Risk
+VUL0737,CVE-2020-15517,Path Traversal,High,7.5,IT-SRV-001,Yes,Open
+VUL0738,CVE-2022-33104,Weak SMB Configuration,Medium,6.9,SALES-NET-001,Yes,Patched
+VUL0739,CVE-2019-26134,Improper Input Validation,Medium,5.2,ENG-CLD-001,Yes,Patched
+VUL0740,CVE-2019-33242,Buffer Overflow,High,8.0,LEG-CLD-002,Yes,Open
+VUL0741,CVE-2023-40202,SQL Injection Vulnerability,High,7.3,OPS-WKS-020,Yes,Patched
+VUL0742,CVE-2025-20933,Cross-Site Scripting (XSS),Medium,5.8,IT-WKS-013,Yes,Open
+VUL0743,CVE-2019-32100,Denial of Service,Medium,5.9,IT-SRV-008,Yes,Open
+VUL0744,CVE-2025-40540,Cross-Site Scripting (XSS),Medium,5.0,HR-LAP-007,Yes,Mitigated
+VUL0745,CVE-2022-38095,SQL Injection Vulnerability,High,8.2,LEG-LAP-010,Yes,Patched
+VUL0746,CVE-2020-41848,Weak SMB Configuration,Medium,5.6,FIN-SRV-009,Yes,Open
+VUL0747,CVE-2024-1912,Privilege Escalation Flaw,High,8.1,IT-LAP-010,Yes,Patched
+VUL0748,CVE-2019-43479,Information Disclosure,Medium,6.0,SALES-WKS-006,No,Mitigated
+VUL0749,CVE-2024-47187,Outdated TLS/SSL Configuration,Medium,6.4,LEG-CLD-006,Yes,Patched
+VUL0750,CVE-2025-7618,Denial of Service,Medium,6.1,SUP-SRV-003,No,Open
+VUL0751,CVE-2022-12467,Unpatched Third-Party Library,High,7.9,HR-NET-003,No,Open
+VUL0752,CVE-2021-33313,Cross-Site Scripting (XSS),Medium,6.7,SALES-CLD-001,No,Open
+VUL0753,CVE-2025-36901,Remote Code Execution,Critical,9.0,LEG-SRV-001,Yes,Open
+VUL0754,CVE-2021-36506,Cross-Site Scripting (XSS),Medium,5.7,FIN-SRV-003,No,Patched
+VUL0755,CVE-2025-10382,Weak SMB Configuration,Medium,6.6,OPS-SRV-001,Yes,Accepted Risk
+VUL0756,CVE-2025-21134,Denial of Service,High,7.3,HR-CLD-002,No,Mitigated
+VUL0757,CVE-2019-12923,Cross-Site Request Forgery (CSRF),Medium,5.6,ENG-LAP-003,No,Open
+VUL0758,CVE-2020-21547,Missing Encryption of Sensitive Data,Medium,6.2,IT-SRV-011,Yes,Open
+VUL0759,CVE-2021-40639,Unpatched Third-Party Library,Medium,6.0,SUP-SRV-006,No,Mitigated
+VUL0760,CVE-2020-46526,SQL Injection Vulnerability,High,8.9,FIN-SRV-003,Yes,Open
+VUL0761,CVE-2019-21076,Path Traversal,Medium,5.2,FIN-WKS-005,No,Patched
+VUL0762,CVE-2025-36414,Information Disclosure,Medium,5.1,SALES-SRV-001,Yes,Mitigated
+VUL0763,CVE-2020-14590,Remote Code Execution,Critical,9.9,Database-01,Yes,Patched
+VUL0764,CVE-2019-9237,Denial of Service,Medium,6.1,HR-NET-001,No,Open
+VUL0765,CVE-2022-8648,SQL Injection Vulnerability,High,8.1,MKT-SRV-002,Yes,Patched
+VUL0766,CVE-2024-23728,Cross-Site Request Forgery (CSRF),Medium,5.3,OPS-WKS-022,No,Mitigated
+VUL0767,CVE-2019-20198,Server-Side Request Forgery (SSRF),Medium,6.7,SALES-MOB-008,Yes,Open
+VUL0768,CVE-2022-19508,Authentication Bypass,Critical,9.5,FIN-SRV-010,No,Open
+VUL0769,CVE-2023-6871,Buffer Overflow,High,8.1,LEG-SRV-006,Yes,Open
+VUL0770,CVE-2022-17949,Missing Encryption of Sensitive Data,Medium,4.8,OPS-WKS-016,No,Patched
+VUL0771,CVE-2023-29340,Authentication Bypass,Critical,9.8,SALES-WKS-012,No,Mitigated
+VUL0772,CVE-2021-25648,Buffer Overflow,High,8.4,LEG-MOB-006,No,Mitigated
+VUL0773,CVE-2024-11224,Insecure Deserialization,High,7.8,OPS-LAP-002,Yes,Open
+VUL0774,CVE-2022-19857,Weak SMB Configuration,Medium,6.2,MKT-NET-005,Yes,Mitigated
+VUL0775,CVE-2024-33786,SQL Injection Vulnerability,High,8.2,IT-SRV-001,Yes,Patched
+VUL0776,CVE-2022-25524,Authentication Bypass,High,8.5,FIN-CLD-001,Yes,Open
+VUL0777,CVE-2020-46739,Remote Code Execution,High,8.6,SALES-WKS-005,Yes,Open
+VUL0778,CVE-2021-38781,Cross-Site Request Forgery (CSRF),Medium,5.6,LEG-LAP-006,Yes,Open
+VUL0779,CVE-2021-35003,Buffer Overflow,High,8.5,SALES-LAP-019,No,Accepted Risk
+VUL0780,CVE-2024-24003,Server-Side Request Forgery (SSRF),High,7.6,MKT-SRV-003,No,Patched
+VUL0781,CVE-2023-28907,Path Traversal,Medium,5.6,FIN-WKS-007,No,Patched
+VUL0782,CVE-2019-33740,Outdated TLS/SSL Configuration,Medium,4.5,SUP-WKS-001,No,Open
+VUL0783,CVE-2021-6156,Authentication Bypass,High,8.0,OPS-SRV-004,Yes,Patched
+VUL0784,CVE-2023-6031,Cross-Site Scripting (XSS),Medium,6.1,MKT-WKS-004,Yes,Patched
+VUL0785,CVE-2022-11014,Outdated TLS/SSL Configuration,Medium,6.0,IT-WKS-010,Yes,Open
+VUL0786,CVE-2021-43882,Server-Side Request Forgery (SSRF),Medium,6.6,LEG-LAP-001,Yes,Open
+VUL0787,CVE-2025-49283,Missing Encryption of Sensitive Data,Medium,6.1,MKT-NET-003,Yes,Accepted Risk
+VUL0788,CVE-2021-13185,Cross-Site Request Forgery (CSRF),Medium,4.5,HR-LAP-010,Yes,Patched
+VUL0789,CVE-2021-9793,Missing Encryption of Sensitive Data,Medium,6.4,ENG-CLD-001,Yes,Accepted Risk
+VUL0790,CVE-2024-18922,Unpatched Third-Party Library,Medium,6.1,LEG-CLD-002,Yes,Open
+VUL0791,CVE-2023-21901,SQL Injection Vulnerability,High,7.0,FIN-SRV-013,No,Patched
+VUL0792,CVE-2024-25365,Insecure Deserialization,High,8.0,IT-NET-003,No,Open
+VUL0793,CVE-2024-42523,Hardcoded Credentials,High,7.6,OPS-SRV-007,Yes,Mitigated
+VUL0794,CVE-2022-6437,SQL Injection Vulnerability,High,8.6,LEG-LAP-012,Yes,Patched
+VUL0795,CVE-2022-42312,Path Traversal,Medium,6.2,OPS-WKS-013,No,Patched
+VUL0796,CVE-2025-14721,Weak SMB Configuration,High,7.0,IT-SRV-008,No,Open
+VUL0797,CVE-2022-1036,Improper Input Validation,Medium,4.8,HR-SRV-007,No,Patched
+VUL0798,CVE-2022-49021,Authentication Bypass,High,8.2,MKT-SRV-009,Yes,Patched
+VUL0799,CVE-2020-21364,Missing Encryption of Sensitive Data,Medium,5.4,HR-MOB-001,Yes,Mitigated
+VUL0800,CVE-2020-38853,Privilege Escalation Flaw,High,7.8,MKT-NET-006,Yes,Open
+VUL0801,CVE-2023-10680,Buffer Overflow,High,7.8,FIN-CLD-005,Yes,Open
+VUL0802,CVE-2022-19571,Unpatched Third-Party Library,Medium,6.4,ENG-LAP-008,No,Accepted Risk
+VUL0803,CVE-2019-15565,Path Traversal,Medium,5.6,IT-WKS-008,No,Open
+VUL0804,CVE-2021-2565,Insecure Deserialization,High,7.6,FIN-NET-003,No,Open
+VUL0805,CVE-2020-24940,Buffer Overflow,High,8.6,HR-NET-004,Yes,Open
+VUL0806,CVE-2021-6682,Cross-Site Request Forgery (CSRF),Medium,5.2,LEG-LAP-006,Yes,Patched
+VUL0807,CVE-2024-3784,Path Traversal,Medium,6.1,MKT-NET-005,No,Patched
+VUL0808,CVE-2022-33691,Path Traversal,High,7.3,MKT-CLD-001,No,Patched
+VUL0809,CVE-2019-16435,Denial of Service,High,7.2,HR-SRV-001,Yes,Patched
+VUL0810,CVE-2020-36101,Weak SMB Configuration,Medium,5.7,SUP-SRV-004,Yes,Open
+VUL0811,CVE-2024-42056,Denial of Service,Medium,6.1,OPS-SRV-007,Yes,Patched
+VUL0812,CVE-2019-6604,Improper Input Validation,Medium,5.0,HR-WKS-012,Yes,Patched
+VUL0813,CVE-2020-42377,Buffer Overflow,High,8.3,SALES-LAP-002,No,Open
+VUL0814,CVE-2020-39185,Path Traversal,Medium,6.2,MKT-LAP-005,Yes,Open
+VUL0815,CVE-2025-23535,SQL Injection Vulnerability,Critical,9.7,FIN-SRV-008,Yes,Patched
+VUL0816,CVE-2019-46164,Cross-Site Request Forgery (CSRF),Medium,5.9,OPS-LAP-009,Yes,Patched
+VUL0817,CVE-2021-10805,Buffer Overflow,High,7.5,FIN-LAP-007,No,Open
+VUL0818,CVE-2024-6123,Server-Side Request Forgery (SSRF),Medium,6.3,HR-WKS-017,Yes,Accepted Risk
+VUL0819,CVE-2022-31335,Weak SMB Configuration,Medium,5.5,HR-NET-004,Yes,Patched
+VUL0820,CVE-2019-13291,Weak SMB Configuration,Medium,5.4,LEG-WKS-005,No,Patched
+VUL0821,CVE-2022-13334,Remote Code Execution,Critical,9.9,HR-WKS-001,Yes,Mitigated
+VUL0822,CVE-2019-40710,Privilege Escalation Flaw,High,7.5,FIN-SRV-008,Yes,Patched
+VUL0823,CVE-2025-17588,Improper Input Validation,Medium,6.7,ENG-NET-005,No,Open
+VUL0824,CVE-2019-18750,Privilege Escalation Flaw,High,8.4,SALES-LAP-003,No,Open
+VUL0825,CVE-2020-2828,Improper Input Validation,Medium,4.4,SALES-LAP-017,Yes,Mitigated
+VUL0826,CVE-2022-28468,Cross-Site Scripting (XSS),Medium,5.5,LEG-WKS-002,Yes,Patched
+VUL0827,CVE-2025-48953,Cross-Site Scripting (XSS),Medium,5.2,HR-MOB-002,Yes,Patched
+VUL0828,CVE-2020-34569,Missing Encryption of Sensitive Data,Medium,6.5,IT-SRV-002,Yes,Accepted Risk
+VUL0829,CVE-2021-18441,Remote Code Execution,High,8.9,LEG-SRV-005,No,Open
+VUL0830,CVE-2019-34519,Unpatched Third-Party Library,Medium,6.8,SALES-CLD-003,Yes,Open
+VUL0831,CVE-2021-16160,Path Traversal,Medium,5.6,FIN-CLD-002,Yes,Open
+VUL0832,CVE-2022-32742,Authentication Bypass,Critical,9.2,SUP-LAP-007,No,Patched
+VUL0833,CVE-2020-37362,Cross-Site Request Forgery (CSRF),Medium,5.9,IT-SRV-003,Yes,Patched
+VUL0834,CVE-2020-22897,Buffer Overflow,High,8.8,MKT-SRV-007,Yes,Patched
+VUL0835,CVE-2024-22907,Outdated TLS/SSL Configuration,Medium,5.9,SALES-CLD-003,Yes,Open
+VUL0836,CVE-2024-43485,Cross-Site Scripting (XSS),Medium,5.9,ENG-MOB-004,Yes,Patched
+VUL0837,CVE-2022-38524,Cross-Site Scripting (XSS),Medium,4.4,IT-SRV-006,Yes,Open
+VUL0838,CVE-2020-37764,Outdated TLS/SSL Configuration,Medium,4.9,SALES-WKS-010,Yes,Open
+VUL0839,CVE-2021-40919,Remote Code Execution,Critical,9.2,ENG-NET-004,No,Open
+VUL0840,CVE-2022-12468,Buffer Overflow,High,7.9,MKT-SRV-003,Yes,Open
+VUL0841,CVE-2019-47514,Insecure Deserialization,High,8.7,SUP-LAP-011,Yes,Open
+VUL0842,CVE-2020-44858,Denial of Service,Medium,6.1,ENG-SRV-003,No,Mitigated
+VUL0843,CVE-2022-26392,Buffer Overflow,High,7.6,LEG-LAP-006,Yes,Patched
+VUL0844,CVE-2024-47869,Cross-Site Request Forgery (CSRF),Medium,6.3,IT-NET-001,Yes,Open
+VUL0845,CVE-2024-30168,Weak SMB Configuration,Medium,6.6,FIN-MOB-008,Yes,Open
+VUL0846,CVE-2023-1514,Server-Side Request Forgery (SSRF),High,7.0,IT-WKS-017,No,Patched
+VUL0847,CVE-2019-39504,Denial of Service,Medium,6.1,OPS-SRV-002,Yes,Open
+VUL0848,CVE-2022-41104,Information Disclosure,Medium,5.8,SALES-CLD-003,Yes,Accepted Risk
+VUL0849,CVE-2019-22460,SQL Injection Vulnerability,High,7.3,ENG-NET-005,No,Open
+VUL0850,CVE-2023-23451,Cross-Site Scripting (XSS),Medium,5.3,ENG-NET-004,Yes,Open
+VUL0851,CVE-2021-36114,Privilege Escalation Flaw,Critical,9.3,FIN-NET-003,Yes,Mitigated
+VUL0852,CVE-2024-19064,Cross-Site Request Forgery (CSRF),Medium,6.0,ENG-CLD-002,Yes,Patched
+VUL0853,CVE-2020-40855,Information Disclosure,Medium,5.5,HR-SRV-003,Yes,Open
+VUL0854,CVE-2021-12365,Missing Encryption of Sensitive Data,Medium,6.5,SUP-CLD-002,Yes,Patched
+VUL0855,CVE-2022-11142,Hardcoded Credentials,High,8.3,LEG-WKS-011,No,Patched
+VUL0856,CVE-2020-35429,Path Traversal,Medium,6.7,FIN-WKS-010,No,Mitigated
+VUL0857,CVE-2020-24564,Cross-Site Request Forgery (CSRF),Medium,5.3,MKT-SRV-011,Yes,Open
+VUL0858,CVE-2021-45663,Unpatched Third-Party Library,Medium,6.2,SUP-LAP-011,No,Open
+VUL0859,CVE-2019-18032,Remote Code Execution,High,8.8,MKT-SRV-004,Yes,Open
+VUL0860,CVE-2020-20082,Improper Input Validation,Medium,6.3,IT-SRV-011,No,Patched
+VUL0861,CVE-2024-49829,Buffer Overflow,High,8.4,ENG-WKS-001,Yes,Open
+VUL0862,CVE-2023-6120,Server-Side Request Forgery (SSRF),Medium,6.5,FIN-SRV-008,No,Patched
+VUL0863,CVE-2021-30778,Cross-Site Scripting (XSS),Medium,6.5,SUP-CLD-002,Yes,Mitigated
+VUL0864,CVE-2019-27059,Hardcoded Credentials,High,8.1,SUP-SRV-005,Yes,Open
+VUL0865,CVE-2020-40672,Path Traversal,Medium,5.7,HR-MOB-003,Yes,Open
+VUL0866,CVE-2025-3843,Remote Code Execution,Critical,9.4,MKT-SRV-005,Yes,Patched
+VUL0867,CVE-2021-18636,Denial of Service,Medium,6.6,SALES-SRV-002,No,Patched
+VUL0868,CVE-2021-12771,Buffer Overflow,High,8.4,FIN-SRV-002,Yes,Patched
+VUL0869,CVE-2022-9901,Unpatched Third-Party Library,High,7.9,FIN-SRV-007,No,Patched
+VUL0870,CVE-2019-25404,Remote Code Execution,High,8.5,LEG-SRV-003,No,Open
+VUL0871,CVE-2019-13034,Privilege Escalation Flaw,High,8.1,HR-SRV-007,No,Patched
+VUL0872,CVE-2020-27775,Privilege Escalation Flaw,High,8.6,MKT-SRV-004,Yes,Open
+VUL0873,CVE-2020-30185,Missing Encryption of Sensitive Data,Medium,5.0,SUP-WKS-008,Yes,Patched
+VUL0874,CVE-2023-16736,Missing Encryption of Sensitive Data,Medium,5.4,SUP-MOB-003,Yes,Patched
+VUL0875,CVE-2022-49943,Buffer Overflow,High,8.9,IT-LAP-007,Yes,Patched
+VUL0876,CVE-2025-8704,Improper Input Validation,Medium,5.8,SALES-NET-003,No,Open
+VUL0877,CVE-2022-2238,Unpatched Third-Party Library,Medium,5.7,MKT-SRV-001,No,Patched
+VUL0878,CVE-2025-18039,Path Traversal,Medium,5.1,SALES-LAP-021,No,Patched
+VUL0879,CVE-2021-23769,Path Traversal,Medium,6.6,IT-NET-002,Yes,Mitigated
+VUL0880,CVE-2021-20928,Path Traversal,Medium,6.8,LEG-CLD-002,No,Mitigated
+VUL0881,CVE-2021-47610,Outdated TLS/SSL Configuration,Medium,5.0,FIN-SRV-006,No,Patched
+VUL0882,CVE-2021-30452,Improper Input Validation,Medium,4.4,LEG-SRV-001,No,Open
+VUL0883,CVE-2019-46468,Authentication Bypass,Critical,9.0,ENG-SRV-002,Yes,Mitigated
+VUL0884,CVE-2023-19540,Unpatched Third-Party Library,High,7.8,MKT-SRV-001,Yes,Patched
+VUL0885,CVE-2019-9738,Denial of Service,Medium,5.3,HR-NET-002,No,Open
+VUL0886,CVE-2023-46390,SQL Injection Vulnerability,Critical,9.6,HR-NET-001,Yes,Patched
+VUL0887,CVE-2025-11004,Missing Encryption of Sensitive Data,Medium,5.8,LEG-CLD-006,Yes,Mitigated
+VUL0888,CVE-2025-49985,Missing Encryption of Sensitive Data,Medium,6.9,MKT-NET-003,Yes,Mitigated
+VUL0889,CVE-2020-45591,Path Traversal,Medium,5.8,MKT-NET-006,No,Mitigated
+VUL0890,CVE-2019-24845,Server-Side Request Forgery (SSRF),High,8.2,IT-SRV-012,Yes,Open
+VUL0891,CVE-2023-44325,Outdated TLS/SSL Configuration,Medium,4.8,FIN-SRV-012,Yes,Mitigated
+VUL0892,CVE-2024-47230,Weak SMB Configuration,Medium,6.1,MKT-WKS-012,Yes,Open
+VUL0893,CVE-2024-27073,Hardcoded Credentials,High,7.6,IT-WKS-001,Yes,Open
+VUL0894,CVE-2019-31737,Remote Code Execution,High,8.6,LEG-LAP-007,Yes,Open
+VUL0895,CVE-2022-43439,Remote Code Execution,Critical,9.2,OPS-IOT-002,No,Patched
+VUL0896,CVE-2022-39014,Insecure Deserialization,High,8.1,FIN-WKS-014,Yes,Accepted Risk
+VUL0897,CVE-2024-15243,Server-Side Request Forgery (SSRF),Medium,6.2,FIN-SRV-003,Yes,Patched
+VUL0898,CVE-2023-28690,Authentication Bypass,Critical,9.7,SALES-WKS-005,Yes,Open
+VUL0899,CVE-2022-18935,Insecure Deserialization,High,7.1,ENG-LAP-006,Yes,Mitigated
+VUL0900,CVE-2025-37769,Missing Encryption of Sensitive Data,Medium,6.0,MKT-IOT-001,No,Patched
+VUL0901,CVE-2024-47810,Information Disclosure,Medium,5.2,MKT-SRV-008,No,Open
+VUL0902,CVE-2019-31540,Path Traversal,Medium,5.5,ENG-WKS-010,No,Mitigated
+VUL0903,CVE-2025-33005,Information Disclosure,Medium,4.6,MKT-IOT-002,No,Accepted Risk
+VUL0904,CVE-2019-22544,SQL Injection Vulnerability,High,8.6,MKT-SRV-005,Yes,Patched
+VUL0905,CVE-2025-23154,Path Traversal,High,7.3,SUP-CLD-003,No,Open
+VUL0906,CVE-2025-2516,Remote Code Execution,Critical,9.2,MKT-LAP-009,Yes,Open
+VUL0907,CVE-2023-7808,SQL Injection Vulnerability,High,8.0,ENG-NET-005,Yes,Accepted Risk
+VUL0908,CVE-2021-36058,SQL Injection Vulnerability,High,7.2,FIN-SRV-009,Yes,Patched
+VUL0909,CVE-2021-5776,Unpatched Third-Party Library,High,7.8,SUP-WKS-010,No,Open
+VUL0910,CVE-2025-2204,Hardcoded Credentials,High,7.3,MKT-SRV-004,Yes,Open
+VUL0911,CVE-2023-4848,Denial of Service,Medium,6.4,OPS-LAP-004,Yes,Open
+VUL0912,CVE-2021-5686,Unpatched Third-Party Library,High,7.2,IT-SRV-005,Yes,Accepted Risk
+VUL0913,CVE-2024-31069,Cross-Site Request Forgery (CSRF),Medium,6.0,IT-WKS-007,No,Patched
+VUL0914,CVE-2021-34982,Path Traversal,High,7.5,MKT-NET-006,Yes,Patched
+VUL0915,CVE-2021-27798,Unpatched Third-Party Library,Medium,6.9,IT-WKS-008,Yes,Accepted Risk
+VUL0916,CVE-2023-36196,Cross-Site Scripting (XSS),Medium,4.4,MKT-SRV-007,Yes,Open
+VUL0917,CVE-2025-39757,Insecure Deserialization,High,7.9,WebServer,Yes,Mitigated
+VUL0918,CVE-2023-9641,Privilege Escalation Flaw,High,8.0,SUP-WKS-015,No,Mitigated
+VUL0919,CVE-2020-47829,SQL Injection Vulnerability,Critical,9.8,IT-SRV-001,Yes,Open
+VUL0920,CVE-2019-4949,Server-Side Request Forgery (SSRF),Medium,6.7,IT-WKS-009,Yes,Accepted Risk
+VUL0921,CVE-2020-5917,Denial of Service,Medium,5.3,LEG-CLD-005,Yes,Patched
+VUL0922,CVE-2019-22255,Server-Side Request Forgery (SSRF),Medium,6.8,OPS-SRV-006,No,Patched
+VUL0923,CVE-2022-46894,Information Disclosure,Medium,4.8,IT-MOB-003,Yes,Open
+VUL0924,CVE-2024-7339,Cross-Site Request Forgery (CSRF),Medium,5.4,IT-LAP-005,Yes,Patched
+VUL0925,CVE-2024-25272,Privilege Escalation Flaw,High,7.7,IT-SRV-011,No,Patched
+VUL0926,CVE-2022-25736,Privilege Escalation Flaw,High,8.7,ENG-LAP-004,Yes,Mitigated
+VUL0927,CVE-2021-37033,Buffer Overflow,Critical,9.2,SUP-WKS-014,Yes,Open
+VUL0928,CVE-2023-42318,Denial of Service,Medium,5.6,HR-SRV-007,No,Mitigated
+VUL0929,CVE-2023-33412,Server-Side Request Forgery (SSRF),High,7.3,SUP-LAP-003,Yes,Open
+VUL0930,CVE-2021-5276,Remote Code Execution,Critical,9.0,OPS-SRV-007,Yes,Patched
+VUL0931,CVE-2024-31712,SQL Injection Vulnerability,High,8.1,MKT-NET-004,Yes,Open
+VUL0932,CVE-2019-35470,Privilege Escalation Flaw,High,7.9,SUP-IOT-001,Yes,Accepted Risk
+VUL0933,CVE-2021-43561,Authentication Bypass,High,8.7,ENG-CLD-003,Yes,Mitigated
+VUL0934,CVE-2020-22018,Outdated TLS/SSL Configuration,Medium,4.1,SALES-NET-005,Yes,Patched
+VUL0935,CVE-2025-8147,SQL Injection Vulnerability,Critical,9.2,MKT-WKS-010,No,Mitigated
+VUL0936,CVE-2024-29730,Hardcoded Credentials,High,8.5,FIN-LAP-001,No,Patched
+VUL0937,CVE-2024-30587,Privilege Escalation Flaw,High,8.7,ENG-CLD-002,No,Patched
+VUL0938,CVE-2024-31435,Path Traversal,Medium,6.4,FIN-WKS-019,No,Patched
+VUL0939,CVE-2019-19837,Path Traversal,High,7.2,FIN-SRV-001,Yes,Accepted Risk
+VUL0940,CVE-2022-1277,Outdated TLS/SSL Configuration,Medium,5.0,IT-CLD-001,No,Patched
+VUL0941,CVE-2025-6981,Buffer Overflow,High,7.7,MKT-SRV-006,Yes,Mitigated
+VUL0942,CVE-2025-42216,Outdated TLS/SSL Configuration,Medium,6.4,SUP-CLD-004,No,Open
+VUL0943,CVE-2021-40820,SQL Injection Vulnerability,High,8.9,HR-WKS-013,Yes,Patched
+VUL0944,CVE-2025-38220,Information Disclosure,Medium,6.5,OPS-NET-002,Yes,Patched
+VUL0945,CVE-2019-6379,Information Disclosure,Medium,5.9,SALES-LAP-004,Yes,Accepted Risk
+VUL0946,CVE-2022-4952,Hardcoded Credentials,High,7.4,OPS-LAP-002,Yes,Mitigated
+VUL0947,CVE-2020-46999,Insecure Deserialization,High,8.0,OPS-LAP-010,Yes,Accepted Risk
+VUL0948,CVE-2020-49786,Cross-Site Request Forgery (CSRF),Medium,5.8,FIN-NET-002,Yes,Mitigated
+VUL0949,CVE-2024-26414,Denial of Service,Medium,6.0,LEG-SRV-006,Yes,Open
+VUL0950,CVE-2019-21403,Unpatched Third-Party Library,Medium,5.8,FIN-CLD-002,No,Open
+VUL0951,CVE-2024-41355,Cross-Site Scripting (XSS),Medium,4.6,LEG-WKS-015,Yes,Mitigated
+VUL0952,CVE-2023-15904,Server-Side Request Forgery (SSRF),High,7.0,SALES-CLD-002,Yes,Patched
+VUL0953,CVE-2021-42438,Cross-Site Request Forgery (CSRF),Medium,6.3,MKT-WKS-004,Yes,Accepted Risk
+VUL0954,CVE-2022-4873,Insecure Deserialization,High,7.4,FIN-NET-001,Yes,Mitigated
+VUL0955,CVE-2023-44552,Unpatched Third-Party Library,Medium,6.4,HR-PC-01,No,Patched
+VUL0956,CVE-2024-9303,Remote Code Execution,High,8.7,LEG-CLD-005,No,Patched
+VUL0957,CVE-2025-2308,Information Disclosure,Medium,5.2,Database-01,Yes,Open
+VUL0958,CVE-2025-14448,Weak SMB Configuration,Medium,5.0,FIN-IOT-002,Yes,Mitigated
+VUL0959,CVE-2020-28164,Improper Input Validation,Medium,5.0,ENG-NET-004,Yes,Patched
+VUL0960,CVE-2021-49382,Weak SMB Configuration,Medium,6.3,FIN-SRV-012,Yes,Mitigated
+VUL0961,CVE-2022-44052,Authentication Bypass,Critical,9.4,ENG-LAP-005,No,Open
+VUL0962,CVE-2023-30721,Unpatched Third-Party Library,High,8.0,Database-01,Yes,Patched
+VUL0963,CVE-2024-13435,Missing Encryption of Sensitive Data,Medium,5.8,SUP-SRV-007,Yes,Mitigated
+VUL0964,CVE-2025-20487,Remote Code Execution,Critical,9.8,SUP-SRV-002,Yes,Open
+VUL0965,CVE-2020-37934,Missing Encryption of Sensitive Data,Medium,5.2,FIN-SRV-004,Yes,Patched
+VUL0966,CVE-2024-28290,Denial of Service,Medium,5.6,ENG-NET-005,Yes,Patched
+VUL0967,CVE-2020-11667,Privilege Escalation Flaw,Critical,9.2,FIN-IOT-001,Yes,Patched
+VUL0968,CVE-2023-46593,Authentication Bypass,High,8.6,IT-SRV-003,Yes,Open
+VUL0969,CVE-2022-6046,Weak SMB Configuration,Medium,5.7,LEG-SRV-003,Yes,Open
+VUL0970,CVE-2020-5178,Outdated TLS/SSL Configuration,Medium,4.0,OPS-LAP-008,Yes,Patched
+VUL0971,CVE-2023-6266,Buffer Overflow,High,8.9,MKT-SRV-003,No,Open
+VUL0972,CVE-2021-25521,Missing Encryption of Sensitive Data,Medium,5.9,ENG-IOT-001,Yes,Mitigated
+VUL0973,CVE-2020-45666,Unpatched Third-Party Library,High,7.8,FIN-SRV-010,No,Open
+VUL0974,CVE-2021-14412,Authentication Bypass,High,7.9,LEG-WKS-008,Yes,Open
+VUL0975,CVE-2025-31760,Denial of Service,Medium,6.8,LEG-SRV-001,Yes,Open
+VUL0976,CVE-2024-18586,Insecure Deserialization,Critical,9.0,OPS-MOB-002,No,Open
+VUL0977,CVE-2024-33474,Cross-Site Scripting (XSS),Medium,5.3,FIN-WKS-009,Yes,Patched
+VUL0978,CVE-2020-35895,Insecure Deserialization,High,7.6,MKT-SRV-009,Yes,Open
+VUL0979,CVE-2020-29792,Cross-Site Request Forgery (CSRF),Medium,6.4,OPS-SRV-007,Yes,Patched
+VUL0980,CVE-2022-41556,Privilege Escalation Flaw,High,8.4,ENG-NET-006,Yes,Accepted Risk
+VUL0981,CVE-2021-10849,Hardcoded Credentials,High,8.1,OPS-WKS-010,No,Patched
+VUL0982,CVE-2025-1342,Privilege Escalation Flaw,High,7.8,FIN-LAP-005,No,Open
+VUL0983,CVE-2021-26255,Privilege Escalation Flaw,Critical,9.4,MKT-SRV-007,Yes,Patched
+VUL0984,CVE-2019-43067,Denial of Service,Medium,5.8,SUP-LAP-001,No,Open
+VUL0985,CVE-2023-38000,Remote Code Execution,Critical,9.9,FIN-SRV-005,Yes,Patched
+VUL0986,CVE-2021-25635,Outdated TLS/SSL Configuration,Medium,4.9,SUP-WKS-007,Yes,Open
+VUL0987,CVE-2022-18755,Information Disclosure,Medium,5.2,HR-SRV-005,Yes,Open
+VUL0988,CVE-2025-5925,Server-Side Request Forgery (SSRF),High,7.3,HR-SRV-007,No,Patched
+VUL0989,CVE-2019-7585,Hardcoded Credentials,High,7.5,LEG-CLD-005,Yes,Mitigated
+VUL0990,CVE-2022-25148,Improper Input Validation,Medium,6.5,HR-SRV-004,Yes,Mitigated
+VUL0991,CVE-2024-14201,Weak SMB Configuration,Medium,6.7,IT-WKS-005,Yes,Open
+VUL0992,CVE-2019-8066,Missing Encryption of Sensitive Data,Medium,5.2,MKT-SRV-012,No,Patched
+VUL0993,CVE-2023-19630,Buffer Overflow,Critical,9.4,ENG-MOB-005,No,Open
+VUL0994,CVE-2024-11792,Denial of Service,Medium,6.6,SUP-SRV-006,Yes,Patched
+VUL0995,CVE-2022-9761,Weak SMB Configuration,Medium,5.0,HR-LAP-002,No,Patched
+VUL0996,CVE-2021-19698,Cross-Site Scripting (XSS),Medium,6.7,IT-WKS-016,Yes,Open
+VUL0997,CVE-2022-11233,Improper Input Validation,Medium,6.3,IT-CLD-001,Yes,Patched
+VUL0998,CVE-2020-30544,Information Disclosure,Medium,4.3,IT-NET-002,Yes,Open
+VUL0999,CVE-2020-13192,Privilege Escalation Flaw,High,8.1,IT-WKS-012,Yes,Patched
+VUL1000,CVE-2019-5273,Remote Code Execution,Critical,9.1,HR-LAP-001,Yes,Mitigated

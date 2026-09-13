@@ -1,0 +1,1501 @@
+incident_id,event_id,incident_type,assigned_to,status,response_time,resolution
+INC0001,EVT004777,Brute Force,SOC Tier 3,In Progress,17 min,Pending review
+INC0002,EVT007915,Brute Force,Incident Response Team,In Progress,49 min,Pending review
+INC0003,EVT009934,Malware Detection,Incident Response Team,Closed,44 min,"Endpoint isolated, malware removed"
+INC0004,EVT002633,Failed Login,SOC Tier 3,Closed,20 min,"Account temporarily locked, user verified"
+INC0005,EVT000073,Phishing Email,Incident Response Team,Closed,73 min,"Email quarantined, user notified"
+INC0006,EVT000209,Phishing Email,SOC Tier 1,Closed,15 min,"Email quarantined, user notified"
+INC0007,EVT007723,Phishing Email,SOC Tier 3,Closed,78 min,"Email quarantined, user notified"
+INC0008,EVT001484,Phishing Email,Incident Response Team,In Progress,39 min,Pending review
+INC0009,EVT003913,Brute Force,SOC Tier 2,Closed,22 min,Source IP blocked at firewall
+INC0010,EVT005340,Failed Login,SOC Tier 3,Closed,10 min,"Account temporarily locked, user verified"
+INC0011,EVT004771,SQL Injection Attempt,Incident Response Team,Open,10 min,Pending review
+INC0012,EVT003099,Malware Detection,SOC Tier 3,Closed,17 min,"Endpoint isolated, malware removed"
+INC0013,EVT003314,Login Success,Incident Response Team,Closed,46 min,"Reviewed, no action required"
+INC0014,EVT002529,SQL Injection Attempt,SOC Tier 3,Closed,77 min,"Request blocked, WAF rule updated"
+INC0015,EVT009397,SQL Injection Attempt,Incident Response Team,In Progress,73 min,Pending review
+INC0016,EVT004757,File Access,Incident Response Team,In Progress,10 min,Pending review
+INC0017,EVT008895,File Access,SOC Tier 3,Closed,46 min,"Reviewed, no action required"
+INC0018,EVT008964,Port Scan,SOC Tier 2,In Progress,67 min,Pending review
+INC0019,EVT002978,SQL Injection Attempt,SOC Tier 2,In Progress,32 min,Pending review
+INC0020,EVT007598,Port Scan,SOC Tier 3,Closed,24 min,Source IP flagged and monitored
+INC0021,EVT003008,Brute Force,Incident Response Team,Closed,32 min,Source IP blocked at firewall
+INC0022,EVT008694,Login Success,SOC Tier 1,Closed,58 min,"Reviewed, no action required"
+INC0023,EVT000841,Failed Login,SOC Tier 3,Closed,52 min,"Account temporarily locked, user verified"
+INC0024,EVT006813,File Access,SOC Tier 3,Closed,8 min,"Reviewed, no action required"
+INC0025,EVT008266,Port Scan,SOC Tier 1,In Progress,54 min,Pending review
+INC0026,EVT009793,Failed Login,SOC Tier 1,In Progress,45 min,Pending review
+INC0027,EVT004056,Brute Force,SOC Tier 1,Open,16 min,Pending review
+INC0028,EVT005639,File Access,SOC Tier 1,Open,56 min,Pending review
+INC0029,EVT008532,Brute Force,SOC Tier 2,Closed,75 min,Source IP blocked at firewall
+INC0030,EVT000937,USB Device Connected,SOC Tier 1,Closed,43 min,"Device inspected, no threat found"
+INC0031,EVT009237,Privilege Escalation,SOC Tier 2,Closed,12 min,"Access revoked, account access reviewed"
+INC0032,EVT009601,Brute Force,SOC Tier 3,Open,11 min,Pending review
+INC0033,EVT008761,SQL Injection Attempt,SOC Tier 2,Open,82 min,Pending review
+INC0034,EVT000883,Privilege Escalation,SOC Tier 2,In Progress,72 min,Pending review
+INC0035,EVT009640,Port Scan,SOC Tier 1,Closed,21 min,Source IP flagged and monitored
+INC0036,EVT005294,SQL Injection Attempt,Incident Response Team,In Progress,68 min,Pending review
+INC0037,EVT001203,Failed Login,SOC Tier 2,Closed,32 min,"Account temporarily locked, user verified"
+INC0038,EVT003413,Malware Detection,SOC Tier 1,In Progress,71 min,Pending review
+INC0039,EVT009400,Port Scan,SOC Tier 3,Closed,90 min,Source IP flagged and monitored
+INC0040,EVT000378,Port Scan,Incident Response Team,Closed,31 min,Source IP flagged and monitored
+INC0041,EVT007274,Phishing Email,Incident Response Team,Closed,87 min,"Email quarantined, user notified"
+INC0042,EVT001202,Login Success,SOC Tier 2,Closed,48 min,"Reviewed, no action required"
+INC0043,EVT002398,SQL Injection Attempt,Incident Response Team,Open,50 min,Pending review
+INC0044,EVT000099,Malware Detection,Incident Response Team,Closed,16 min,"Endpoint isolated, malware removed"
+INC0045,EVT002414,USB Device Connected,Incident Response Team,Open,73 min,Pending review
+INC0046,EVT008313,File Access,SOC Tier 2,In Progress,79 min,Pending review
+INC0047,EVT009069,Port Scan,Incident Response Team,Closed,57 min,Source IP flagged and monitored
+INC0048,EVT007782,Malware Detection,SOC Tier 3,In Progress,24 min,Pending review
+INC0049,EVT009173,USB Device Connected,SOC Tier 1,Closed,38 min,"Device inspected, no threat found"
+INC0050,EVT001248,Login Success,SOC Tier 3,In Progress,18 min,Pending review
+INC0051,EVT007968,File Access,SOC Tier 2,Open,89 min,Pending review
+INC0052,EVT008348,Privilege Escalation,SOC Tier 2,Closed,31 min,"Access revoked, account access reviewed"
+INC0053,EVT005676,Brute Force,SOC Tier 1,Closed,35 min,Source IP blocked at firewall
+INC0054,EVT006076,Login Success,SOC Tier 2,Closed,65 min,"Reviewed, no action required"
+INC0055,EVT001904,Login Success,SOC Tier 1,Closed,90 min,"Reviewed, no action required"
+INC0056,EVT002859,Privilege Escalation,SOC Tier 1,In Progress,53 min,Pending review
+INC0057,EVT000857,USB Device Connected,SOC Tier 1,Closed,54 min,"Device inspected, no threat found"
+INC0058,EVT000146,Login Success,Incident Response Team,Closed,69 min,"Reviewed, no action required"
+INC0059,EVT002298,File Access,Incident Response Team,Closed,61 min,"Reviewed, no action required"
+INC0060,EVT007472,Failed Login,SOC Tier 1,In Progress,58 min,Pending review
+INC0061,EVT006376,Phishing Email,Incident Response Team,Closed,74 min,"Email quarantined, user notified"
+INC0062,EVT005739,Privilege Escalation,SOC Tier 2,Closed,20 min,"Access revoked, account access reviewed"
+INC0063,EVT005605,Failed Login,SOC Tier 2,In Progress,37 min,Pending review
+INC0064,EVT000169,Privilege Escalation,SOC Tier 1,Closed,23 min,"Access revoked, account access reviewed"
+INC0065,EVT001795,Phishing Email,SOC Tier 2,In Progress,15 min,Pending review
+INC0066,EVT002777,Brute Force,Incident Response Team,Closed,81 min,Source IP blocked at firewall
+INC0067,EVT008850,Port Scan,Incident Response Team,Closed,84 min,Source IP flagged and monitored
+INC0068,EVT005955,File Access,Incident Response Team,Open,90 min,Pending review
+INC0069,EVT002645,Port Scan,Incident Response Team,Closed,27 min,Source IP flagged and monitored
+INC0070,EVT006922,Phishing Email,Incident Response Team,In Progress,30 min,Pending review
+INC0071,EVT004925,Phishing Email,SOC Tier 2,Closed,61 min,"Email quarantined, user notified"
+INC0072,EVT003979,Login Success,SOC Tier 3,Open,13 min,Pending review
+INC0073,EVT000978,Privilege Escalation,SOC Tier 3,Closed,55 min,"Access revoked, account access reviewed"
+INC0074,EVT003010,Failed Login,SOC Tier 1,Open,82 min,Pending review
+INC0075,EVT006171,Privilege Escalation,SOC Tier 1,Open,25 min,Pending review
+INC0076,EVT006558,Brute Force,Incident Response Team,Closed,12 min,Source IP blocked at firewall
+INC0077,EVT003563,Brute Force,Incident Response Team,Closed,45 min,Source IP blocked at firewall
+INC0078,EVT006423,Login Success,SOC Tier 2,Closed,59 min,"Reviewed, no action required"
+INC0079,EVT004284,Privilege Escalation,SOC Tier 1,Closed,10 min,"Access revoked, account access reviewed"
+INC0080,EVT008675,Failed Login,SOC Tier 2,Closed,30 min,"Account temporarily locked, user verified"
+INC0081,EVT001622,File Access,Incident Response Team,Closed,67 min,"Reviewed, no action required"
+INC0082,EVT009974,File Access,SOC Tier 1,Closed,32 min,"Reviewed, no action required"
+INC0083,EVT001712,Phishing Email,Incident Response Team,Closed,84 min,"Email quarantined, user notified"
+INC0084,EVT007396,Brute Force,SOC Tier 3,Closed,86 min,Source IP blocked at firewall
+INC0085,EVT007542,Login Success,SOC Tier 1,Closed,23 min,"Reviewed, no action required"
+INC0086,EVT001726,Failed Login,SOC Tier 1,Closed,89 min,"Account temporarily locked, user verified"
+INC0087,EVT004612,USB Device Connected,SOC Tier 2,Open,54 min,Pending review
+INC0088,EVT006449,USB Device Connected,SOC Tier 1,In Progress,39 min,Pending review
+INC0089,EVT002247,Failed Login,SOC Tier 2,Closed,73 min,"Account temporarily locked, user verified"
+INC0090,EVT005434,Login Success,Incident Response Team,Open,75 min,Pending review
+INC0091,EVT002009,File Access,SOC Tier 1,Closed,79 min,"Reviewed, no action required"
+INC0092,EVT002550,Login Success,SOC Tier 2,Closed,80 min,"Reviewed, no action required"
+INC0093,EVT005593,Login Success,SOC Tier 1,Closed,60 min,"Reviewed, no action required"
+INC0094,EVT000723,USB Device Connected,SOC Tier 2,In Progress,90 min,Pending review
+INC0095,EVT007106,Port Scan,Incident Response Team,Closed,74 min,Source IP flagged and monitored
+INC0096,EVT008557,Privilege Escalation,SOC Tier 3,Closed,44 min,"Access revoked, account access reviewed"
+INC0097,EVT001607,USB Device Connected,SOC Tier 1,Open,23 min,Pending review
+INC0098,EVT008709,Malware Detection,SOC Tier 3,Closed,74 min,"Endpoint isolated, malware removed"
+INC0099,EVT003308,File Access,SOC Tier 3,In Progress,35 min,Pending review
+INC0100,EVT004863,SQL Injection Attempt,SOC Tier 3,Closed,89 min,"Request blocked, WAF rule updated"
+INC0101,EVT008273,USB Device Connected,SOC Tier 1,Closed,46 min,"Device inspected, no threat found"
+INC0102,EVT003175,Malware Detection,SOC Tier 2,In Progress,85 min,Pending review
+INC0103,EVT006861,Privilege Escalation,SOC Tier 2,In Progress,47 min,Pending review
+INC0104,EVT001339,Malware Detection,SOC Tier 1,In Progress,86 min,Pending review
+INC0105,EVT006200,Malware Detection,SOC Tier 3,Closed,44 min,"Endpoint isolated, malware removed"
+INC0106,EVT004435,File Access,Incident Response Team,Open,53 min,Pending review
+INC0107,EVT001266,Failed Login,Incident Response Team,In Progress,42 min,Pending review
+INC0108,EVT008824,Privilege Escalation,SOC Tier 2,Closed,17 min,"Access revoked, account access reviewed"
+INC0109,EVT006748,Port Scan,Incident Response Team,Closed,67 min,Source IP flagged and monitored
+INC0110,EVT008289,Brute Force,SOC Tier 2,Closed,68 min,Source IP blocked at firewall
+INC0111,EVT001136,File Access,SOC Tier 3,Closed,26 min,"Reviewed, no action required"
+INC0112,EVT003356,USB Device Connected,SOC Tier 3,Closed,15 min,"Device inspected, no threat found"
+INC0113,EVT001290,Phishing Email,SOC Tier 3,Closed,75 min,"Email quarantined, user notified"
+INC0114,EVT007376,Privilege Escalation,Incident Response Team,Closed,32 min,"Access revoked, account access reviewed"
+INC0115,EVT008974,Login Success,Incident Response Team,Open,85 min,Pending review
+INC0116,EVT008738,Login Success,SOC Tier 3,Open,82 min,Pending review
+INC0117,EVT004367,Privilege Escalation,Incident Response Team,Closed,84 min,"Access revoked, account access reviewed"
+INC0118,EVT000440,USB Device Connected,Incident Response Team,Closed,28 min,"Device inspected, no threat found"
+INC0119,EVT006298,USB Device Connected,SOC Tier 1,Closed,40 min,"Device inspected, no threat found"
+INC0120,EVT003991,Login Success,SOC Tier 2,Closed,76 min,"Reviewed, no action required"
+INC0121,EVT008821,USB Device Connected,SOC Tier 3,In Progress,72 min,Pending review
+INC0122,EVT005054,Login Success,Incident Response Team,Closed,59 min,"Reviewed, no action required"
+INC0123,EVT001796,USB Device Connected,SOC Tier 3,Closed,78 min,"Device inspected, no threat found"
+INC0124,EVT003826,Phishing Email,SOC Tier 2,In Progress,75 min,Pending review
+INC0125,EVT000847,USB Device Connected,SOC Tier 2,Closed,9 min,"Device inspected, no threat found"
+INC0126,EVT006546,USB Device Connected,SOC Tier 3,Open,64 min,Pending review
+INC0127,EVT000651,Phishing Email,Incident Response Team,Open,24 min,Pending review
+INC0128,EVT002307,USB Device Connected,SOC Tier 2,Closed,86 min,"Device inspected, no threat found"
+INC0129,EVT005178,Phishing Email,Incident Response Team,In Progress,57 min,Pending review
+INC0130,EVT003616,File Access,SOC Tier 2,In Progress,39 min,Pending review
+INC0131,EVT007735,Malware Detection,SOC Tier 2,In Progress,83 min,Pending review
+INC0132,EVT007762,Failed Login,SOC Tier 1,Closed,42 min,"Account temporarily locked, user verified"
+INC0133,EVT008937,File Access,Incident Response Team,Open,11 min,Pending review
+INC0134,EVT006651,File Access,Incident Response Team,In Progress,56 min,Pending review
+INC0135,EVT000057,USB Device Connected,SOC Tier 2,Closed,68 min,"Device inspected, no threat found"
+INC0136,EVT007380,Malware Detection,SOC Tier 2,Open,37 min,Pending review
+INC0137,EVT001082,File Access,SOC Tier 1,Closed,80 min,"Reviewed, no action required"
+INC0138,EVT006205,Login Success,SOC Tier 3,Closed,19 min,"Reviewed, no action required"
+INC0139,EVT007091,USB Device Connected,Incident Response Team,Closed,18 min,"Device inspected, no threat found"
+INC0140,EVT006025,File Access,SOC Tier 2,In Progress,33 min,Pending review
+INC0141,EVT005343,Failed Login,Incident Response Team,Open,81 min,Pending review
+INC0142,EVT000410,Brute Force,SOC Tier 3,Open,8 min,Pending review
+INC0143,EVT009926,File Access,Incident Response Team,Closed,63 min,"Reviewed, no action required"
+INC0144,EVT003062,SQL Injection Attempt,SOC Tier 3,In Progress,10 min,Pending review
+INC0145,EVT005397,Phishing Email,SOC Tier 3,In Progress,9 min,Pending review
+INC0146,EVT006932,Privilege Escalation,Incident Response Team,Open,23 min,Pending review
+INC0147,EVT005843,Phishing Email,Incident Response Team,Closed,47 min,"Email quarantined, user notified"
+INC0148,EVT002251,Malware Detection,SOC Tier 1,In Progress,53 min,Pending review
+INC0149,EVT004428,Privilege Escalation,SOC Tier 1,In Progress,62 min,Pending review
+INC0150,EVT007175,Port Scan,SOC Tier 3,In Progress,53 min,Pending review
+INC0151,EVT009913,Port Scan,SOC Tier 3,In Progress,44 min,Pending review
+INC0152,EVT008618,USB Device Connected,SOC Tier 3,Closed,76 min,"Device inspected, no threat found"
+INC0153,EVT000340,File Access,Incident Response Team,Open,18 min,Pending review
+INC0154,EVT005108,File Access,SOC Tier 1,Closed,84 min,"Reviewed, no action required"
+INC0155,EVT002155,USB Device Connected,SOC Tier 2,Closed,53 min,"Device inspected, no threat found"
+INC0156,EVT000665,Brute Force,Incident Response Team,Closed,73 min,Source IP blocked at firewall
+INC0157,EVT007769,Port Scan,SOC Tier 1,In Progress,25 min,Pending review
+INC0158,EVT007813,File Access,Incident Response Team,Open,90 min,Pending review
+INC0159,EVT000884,SQL Injection Attempt,SOC Tier 3,Closed,50 min,"Request blocked, WAF rule updated"
+INC0160,EVT002087,Malware Detection,SOC Tier 3,Open,39 min,Pending review
+INC0161,EVT003168,Login Success,SOC Tier 2,Closed,84 min,"Reviewed, no action required"
+INC0162,EVT009633,Privilege Escalation,SOC Tier 2,Closed,60 min,"Access revoked, account access reviewed"
+INC0163,EVT003865,SQL Injection Attempt,SOC Tier 1,Open,55 min,Pending review
+INC0164,EVT005106,Login Success,SOC Tier 3,Closed,61 min,"Reviewed, no action required"
+INC0165,EVT007491,File Access,SOC Tier 3,Open,84 min,Pending review
+INC0166,EVT004614,SQL Injection Attempt,SOC Tier 3,Closed,28 min,"Request blocked, WAF rule updated"
+INC0167,EVT000124,Port Scan,SOC Tier 3,Closed,51 min,Source IP flagged and monitored
+INC0168,EVT003181,SQL Injection Attempt,Incident Response Team,In Progress,9 min,Pending review
+INC0169,EVT006621,File Access,SOC Tier 2,Closed,46 min,"Reviewed, no action required"
+INC0170,EVT005519,File Access,SOC Tier 1,In Progress,15 min,Pending review
+INC0171,EVT002250,Port Scan,SOC Tier 1,Open,84 min,Pending review
+INC0172,EVT008452,Privilege Escalation,Incident Response Team,Closed,33 min,"Access revoked, account access reviewed"
+INC0173,EVT003254,Phishing Email,Incident Response Team,In Progress,74 min,Pending review
+INC0174,EVT006478,Malware Detection,SOC Tier 3,Closed,30 min,"Endpoint isolated, malware removed"
+INC0175,EVT007595,Phishing Email,SOC Tier 3,Open,55 min,Pending review
+INC0176,EVT008449,Malware Detection,SOC Tier 3,Closed,86 min,"Endpoint isolated, malware removed"
+INC0177,EVT004151,Login Success,SOC Tier 3,In Progress,72 min,Pending review
+INC0178,EVT009835,Phishing Email,Incident Response Team,Closed,16 min,"Email quarantined, user notified"
+INC0179,EVT007532,Malware Detection,SOC Tier 3,In Progress,32 min,Pending review
+INC0180,EVT005090,Malware Detection,SOC Tier 2,Closed,54 min,"Endpoint isolated, malware removed"
+INC0181,EVT008141,Login Success,SOC Tier 3,In Progress,8 min,Pending review
+INC0182,EVT007584,USB Device Connected,SOC Tier 1,In Progress,50 min,Pending review
+INC0183,EVT001482,USB Device Connected,SOC Tier 3,Closed,61 min,"Device inspected, no threat found"
+INC0184,EVT002339,Login Success,SOC Tier 1,Closed,76 min,"Reviewed, no action required"
+INC0185,EVT001034,Phishing Email,Incident Response Team,Closed,44 min,"Email quarantined, user notified"
+INC0186,EVT001847,Failed Login,SOC Tier 3,Closed,43 min,"Account temporarily locked, user verified"
+INC0187,EVT001418,File Access,Incident Response Team,Closed,53 min,"Reviewed, no action required"
+INC0188,EVT008810,Malware Detection,SOC Tier 1,Closed,56 min,"Endpoint isolated, malware removed"
+INC0189,EVT006212,File Access,Incident Response Team,Closed,54 min,"Reviewed, no action required"
+INC0190,EVT004903,Privilege Escalation,SOC Tier 1,In Progress,81 min,Pending review
+INC0191,EVT004313,Login Success,SOC Tier 3,In Progress,36 min,Pending review
+INC0192,EVT009995,Brute Force,SOC Tier 2,In Progress,13 min,Pending review
+INC0193,EVT006439,Malware Detection,SOC Tier 1,In Progress,74 min,Pending review
+INC0194,EVT002168,Brute Force,SOC Tier 3,Closed,34 min,Source IP blocked at firewall
+INC0195,EVT008799,Brute Force,SOC Tier 2,Open,32 min,Pending review
+INC0196,EVT006039,Login Success,SOC Tier 3,Closed,31 min,"Reviewed, no action required"
+INC0197,EVT006042,File Access,SOC Tier 1,Closed,49 min,"Reviewed, no action required"
+INC0198,EVT000656,Malware Detection,Incident Response Team,Closed,61 min,"Endpoint isolated, malware removed"
+INC0199,EVT004187,Port Scan,SOC Tier 3,In Progress,16 min,Pending review
+INC0200,EVT001837,Malware Detection,SOC Tier 3,Closed,65 min,"Endpoint isolated, malware removed"
+INC0201,EVT000588,Privilege Escalation,SOC Tier 1,Closed,19 min,"Access revoked, account access reviewed"
+INC0202,EVT005903,SQL Injection Attempt,SOC Tier 1,In Progress,40 min,Pending review
+INC0203,EVT005725,Failed Login,SOC Tier 2,Closed,83 min,"Account temporarily locked, user verified"
+INC0204,EVT008321,SQL Injection Attempt,SOC Tier 2,Closed,86 min,"Request blocked, WAF rule updated"
+INC0205,EVT001247,Privilege Escalation,SOC Tier 1,Closed,52 min,"Access revoked, account access reviewed"
+INC0206,EVT007223,Login Success,SOC Tier 3,In Progress,68 min,Pending review
+INC0207,EVT004644,Phishing Email,SOC Tier 1,Closed,19 min,"Email quarantined, user notified"
+INC0208,EVT009105,Login Success,SOC Tier 1,Closed,16 min,"Reviewed, no action required"
+INC0209,EVT009970,Failed Login,Incident Response Team,Closed,39 min,"Account temporarily locked, user verified"
+INC0210,EVT001586,SQL Injection Attempt,SOC Tier 3,Closed,29 min,"Request blocked, WAF rule updated"
+INC0211,EVT009725,Login Success,SOC Tier 1,Open,11 min,Pending review
+INC0212,EVT009086,Malware Detection,Incident Response Team,In Progress,68 min,Pending review
+INC0213,EVT001435,File Access,SOC Tier 2,Closed,54 min,"Reviewed, no action required"
+INC0214,EVT008793,Malware Detection,SOC Tier 1,Closed,82 min,"Endpoint isolated, malware removed"
+INC0215,EVT008082,Login Success,SOC Tier 3,Closed,66 min,"Reviewed, no action required"
+INC0216,EVT002360,Failed Login,Incident Response Team,Closed,86 min,"Account temporarily locked, user verified"
+INC0217,EVT002595,Login Success,SOC Tier 3,Open,22 min,Pending review
+INC0218,EVT008781,File Access,SOC Tier 1,In Progress,47 min,Pending review
+INC0219,EVT003555,File Access,SOC Tier 1,Closed,65 min,"Reviewed, no action required"
+INC0220,EVT000153,Privilege Escalation,SOC Tier 3,In Progress,80 min,Pending review
+INC0221,EVT009547,File Access,SOC Tier 3,Closed,66 min,"Reviewed, no action required"
+INC0222,EVT000577,Port Scan,Incident Response Team,Closed,56 min,Source IP flagged and monitored
+INC0223,EVT006889,USB Device Connected,SOC Tier 3,Open,46 min,Pending review
+INC0224,EVT006000,Port Scan,SOC Tier 1,Closed,64 min,Source IP flagged and monitored
+INC0225,EVT008747,USB Device Connected,SOC Tier 1,In Progress,27 min,Pending review
+INC0226,EVT001638,USB Device Connected,SOC Tier 1,Closed,12 min,"Device inspected, no threat found"
+INC0227,EVT006161,Brute Force,SOC Tier 3,In Progress,19 min,Pending review
+INC0228,EVT003079,Privilege Escalation,SOC Tier 1,In Progress,9 min,Pending review
+INC0229,EVT006565,Phishing Email,Incident Response Team,Closed,53 min,"Email quarantined, user notified"
+INC0230,EVT005328,Port Scan,SOC Tier 3,Closed,28 min,Source IP flagged and monitored
+INC0231,EVT000867,Login Success,Incident Response Team,Closed,89 min,"Reviewed, no action required"
+INC0232,EVT005491,Phishing Email,Incident Response Team,Closed,43 min,"Email quarantined, user notified"
+INC0233,EVT006836,Port Scan,Incident Response Team,Closed,73 min,Source IP flagged and monitored
+INC0234,EVT000319,Malware Detection,Incident Response Team,In Progress,89 min,Pending review
+INC0235,EVT000876,Brute Force,Incident Response Team,Closed,44 min,Source IP blocked at firewall
+INC0236,EVT008523,Failed Login,Incident Response Team,In Progress,30 min,Pending review
+INC0237,EVT006426,Login Success,Incident Response Team,Open,57 min,Pending review
+INC0238,EVT006005,Brute Force,SOC Tier 1,Closed,66 min,Source IP blocked at firewall
+INC0239,EVT006989,SQL Injection Attempt,SOC Tier 3,Closed,60 min,"Request blocked, WAF rule updated"
+INC0240,EVT009510,Port Scan,SOC Tier 3,Closed,79 min,Source IP flagged and monitored
+INC0241,EVT001885,USB Device Connected,SOC Tier 2,Closed,18 min,"Device inspected, no threat found"
+INC0242,EVT008620,Phishing Email,SOC Tier 1,Open,37 min,Pending review
+INC0243,EVT004255,Phishing Email,Incident Response Team,In Progress,39 min,Pending review
+INC0244,EVT004906,SQL Injection Attempt,SOC Tier 1,In Progress,15 min,Pending review
+INC0245,EVT002808,Login Success,SOC Tier 1,Closed,36 min,"Reviewed, no action required"
+INC0246,EVT007397,Brute Force,SOC Tier 2,In Progress,11 min,Pending review
+INC0247,EVT002814,Brute Force,SOC Tier 1,Closed,25 min,Source IP blocked at firewall
+INC0248,EVT005851,USB Device Connected,SOC Tier 3,Closed,78 min,"Device inspected, no threat found"
+INC0249,EVT005800,Brute Force,SOC Tier 1,Closed,68 min,Source IP blocked at firewall
+INC0250,EVT001213,Phishing Email,Incident Response Team,In Progress,41 min,Pending review
+INC0251,EVT007742,Brute Force,Incident Response Team,Closed,56 min,Source IP blocked at firewall
+INC0252,EVT002069,Failed Login,Incident Response Team,Closed,28 min,"Account temporarily locked, user verified"
+INC0253,EVT001868,File Access,SOC Tier 2,Closed,67 min,"Reviewed, no action required"
+INC0254,EVT005011,USB Device Connected,SOC Tier 2,Closed,74 min,"Device inspected, no threat found"
+INC0255,EVT002128,Port Scan,SOC Tier 1,Open,38 min,Pending review
+INC0256,EVT005277,Failed Login,Incident Response Team,Closed,71 min,"Account temporarily locked, user verified"
+INC0257,EVT001402,Port Scan,Incident Response Team,Closed,65 min,Source IP flagged and monitored
+INC0258,EVT003877,File Access,SOC Tier 2,In Progress,51 min,Pending review
+INC0259,EVT009155,Failed Login,SOC Tier 3,Closed,16 min,"Account temporarily locked, user verified"
+INC0260,EVT003333,Privilege Escalation,SOC Tier 1,Closed,34 min,"Access revoked, account access reviewed"
+INC0261,EVT008119,USB Device Connected,SOC Tier 3,Closed,54 min,"Device inspected, no threat found"
+INC0262,EVT006626,Privilege Escalation,Incident Response Team,In Progress,89 min,Pending review
+INC0263,EVT009168,SQL Injection Attempt,SOC Tier 1,Closed,69 min,"Request blocked, WAF rule updated"
+INC0264,EVT000953,Port Scan,SOC Tier 2,Closed,27 min,Source IP flagged and monitored
+INC0265,EVT008052,Brute Force,Incident Response Team,Closed,28 min,Source IP blocked at firewall
+INC0266,EVT000240,Malware Detection,SOC Tier 2,In Progress,76 min,Pending review
+INC0267,EVT006654,Port Scan,SOC Tier 1,In Progress,19 min,Pending review
+INC0268,EVT003041,Privilege Escalation,Incident Response Team,In Progress,62 min,Pending review
+INC0269,EVT005283,SQL Injection Attempt,Incident Response Team,Closed,76 min,"Request blocked, WAF rule updated"
+INC0270,EVT001369,Privilege Escalation,Incident Response Team,Open,68 min,Pending review
+INC0271,EVT001017,USB Device Connected,SOC Tier 2,Closed,10 min,"Device inspected, no threat found"
+INC0272,EVT001372,USB Device Connected,SOC Tier 3,Closed,51 min,"Device inspected, no threat found"
+INC0273,EVT000903,File Access,Incident Response Team,In Progress,73 min,Pending review
+INC0274,EVT003932,Port Scan,SOC Tier 1,Closed,42 min,Source IP flagged and monitored
+INC0275,EVT007418,USB Device Connected,SOC Tier 3,Closed,41 min,"Device inspected, no threat found"
+INC0276,EVT008262,Brute Force,SOC Tier 3,In Progress,59 min,Pending review
+INC0277,EVT003282,Malware Detection,SOC Tier 1,In Progress,27 min,Pending review
+INC0278,EVT005661,SQL Injection Attempt,SOC Tier 3,Closed,65 min,"Request blocked, WAF rule updated"
+INC0279,EVT005292,Brute Force,SOC Tier 3,Closed,9 min,Source IP blocked at firewall
+INC0280,EVT005157,Failed Login,Incident Response Team,Closed,19 min,"Account temporarily locked, user verified"
+INC0281,EVT000621,File Access,SOC Tier 3,In Progress,11 min,Pending review
+INC0282,EVT008511,Brute Force,SOC Tier 1,Closed,40 min,Source IP blocked at firewall
+INC0283,EVT004391,Port Scan,SOC Tier 2,Closed,54 min,Source IP flagged and monitored
+INC0284,EVT008495,USB Device Connected,SOC Tier 1,Closed,46 min,"Device inspected, no threat found"
+INC0285,EVT000669,SQL Injection Attempt,Incident Response Team,Closed,46 min,"Request blocked, WAF rule updated"
+INC0286,EVT003378,SQL Injection Attempt,SOC Tier 1,In Progress,82 min,Pending review
+INC0287,EVT005717,USB Device Connected,Incident Response Team,Closed,57 min,"Device inspected, no threat found"
+INC0288,EVT009711,Privilege Escalation,SOC Tier 1,Closed,60 min,"Access revoked, account access reviewed"
+INC0289,EVT008294,Failed Login,SOC Tier 3,In Progress,73 min,Pending review
+INC0290,EVT006589,USB Device Connected,SOC Tier 2,In Progress,51 min,Pending review
+INC0291,EVT008201,Failed Login,Incident Response Team,Closed,11 min,"Account temporarily locked, user verified"
+INC0292,EVT009372,Brute Force,SOC Tier 2,Closed,63 min,Source IP blocked at firewall
+INC0293,EVT006280,Port Scan,SOC Tier 1,In Progress,44 min,Pending review
+INC0294,EVT003334,Failed Login,SOC Tier 1,Closed,42 min,"Account temporarily locked, user verified"
+INC0295,EVT007760,SQL Injection Attempt,SOC Tier 3,Closed,32 min,"Request blocked, WAF rule updated"
+INC0296,EVT007421,Brute Force,SOC Tier 2,Closed,21 min,Source IP blocked at firewall
+INC0297,EVT006827,Port Scan,SOC Tier 3,In Progress,85 min,Pending review
+INC0298,EVT001296,USB Device Connected,Incident Response Team,Open,44 min,Pending review
+INC0299,EVT004050,SQL Injection Attempt,SOC Tier 3,Closed,70 min,"Request blocked, WAF rule updated"
+INC0300,EVT008231,SQL Injection Attempt,Incident Response Team,Closed,89 min,"Request blocked, WAF rule updated"
+INC0301,EVT008658,Login Success,Incident Response Team,Closed,79 min,"Reviewed, no action required"
+INC0302,EVT005261,Login Success,SOC Tier 3,Closed,90 min,"Reviewed, no action required"
+INC0303,EVT004962,File Access,Incident Response Team,Open,26 min,Pending review
+INC0304,EVT000896,USB Device Connected,SOC Tier 3,Closed,40 min,"Device inspected, no threat found"
+INC0305,EVT005653,Port Scan,Incident Response Team,Open,44 min,Pending review
+INC0306,EVT001821,Login Success,Incident Response Team,Closed,82 min,"Reviewed, no action required"
+INC0307,EVT001411,File Access,Incident Response Team,Closed,58 min,"Reviewed, no action required"
+INC0308,EVT003258,Malware Detection,Incident Response Team,Open,39 min,Pending review
+INC0309,EVT000901,SQL Injection Attempt,SOC Tier 2,Closed,62 min,"Request blocked, WAF rule updated"
+INC0310,EVT004283,File Access,SOC Tier 2,Closed,74 min,"Reviewed, no action required"
+INC0311,EVT007887,File Access,SOC Tier 2,Closed,15 min,"Reviewed, no action required"
+INC0312,EVT001362,Phishing Email,SOC Tier 2,Closed,27 min,"Email quarantined, user notified"
+INC0313,EVT007437,Malware Detection,SOC Tier 3,Closed,73 min,"Endpoint isolated, malware removed"
+INC0314,EVT005871,Failed Login,SOC Tier 1,Closed,35 min,"Account temporarily locked, user verified"
+INC0315,EVT003992,Login Success,SOC Tier 1,Open,23 min,Pending review
+INC0316,EVT007499,File Access,Incident Response Team,Closed,40 min,"Reviewed, no action required"
+INC0317,EVT005453,SQL Injection Attempt,SOC Tier 3,Closed,16 min,"Request blocked, WAF rule updated"
+INC0318,EVT003791,Privilege Escalation,Incident Response Team,Closed,31 min,"Access revoked, account access reviewed"
+INC0319,EVT009500,Phishing Email,SOC Tier 1,Closed,41 min,"Email quarantined, user notified"
+INC0320,EVT007331,Malware Detection,SOC Tier 1,Open,44 min,Pending review
+INC0321,EVT009702,Privilege Escalation,SOC Tier 3,Open,90 min,Pending review
+INC0322,EVT005442,Port Scan,Incident Response Team,Closed,18 min,Source IP flagged and monitored
+INC0323,EVT006803,Phishing Email,SOC Tier 3,Closed,9 min,"Email quarantined, user notified"
+INC0324,EVT003622,Privilege Escalation,Incident Response Team,Open,40 min,Pending review
+INC0325,EVT009580,Login Success,Incident Response Team,Closed,10 min,"Reviewed, no action required"
+INC0326,EVT002824,USB Device Connected,SOC Tier 2,In Progress,51 min,Pending review
+INC0327,EVT003230,File Access,SOC Tier 2,In Progress,19 min,Pending review
+INC0328,EVT005487,Login Success,SOC Tier 3,Closed,65 min,"Reviewed, no action required"
+INC0329,EVT006851,USB Device Connected,SOC Tier 2,Closed,44 min,"Device inspected, no threat found"
+INC0330,EVT005276,Phishing Email,Incident Response Team,In Progress,43 min,Pending review
+INC0331,EVT007438,Privilege Escalation,SOC Tier 1,Open,10 min,Pending review
+INC0332,EVT002471,Privilege Escalation,Incident Response Team,Closed,47 min,"Access revoked, account access reviewed"
+INC0333,EVT008423,File Access,SOC Tier 3,Closed,39 min,"Reviewed, no action required"
+INC0334,EVT001555,SQL Injection Attempt,Incident Response Team,Closed,77 min,"Request blocked, WAF rule updated"
+INC0335,EVT006948,Privilege Escalation,SOC Tier 1,Closed,75 min,"Access revoked, account access reviewed"
+INC0336,EVT001333,Login Success,SOC Tier 3,Closed,50 min,"Reviewed, no action required"
+INC0337,EVT003437,Malware Detection,Incident Response Team,In Progress,37 min,Pending review
+INC0338,EVT000543,Brute Force,SOC Tier 2,Open,70 min,Pending review
+INC0339,EVT007815,Phishing Email,SOC Tier 3,Closed,13 min,"Email quarantined, user notified"
+INC0340,EVT006719,SQL Injection Attempt,SOC Tier 3,Open,70 min,Pending review
+INC0341,EVT007858,Port Scan,Incident Response Team,Closed,72 min,Source IP flagged and monitored
+INC0342,EVT005868,File Access,Incident Response Team,Closed,72 min,"Reviewed, no action required"
+INC0343,EVT008615,USB Device Connected,SOC Tier 1,Closed,73 min,"Device inspected, no threat found"
+INC0344,EVT003950,Port Scan,SOC Tier 1,Closed,66 min,Source IP flagged and monitored
+INC0345,EVT004874,Failed Login,SOC Tier 1,Closed,38 min,"Account temporarily locked, user verified"
+INC0346,EVT001067,Brute Force,SOC Tier 3,Closed,45 min,Source IP blocked at firewall
+INC0347,EVT002852,Privilege Escalation,SOC Tier 1,In Progress,80 min,Pending review
+INC0348,EVT001754,Privilege Escalation,SOC Tier 2,Closed,47 min,"Access revoked, account access reviewed"
+INC0349,EVT001277,Malware Detection,SOC Tier 2,Closed,65 min,"Endpoint isolated, malware removed"
+INC0350,EVT002224,USB Device Connected,SOC Tier 3,In Progress,47 min,Pending review
+INC0351,EVT007170,Brute Force,Incident Response Team,Closed,27 min,Source IP blocked at firewall
+INC0352,EVT000890,Login Success,SOC Tier 3,In Progress,24 min,Pending review
+INC0353,EVT005751,Brute Force,SOC Tier 1,Closed,14 min,Source IP blocked at firewall
+INC0354,EVT009612,Phishing Email,SOC Tier 3,Open,19 min,Pending review
+INC0355,EVT006384,Malware Detection,Incident Response Team,In Progress,77 min,Pending review
+INC0356,EVT008436,Malware Detection,SOC Tier 1,Open,61 min,Pending review
+INC0357,EVT001321,Port Scan,SOC Tier 2,Open,47 min,Pending review
+INC0358,EVT000330,Failed Login,SOC Tier 1,In Progress,88 min,Pending review
+INC0359,EVT000538,File Access,SOC Tier 1,Closed,71 min,"Reviewed, no action required"
+INC0360,EVT006341,Login Success,SOC Tier 1,Closed,42 min,"Reviewed, no action required"
+INC0361,EVT004615,File Access,Incident Response Team,Closed,21 min,"Reviewed, no action required"
+INC0362,EVT004682,Privilege Escalation,SOC Tier 3,Closed,87 min,"Access revoked, account access reviewed"
+INC0363,EVT003399,USB Device Connected,SOC Tier 2,Closed,78 min,"Device inspected, no threat found"
+INC0364,EVT009653,USB Device Connected,SOC Tier 3,Closed,54 min,"Device inspected, no threat found"
+INC0365,EVT002004,Privilege Escalation,SOC Tier 2,In Progress,83 min,Pending review
+INC0366,EVT005128,Privilege Escalation,SOC Tier 1,Open,67 min,Pending review
+INC0367,EVT007011,Brute Force,SOC Tier 1,Closed,54 min,Source IP blocked at firewall
+INC0368,EVT003003,Privilege Escalation,SOC Tier 3,In Progress,8 min,Pending review
+INC0369,EVT008753,Privilege Escalation,SOC Tier 1,Closed,40 min,"Access revoked, account access reviewed"
+INC0370,EVT004975,Privilege Escalation,SOC Tier 3,Closed,33 min,"Access revoked, account access reviewed"
+INC0371,EVT006598,Failed Login,SOC Tier 1,Closed,83 min,"Account temporarily locked, user verified"
+INC0372,EVT004648,SQL Injection Attempt,SOC Tier 2,Closed,89 min,"Request blocked, WAF rule updated"
+INC0373,EVT003815,USB Device Connected,SOC Tier 3,In Progress,35 min,Pending review
+INC0374,EVT003271,Brute Force,SOC Tier 2,In Progress,33 min,Pending review
+INC0375,EVT005767,Phishing Email,SOC Tier 1,Open,43 min,Pending review
+INC0376,EVT009946,File Access,Incident Response Team,Closed,61 min,"Reviewed, no action required"
+INC0377,EVT007817,Brute Force,SOC Tier 2,In Progress,61 min,Pending review
+INC0378,EVT002281,USB Device Connected,Incident Response Team,In Progress,12 min,Pending review
+INC0379,EVT008771,SQL Injection Attempt,SOC Tier 3,Closed,83 min,"Request blocked, WAF rule updated"
+INC0380,EVT005773,Privilege Escalation,SOC Tier 3,Open,89 min,Pending review
+INC0381,EVT007809,SQL Injection Attempt,SOC Tier 1,Closed,18 min,"Request blocked, WAF rule updated"
+INC0382,EVT005509,Privilege Escalation,SOC Tier 3,Closed,53 min,"Access revoked, account access reviewed"
+INC0383,EVT008802,Brute Force,SOC Tier 1,In Progress,50 min,Pending review
+INC0384,EVT001384,File Access,SOC Tier 3,Closed,53 min,"Reviewed, no action required"
+INC0385,EVT008385,Phishing Email,Incident Response Team,Closed,90 min,"Email quarantined, user notified"
+INC0386,EVT004099,SQL Injection Attempt,SOC Tier 2,Open,83 min,Pending review
+INC0387,EVT002447,File Access,SOC Tier 1,Closed,49 min,"Reviewed, no action required"
+INC0388,EVT005383,Privilege Escalation,Incident Response Team,Closed,33 min,"Access revoked, account access reviewed"
+INC0389,EVT004491,Login Success,Incident Response Team,Closed,9 min,"Reviewed, no action required"
+INC0390,EVT007644,Phishing Email,SOC Tier 3,Closed,89 min,"Email quarantined, user notified"
+INC0391,EVT007169,Brute Force,SOC Tier 1,Closed,79 min,Source IP blocked at firewall
+INC0392,EVT009794,File Access,SOC Tier 3,Open,22 min,Pending review
+INC0393,EVT009301,Brute Force,SOC Tier 3,Closed,61 min,Source IP blocked at firewall
+INC0394,EVT009388,Brute Force,Incident Response Team,Closed,28 min,Source IP blocked at firewall
+INC0395,EVT007346,Port Scan,Incident Response Team,In Progress,19 min,Pending review
+INC0396,EVT006464,Phishing Email,Incident Response Team,Closed,23 min,"Email quarantined, user notified"
+INC0397,EVT007453,Malware Detection,SOC Tier 1,Closed,39 min,"Endpoint isolated, malware removed"
+INC0398,EVT007338,Phishing Email,SOC Tier 3,Closed,78 min,"Email quarantined, user notified"
+INC0399,EVT006544,Phishing Email,SOC Tier 1,Closed,71 min,"Email quarantined, user notified"
+INC0400,EVT001413,Malware Detection,SOC Tier 2,Open,55 min,Pending review
+INC0401,EVT008312,SQL Injection Attempt,SOC Tier 3,Open,42 min,Pending review
+INC0402,EVT009171,Failed Login,SOC Tier 2,Open,74 min,Pending review
+INC0403,EVT000310,Phishing Email,SOC Tier 3,In Progress,38 min,Pending review
+INC0404,EVT000872,Login Success,SOC Tier 3,Closed,16 min,"Reviewed, no action required"
+INC0405,EVT008037,Privilege Escalation,SOC Tier 1,In Progress,20 min,Pending review
+INC0406,EVT004131,Port Scan,SOC Tier 3,Closed,13 min,Source IP flagged and monitored
+INC0407,EVT001220,Phishing Email,SOC Tier 2,Closed,78 min,"Email quarantined, user notified"
+INC0408,EVT005412,Brute Force,SOC Tier 3,Closed,42 min,Source IP blocked at firewall
+INC0409,EVT006347,File Access,Incident Response Team,Closed,56 min,"Reviewed, no action required"
+INC0410,EVT009175,Port Scan,Incident Response Team,Closed,89 min,Source IP flagged and monitored
+INC0411,EVT000941,Privilege Escalation,Incident Response Team,Closed,65 min,"Access revoked, account access reviewed"
+INC0412,EVT001564,Port Scan,SOC Tier 2,Closed,21 min,Source IP flagged and monitored
+INC0413,EVT008951,Brute Force,SOC Tier 1,Closed,54 min,Source IP blocked at firewall
+INC0414,EVT005190,Malware Detection,SOC Tier 3,Closed,37 min,"Endpoint isolated, malware removed"
+INC0415,EVT002608,Port Scan,SOC Tier 3,In Progress,72 min,Pending review
+INC0416,EVT002286,USB Device Connected,Incident Response Team,In Progress,83 min,Pending review
+INC0417,EVT007395,File Access,SOC Tier 3,Closed,70 min,"Reviewed, no action required"
+INC0418,EVT006396,Port Scan,Incident Response Team,Open,45 min,Pending review
+INC0419,EVT005317,USB Device Connected,Incident Response Team,Closed,16 min,"Device inspected, no threat found"
+INC0420,EVT008116,Brute Force,SOC Tier 2,In Progress,62 min,Pending review
+INC0421,EVT003709,Malware Detection,SOC Tier 3,In Progress,47 min,Pending review
+INC0422,EVT008472,SQL Injection Attempt,SOC Tier 2,Closed,63 min,"Request blocked, WAF rule updated"
+INC0423,EVT005291,Malware Detection,Incident Response Team,Closed,37 min,"Endpoint isolated, malware removed"
+INC0424,EVT005120,Port Scan,SOC Tier 2,In Progress,86 min,Pending review
+INC0425,EVT002862,Login Success,SOC Tier 1,Closed,37 min,"Reviewed, no action required"
+INC0426,EVT007131,Brute Force,SOC Tier 2,Closed,61 min,Source IP blocked at firewall
+INC0427,EVT006130,Brute Force,SOC Tier 3,Open,17 min,Pending review
+INC0428,EVT006764,SQL Injection Attempt,SOC Tier 1,Closed,24 min,"Request blocked, WAF rule updated"
+INC0429,EVT003021,SQL Injection Attempt,Incident Response Team,Closed,16 min,"Request blocked, WAF rule updated"
+INC0430,EVT003501,USB Device Connected,SOC Tier 3,Closed,38 min,"Device inspected, no threat found"
+INC0431,EVT000289,Failed Login,SOC Tier 1,In Progress,56 min,Pending review
+INC0432,EVT008573,Failed Login,SOC Tier 2,Closed,75 min,"Account temporarily locked, user verified"
+INC0433,EVT006776,Privilege Escalation,SOC Tier 2,In Progress,80 min,Pending review
+INC0434,EVT005353,Brute Force,SOC Tier 3,In Progress,89 min,Pending review
+INC0435,EVT009945,SQL Injection Attempt,Incident Response Team,Closed,14 min,"Request blocked, WAF rule updated"
+INC0436,EVT000020,USB Device Connected,Incident Response Team,Closed,70 min,"Device inspected, no threat found"
+INC0437,EVT002304,Privilege Escalation,SOC Tier 2,Closed,45 min,"Access revoked, account access reviewed"
+INC0438,EVT005482,Brute Force,Incident Response Team,In Progress,83 min,Pending review
+INC0439,EVT009843,USB Device Connected,SOC Tier 2,Closed,15 min,"Device inspected, no threat found"
+INC0440,EVT004129,Port Scan,SOC Tier 2,Closed,64 min,Source IP flagged and monitored
+INC0441,EVT001804,Login Success,SOC Tier 2,Closed,24 min,"Reviewed, no action required"
+INC0442,EVT000968,Failed Login,SOC Tier 1,Closed,79 min,"Account temporarily locked, user verified"
+INC0443,EVT009688,Privilege Escalation,Incident Response Team,In Progress,84 min,Pending review
+INC0444,EVT002523,Brute Force,SOC Tier 2,In Progress,48 min,Pending review
+INC0445,EVT002230,Brute Force,Incident Response Team,Closed,64 min,Source IP blocked at firewall
+INC0446,EVT004875,Privilege Escalation,Incident Response Team,In Progress,48 min,Pending review
+INC0447,EVT002716,USB Device Connected,Incident Response Team,Open,31 min,Pending review
+INC0448,EVT006986,SQL Injection Attempt,SOC Tier 2,Open,76 min,Pending review
+INC0449,EVT007851,Port Scan,Incident Response Team,Closed,9 min,Source IP flagged and monitored
+INC0450,EVT005480,Malware Detection,SOC Tier 2,In Progress,42 min,Pending review
+INC0451,EVT002909,SQL Injection Attempt,SOC Tier 2,Open,59 min,Pending review
+INC0452,EVT000037,Malware Detection,Incident Response Team,Open,82 min,Pending review
+INC0453,EVT008209,Port Scan,Incident Response Team,Closed,39 min,Source IP flagged and monitored
+INC0454,EVT004534,Brute Force,SOC Tier 2,In Progress,41 min,Pending review
+INC0455,EVT007689,File Access,SOC Tier 3,Closed,22 min,"Reviewed, no action required"
+INC0456,EVT003013,Failed Login,SOC Tier 3,Closed,40 min,"Account temporarily locked, user verified"
+INC0457,EVT004778,Failed Login,Incident Response Team,Open,89 min,Pending review
+INC0458,EVT001437,Privilege Escalation,SOC Tier 2,Closed,52 min,"Access revoked, account access reviewed"
+INC0459,EVT003908,Login Success,SOC Tier 2,Closed,48 min,"Reviewed, no action required"
+INC0460,EVT008429,Phishing Email,Incident Response Team,In Progress,9 min,Pending review
+INC0461,EVT008502,Brute Force,SOC Tier 2,Closed,29 min,Source IP blocked at firewall
+INC0462,EVT006684,File Access,SOC Tier 1,Closed,33 min,"Reviewed, no action required"
+INC0463,EVT005760,USB Device Connected,SOC Tier 3,Closed,19 min,"Device inspected, no threat found"
+INC0464,EVT001531,SQL Injection Attempt,SOC Tier 3,In Progress,74 min,Pending review
+INC0465,EVT006798,File Access,SOC Tier 1,In Progress,48 min,Pending review
+INC0466,EVT002620,Failed Login,SOC Tier 2,Closed,50 min,"Account temporarily locked, user verified"
+INC0467,EVT008081,USB Device Connected,SOC Tier 2,Closed,60 min,"Device inspected, no threat found"
+INC0468,EVT008218,USB Device Connected,Incident Response Team,Open,90 min,Pending review
+INC0469,EVT000103,Port Scan,Incident Response Team,In Progress,82 min,Pending review
+INC0470,EVT005105,Brute Force,SOC Tier 3,Closed,88 min,Source IP blocked at firewall
+INC0471,EVT004891,Failed Login,SOC Tier 2,In Progress,65 min,Pending review
+INC0472,EVT006794,Port Scan,SOC Tier 3,Closed,85 min,Source IP flagged and monitored
+INC0473,EVT000254,Port Scan,SOC Tier 3,Closed,25 min,Source IP flagged and monitored
+INC0474,EVT006180,Phishing Email,SOC Tier 1,Closed,84 min,"Email quarantined, user notified"
+INC0475,EVT006899,Malware Detection,SOC Tier 1,Closed,10 min,"Endpoint isolated, malware removed"
+INC0476,EVT007255,USB Device Connected,SOC Tier 1,In Progress,8 min,Pending review
+INC0477,EVT000642,Brute Force,SOC Tier 2,Closed,37 min,Source IP blocked at firewall
+INC0478,EVT009987,Failed Login,SOC Tier 1,Closed,30 min,"Account temporarily locked, user verified"
+INC0479,EVT001766,Phishing Email,SOC Tier 1,Closed,87 min,"Email quarantined, user notified"
+INC0480,EVT001485,SQL Injection Attempt,SOC Tier 3,Open,43 min,Pending review
+INC0481,EVT003394,Privilege Escalation,SOC Tier 2,Open,82 min,Pending review
+INC0482,EVT001386,Phishing Email,SOC Tier 2,In Progress,79 min,Pending review
+INC0483,EVT002170,Login Success,SOC Tier 2,Closed,36 min,"Reviewed, no action required"
+INC0484,EVT003910,SQL Injection Attempt,Incident Response Team,Closed,39 min,"Request blocked, WAF rule updated"
+INC0485,EVT000060,Privilege Escalation,SOC Tier 3,Closed,36 min,"Access revoked, account access reviewed"
+INC0486,EVT007633,Port Scan,SOC Tier 3,Open,34 min,Pending review
+INC0487,EVT009115,Malware Detection,SOC Tier 2,Closed,22 min,"Endpoint isolated, malware removed"
+INC0488,EVT005213,Login Success,SOC Tier 3,Closed,37 min,"Reviewed, no action required"
+INC0489,EVT001285,Phishing Email,Incident Response Team,Closed,28 min,"Email quarantined, user notified"
+INC0490,EVT009256,Port Scan,SOC Tier 2,Closed,55 min,Source IP flagged and monitored
+INC0491,EVT004179,SQL Injection Attempt,Incident Response Team,Open,34 min,Pending review
+INC0492,EVT006856,File Access,SOC Tier 1,In Progress,51 min,Pending review
+INC0493,EVT001949,Brute Force,SOC Tier 2,Closed,19 min,Source IP blocked at firewall
+INC0494,EVT009911,Login Success,SOC Tier 2,In Progress,9 min,Pending review
+INC0495,EVT000418,Privilege Escalation,SOC Tier 2,Closed,8 min,"Access revoked, account access reviewed"
+INC0496,EVT004790,File Access,Incident Response Team,Closed,19 min,"Reviewed, no action required"
+INC0497,EVT009626,Failed Login,SOC Tier 3,Closed,80 min,"Account temporarily locked, user verified"
+INC0498,EVT009083,Brute Force,SOC Tier 2,Closed,69 min,Source IP blocked at firewall
+INC0499,EVT004095,File Access,SOC Tier 2,Closed,87 min,"Reviewed, no action required"
+INC0500,EVT009859,Login Success,Incident Response Team,Closed,23 min,"Reviewed, no action required"
+INC0501,EVT008245,Brute Force,Incident Response Team,In Progress,29 min,Pending review
+INC0502,EVT000823,Login Success,SOC Tier 2,Open,40 min,Pending review
+INC0503,EVT005049,Login Success,SOC Tier 3,Open,84 min,Pending review
+INC0504,EVT007470,Privilege Escalation,SOC Tier 3,In Progress,44 min,Pending review
+INC0505,EVT007081,USB Device Connected,SOC Tier 2,Open,87 min,Pending review
+INC0506,EVT009276,USB Device Connected,SOC Tier 2,Closed,70 min,"Device inspected, no threat found"
+INC0507,EVT007934,Login Success,SOC Tier 3,Closed,14 min,"Reviewed, no action required"
+INC0508,EVT006208,Port Scan,SOC Tier 3,Closed,37 min,Source IP flagged and monitored
+INC0509,EVT004775,Failed Login,SOC Tier 3,In Progress,76 min,Pending review
+INC0510,EVT006253,Failed Login,SOC Tier 2,Closed,69 min,"Account temporarily locked, user verified"
+INC0511,EVT009081,Login Success,SOC Tier 1,Closed,73 min,"Reviewed, no action required"
+INC0512,EVT004920,SQL Injection Attempt,SOC Tier 3,Closed,43 min,"Request blocked, WAF rule updated"
+INC0513,EVT008955,Login Success,SOC Tier 1,Closed,84 min,"Reviewed, no action required"
+INC0514,EVT000195,Phishing Email,SOC Tier 3,Closed,9 min,"Email quarantined, user notified"
+INC0515,EVT000395,Malware Detection,Incident Response Team,In Progress,65 min,Pending review
+INC0516,EVT000181,Privilege Escalation,SOC Tier 1,Closed,43 min,"Access revoked, account access reviewed"
+INC0517,EVT005561,Failed Login,SOC Tier 1,Closed,67 min,"Account temporarily locked, user verified"
+INC0518,EVT007777,Failed Login,SOC Tier 2,Closed,13 min,"Account temporarily locked, user verified"
+INC0519,EVT001504,Failed Login,SOC Tier 2,In Progress,53 min,Pending review
+INC0520,EVT000908,Brute Force,Incident Response Team,Open,54 min,Pending review
+INC0521,EVT008831,Failed Login,SOC Tier 3,Closed,52 min,"Account temporarily locked, user verified"
+INC0522,EVT004693,Phishing Email,Incident Response Team,In Progress,67 min,Pending review
+INC0523,EVT002754,Failed Login,SOC Tier 1,Closed,77 min,"Account temporarily locked, user verified"
+INC0524,EVT000594,Failed Login,SOC Tier 3,Closed,63 min,"Account temporarily locked, user verified"
+INC0525,EVT003918,Login Success,Incident Response Team,Closed,90 min,"Reviewed, no action required"
+INC0526,EVT006663,USB Device Connected,SOC Tier 3,In Progress,75 min,Pending review
+INC0527,EVT003808,File Access,SOC Tier 2,In Progress,35 min,Pending review
+INC0528,EVT009352,Port Scan,SOC Tier 3,In Progress,15 min,Pending review
+INC0529,EVT000570,Brute Force,SOC Tier 3,Closed,61 min,Source IP blocked at firewall
+INC0530,EVT009493,Phishing Email,SOC Tier 3,In Progress,85 min,Pending review
+INC0531,EVT005644,Phishing Email,SOC Tier 2,Open,74 min,Pending review
+INC0532,EVT003306,File Access,SOC Tier 2,Closed,41 min,"Reviewed, no action required"
+INC0533,EVT008870,Port Scan,Incident Response Team,Closed,79 min,Source IP flagged and monitored
+INC0534,EVT003188,Malware Detection,SOC Tier 1,Open,20 min,Pending review
+INC0535,EVT005417,Privilege Escalation,SOC Tier 1,In Progress,88 min,Pending review
+INC0536,EVT003195,Port Scan,SOC Tier 1,Closed,28 min,Source IP flagged and monitored
+INC0537,EVT005732,Failed Login,SOC Tier 1,Closed,53 min,"Account temporarily locked, user verified"
+INC0538,EVT007704,Privilege Escalation,SOC Tier 3,Closed,90 min,"Access revoked, account access reviewed"
+INC0539,EVT006566,SQL Injection Attempt,SOC Tier 2,Closed,60 min,"Request blocked, WAF rule updated"
+INC0540,EVT008818,Privilege Escalation,SOC Tier 2,Closed,51 min,"Access revoked, account access reviewed"
+INC0541,EVT004404,Port Scan,SOC Tier 2,Closed,80 min,Source IP flagged and monitored
+INC0542,EVT002524,Login Success,SOC Tier 3,Closed,90 min,"Reviewed, no action required"
+INC0543,EVT005826,Failed Login,SOC Tier 3,In Progress,38 min,Pending review
+INC0544,EVT000838,Login Success,SOC Tier 3,Closed,86 min,"Reviewed, no action required"
+INC0545,EVT007314,File Access,SOC Tier 1,Closed,58 min,"Reviewed, no action required"
+INC0546,EVT008006,Privilege Escalation,Incident Response Team,Closed,90 min,"Access revoked, account access reviewed"
+INC0547,EVT007299,SQL Injection Attempt,Incident Response Team,Closed,10 min,"Request blocked, WAF rule updated"
+INC0548,EVT009819,SQL Injection Attempt,Incident Response Team,Closed,58 min,"Request blocked, WAF rule updated"
+INC0549,EVT001486,Malware Detection,SOC Tier 3,Closed,21 min,"Endpoint isolated, malware removed"
+INC0550,EVT000024,Failed Login,Incident Response Team,Closed,73 min,"Account temporarily locked, user verified"
+INC0551,EVT009236,File Access,SOC Tier 2,Closed,26 min,"Reviewed, no action required"
+INC0552,EVT007712,SQL Injection Attempt,SOC Tier 1,Closed,45 min,"Request blocked, WAF rule updated"
+INC0553,EVT001739,File Access,Incident Response Team,Closed,12 min,"Reviewed, no action required"
+INC0554,EVT007462,SQL Injection Attempt,SOC Tier 3,Closed,16 min,"Request blocked, WAF rule updated"
+INC0555,EVT003381,File Access,SOC Tier 1,In Progress,90 min,Pending review
+INC0556,EVT004691,Privilege Escalation,SOC Tier 1,In Progress,49 min,Pending review
+INC0557,EVT003309,Failed Login,SOC Tier 3,Closed,71 min,"Account temporarily locked, user verified"
+INC0558,EVT002653,SQL Injection Attempt,SOC Tier 3,In Progress,71 min,Pending review
+INC0559,EVT006497,Port Scan,SOC Tier 3,Closed,60 min,Source IP flagged and monitored
+INC0560,EVT003725,Privilege Escalation,SOC Tier 1,Closed,71 min,"Access revoked, account access reviewed"
+INC0561,EVT003863,Login Success,Incident Response Team,Closed,27 min,"Reviewed, no action required"
+INC0562,EVT000443,Malware Detection,SOC Tier 3,Closed,77 min,"Endpoint isolated, malware removed"
+INC0563,EVT000001,Privilege Escalation,SOC Tier 1,In Progress,70 min,Pending review
+INC0564,EVT005776,Malware Detection,SOC Tier 1,Closed,56 min,"Endpoint isolated, malware removed"
+INC0565,EVT005904,Login Success,SOC Tier 3,Closed,51 min,"Reviewed, no action required"
+INC0566,EVT001769,Phishing Email,SOC Tier 3,Closed,51 min,"Email quarantined, user notified"
+INC0567,EVT008987,Malware Detection,SOC Tier 1,Closed,71 min,"Endpoint isolated, malware removed"
+INC0568,EVT000449,Phishing Email,SOC Tier 1,Closed,28 min,"Email quarantined, user notified"
+INC0569,EVT000517,Phishing Email,Incident Response Team,Closed,41 min,"Email quarantined, user notified"
+INC0570,EVT009505,Brute Force,Incident Response Team,In Progress,46 min,Pending review
+INC0571,EVT005805,Malware Detection,Incident Response Team,Closed,57 min,"Endpoint isolated, malware removed"
+INC0572,EVT007173,File Access,SOC Tier 2,Open,11 min,Pending review
+INC0573,EVT002684,Phishing Email,SOC Tier 3,Closed,40 min,"Email quarantined, user notified"
+INC0574,EVT006703,Brute Force,Incident Response Team,Closed,85 min,Source IP blocked at firewall
+INC0575,EVT009444,Brute Force,SOC Tier 3,Closed,61 min,Source IP blocked at firewall
+INC0576,EVT002090,Phishing Email,SOC Tier 3,Closed,56 min,"Email quarantined, user notified"
+INC0577,EVT008458,Phishing Email,SOC Tier 1,Closed,43 min,"Email quarantined, user notified"
+INC0578,EVT003358,File Access,SOC Tier 3,In Progress,36 min,Pending review
+INC0579,EVT009689,SQL Injection Attempt,SOC Tier 3,Closed,28 min,"Request blocked, WAF rule updated"
+INC0580,EVT006488,USB Device Connected,Incident Response Team,Open,37 min,Pending review
+INC0581,EVT002975,Brute Force,SOC Tier 2,Open,65 min,Pending review
+INC0582,EVT006593,Port Scan,SOC Tier 1,Closed,30 min,Source IP flagged and monitored
+INC0583,EVT002417,Privilege Escalation,Incident Response Team,Closed,11 min,"Access revoked, account access reviewed"
+INC0584,EVT005371,File Access,SOC Tier 2,Closed,74 min,"Reviewed, no action required"
+INC0585,EVT008158,Login Success,SOC Tier 1,Closed,59 min,"Reviewed, no action required"
+INC0586,EVT002272,Failed Login,SOC Tier 3,Closed,42 min,"Account temporarily locked, user verified"
+INC0587,EVT007268,Brute Force,Incident Response Team,Closed,86 min,Source IP blocked at firewall
+INC0588,EVT003688,SQL Injection Attempt,SOC Tier 2,Closed,42 min,"Request blocked, WAF rule updated"
+INC0589,EVT002630,Phishing Email,SOC Tier 2,Closed,15 min,"Email quarantined, user notified"
+INC0590,EVT009673,Login Success,SOC Tier 1,Closed,12 min,"Reviewed, no action required"
+INC0591,EVT001489,File Access,Incident Response Team,Closed,23 min,"Reviewed, no action required"
+INC0592,EVT005308,USB Device Connected,SOC Tier 1,Closed,85 min,"Device inspected, no threat found"
+INC0593,EVT000407,USB Device Connected,SOC Tier 1,In Progress,62 min,Pending review
+INC0594,EVT006230,Brute Force,Incident Response Team,Closed,61 min,Source IP blocked at firewall
+INC0595,EVT003200,Malware Detection,Incident Response Team,In Progress,27 min,Pending review
+INC0596,EVT009064,Login Success,Incident Response Team,Closed,78 min,"Reviewed, no action required"
+INC0597,EVT004426,SQL Injection Attempt,SOC Tier 2,Closed,77 min,"Request blocked, WAF rule updated"
+INC0598,EVT009125,SQL Injection Attempt,SOC Tier 3,Open,82 min,Pending review
+INC0599,EVT002930,Login Success,Incident Response Team,Closed,52 min,"Reviewed, no action required"
+INC0600,EVT007540,Login Success,SOC Tier 3,In Progress,12 min,Pending review
+INC0601,EVT007042,Failed Login,SOC Tier 2,Closed,41 min,"Account temporarily locked, user verified"
+INC0602,EVT001770,File Access,SOC Tier 2,Closed,45 min,"Reviewed, no action required"
+INC0603,EVT004466,Malware Detection,SOC Tier 2,In Progress,32 min,Pending review
+INC0604,EVT002994,Failed Login,Incident Response Team,Closed,18 min,"Account temporarily locked, user verified"
+INC0605,EVT001487,Login Success,SOC Tier 2,Closed,49 min,"Reviewed, no action required"
+INC0606,EVT001659,Brute Force,Incident Response Team,In Progress,48 min,Pending review
+INC0607,EVT001291,USB Device Connected,Incident Response Team,Open,23 min,Pending review
+INC0608,EVT003049,Brute Force,Incident Response Team,Closed,86 min,Source IP blocked at firewall
+INC0609,EVT009999,Login Success,Incident Response Team,Closed,19 min,"Reviewed, no action required"
+INC0610,EVT000678,Malware Detection,SOC Tier 1,Closed,31 min,"Endpoint isolated, malware removed"
+INC0611,EVT009087,Malware Detection,SOC Tier 3,In Progress,53 min,Pending review
+INC0612,EVT000788,File Access,SOC Tier 3,Closed,53 min,"Reviewed, no action required"
+INC0613,EVT000865,Privilege Escalation,SOC Tier 1,Closed,67 min,"Access revoked, account access reviewed"
+INC0614,EVT004148,USB Device Connected,SOC Tier 3,Closed,35 min,"Device inspected, no threat found"
+INC0615,EVT008812,Port Scan,Incident Response Team,Closed,60 min,Source IP flagged and monitored
+INC0616,EVT009227,Login Success,SOC Tier 2,Closed,33 min,"Reviewed, no action required"
+INC0617,EVT003749,Phishing Email,SOC Tier 1,In Progress,79 min,Pending review
+INC0618,EVT007378,File Access,SOC Tier 3,Closed,14 min,"Reviewed, no action required"
+INC0619,EVT003890,Failed Login,SOC Tier 2,Closed,14 min,"Account temporarily locked, user verified"
+INC0620,EVT001678,Malware Detection,SOC Tier 1,Closed,14 min,"Endpoint isolated, malware removed"
+INC0621,EVT004772,Login Success,Incident Response Team,In Progress,50 min,Pending review
+INC0622,EVT005323,File Access,SOC Tier 2,In Progress,78 min,Pending review
+INC0623,EVT009141,Brute Force,SOC Tier 1,Closed,76 min,Source IP blocked at firewall
+INC0624,EVT004599,Port Scan,SOC Tier 1,Closed,53 min,Source IP flagged and monitored
+INC0625,EVT005356,SQL Injection Attempt,SOC Tier 2,Closed,66 min,"Request blocked, WAF rule updated"
+INC0626,EVT005963,Phishing Email,Incident Response Team,Closed,11 min,"Email quarantined, user notified"
+INC0627,EVT009148,Failed Login,SOC Tier 3,Closed,36 min,"Account temporarily locked, user verified"
+INC0628,EVT005855,Malware Detection,SOC Tier 1,Open,69 min,Pending review
+INC0629,EVT006167,SQL Injection Attempt,SOC Tier 3,Closed,17 min,"Request blocked, WAF rule updated"
+INC0630,EVT007113,Brute Force,SOC Tier 1,Open,79 min,Pending review
+INC0631,EVT001128,Port Scan,SOC Tier 3,Closed,42 min,Source IP flagged and monitored
+INC0632,EVT000914,Privilege Escalation,SOC Tier 2,Open,56 min,Pending review
+INC0633,EVT007857,Brute Force,Incident Response Team,Closed,73 min,Source IP blocked at firewall
+INC0634,EVT001558,Malware Detection,SOC Tier 2,Closed,51 min,"Endpoint isolated, malware removed"
+INC0635,EVT009146,Phishing Email,SOC Tier 3,In Progress,49 min,Pending review
+INC0636,EVT004045,Privilege Escalation,SOC Tier 1,Closed,50 min,"Access revoked, account access reviewed"
+INC0637,EVT005941,SQL Injection Attempt,SOC Tier 2,Closed,90 min,"Request blocked, WAF rule updated"
+INC0638,EVT003248,Privilege Escalation,SOC Tier 3,Closed,8 min,"Access revoked, account access reviewed"
+INC0639,EVT006631,Login Success,SOC Tier 3,Open,83 min,Pending review
+INC0640,EVT008652,SQL Injection Attempt,SOC Tier 3,Closed,14 min,"Request blocked, WAF rule updated"
+INC0641,EVT007832,Login Success,Incident Response Team,Closed,84 min,"Reviewed, no action required"
+INC0642,EVT000846,SQL Injection Attempt,SOC Tier 3,Closed,36 min,"Request blocked, WAF rule updated"
+INC0643,EVT007110,SQL Injection Attempt,SOC Tier 2,Closed,25 min,"Request blocked, WAF rule updated"
+INC0644,EVT006847,Failed Login,Incident Response Team,Open,80 min,Pending review
+INC0645,EVT003851,Login Success,SOC Tier 2,Closed,84 min,"Reviewed, no action required"
+INC0646,EVT004785,USB Device Connected,Incident Response Team,Closed,36 min,"Device inspected, no threat found"
+INC0647,EVT005841,Privilege Escalation,SOC Tier 2,In Progress,26 min,Pending review
+INC0648,EVT004500,SQL Injection Attempt,SOC Tier 3,In Progress,61 min,Pending review
+INC0649,EVT004711,SQL Injection Attempt,SOC Tier 2,Closed,68 min,"Request blocked, WAF rule updated"
+INC0650,EVT001225,Brute Force,Incident Response Team,Closed,43 min,Source IP blocked at firewall
+INC0651,EVT001065,Privilege Escalation,SOC Tier 1,Closed,83 min,"Access revoked, account access reviewed"
+INC0652,EVT002203,Brute Force,SOC Tier 2,Closed,71 min,Source IP blocked at firewall
+INC0653,EVT007230,USB Device Connected,SOC Tier 1,In Progress,8 min,Pending review
+INC0654,EVT008501,File Access,SOC Tier 1,In Progress,66 min,Pending review
+INC0655,EVT003352,Privilege Escalation,SOC Tier 3,Open,57 min,Pending review
+INC0656,EVT006416,USB Device Connected,Incident Response Team,Open,83 min,Pending review
+INC0657,EVT007754,Login Success,SOC Tier 3,Closed,29 min,"Reviewed, no action required"
+INC0658,EVT008642,Malware Detection,SOC Tier 1,Closed,45 min,"Endpoint isolated, malware removed"
+INC0659,EVT001734,Privilege Escalation,SOC Tier 1,In Progress,18 min,Pending review
+INC0660,EVT001211,Phishing Email,SOC Tier 3,Closed,60 min,"Email quarantined, user notified"
+INC0661,EVT001589,Login Success,SOC Tier 1,Closed,58 min,"Reviewed, no action required"
+INC0662,EVT002829,Failed Login,SOC Tier 2,Closed,10 min,"Account temporarily locked, user verified"
+INC0663,EVT009181,Privilege Escalation,SOC Tier 3,Open,85 min,Pending review
+INC0664,EVT004526,Brute Force,Incident Response Team,In Progress,19 min,Pending review
+INC0665,EVT006775,USB Device Connected,Incident Response Team,In Progress,38 min,Pending review
+INC0666,EVT003807,Login Success,Incident Response Team,Closed,51 min,"Reviewed, no action required"
+INC0667,EVT005834,Phishing Email,SOC Tier 2,Closed,28 min,"Email quarantined, user notified"
+INC0668,EVT005373,Malware Detection,SOC Tier 3,In Progress,11 min,Pending review
+INC0669,EVT001702,Phishing Email,SOC Tier 1,Closed,88 min,"Email quarantined, user notified"
+INC0670,EVT003100,Phishing Email,Incident Response Team,Closed,29 min,"Email quarantined, user notified"
+INC0671,EVT004942,Malware Detection,SOC Tier 1,Open,56 min,Pending review
+INC0672,EVT008661,Brute Force,SOC Tier 1,In Progress,75 min,Pending review
+INC0673,EVT002623,Privilege Escalation,SOC Tier 3,In Progress,86 min,Pending review
+INC0674,EVT002260,Port Scan,Incident Response Team,In Progress,25 min,Pending review
+INC0675,EVT005529,Brute Force,SOC Tier 2,Closed,41 min,Source IP blocked at firewall
+INC0676,EVT009639,File Access,SOC Tier 3,Closed,75 min,"Reviewed, no action required"
+INC0677,EVT002981,Failed Login,SOC Tier 1,Closed,83 min,"Account temporarily locked, user verified"
+INC0678,EVT005057,SQL Injection Attempt,Incident Response Team,Closed,58 min,"Request blocked, WAF rule updated"
+INC0679,EVT007643,Privilege Escalation,Incident Response Team,Closed,81 min,"Access revoked, account access reviewed"
+INC0680,EVT006718,Phishing Email,SOC Tier 1,Closed,58 min,"Email quarantined, user notified"
+INC0681,EVT009692,File Access,SOC Tier 3,In Progress,48 min,Pending review
+INC0682,EVT008849,Failed Login,SOC Tier 3,Closed,81 min,"Account temporarily locked, user verified"
+INC0683,EVT000311,Port Scan,Incident Response Team,In Progress,11 min,Pending review
+INC0684,EVT002508,Failed Login,SOC Tier 3,Closed,28 min,"Account temporarily locked, user verified"
+INC0685,EVT001843,USB Device Connected,SOC Tier 2,Closed,55 min,"Device inspected, no threat found"
+INC0686,EVT005580,Brute Force,SOC Tier 2,Closed,39 min,Source IP blocked at firewall
+INC0687,EVT001705,File Access,SOC Tier 1,Closed,64 min,"Reviewed, no action required"
+INC0688,EVT008287,File Access,SOC Tier 1,In Progress,78 min,Pending review
+INC0689,EVT007319,Failed Login,SOC Tier 1,Closed,57 min,"Account temporarily locked, user verified"
+INC0690,EVT007149,Port Scan,SOC Tier 1,In Progress,77 min,Pending review
+INC0691,EVT003719,Privilege Escalation,SOC Tier 2,Closed,18 min,"Access revoked, account access reviewed"
+INC0692,EVT008882,Brute Force,SOC Tier 2,Closed,57 min,Source IP blocked at firewall
+INC0693,EVT003733,SQL Injection Attempt,SOC Tier 3,Open,64 min,Pending review
+INC0694,EVT002196,USB Device Connected,SOC Tier 1,In Progress,64 min,Pending review
+INC0695,EVT006953,Brute Force,Incident Response Team,In Progress,38 min,Pending review
+INC0696,EVT007714,File Access,SOC Tier 2,Closed,17 min,"Reviewed, no action required"
+INC0697,EVT008569,Brute Force,Incident Response Team,Open,29 min,Pending review
+INC0698,EVT009451,Port Scan,SOC Tier 3,Closed,61 min,Source IP flagged and monitored
+INC0699,EVT006848,Phishing Email,SOC Tier 3,Closed,76 min,"Email quarantined, user notified"
+INC0700,EVT001915,Privilege Escalation,SOC Tier 1,Closed,14 min,"Access revoked, account access reviewed"
+INC0701,EVT003670,Port Scan,Incident Response Team,Closed,79 min,Source IP flagged and monitored
+INC0702,EVT003091,Port Scan,SOC Tier 2,In Progress,11 min,Pending review
+INC0703,EVT009686,USB Device Connected,SOC Tier 1,Open,78 min,Pending review
+INC0704,EVT000809,Malware Detection,Incident Response Team,Closed,61 min,"Endpoint isolated, malware removed"
+INC0705,EVT001419,File Access,SOC Tier 1,Closed,66 min,"Reviewed, no action required"
+INC0706,EVT006290,File Access,Incident Response Team,Closed,76 min,"Reviewed, no action required"
+INC0707,EVT000830,SQL Injection Attempt,SOC Tier 1,In Progress,81 min,Pending review
+INC0708,EVT005316,Malware Detection,Incident Response Team,Closed,40 min,"Endpoint isolated, malware removed"
+INC0709,EVT009234,Failed Login,SOC Tier 2,Closed,31 min,"Account temporarily locked, user verified"
+INC0710,EVT006591,Failed Login,SOC Tier 1,Closed,26 min,"Account temporarily locked, user verified"
+INC0711,EVT000483,Login Success,SOC Tier 2,Closed,81 min,"Reviewed, no action required"
+INC0712,EVT002337,Malware Detection,SOC Tier 1,Closed,14 min,"Endpoint isolated, malware removed"
+INC0713,EVT002051,Malware Detection,Incident Response Team,Closed,48 min,"Endpoint isolated, malware removed"
+INC0714,EVT004712,Privilege Escalation,SOC Tier 3,Closed,32 min,"Access revoked, account access reviewed"
+INC0715,EVT004555,File Access,SOC Tier 2,Closed,74 min,"Reviewed, no action required"
+INC0716,EVT006385,Malware Detection,SOC Tier 2,Closed,31 min,"Endpoint isolated, malware removed"
+INC0717,EVT006539,Brute Force,SOC Tier 1,Closed,31 min,Source IP blocked at firewall
+INC0718,EVT009526,Port Scan,SOC Tier 2,Open,39 min,Pending review
+INC0719,EVT002485,USB Device Connected,SOC Tier 1,Open,86 min,Pending review
+INC0720,EVT006804,File Access,SOC Tier 3,Closed,13 min,"Reviewed, no action required"
+INC0721,EVT002083,Phishing Email,Incident Response Team,Closed,18 min,"Email quarantined, user notified"
+INC0722,EVT003310,Privilege Escalation,SOC Tier 2,Closed,52 min,"Access revoked, account access reviewed"
+INC0723,EVT005510,Port Scan,Incident Response Team,In Progress,57 min,Pending review
+INC0724,EVT003788,Port Scan,SOC Tier 3,Closed,77 min,Source IP flagged and monitored
+INC0725,EVT003644,Privilege Escalation,SOC Tier 1,Closed,83 min,"Access revoked, account access reviewed"
+INC0726,EVT005297,Login Success,Incident Response Team,In Progress,56 min,Pending review
+INC0727,EVT008344,Privilege Escalation,SOC Tier 1,Open,14 min,Pending review
+INC0728,EVT004043,Privilege Escalation,SOC Tier 1,In Progress,87 min,Pending review
+INC0729,EVT006988,Failed Login,Incident Response Team,Closed,76 min,"Account temporarily locked, user verified"
+INC0730,EVT000713,File Access,SOC Tier 1,In Progress,39 min,Pending review
+INC0731,EVT000858,Brute Force,SOC Tier 2,In Progress,63 min,Pending review
+INC0732,EVT008786,File Access,SOC Tier 3,Open,15 min,Pending review
+INC0733,EVT002732,Login Success,SOC Tier 3,Open,61 min,Pending review
+INC0734,EVT003267,Failed Login,Incident Response Team,Open,90 min,Pending review
+INC0735,EVT000339,Login Success,Incident Response Team,Closed,88 min,"Reviewed, no action required"
+INC0736,EVT005159,Privilege Escalation,SOC Tier 1,Closed,29 min,"Access revoked, account access reviewed"
+INC0737,EVT007940,Privilege Escalation,SOC Tier 2,Closed,63 min,"Access revoked, account access reviewed"
+INC0738,EVT004971,USB Device Connected,SOC Tier 1,Closed,81 min,"Device inspected, no threat found"
+INC0739,EVT005250,Failed Login,Incident Response Team,Closed,28 min,"Account temporarily locked, user verified"
+INC0740,EVT009231,Malware Detection,Incident Response Team,Closed,53 min,"Endpoint isolated, malware removed"
+INC0741,EVT000970,File Access,SOC Tier 2,In Progress,63 min,Pending review
+INC0742,EVT004307,Port Scan,SOC Tier 2,In Progress,50 min,Pending review
+INC0743,EVT004206,Port Scan,SOC Tier 1,Closed,80 min,Source IP flagged and monitored
+INC0744,EVT001502,File Access,SOC Tier 1,Closed,27 min,"Reviewed, no action required"
+INC0745,EVT005885,File Access,SOC Tier 1,Closed,36 min,"Reviewed, no action required"
+INC0746,EVT008059,Privilege Escalation,SOC Tier 1,Closed,71 min,"Access revoked, account access reviewed"
+INC0747,EVT009715,Port Scan,Incident Response Team,Closed,43 min,Source IP flagged and monitored
+INC0748,EVT006910,Privilege Escalation,Incident Response Team,Closed,52 min,"Access revoked, account access reviewed"
+INC0749,EVT004902,Login Success,SOC Tier 3,In Progress,71 min,Pending review
+INC0750,EVT005375,Login Success,SOC Tier 3,In Progress,56 min,Pending review
+INC0751,EVT007084,Phishing Email,SOC Tier 2,Closed,71 min,"Email quarantined, user notified"
+INC0752,EVT003906,Port Scan,SOC Tier 3,Closed,75 min,Source IP flagged and monitored
+INC0753,EVT008565,USB Device Connected,Incident Response Team,Closed,12 min,"Device inspected, no threat found"
+INC0754,EVT003278,Brute Force,SOC Tier 2,Open,84 min,Pending review
+INC0755,EVT005282,Login Success,SOC Tier 1,Closed,70 min,"Reviewed, no action required"
+INC0756,EVT002413,SQL Injection Attempt,SOC Tier 2,Closed,42 min,"Request blocked, WAF rule updated"
+INC0757,EVT007050,USB Device Connected,SOC Tier 2,Closed,61 min,"Device inspected, no threat found"
+INC0758,EVT001205,Malware Detection,SOC Tier 1,Closed,85 min,"Endpoint isolated, malware removed"
+INC0759,EVT007786,Login Success,SOC Tier 2,In Progress,49 min,Pending review
+INC0760,EVT004416,File Access,SOC Tier 1,Closed,31 min,"Reviewed, no action required"
+INC0761,EVT003166,Port Scan,SOC Tier 3,Open,49 min,Pending review
+INC0762,EVT007910,Brute Force,SOC Tier 1,Closed,72 min,Source IP blocked at firewall
+INC0763,EVT002496,USB Device Connected,SOC Tier 1,Closed,71 min,"Device inspected, no threat found"
+INC0764,EVT003995,Phishing Email,SOC Tier 2,Closed,66 min,"Email quarantined, user notified"
+INC0765,EVT006107,Privilege Escalation,SOC Tier 3,Closed,19 min,"Access revoked, account access reviewed"
+INC0766,EVT004789,Port Scan,Incident Response Team,Closed,25 min,Source IP flagged and monitored
+INC0767,EVT009302,USB Device Connected,SOC Tier 3,In Progress,11 min,Pending review
+INC0768,EVT008787,Privilege Escalation,SOC Tier 3,In Progress,84 min,Pending review
+INC0769,EVT004505,Phishing Email,SOC Tier 3,Closed,14 min,"Email quarantined, user notified"
+INC0770,EVT007353,Failed Login,Incident Response Team,In Progress,35 min,Pending review
+INC0771,EVT000979,File Access,Incident Response Team,Closed,69 min,"Reviewed, no action required"
+INC0772,EVT009152,SQL Injection Attempt,SOC Tier 1,Closed,71 min,"Request blocked, WAF rule updated"
+INC0773,EVT001584,Port Scan,SOC Tier 2,Closed,42 min,Source IP flagged and monitored
+INC0774,EVT005360,SQL Injection Attempt,SOC Tier 1,Closed,19 min,"Request blocked, WAF rule updated"
+INC0775,EVT001939,Brute Force,SOC Tier 2,In Progress,17 min,Pending review
+INC0776,EVT002086,Login Success,Incident Response Team,Closed,14 min,"Reviewed, no action required"
+INC0777,EVT000835,SQL Injection Attempt,SOC Tier 1,Open,66 min,Pending review
+INC0778,EVT004193,SQL Injection Attempt,SOC Tier 3,Closed,55 min,"Request blocked, WAF rule updated"
+INC0779,EVT004112,Login Success,SOC Tier 3,Closed,83 min,"Reviewed, no action required"
+INC0780,EVT005063,File Access,SOC Tier 3,Closed,18 min,"Reviewed, no action required"
+INC0781,EVT008708,USB Device Connected,SOC Tier 2,Closed,25 min,"Device inspected, no threat found"
+INC0782,EVT007193,USB Device Connected,SOC Tier 2,Open,74 min,Pending review
+INC0783,EVT005850,Port Scan,SOC Tier 3,Closed,72 min,Source IP flagged and monitored
+INC0784,EVT001704,SQL Injection Attempt,Incident Response Team,In Progress,35 min,Pending review
+INC0785,EVT003354,Malware Detection,SOC Tier 3,In Progress,90 min,Pending review
+INC0786,EVT005386,Privilege Escalation,SOC Tier 1,Closed,90 min,"Access revoked, account access reviewed"
+INC0787,EVT009144,USB Device Connected,SOC Tier 1,Closed,34 min,"Device inspected, no threat found"
+INC0788,EVT005266,Phishing Email,SOC Tier 3,In Progress,52 min,Pending review
+INC0789,EVT002062,Failed Login,SOC Tier 3,Closed,13 min,"Account temporarily locked, user verified"
+INC0790,EVT008488,Privilege Escalation,Incident Response Team,In Progress,69 min,Pending review
+INC0791,EVT006051,Privilege Escalation,Incident Response Team,In Progress,79 min,Pending review
+INC0792,EVT008745,File Access,SOC Tier 2,Closed,18 min,"Reviewed, no action required"
+INC0793,EVT007115,USB Device Connected,SOC Tier 3,Closed,65 min,"Device inspected, no threat found"
+INC0794,EVT005915,SQL Injection Attempt,SOC Tier 1,Open,31 min,Pending review
+INC0795,EVT001974,Phishing Email,SOC Tier 1,Closed,69 min,"Email quarantined, user notified"
+INC0796,EVT007203,File Access,SOC Tier 3,Closed,78 min,"Reviewed, no action required"
+INC0797,EVT001606,USB Device Connected,Incident Response Team,Closed,52 min,"Device inspected, no threat found"
+INC0798,EVT008599,Phishing Email,SOC Tier 3,In Progress,79 min,Pending review
+INC0799,EVT006312,Privilege Escalation,SOC Tier 1,Closed,88 min,"Access revoked, account access reviewed"
+INC0800,EVT000674,Malware Detection,Incident Response Team,Closed,37 min,"Endpoint isolated, malware removed"
+INC0801,EVT001540,Malware Detection,SOC Tier 2,Open,10 min,Pending review
+INC0802,EVT006309,File Access,SOC Tier 2,In Progress,47 min,Pending review
+INC0803,EVT007312,Login Success,SOC Tier 3,Open,31 min,Pending review
+INC0804,EVT007731,Failed Login,Incident Response Team,In Progress,26 min,Pending review
+INC0805,EVT002134,SQL Injection Attempt,SOC Tier 1,Closed,18 min,"Request blocked, WAF rule updated"
+INC0806,EVT007674,Failed Login,SOC Tier 2,In Progress,57 min,Pending review
+INC0807,EVT006961,SQL Injection Attempt,SOC Tier 3,Closed,13 min,"Request blocked, WAF rule updated"
+INC0808,EVT007322,Failed Login,Incident Response Team,Closed,24 min,"Account temporarily locked, user verified"
+INC0809,EVT000634,SQL Injection Attempt,Incident Response Team,Closed,17 min,"Request blocked, WAF rule updated"
+INC0810,EVT006865,Malware Detection,SOC Tier 1,Closed,87 min,"Endpoint isolated, malware removed"
+INC0811,EVT000637,Malware Detection,SOC Tier 2,Open,12 min,Pending review
+INC0812,EVT005032,Phishing Email,SOC Tier 3,Closed,52 min,"Email quarantined, user notified"
+INC0813,EVT008095,SQL Injection Attempt,Incident Response Team,Closed,73 min,"Request blocked, WAF rule updated"
+INC0814,EVT000758,Privilege Escalation,SOC Tier 1,Open,38 min,Pending review
+INC0815,EVT006601,Malware Detection,SOC Tier 1,Closed,35 min,"Endpoint isolated, malware removed"
+INC0816,EVT005306,Brute Force,SOC Tier 1,Closed,49 min,Source IP blocked at firewall
+INC0817,EVT006053,Privilege Escalation,Incident Response Team,Open,34 min,Pending review
+INC0818,EVT003478,SQL Injection Attempt,Incident Response Team,Closed,69 min,"Request blocked, WAF rule updated"
+INC0819,EVT007451,SQL Injection Attempt,SOC Tier 3,Closed,72 min,"Request blocked, WAF rule updated"
+INC0820,EVT009828,Privilege Escalation,SOC Tier 2,Closed,81 min,"Access revoked, account access reviewed"
+INC0821,EVT006982,Port Scan,SOC Tier 2,In Progress,23 min,Pending review
+INC0822,EVT008657,Failed Login,SOC Tier 2,Open,82 min,Pending review
+INC0823,EVT009217,Login Success,SOC Tier 1,In Progress,46 min,Pending review
+INC0824,EVT005734,File Access,SOC Tier 1,Closed,50 min,"Reviewed, no action required"
+INC0825,EVT005346,File Access,Incident Response Team,In Progress,72 min,Pending review
+INC0826,EVT001176,Phishing Email,SOC Tier 1,In Progress,58 min,Pending review
+INC0827,EVT009113,Malware Detection,SOC Tier 3,In Progress,64 min,Pending review
+INC0828,EVT004157,Port Scan,SOC Tier 1,In Progress,72 min,Pending review
+INC0829,EVT003243,Phishing Email,SOC Tier 3,Open,77 min,Pending review
+INC0830,EVT002222,Privilege Escalation,SOC Tier 1,Closed,47 min,"Access revoked, account access reviewed"
+INC0831,EVT007363,Failed Login,SOC Tier 3,Closed,31 min,"Account temporarily locked, user verified"
+INC0832,EVT009342,File Access,SOC Tier 3,Closed,32 min,"Reviewed, no action required"
+INC0833,EVT004208,Privilege Escalation,SOC Tier 1,Closed,85 min,"Access revoked, account access reviewed"
+INC0834,EVT008566,SQL Injection Attempt,SOC Tier 3,Open,81 min,Pending review
+INC0835,EVT000066,Malware Detection,Incident Response Team,Open,31 min,Pending review
+INC0836,EVT007234,Brute Force,SOC Tier 2,Closed,40 min,Source IP blocked at firewall
+INC0837,EVT004213,File Access,SOC Tier 2,Closed,50 min,"Reviewed, no action required"
+INC0838,EVT003134,SQL Injection Attempt,SOC Tier 3,In Progress,89 min,Pending review
+INC0839,EVT004806,Phishing Email,SOC Tier 2,Closed,80 min,"Email quarantined, user notified"
+INC0840,EVT006323,SQL Injection Attempt,Incident Response Team,Closed,39 min,"Request blocked, WAF rule updated"
+INC0841,EVT004961,Privilege Escalation,SOC Tier 3,Open,89 min,Pending review
+INC0842,EVT002985,Failed Login,SOC Tier 2,Closed,43 min,"Account temporarily locked, user verified"
+INC0843,EVT005127,File Access,SOC Tier 1,Closed,79 min,"Reviewed, no action required"
+INC0844,EVT003936,Login Success,SOC Tier 3,Closed,59 min,"Reviewed, no action required"
+INC0845,EVT006975,File Access,Incident Response Team,Closed,70 min,"Reviewed, no action required"
+INC0846,EVT007528,Login Success,SOC Tier 2,Closed,26 min,"Reviewed, no action required"
+INC0847,EVT004103,Phishing Email,SOC Tier 2,Closed,65 min,"Email quarantined, user notified"
+INC0848,EVT003011,Login Success,SOC Tier 2,Closed,79 min,"Reviewed, no action required"
+INC0849,EVT004460,Login Success,SOC Tier 2,Closed,82 min,"Reviewed, no action required"
+INC0850,EVT009422,Failed Login,SOC Tier 2,Closed,56 min,"Account temporarily locked, user verified"
+INC0851,EVT003665,Failed Login,SOC Tier 3,Closed,35 min,"Account temporarily locked, user verified"
+INC0852,EVT008060,SQL Injection Attempt,SOC Tier 1,In Progress,49 min,Pending review
+INC0853,EVT004483,File Access,Incident Response Team,Closed,18 min,"Reviewed, no action required"
+INC0854,EVT008665,Privilege Escalation,SOC Tier 2,Closed,65 min,"Access revoked, account access reviewed"
+INC0855,EVT007721,USB Device Connected,SOC Tier 2,In Progress,19 min,Pending review
+INC0856,EVT009880,Privilege Escalation,SOC Tier 1,In Progress,88 min,Pending review
+INC0857,EVT009315,Phishing Email,SOC Tier 1,Open,21 min,Pending review
+INC0858,EVT004140,Privilege Escalation,SOC Tier 2,Closed,50 min,"Access revoked, account access reviewed"
+INC0859,EVT008965,Privilege Escalation,SOC Tier 2,Closed,33 min,"Access revoked, account access reviewed"
+INC0860,EVT007505,Failed Login,SOC Tier 2,In Progress,59 min,Pending review
+INC0861,EVT000686,Privilege Escalation,SOC Tier 2,Closed,21 min,"Access revoked, account access reviewed"
+INC0862,EVT009986,Login Success,SOC Tier 3,Closed,13 min,"Reviewed, no action required"
+INC0863,EVT002368,Privilege Escalation,Incident Response Team,Open,29 min,Pending review
+INC0864,EVT006547,Port Scan,SOC Tier 3,Closed,22 min,Source IP flagged and monitored
+INC0865,EVT009403,USB Device Connected,SOC Tier 3,Closed,89 min,"Device inspected, no threat found"
+INC0866,EVT007523,Phishing Email,SOC Tier 3,Closed,64 min,"Email quarantined, user notified"
+INC0867,EVT002194,Malware Detection,SOC Tier 2,Closed,12 min,"Endpoint isolated, malware removed"
+INC0868,EVT000094,USB Device Connected,SOC Tier 2,In Progress,11 min,Pending review
+INC0869,EVT007384,Privilege Escalation,Incident Response Team,Closed,14 min,"Access revoked, account access reviewed"
+INC0870,EVT006282,File Access,Incident Response Team,Closed,81 min,"Reviewed, no action required"
+INC0871,EVT003427,Malware Detection,Incident Response Team,In Progress,41 min,Pending review
+INC0872,EVT002849,Port Scan,SOC Tier 3,Closed,62 min,Source IP flagged and monitored
+INC0873,EVT009027,Privilege Escalation,Incident Response Team,Closed,80 min,"Access revoked, account access reviewed"
+INC0874,EVT008954,Brute Force,SOC Tier 3,Open,10 min,Pending review
+INC0875,EVT004938,Privilege Escalation,SOC Tier 3,Closed,14 min,"Access revoked, account access reviewed"
+INC0876,EVT006580,Failed Login,SOC Tier 2,Closed,39 min,"Account temporarily locked, user verified"
+INC0877,EVT002793,Phishing Email,SOC Tier 2,Closed,57 min,"Email quarantined, user notified"
+INC0878,EVT007281,Login Success,SOC Tier 2,Closed,75 min,"Reviewed, no action required"
+INC0879,EVT001454,Phishing Email,SOC Tier 1,Closed,15 min,"Email quarantined, user notified"
+INC0880,EVT005338,SQL Injection Attempt,SOC Tier 1,In Progress,84 min,Pending review
+INC0881,EVT000660,Brute Force,SOC Tier 2,In Progress,77 min,Pending review
+INC0882,EVT008418,Port Scan,SOC Tier 3,In Progress,29 min,Pending review
+INC0883,EVT003602,Privilege Escalation,SOC Tier 1,In Progress,35 min,Pending review
+INC0884,EVT002302,Failed Login,SOC Tier 1,Closed,85 min,"Account temporarily locked, user verified"
+INC0885,EVT001965,USB Device Connected,SOC Tier 3,Closed,78 min,"Device inspected, no threat found"
+INC0886,EVT009796,Brute Force,SOC Tier 2,Closed,11 min,Source IP blocked at firewall
+INC0887,EVT000414,Malware Detection,SOC Tier 3,Closed,90 min,"Endpoint isolated, malware removed"
+INC0888,EVT004992,Phishing Email,SOC Tier 2,Closed,80 min,"Email quarantined, user notified"
+INC0889,EVT000725,Phishing Email,SOC Tier 1,Open,49 min,Pending review
+INC0890,EVT004591,SQL Injection Attempt,SOC Tier 1,Open,80 min,Pending review
+INC0891,EVT004480,Port Scan,Incident Response Team,In Progress,53 min,Pending review
+INC0892,EVT005089,USB Device Connected,SOC Tier 3,In Progress,11 min,Pending review
+INC0893,EVT004288,Port Scan,SOC Tier 2,Closed,68 min,Source IP flagged and monitored
+INC0894,EVT003816,Phishing Email,SOC Tier 1,In Progress,68 min,Pending review
+INC0895,EVT009383,Privilege Escalation,SOC Tier 3,Closed,31 min,"Access revoked, account access reviewed"
+INC0896,EVT002747,File Access,SOC Tier 2,In Progress,26 min,Pending review
+INC0897,EVT003431,Port Scan,SOC Tier 1,Closed,69 min,Source IP flagged and monitored
+INC0898,EVT008375,Login Success,SOC Tier 2,In Progress,74 min,Pending review
+INC0899,EVT000839,Failed Login,Incident Response Team,Closed,89 min,"Account temporarily locked, user verified"
+INC0900,EVT005650,USB Device Connected,SOC Tier 3,Open,83 min,Pending review
+INC0901,EVT009370,Port Scan,SOC Tier 2,Closed,11 min,Source IP flagged and monitored
+INC0902,EVT002386,Login Success,SOC Tier 2,Open,49 min,Pending review
+INC0903,EVT004276,Brute Force,Incident Response Team,In Progress,85 min,Pending review
+INC0904,EVT008403,Port Scan,Incident Response Team,Closed,25 min,Source IP flagged and monitored
+INC0905,EVT000904,SQL Injection Attempt,Incident Response Team,Open,80 min,Pending review
+INC0906,EVT001409,Login Success,Incident Response Team,Closed,31 min,"Reviewed, no action required"
+INC0907,EVT008078,SQL Injection Attempt,SOC Tier 3,Closed,83 min,"Request blocked, WAF rule updated"
+INC0908,EVT004212,Privilege Escalation,SOC Tier 1,In Progress,68 min,Pending review
+INC0909,EVT000653,Login Success,SOC Tier 2,In Progress,44 min,Pending review
+INC0910,EVT004345,SQL Injection Attempt,SOC Tier 3,Closed,17 min,"Request blocked, WAF rule updated"
+INC0911,EVT000994,Brute Force,SOC Tier 3,In Progress,29 min,Pending review
+INC0912,EVT000290,Phishing Email,SOC Tier 2,Open,59 min,Pending review
+INC0913,EVT008248,File Access,SOC Tier 3,Closed,11 min,"Reviewed, no action required"
+INC0914,EVT000817,File Access,SOC Tier 1,Open,15 min,Pending review
+INC0915,EVT008967,USB Device Connected,SOC Tier 1,Closed,9 min,"Device inspected, no threat found"
+INC0916,EVT007187,File Access,SOC Tier 1,In Progress,63 min,Pending review
+INC0917,EVT006481,Login Success,Incident Response Team,Closed,60 min,"Reviewed, no action required"
+INC0918,EVT004479,Login Success,SOC Tier 3,In Progress,36 min,Pending review
+INC0919,EVT006041,Port Scan,SOC Tier 2,Open,14 min,Pending review
+INC0920,EVT005694,Phishing Email,Incident Response Team,Closed,62 min,"Email quarantined, user notified"
+INC0921,EVT008926,SQL Injection Attempt,SOC Tier 2,Closed,40 min,"Request blocked, WAF rule updated"
+INC0922,EVT009627,Failed Login,SOC Tier 2,Closed,23 min,"Account temporarily locked, user verified"
+INC0923,EVT004524,Phishing Email,SOC Tier 2,Closed,82 min,"Email quarantined, user notified"
+INC0924,EVT001953,SQL Injection Attempt,Incident Response Team,Closed,75 min,"Request blocked, WAF rule updated"
+INC0925,EVT000004,SQL Injection Attempt,Incident Response Team,Closed,38 min,"Request blocked, WAF rule updated"
+INC0926,EVT004352,SQL Injection Attempt,Incident Response Team,Closed,33 min,"Request blocked, WAF rule updated"
+INC0927,EVT009203,Login Success,SOC Tier 3,In Progress,82 min,Pending review
+INC0928,EVT009875,Login Success,Incident Response Team,Open,20 min,Pending review
+INC0929,EVT004501,Phishing Email,SOC Tier 3,Closed,67 min,"Email quarantined, user notified"
+INC0930,EVT001269,SQL Injection Attempt,Incident Response Team,Closed,26 min,"Request blocked, WAF rule updated"
+INC0931,EVT009128,Login Success,SOC Tier 3,Closed,65 min,"Reviewed, no action required"
+INC0932,EVT005034,Login Success,SOC Tier 1,Closed,19 min,"Reviewed, no action required"
+INC0933,EVT004275,SQL Injection Attempt,SOC Tier 3,Closed,56 min,"Request blocked, WAF rule updated"
+INC0934,EVT003948,Login Success,Incident Response Team,Closed,66 min,"Reviewed, no action required"
+INC0935,EVT009117,Malware Detection,SOC Tier 2,Closed,50 min,"Endpoint isolated, malware removed"
+INC0936,EVT004074,Privilege Escalation,Incident Response Team,Open,79 min,Pending review
+INC0937,EVT009982,File Access,SOC Tier 2,In Progress,86 min,Pending review
+INC0938,EVT002578,Phishing Email,SOC Tier 2,Closed,61 min,"Email quarantined, user notified"
+INC0939,EVT004662,Failed Login,SOC Tier 2,Closed,87 min,"Account temporarily locked, user verified"
+INC0940,EVT007837,USB Device Connected,SOC Tier 2,In Progress,68 min,Pending review
+INC0941,EVT008696,Login Success,SOC Tier 3,Open,60 min,Pending review
+INC0942,EVT002323,Failed Login,SOC Tier 1,Closed,39 min,"Account temporarily locked, user verified"
+INC0943,EVT005489,Failed Login,SOC Tier 2,In Progress,43 min,Pending review
+INC0944,EVT008935,Failed Login,Incident Response Team,In Progress,58 min,Pending review
+INC0945,EVT001993,Port Scan,SOC Tier 2,Closed,22 min,Source IP flagged and monitored
+INC0946,EVT003210,Malware Detection,SOC Tier 3,Closed,38 min,"Endpoint isolated, malware removed"
+INC0947,EVT005367,USB Device Connected,SOC Tier 1,In Progress,61 min,Pending review
+INC0948,EVT003110,Malware Detection,SOC Tier 2,Closed,83 min,"Endpoint isolated, malware removed"
+INC0949,EVT007761,Malware Detection,SOC Tier 1,Closed,55 min,"Endpoint isolated, malware removed"
+INC0950,EVT007846,Privilege Escalation,SOC Tier 3,Closed,50 min,"Access revoked, account access reviewed"
+INC0951,EVT007683,File Access,SOC Tier 1,In Progress,18 min,Pending review
+INC0952,EVT004538,Port Scan,SOC Tier 3,Closed,82 min,Source IP flagged and monitored
+INC0953,EVT009780,Port Scan,SOC Tier 2,Closed,75 min,Source IP flagged and monitored
+INC0954,EVT000346,Privilege Escalation,SOC Tier 3,Closed,44 min,"Access revoked, account access reviewed"
+INC0955,EVT001897,USB Device Connected,Incident Response Team,Closed,36 min,"Device inspected, no threat found"
+INC0956,EVT001171,Privilege Escalation,SOC Tier 3,Closed,38 min,"Access revoked, account access reviewed"
+INC0957,EVT000433,Failed Login,SOC Tier 1,In Progress,32 min,Pending review
+INC0958,EVT001155,Login Success,SOC Tier 1,Closed,51 min,"Reviewed, no action required"
+INC0959,EVT003331,Phishing Email,SOC Tier 1,Open,18 min,Pending review
+INC0960,EVT000757,Phishing Email,Incident Response Team,Closed,19 min,"Email quarantined, user notified"
+INC0961,EVT008860,Failed Login,SOC Tier 2,Closed,85 min,"Account temporarily locked, user verified"
+INC0962,EVT007284,Privilege Escalation,SOC Tier 2,In Progress,51 min,Pending review
+INC0963,EVT006483,Privilege Escalation,SOC Tier 1,Closed,63 min,"Access revoked, account access reviewed"
+INC0964,EVT003933,File Access,SOC Tier 3,Closed,67 min,"Reviewed, no action required"
+INC0965,EVT000299,Privilege Escalation,SOC Tier 1,In Progress,56 min,Pending review
+INC0966,EVT005149,Failed Login,Incident Response Team,Closed,9 min,"Account temporarily locked, user verified"
+INC0967,EVT003556,Malware Detection,SOC Tier 3,In Progress,45 min,Pending review
+INC0968,EVT002586,SQL Injection Attempt,SOC Tier 1,Closed,59 min,"Request blocked, WAF rule updated"
+INC0969,EVT003630,Malware Detection,SOC Tier 2,Closed,70 min,"Endpoint isolated, malware removed"
+INC0970,EVT008908,Malware Detection,SOC Tier 1,Closed,12 min,"Endpoint isolated, malware removed"
+INC0971,EVT008239,SQL Injection Attempt,SOC Tier 2,Closed,27 min,"Request blocked, WAF rule updated"
+INC0972,EVT008122,Privilege Escalation,SOC Tier 1,Closed,61 min,"Access revoked, account access reviewed"
+INC0973,EVT004101,USB Device Connected,Incident Response Team,Open,43 min,Pending review
+INC0974,EVT004680,Malware Detection,SOC Tier 3,Closed,34 min,"Endpoint isolated, malware removed"
+INC0975,EVT004350,Privilege Escalation,Incident Response Team,Closed,67 min,"Access revoked, account access reviewed"
+INC0976,EVT000162,Phishing Email,SOC Tier 2,Closed,53 min,"Email quarantined, user notified"
+INC0977,EVT000840,Failed Login,SOC Tier 2,Closed,53 min,"Account temporarily locked, user verified"
+INC0978,EVT003343,Login Success,SOC Tier 1,In Progress,16 min,Pending review
+INC0979,EVT001550,Brute Force,Incident Response Team,In Progress,28 min,Pending review
+INC0980,EVT000163,Login Success,Incident Response Team,Closed,81 min,"Reviewed, no action required"
+INC0981,EVT006677,USB Device Connected,Incident Response Team,Closed,34 min,"Device inspected, no threat found"
+INC0982,EVT002279,Malware Detection,SOC Tier 1,In Progress,50 min,Pending review
+INC0983,EVT006860,Phishing Email,Incident Response Team,Closed,15 min,"Email quarantined, user notified"
+INC0984,EVT004800,Brute Force,SOC Tier 1,Closed,26 min,Source IP blocked at firewall
+INC0985,EVT000347,Phishing Email,SOC Tier 2,Closed,42 min,"Email quarantined, user notified"
+INC0986,EVT004866,Phishing Email,Incident Response Team,In Progress,34 min,Pending review
+INC0987,EVT007972,SQL Injection Attempt,SOC Tier 1,In Progress,53 min,Pending review
+INC0988,EVT004215,Brute Force,SOC Tier 1,Closed,16 min,Source IP blocked at firewall
+INC0989,EVT006139,Brute Force,SOC Tier 1,Closed,25 min,Source IP blocked at firewall
+INC0990,EVT000304,Port Scan,Incident Response Team,Closed,28 min,Source IP flagged and monitored
+INC0991,EVT007529,Port Scan,SOC Tier 1,In Progress,15 min,Pending review
+INC0992,EVT004876,Login Success,SOC Tier 2,Closed,34 min,"Reviewed, no action required"
+INC0993,EVT001316,Port Scan,SOC Tier 3,Closed,73 min,Source IP flagged and monitored
+INC0994,EVT006904,Privilege Escalation,SOC Tier 1,Closed,52 min,"Access revoked, account access reviewed"
+INC0995,EVT008298,Failed Login,SOC Tier 1,Closed,66 min,"Account temporarily locked, user verified"
+INC0996,EVT004267,Port Scan,Incident Response Team,Open,15 min,Pending review
+INC0997,EVT007085,Brute Force,Incident Response Team,Closed,20 min,Source IP blocked at firewall
+INC0998,EVT008553,File Access,SOC Tier 3,Closed,14 min,"Reviewed, no action required"
+INC0999,EVT005147,Port Scan,Incident Response Team,In Progress,57 min,Pending review
+INC1000,EVT002059,SQL Injection Attempt,SOC Tier 3,Closed,42 min,"Request blocked, WAF rule updated"
+INC1001,EVT001235,Login Success,SOC Tier 2,Closed,68 min,"Reviewed, no action required"
+INC1002,EVT002371,Brute Force,SOC Tier 1,Closed,24 min,Source IP blocked at firewall
+INC1003,EVT009605,File Access,SOC Tier 3,Closed,41 min,"Reviewed, no action required"
+INC1004,EVT007339,Login Success,Incident Response Team,In Progress,41 min,Pending review
+INC1005,EVT005604,Privilege Escalation,SOC Tier 3,In Progress,62 min,Pending review
+INC1006,EVT002851,SQL Injection Attempt,SOC Tier 1,Closed,77 min,"Request blocked, WAF rule updated"
+INC1007,EVT008848,Privilege Escalation,SOC Tier 2,Closed,53 min,"Access revoked, account access reviewed"
+INC1008,EVT008692,Port Scan,Incident Response Team,Closed,16 min,Source IP flagged and monitored
+INC1009,EVT004256,USB Device Connected,SOC Tier 3,Closed,81 min,"Device inspected, no threat found"
+INC1010,EVT002541,Brute Force,Incident Response Team,Closed,80 min,Source IP blocked at firewall
+INC1011,EVT008966,File Access,SOC Tier 1,Closed,44 min,"Reviewed, no action required"
+INC1012,EVT003600,Malware Detection,Incident Response Team,Closed,90 min,"Endpoint isolated, malware removed"
+INC1013,EVT003855,Privilege Escalation,SOC Tier 2,Closed,53 min,"Access revoked, account access reviewed"
+INC1014,EVT005599,Port Scan,Incident Response Team,In Progress,84 min,Pending review
+INC1015,EVT004983,Privilege Escalation,SOC Tier 3,In Progress,9 min,Pending review
+INC1016,EVT003747,Privilege Escalation,SOC Tier 3,Closed,29 min,"Access revoked, account access reviewed"
+INC1017,EVT000842,File Access,SOC Tier 2,Open,64 min,Pending review
+INC1018,EVT006258,SQL Injection Attempt,Incident Response Team,Closed,83 min,"Request blocked, WAF rule updated"
+INC1019,EVT007429,SQL Injection Attempt,SOC Tier 1,Closed,36 min,"Request blocked, WAF rule updated"
+INC1020,EVT007957,Port Scan,SOC Tier 3,Closed,89 min,Source IP flagged and monitored
+INC1021,EVT007407,Failed Login,Incident Response Team,Closed,45 min,"Account temporarily locked, user verified"
+INC1022,EVT004669,Malware Detection,SOC Tier 3,Closed,70 min,"Endpoint isolated, malware removed"
+INC1023,EVT003001,File Access,Incident Response Team,Closed,33 min,"Reviewed, no action required"
+INC1024,EVT009646,File Access,SOC Tier 3,Closed,11 min,"Reviewed, no action required"
+INC1025,EVT004023,Login Success,SOC Tier 3,Closed,20 min,"Reviewed, no action required"
+INC1026,EVT000419,Failed Login,Incident Response Team,Closed,18 min,"Account temporarily locked, user verified"
+INC1027,EVT008631,File Access,SOC Tier 2,Closed,76 min,"Reviewed, no action required"
+INC1028,EVT008542,Port Scan,SOC Tier 2,In Progress,36 min,Pending review
+INC1029,EVT005652,Malware Detection,SOC Tier 3,Closed,52 min,"Endpoint isolated, malware removed"
+INC1030,EVT005657,USB Device Connected,SOC Tier 2,Closed,25 min,"Device inspected, no threat found"
+INC1031,EVT002697,Port Scan,SOC Tier 3,Closed,87 min,Source IP flagged and monitored
+INC1032,EVT004431,SQL Injection Attempt,SOC Tier 1,Open,67 min,Pending review
+INC1033,EVT008197,Failed Login,SOC Tier 2,Closed,61 min,"Account temporarily locked, user verified"
+INC1034,EVT006958,Login Success,Incident Response Team,Closed,19 min,"Reviewed, no action required"
+INC1035,EVT001338,SQL Injection Attempt,Incident Response Team,In Progress,20 min,Pending review
+INC1036,EVT003086,USB Device Connected,SOC Tier 3,Open,79 min,Pending review
+INC1037,EVT004626,File Access,SOC Tier 3,Closed,79 min,"Reviewed, no action required"
+INC1038,EVT002334,Port Scan,SOC Tier 1,In Progress,88 min,Pending review
+INC1039,EVT009263,SQL Injection Attempt,Incident Response Team,Closed,43 min,"Request blocked, WAF rule updated"
+INC1040,EVT005411,Malware Detection,Incident Response Team,Closed,35 min,"Endpoint isolated, malware removed"
+INC1041,EVT007983,SQL Injection Attempt,SOC Tier 3,Open,44 min,Pending review
+INC1042,EVT002390,File Access,Incident Response Team,Open,45 min,Pending review
+INC1043,EVT004052,Privilege Escalation,SOC Tier 1,Open,57 min,Pending review
+INC1044,EVT008854,Login Success,Incident Response Team,Closed,55 min,"Reviewed, no action required"
+INC1045,EVT009240,Brute Force,SOC Tier 1,Closed,77 min,Source IP blocked at firewall
+INC1046,EVT005237,SQL Injection Attempt,SOC Tier 1,Open,78 min,Pending review
+INC1047,EVT005746,Login Success,SOC Tier 3,Closed,65 min,"Reviewed, no action required"
+INC1048,EVT000212,Failed Login,Incident Response Team,Closed,10 min,"Account temporarily locked, user verified"
+INC1049,EVT004081,Malware Detection,SOC Tier 3,Closed,63 min,"Endpoint isolated, malware removed"
+INC1050,EVT008054,Failed Login,SOC Tier 1,Closed,16 min,"Account temporarily locked, user verified"
+INC1051,EVT007668,File Access,SOC Tier 3,Open,59 min,Pending review
+INC1052,EVT007343,File Access,Incident Response Team,Closed,33 min,"Reviewed, no action required"
+INC1053,EVT006685,SQL Injection Attempt,SOC Tier 1,Closed,24 min,"Request blocked, WAF rule updated"
+INC1054,EVT003370,Login Success,SOC Tier 3,Closed,69 min,"Reviewed, no action required"
+INC1055,EVT009242,Privilege Escalation,SOC Tier 1,Closed,90 min,"Access revoked, account access reviewed"
+INC1056,EVT001921,SQL Injection Attempt,SOC Tier 1,Closed,43 min,"Request blocked, WAF rule updated"
+INC1057,EVT000799,Failed Login,SOC Tier 1,Closed,37 min,"Account temporarily locked, user verified"
+INC1058,EVT003357,SQL Injection Attempt,SOC Tier 1,In Progress,51 min,Pending review
+INC1059,EVT007852,SQL Injection Attempt,SOC Tier 1,Closed,76 min,"Request blocked, WAF rule updated"
+INC1060,EVT003474,Failed Login,SOC Tier 1,In Progress,36 min,Pending review
+INC1061,EVT004190,Malware Detection,SOC Tier 3,Closed,32 min,"Endpoint isolated, malware removed"
+INC1062,EVT004231,Privilege Escalation,Incident Response Team,In Progress,52 min,Pending review
+INC1063,EVT006116,File Access,SOC Tier 1,Closed,10 min,"Reviewed, no action required"
+INC1064,EVT005667,Phishing Email,SOC Tier 1,In Progress,71 min,Pending review
+INC1065,EVT002979,Brute Force,SOC Tier 1,Closed,64 min,Source IP blocked at firewall
+INC1066,EVT002632,File Access,Incident Response Team,Closed,53 min,"Reviewed, no action required"
+INC1067,EVT009244,Brute Force,SOC Tier 3,Open,45 min,Pending review
+INC1068,EVT003046,Login Success,SOC Tier 2,Closed,65 min,"Reviewed, no action required"
+INC1069,EVT009669,File Access,Incident Response Team,Closed,69 min,"Reviewed, no action required"
+INC1070,EVT000075,Malware Detection,SOC Tier 2,Closed,50 min,"Endpoint isolated, malware removed"
+INC1071,EVT009313,Login Success,Incident Response Team,Closed,65 min,"Reviewed, no action required"
+INC1072,EVT000010,Privilege Escalation,SOC Tier 1,Open,35 min,Pending review
+INC1073,EVT005823,Privilege Escalation,SOC Tier 3,Closed,32 min,"Access revoked, account access reviewed"
+INC1074,EVT008816,Malware Detection,Incident Response Team,Closed,82 min,"Endpoint isolated, malware removed"
+INC1075,EVT001541,File Access,SOC Tier 1,Closed,19 min,"Reviewed, no action required"
+INC1076,EVT008157,Brute Force,SOC Tier 2,Open,24 min,Pending review
+INC1077,EVT002922,Brute Force,SOC Tier 1,Closed,65 min,Source IP blocked at firewall
+INC1078,EVT006037,Login Success,SOC Tier 2,Open,71 min,Pending review
+INC1079,EVT000322,File Access,SOC Tier 2,Closed,70 min,"Reviewed, no action required"
+INC1080,EVT006490,Privilege Escalation,SOC Tier 2,Closed,51 min,"Access revoked, account access reviewed"
+INC1081,EVT005600,USB Device Connected,Incident Response Team,In Progress,33 min,Pending review
+INC1082,EVT004968,Privilege Escalation,SOC Tier 1,In Progress,82 min,Pending review
+INC1083,EVT008394,Login Success,Incident Response Team,Open,90 min,Pending review
+INC1084,EVT001367,Brute Force,SOC Tier 2,Closed,65 min,Source IP blocked at firewall
+INC1085,EVT009334,File Access,SOC Tier 2,Open,67 min,Pending review
+INC1086,EVT001533,Privilege Escalation,Incident Response Team,Closed,68 min,"Access revoked, account access reviewed"
+INC1087,EVT003346,Login Success,SOC Tier 3,Closed,13 min,"Reviewed, no action required"
+INC1088,EVT007657,USB Device Connected,Incident Response Team,Closed,75 min,"Device inspected, no threat found"
+INC1089,EVT005245,Failed Login,SOC Tier 3,Closed,81 min,"Account temporarily locked, user verified"
+INC1090,EVT004741,Failed Login,Incident Response Team,Closed,38 min,"Account temporarily locked, user verified"
+INC1091,EVT002989,Brute Force,Incident Response Team,Open,25 min,Pending review
+INC1092,EVT002135,Port Scan,SOC Tier 2,Closed,43 min,Source IP flagged and monitored
+INC1093,EVT009894,Phishing Email,Incident Response Team,Closed,23 min,"Email quarantined, user notified"
+INC1094,EVT009275,USB Device Connected,SOC Tier 1,Closed,22 min,"Device inspected, no threat found"
+INC1095,EVT008833,Login Success,SOC Tier 2,Closed,90 min,"Reviewed, no action required"
+INC1096,EVT008485,Brute Force,SOC Tier 3,Closed,9 min,Source IP blocked at firewall
+INC1097,EVT002474,Privilege Escalation,Incident Response Team,Closed,13 min,"Access revoked, account access reviewed"
+INC1098,EVT002520,Privilege Escalation,SOC Tier 3,Closed,75 min,"Access revoked, account access reviewed"
+INC1099,EVT003273,Port Scan,SOC Tier 1,Open,67 min,Pending review
+INC1100,EVT009003,Brute Force,Incident Response Team,In Progress,22 min,Pending review
+INC1101,EVT005568,File Access,Incident Response Team,In Progress,34 min,Pending review
+INC1102,EVT001354,USB Device Connected,SOC Tier 3,Open,9 min,Pending review
+INC1103,EVT006620,SQL Injection Attempt,SOC Tier 3,Closed,81 min,"Request blocked, WAF rule updated"
+INC1104,EVT009437,Privilege Escalation,SOC Tier 1,Closed,88 min,"Access revoked, account access reviewed"
+INC1105,EVT001889,SQL Injection Attempt,Incident Response Team,In Progress,59 min,Pending review
+INC1106,EVT002027,Brute Force,SOC Tier 1,Closed,10 min,Source IP blocked at firewall
+INC1107,EVT001318,Malware Detection,Incident Response Team,Closed,53 min,"Endpoint isolated, malware removed"
+INC1108,EVT003882,Brute Force,SOC Tier 2,Closed,31 min,Source IP blocked at firewall
+INC1109,EVT009308,Failed Login,Incident Response Team,Open,81 min,Pending review
+INC1110,EVT008846,SQL Injection Attempt,SOC Tier 1,Closed,73 min,"Request blocked, WAF rule updated"
+INC1111,EVT001004,USB Device Connected,SOC Tier 2,Closed,71 min,"Device inspected, no threat found"
+INC1112,EVT003762,SQL Injection Attempt,SOC Tier 2,Closed,46 min,"Request blocked, WAF rule updated"
+INC1113,EVT009235,Brute Force,SOC Tier 3,Closed,53 min,Source IP blocked at firewall
+INC1114,EVT007561,Port Scan,SOC Tier 1,Closed,13 min,Source IP flagged and monitored
+INC1115,EVT009724,Port Scan,SOC Tier 1,Closed,41 min,Source IP flagged and monitored
+INC1116,EVT005413,Phishing Email,SOC Tier 2,Closed,65 min,"Email quarantined, user notified"
+INC1117,EVT001066,Brute Force,SOC Tier 2,Closed,43 min,Source IP blocked at firewall
+INC1118,EVT000326,Malware Detection,Incident Response Team,Open,79 min,Pending review
+INC1119,EVT002669,Privilege Escalation,SOC Tier 2,In Progress,11 min,Pending review
+INC1120,EVT001472,Login Success,SOC Tier 2,Open,48 min,Pending review
+INC1121,EVT002205,SQL Injection Attempt,Incident Response Team,Closed,40 min,"Request blocked, WAF rule updated"
+INC1122,EVT006244,Brute Force,Incident Response Team,Closed,82 min,Source IP blocked at firewall
+INC1123,EVT003579,SQL Injection Attempt,Incident Response Team,In Progress,57 min,Pending review
+INC1124,EVT009624,SQL Injection Attempt,SOC Tier 1,Closed,51 min,"Request blocked, WAF rule updated"
+INC1125,EVT008276,Login Success,SOC Tier 1,In Progress,80 min,Pending review
+INC1126,EVT001345,Privilege Escalation,SOC Tier 1,Open,41 min,Pending review
+INC1127,EVT004486,SQL Injection Attempt,SOC Tier 2,Open,27 min,Pending review
+INC1128,EVT008109,File Access,Incident Response Team,Closed,74 min,"Reviewed, no action required"
+INC1129,EVT007618,Malware Detection,SOC Tier 1,Closed,69 min,"Endpoint isolated, malware removed"
+INC1130,EVT008331,Login Success,SOC Tier 2,Closed,36 min,"Reviewed, no action required"
+INC1131,EVT008707,Login Success,Incident Response Team,Closed,20 min,"Reviewed, no action required"
+INC1132,EVT008318,Login Success,SOC Tier 1,Closed,87 min,"Reviewed, no action required"
+INC1133,EVT000743,File Access,SOC Tier 2,Closed,90 min,"Reviewed, no action required"
+INC1134,EVT007174,USB Device Connected,SOC Tier 2,Closed,52 min,"Device inspected, no threat found"
+INC1135,EVT003631,USB Device Connected,SOC Tier 3,Closed,21 min,"Device inspected, no threat found"
+INC1136,EVT003681,Privilege Escalation,SOC Tier 3,Closed,87 min,"Access revoked, account access reviewed"
+INC1137,EVT007702,USB Device Connected,SOC Tier 2,Closed,44 min,"Device inspected, no threat found"
+INC1138,EVT009072,Brute Force,Incident Response Team,In Progress,68 min,Pending review
+INC1139,EVT007655,Privilege Escalation,Incident Response Team,Closed,10 min,"Access revoked, account access reviewed"
+INC1140,EVT000448,File Access,Incident Response Team,Open,42 min,Pending review
+INC1141,EVT002929,Brute Force,SOC Tier 1,Open,69 min,Pending review
+INC1142,EVT002211,Failed Login,Incident Response Team,Closed,63 min,"Account temporarily locked, user verified"
+INC1143,EVT008981,Malware Detection,SOC Tier 3,Closed,45 min,"Endpoint isolated, malware removed"
+INC1144,EVT005695,Brute Force,SOC Tier 2,In Progress,13 min,Pending review
+INC1145,EVT004303,File Access,SOC Tier 3,Open,8 min,Pending review
+INC1146,EVT005631,Failed Login,Incident Response Team,Closed,12 min,"Account temporarily locked, user verified"
+INC1147,EVT009958,Port Scan,SOC Tier 2,Closed,58 min,Source IP flagged and monitored
+INC1148,EVT002807,Port Scan,Incident Response Team,In Progress,68 min,Pending review
+INC1149,EVT007279,Failed Login,SOC Tier 3,Closed,21 min,"Account temporarily locked, user verified"
+INC1150,EVT002945,USB Device Connected,SOC Tier 2,Closed,16 min,"Device inspected, no threat found"
+INC1151,EVT004575,SQL Injection Attempt,SOC Tier 2,Closed,17 min,"Request blocked, WAF rule updated"
+INC1152,EVT001179,Failed Login,SOC Tier 2,Closed,78 min,"Account temporarily locked, user verified"
+INC1153,EVT001903,Login Success,SOC Tier 1,In Progress,78 min,Pending review
+INC1154,EVT005303,USB Device Connected,SOC Tier 3,Closed,89 min,"Device inspected, no threat found"
+INC1155,EVT008801,Privilege Escalation,SOC Tier 1,Closed,35 min,"Access revoked, account access reviewed"
+INC1156,EVT001991,SQL Injection Attempt,SOC Tier 2,Closed,67 min,"Request blocked, WAF rule updated"
+INC1157,EVT009771,Phishing Email,SOC Tier 3,Closed,51 min,"Email quarantined, user notified"
+INC1158,EVT002188,File Access,Incident Response Team,Closed,54 min,"Reviewed, no action required"
+INC1159,EVT005479,Port Scan,SOC Tier 1,Open,63 min,Pending review
+INC1160,EVT003323,USB Device Connected,SOC Tier 2,In Progress,45 min,Pending review
+INC1161,EVT006428,File Access,SOC Tier 2,In Progress,68 min,Pending review
+INC1162,EVT007004,File Access,SOC Tier 1,Closed,14 min,"Reviewed, no action required"
+INC1163,EVT007686,Port Scan,Incident Response Team,In Progress,83 min,Pending review
+INC1164,EVT005087,SQL Injection Attempt,SOC Tier 1,Closed,50 min,"Request blocked, WAF rule updated"
+INC1165,EVT008582,SQL Injection Attempt,SOC Tier 3,Closed,67 min,"Request blocked, WAF rule updated"
+INC1166,EVT007932,File Access,Incident Response Team,Closed,28 min,"Reviewed, no action required"
+INC1167,EVT001206,Privilege Escalation,SOC Tier 3,Closed,68 min,"Access revoked, account access reviewed"
+INC1168,EVT002705,Port Scan,SOC Tier 3,In Progress,54 min,Pending review
+INC1169,EVT008295,File Access,SOC Tier 3,Closed,70 min,"Reviewed, no action required"
+INC1170,EVT008559,Phishing Email,Incident Response Team,Closed,75 min,"Email quarantined, user notified"
+INC1171,EVT002080,File Access,Incident Response Team,In Progress,89 min,Pending review
+INC1172,EVT009602,Brute Force,Incident Response Team,Closed,89 min,Source IP blocked at firewall
+INC1173,EVT003683,Brute Force,SOC Tier 1,Closed,45 min,Source IP blocked at firewall
+INC1174,EVT003320,Failed Login,SOC Tier 3,Closed,82 min,"Account temporarily locked, user verified"
+INC1175,EVT009606,Phishing Email,SOC Tier 1,Closed,58 min,"Email quarantined, user notified"
+INC1176,EVT005295,Malware Detection,SOC Tier 3,Closed,10 min,"Endpoint isolated, malware removed"
+INC1177,EVT001824,Malware Detection,Incident Response Team,In Progress,77 min,Pending review
+INC1178,EVT002091,Malware Detection,SOC Tier 3,Open,84 min,Pending review
+INC1179,EVT009426,Failed Login,SOC Tier 3,In Progress,90 min,Pending review
+INC1180,EVT008912,File Access,Incident Response Team,In Progress,67 min,Pending review
+INC1181,EVT005374,File Access,SOC Tier 2,In Progress,55 min,Pending review
+INC1182,EVT006301,SQL Injection Attempt,SOC Tier 1,Closed,19 min,"Request blocked, WAF rule updated"
+INC1183,EVT005301,Brute Force,SOC Tier 3,Open,73 min,Pending review
+INC1184,EVT002736,Login Success,SOC Tier 3,In Progress,50 min,Pending review
+INC1185,EVT001081,Privilege Escalation,SOC Tier 2,In Progress,70 min,Pending review
+INC1186,EVT003966,Malware Detection,SOC Tier 3,Closed,49 min,"Endpoint isolated, malware removed"
+INC1187,EVT007309,Phishing Email,SOC Tier 2,In Progress,15 min,Pending review
+INC1188,EVT001328,File Access,SOC Tier 3,Closed,74 min,"Reviewed, no action required"
+INC1189,EVT002478,Privilege Escalation,Incident Response Team,Closed,79 min,"Access revoked, account access reviewed"
+INC1190,EVT009590,Failed Login,SOC Tier 3,In Progress,9 min,Pending review
+INC1191,EVT009209,File Access,SOC Tier 3,Open,89 min,Pending review
+INC1192,EVT004125,USB Device Connected,SOC Tier 3,Closed,21 min,"Device inspected, no threat found"
+INC1193,EVT002801,Privilege Escalation,SOC Tier 3,Closed,88 min,"Access revoked, account access reviewed"
+INC1194,EVT006642,Privilege Escalation,SOC Tier 3,In Progress,18 min,Pending review
+INC1195,EVT002241,Brute Force,Incident Response Team,In Progress,21 min,Pending review
+INC1196,EVT005534,Port Scan,SOC Tier 3,Closed,41 min,Source IP flagged and monitored
+INC1197,EVT003002,SQL Injection Attempt,SOC Tier 1,In Progress,63 min,Pending review
+INC1198,EVT006248,USB Device Connected,SOC Tier 2,Closed,61 min,"Device inspected, no threat found"
+INC1199,EVT005247,Privilege Escalation,SOC Tier 1,In Progress,45 min,Pending review
+INC1200,EVT001829,Failed Login,SOC Tier 2,In Progress,42 min,Pending review
+INC1201,EVT004550,Failed Login,SOC Tier 1,Closed,42 min,"Account temporarily locked, user verified"
+INC1202,EVT005752,File Access,Incident Response Team,Closed,35 min,"Reviewed, no action required"
+INC1203,EVT000991,USB Device Connected,SOC Tier 1,Closed,78 min,"Device inspected, no threat found"
+INC1204,EVT006514,SQL Injection Attempt,SOC Tier 1,Closed,45 min,"Request blocked, WAF rule updated"
+INC1205,EVT001608,Brute Force,Incident Response Team,Closed,83 min,Source IP blocked at firewall
+INC1206,EVT008023,Brute Force,SOC Tier 2,In Progress,12 min,Pending review
+INC1207,EVT003679,Privilege Escalation,SOC Tier 1,Closed,74 min,"Access revoked, account access reviewed"
+INC1208,EVT005207,Phishing Email,Incident Response Team,Closed,35 min,"Email quarantined, user notified"
+INC1209,EVT006694,Failed Login,SOC Tier 1,Closed,67 min,"Account temporarily locked, user verified"
+INC1210,EVT002121,USB Device Connected,Incident Response Team,Closed,16 min,"Device inspected, no threat found"
+INC1211,EVT009888,Brute Force,SOC Tier 2,Open,39 min,Pending review
+INC1212,EVT008464,Malware Detection,SOC Tier 3,Open,45 min,Pending review
+INC1213,EVT003447,File Access,SOC Tier 2,In Progress,87 min,Pending review
+INC1214,EVT008543,Malware Detection,SOC Tier 2,Closed,67 min,"Endpoint isolated, malware removed"
+INC1215,EVT009484,Failed Login,SOC Tier 2,Closed,49 min,"Account temporarily locked, user verified"
+INC1216,EVT002212,Brute Force,SOC Tier 1,In Progress,36 min,Pending review
+INC1217,EVT006788,USB Device Connected,SOC Tier 3,Closed,43 min,"Device inspected, no threat found"
+INC1218,EVT005973,File Access,SOC Tier 1,Open,52 min,Pending review
+INC1219,EVT008711,Failed Login,SOC Tier 2,In Progress,66 min,Pending review
+INC1220,EVT002960,Phishing Email,Incident Response Team,Closed,79 min,"Email quarantined, user notified"
+INC1221,EVT000121,USB Device Connected,SOC Tier 1,Closed,61 min,"Device inspected, no threat found"
+INC1222,EVT007490,SQL Injection Attempt,SOC Tier 1,Closed,81 min,"Request blocked, WAF rule updated"
+INC1223,EVT006506,File Access,SOC Tier 1,Closed,56 min,"Reviewed, no action required"
+INC1224,EVT001477,Malware Detection,Incident Response Team,In Progress,59 min,Pending review
+INC1225,EVT008682,File Access,SOC Tier 1,Closed,40 min,"Reviewed, no action required"
+INC1226,EVT000036,Brute Force,SOC Tier 2,Open,77 min,Pending review
+INC1227,EVT006699,SQL Injection Attempt,SOC Tier 3,Closed,85 min,"Request blocked, WAF rule updated"
+INC1228,EVT000708,Phishing Email,SOC Tier 1,In Progress,22 min,Pending review
+INC1229,EVT008885,Failed Login,Incident Response Team,Closed,49 min,"Account temporarily locked, user verified"
+INC1230,EVT006826,Port Scan,SOC Tier 3,Closed,71 min,Source IP flagged and monitored
+INC1231,EVT005960,Brute Force,SOC Tier 2,Closed,70 min,Source IP blocked at firewall
+INC1232,EVT005481,Failed Login,SOC Tier 1,Open,61 min,Pending review
+INC1233,EVT004178,Failed Login,Incident Response Team,Closed,56 min,"Account temporarily locked, user verified"
+INC1234,EVT000445,Brute Force,SOC Tier 2,Open,86 min,Pending review
+INC1235,EVT001310,Failed Login,SOC Tier 1,Closed,39 min,"Account temporarily locked, user verified"
+INC1236,EVT009476,Privilege Escalation,SOC Tier 1,Closed,25 min,"Access revoked, account access reviewed"
+INC1237,EVT005804,Login Success,SOC Tier 1,In Progress,19 min,Pending review
+INC1238,EVT001314,Brute Force,SOC Tier 1,Closed,39 min,Source IP blocked at firewall
+INC1239,EVT000907,Login Success,SOC Tier 1,In Progress,46 min,Pending review
+INC1240,EVT003742,Privilege Escalation,SOC Tier 1,Closed,34 min,"Access revoked, account access reviewed"
+INC1241,EVT004057,Port Scan,SOC Tier 2,Closed,50 min,Source IP flagged and monitored
+INC1242,EVT002141,Phishing Email,SOC Tier 1,Closed,11 min,"Email quarantined, user notified"
+INC1243,EVT009051,Login Success,SOC Tier 1,Closed,22 min,"Reviewed, no action required"
+INC1244,EVT005642,Failed Login,SOC Tier 2,Closed,27 min,"Account temporarily locked, user verified"
+INC1245,EVT004343,Malware Detection,SOC Tier 1,Open,47 min,Pending review
+INC1246,EVT009288,SQL Injection Attempt,SOC Tier 2,Closed,53 min,"Request blocked, WAF rule updated"
+INC1247,EVT003359,Failed Login,Incident Response Team,Closed,9 min,"Account temporarily locked, user verified"
+INC1248,EVT002089,Brute Force,SOC Tier 1,Closed,68 min,Source IP blocked at firewall
+INC1249,EVT000293,Login Success,Incident Response Team,Closed,81 min,"Reviewed, no action required"
+INC1250,EVT003562,SQL Injection Attempt,SOC Tier 2,Closed,48 min,"Request blocked, WAF rule updated"
+INC1251,EVT009931,SQL Injection Attempt,SOC Tier 1,Closed,8 min,"Request blocked, WAF rule updated"
+INC1252,EVT005970,SQL Injection Attempt,SOC Tier 1,Closed,8 min,"Request blocked, WAF rule updated"
+INC1253,EVT002154,Phishing Email,SOC Tier 1,Closed,8 min,"Email quarantined, user notified"
+INC1254,EVT005262,SQL Injection Attempt,SOC Tier 2,In Progress,12 min,Pending review
+INC1255,EVT002501,File Access,SOC Tier 2,Closed,73 min,"Reviewed, no action required"
+INC1256,EVT004309,Login Success,SOC Tier 1,Closed,60 min,"Reviewed, no action required"
+INC1257,EVT000944,Privilege Escalation,SOC Tier 2,In Progress,35 min,Pending review
+INC1258,EVT004442,SQL Injection Attempt,SOC Tier 2,Closed,75 min,"Request blocked, WAF rule updated"
+INC1259,EVT007003,Malware Detection,SOC Tier 2,Closed,15 min,"Endpoint isolated, malware removed"
+INC1260,EVT007847,File Access,SOC Tier 2,Closed,81 min,"Reviewed, no action required"
+INC1261,EVT008892,Port Scan,SOC Tier 3,In Progress,39 min,Pending review
+INC1262,EVT002444,Phishing Email,SOC Tier 2,Closed,75 min,"Email quarantined, user notified"
+INC1263,EVT005521,USB Device Connected,Incident Response Team,In Progress,53 min,Pending review
+INC1264,EVT002536,USB Device Connected,SOC Tier 2,Closed,27 min,"Device inspected, no threat found"
+INC1265,EVT006174,Failed Login,SOC Tier 2,Closed,72 min,"Account temporarily locked, user verified"
+INC1266,EVT002176,Login Success,SOC Tier 2,In Progress,24 min,Pending review
+INC1267,EVT007511,Privilege Escalation,SOC Tier 2,In Progress,47 min,Pending review
+INC1268,EVT003130,Brute Force,SOC Tier 3,Closed,60 min,Source IP blocked at firewall
+INC1269,EVT001780,SQL Injection Attempt,Incident Response Team,Closed,84 min,"Request blocked, WAF rule updated"
+INC1270,EVT008806,Brute Force,Incident Response Team,Closed,83 min,Source IP blocked at firewall
+INC1271,EVT000524,File Access,SOC Tier 2,Closed,30 min,"Reviewed, no action required"
+INC1272,EVT006967,File Access,SOC Tier 1,Closed,17 min,"Reviewed, no action required"
+INC1273,EVT002619,Brute Force,SOC Tier 2,Closed,32 min,Source IP blocked at firewall
+INC1274,EVT009907,SQL Injection Attempt,Incident Response Team,Open,53 min,Pending review
+INC1275,EVT003900,Port Scan,Incident Response Team,Closed,36 min,Source IP flagged and monitored
+INC1276,EVT003398,Failed Login,SOC Tier 1,Closed,33 min,"Account temporarily locked, user verified"
+INC1277,EVT000377,SQL Injection Attempt,SOC Tier 2,Closed,81 min,"Request blocked, WAF rule updated"
+INC1278,EVT008716,Phishing Email,SOC Tier 1,Closed,9 min,"Email quarantined, user notified"
+INC1279,EVT009219,Failed Login,Incident Response Team,Open,86 min,Pending review
+INC1280,EVT003509,Malware Detection,SOC Tier 3,Closed,81 min,"Endpoint isolated, malware removed"
+INC1281,EVT006055,Failed Login,SOC Tier 2,Closed,57 min,"Account temporarily locked, user verified"
+INC1282,EVT004201,Privilege Escalation,Incident Response Team,In Progress,43 min,Pending review
+INC1283,EVT006789,Privilege Escalation,SOC Tier 3,Closed,26 min,"Access revoked, account access reviewed"
+INC1284,EVT001149,Failed Login,SOC Tier 2,Closed,49 min,"Account temporarily locked, user verified"
+INC1285,EVT005853,Brute Force,SOC Tier 1,Closed,30 min,Source IP blocked at firewall
+INC1286,EVT002785,Privilege Escalation,SOC Tier 2,Closed,63 min,"Access revoked, account access reviewed"
+INC1287,EVT001373,Login Success,SOC Tier 2,Closed,63 min,"Reviewed, no action required"
+INC1288,EVT004812,Privilege Escalation,SOC Tier 3,Closed,50 min,"Access revoked, account access reviewed"
+INC1289,EVT009172,Privilege Escalation,Incident Response Team,Closed,33 min,"Access revoked, account access reviewed"
+INC1290,EVT000892,Phishing Email,SOC Tier 1,Closed,53 min,"Email quarantined, user notified"
+INC1291,EVT002174,SQL Injection Attempt,SOC Tier 2,In Progress,75 min,Pending review
+INC1292,EVT004767,SQL Injection Attempt,SOC Tier 1,In Progress,36 min,Pending review
+INC1293,EVT005020,USB Device Connected,SOC Tier 3,In Progress,76 min,Pending review
+INC1294,EVT000397,Privilege Escalation,SOC Tier 1,Closed,41 min,"Access revoked, account access reviewed"
+INC1295,EVT009057,Port Scan,SOC Tier 2,In Progress,47 min,Pending review
+INC1296,EVT006650,Port Scan,SOC Tier 3,Closed,57 min,Source IP flagged and monitored
+INC1297,EVT002045,SQL Injection Attempt,Incident Response Team,Closed,57 min,"Request blocked, WAF rule updated"
+INC1298,EVT000128,Login Success,SOC Tier 1,Closed,57 min,"Reviewed, no action required"
+INC1299,EVT004755,Privilege Escalation,SOC Tier 3,In Progress,32 min,Pending review
+INC1300,EVT004634,Brute Force,Incident Response Team,Closed,74 min,Source IP blocked at firewall
+INC1301,EVT001027,Login Success,SOC Tier 1,Closed,74 min,"Reviewed, no action required"
+INC1302,EVT001123,Failed Login,Incident Response Team,In Progress,54 min,Pending review
+INC1303,EVT000575,USB Device Connected,SOC Tier 1,In Progress,62 min,Pending review
+INC1304,EVT007248,Malware Detection,SOC Tier 1,In Progress,21 min,Pending review
+INC1305,EVT005255,USB Device Connected,Incident Response Team,Closed,71 min,"Device inspected, no threat found"
+INC1306,EVT002488,File Access,SOC Tier 1,Closed,61 min,"Reviewed, no action required"
+INC1307,EVT006652,File Access,Incident Response Team,Closed,35 min,"Reviewed, no action required"
+INC1308,EVT004756,Failed Login,Incident Response Team,Closed,58 min,"Account temporarily locked, user verified"
+INC1309,EVT000008,Login Success,SOC Tier 3,Closed,13 min,"Reviewed, no action required"
+INC1310,EVT006942,Brute Force,SOC Tier 3,Closed,72 min,Source IP blocked at firewall
+INC1311,EVT006239,SQL Injection Attempt,Incident Response Team,In Progress,55 min,Pending review
+INC1312,EVT006295,Failed Login,SOC Tier 2,In Progress,44 min,Pending review
+INC1313,EVT003956,Malware Detection,SOC Tier 2,Closed,73 min,"Endpoint isolated, malware removed"
+INC1314,EVT001453,Login Success,SOC Tier 3,Open,46 min,Pending review
+INC1315,EVT003990,Privilege Escalation,SOC Tier 2,Closed,84 min,"Access revoked, account access reviewed"
+INC1316,EVT001469,Login Success,Incident Response Team,Open,8 min,Pending review
+INC1317,EVT003628,Failed Login,SOC Tier 2,Open,45 min,Pending review
+INC1318,EVT003000,File Access,SOC Tier 1,Open,90 min,Pending review
+INC1319,EVT001979,Brute Force,Incident Response Team,Open,19 min,Pending review
+INC1320,EVT008475,SQL Injection Attempt,SOC Tier 2,In Progress,47 min,Pending review
+INC1321,EVT002312,File Access,SOC Tier 3,Closed,75 min,"Reviewed, no action required"
+INC1322,EVT006786,Privilege Escalation,SOC Tier 2,In Progress,19 min,Pending review
+INC1323,EVT002896,SQL Injection Attempt,SOC Tier 3,Closed,81 min,"Request blocked, WAF rule updated"
+INC1324,EVT000736,Port Scan,SOC Tier 2,Closed,31 min,Source IP flagged and monitored
+INC1325,EVT004385,Privilege Escalation,SOC Tier 2,Closed,68 min,"Access revoked, account access reviewed"
+INC1326,EVT007124,Failed Login,SOC Tier 3,Closed,82 min,"Account temporarily locked, user verified"
+INC1327,EVT002462,Port Scan,Incident Response Team,In Progress,84 min,Pending review
+INC1328,EVT001611,Privilege Escalation,Incident Response Team,In Progress,14 min,Pending review
+INC1329,EVT008660,Phishing Email,Incident Response Team,In Progress,67 min,Pending review
+INC1330,EVT009478,Login Success,SOC Tier 2,Closed,19 min,"Reviewed, no action required"
+INC1331,EVT007692,USB Device Connected,SOC Tier 1,In Progress,67 min,Pending review
+INC1332,EVT006574,Brute Force,SOC Tier 1,Closed,48 min,Source IP blocked at firewall
+INC1333,EVT006949,Port Scan,SOC Tier 3,In Progress,58 min,Pending review
+INC1334,EVT002120,File Access,SOC Tier 1,Closed,89 min,"Reviewed, no action required"
+INC1335,EVT005837,File Access,Incident Response Team,Closed,52 min,"Reviewed, no action required"
+INC1336,EVT001849,USB Device Connected,SOC Tier 3,Open,60 min,Pending review
+INC1337,EVT008538,Port Scan,SOC Tier 2,Closed,64 min,Source IP flagged and monitored
+INC1338,EVT002430,Phishing Email,SOC Tier 3,Closed,87 min,"Email quarantined, user notified"
+INC1339,EVT008715,Privilege Escalation,SOC Tier 1,In Progress,42 min,Pending review
+INC1340,EVT000281,SQL Injection Attempt,Incident Response Team,Closed,63 min,"Request blocked, WAF rule updated"
+INC1341,EVT005608,File Access,SOC Tier 1,Closed,40 min,"Reviewed, no action required"
+INC1342,EVT001773,Login Success,SOC Tier 1,Closed,77 min,"Reviewed, no action required"
+INC1343,EVT007566,Malware Detection,SOC Tier 2,Closed,23 min,"Endpoint isolated, malware removed"
+INC1344,EVT005310,SQL Injection Attempt,SOC Tier 3,Closed,24 min,"Request blocked, WAF rule updated"
+INC1345,EVT000054,File Access,SOC Tier 3,Closed,49 min,"Reviewed, no action required"
+INC1346,EVT005406,Malware Detection,Incident Response Team,Closed,50 min,"Endpoint isolated, malware removed"
+INC1347,EVT000192,SQL Injection Attempt,SOC Tier 2,Closed,90 min,"Request blocked, WAF rule updated"
+INC1348,EVT004996,SQL Injection Attempt,SOC Tier 2,Closed,9 min,"Request blocked, WAF rule updated"
+INC1349,EVT009997,Privilege Escalation,SOC Tier 2,In Progress,18 min,Pending review
+INC1350,EVT003780,Privilege Escalation,SOC Tier 1,Closed,56 min,"Access revoked, account access reviewed"
+INC1351,EVT000204,Failed Login,SOC Tier 1,Closed,9 min,"Account temporarily locked, user verified"
+INC1352,EVT009485,USB Device Connected,SOC Tier 2,Closed,83 min,"Device inspected, no threat found"
+INC1353,EVT005148,Port Scan,SOC Tier 1,Closed,53 min,Source IP flagged and monitored
+INC1354,EVT001560,Port Scan,Incident Response Team,In Progress,15 min,Pending review
+INC1355,EVT004124,File Access,SOC Tier 2,Closed,87 min,"Reviewed, no action required"
+INC1356,EVT001357,Brute Force,SOC Tier 1,Closed,65 min,Source IP blocked at firewall
+INC1357,EVT008462,SQL Injection Attempt,SOC Tier 2,Closed,75 min,"Request blocked, WAF rule updated"
+INC1358,EVT006532,File Access,Incident Response Team,Closed,29 min,"Reviewed, no action required"
+INC1359,EVT002926,Privilege Escalation,SOC Tier 2,Closed,18 min,"Access revoked, account access reviewed"
+INC1360,EVT000402,File Access,Incident Response Team,Closed,85 min,"Reviewed, no action required"
+INC1361,EVT006710,SQL Injection Attempt,SOC Tier 1,In Progress,66 min,Pending review
+INC1362,EVT000409,USB Device Connected,SOC Tier 3,In Progress,68 min,Pending review
+INC1363,EVT004788,Brute Force,SOC Tier 2,Closed,23 min,Source IP blocked at firewall
+INC1364,EVT008096,Phishing Email,SOC Tier 1,Closed,73 min,"Email quarantined, user notified"
+INC1365,EVT007242,Brute Force,Incident Response Team,In Progress,34 min,Pending review
+INC1366,EVT006766,File Access,SOC Tier 3,Closed,15 min,"Reviewed, no action required"
+INC1367,EVT003007,Brute Force,SOC Tier 1,Open,25 min,Pending review
+INC1368,EVT002572,Login Success,Incident Response Team,Closed,60 min,"Reviewed, no action required"
+INC1369,EVT007819,Privilege Escalation,Incident Response Team,Closed,59 min,"Access revoked, account access reviewed"
+INC1370,EVT002013,Brute Force,SOC Tier 1,Open,36 min,Pending review
+INC1371,EVT008594,SQL Injection Attempt,Incident Response Team,Closed,81 min,"Request blocked, WAF rule updated"
+INC1372,EVT009912,Brute Force,SOC Tier 2,Closed,56 min,Source IP blocked at firewall
+INC1373,EVT008531,SQL Injection Attempt,SOC Tier 3,Closed,36 min,"Request blocked, WAF rule updated"
+INC1374,EVT002473,Phishing Email,SOC Tier 2,Closed,35 min,"Email quarantined, user notified"
+INC1375,EVT005755,File Access,SOC Tier 3,In Progress,33 min,Pending review
+INC1376,EVT005622,Failed Login,Incident Response Team,Closed,35 min,"Account temporarily locked, user verified"
+INC1377,EVT005688,SQL Injection Attempt,SOC Tier 1,Open,71 min,Pending review
+INC1378,EVT006374,Port Scan,Incident Response Team,In Progress,80 min,Pending review
+INC1379,EVT005180,Failed Login,SOC Tier 2,Closed,16 min,"Account temporarily locked, user verified"
+INC1380,EVT007252,Brute Force,Incident Response Team,Closed,26 min,Source IP blocked at firewall
+INC1381,EVT008551,File Access,Incident Response Team,Closed,28 min,"Reviewed, no action required"
+INC1382,EVT006841,Login Success,Incident Response Team,Open,39 min,Pending review
+INC1383,EVT002206,SQL Injection Attempt,SOC Tier 1,In Progress,58 min,Pending review
+INC1384,EVT004930,File Access,SOC Tier 3,Open,76 min,Pending review
+INC1385,EVT008839,SQL Injection Attempt,SOC Tier 1,Closed,63 min,"Request blocked, WAF rule updated"
+INC1386,EVT000814,Privilege Escalation,Incident Response Team,Open,85 min,Pending review
+INC1387,EVT008148,USB Device Connected,SOC Tier 2,Closed,60 min,"Device inspected, no threat found"
+INC1388,EVT003637,Phishing Email,SOC Tier 3,Closed,43 min,"Email quarantined, user notified"
+INC1389,EVT003484,Login Success,Incident Response Team,Closed,74 min,"Reviewed, no action required"
+INC1390,EVT007186,USB Device Connected,SOC Tier 2,In Progress,26 min,Pending review
+INC1391,EVT008518,Failed Login,Incident Response Team,Closed,71 min,"Account temporarily locked, user verified"
+INC1392,EVT006476,Login Success,SOC Tier 3,Closed,70 min,"Reviewed, no action required"
+INC1393,EVT009797,Login Success,SOC Tier 1,In Progress,69 min,Pending review
+INC1394,EVT002821,USB Device Connected,SOC Tier 2,Closed,44 min,"Device inspected, no threat found"
+INC1395,EVT009226,USB Device Connected,SOC Tier 1,Closed,43 min,"Device inspected, no threat found"
+INC1396,EVT008701,USB Device Connected,SOC Tier 1,Closed,22 min,"Device inspected, no threat found"
+INC1397,EVT003439,Brute Force,SOC Tier 1,Closed,9 min,Source IP blocked at firewall
+INC1398,EVT009233,Malware Detection,SOC Tier 3,Closed,13 min,"Endpoint isolated, malware removed"
+INC1399,EVT004094,Privilege Escalation,SOC Tier 1,In Progress,57 min,Pending review
+INC1400,EVT006995,Phishing Email,SOC Tier 3,Closed,59 min,"Email quarantined, user notified"
+INC1401,EVT007510,Brute Force,SOC Tier 2,Open,86 min,Pending review
+INC1402,EVT001668,USB Device Connected,SOC Tier 2,In Progress,42 min,Pending review
+INC1403,EVT005565,Login Success,SOC Tier 3,Closed,75 min,"Reviewed, no action required"
+INC1404,EVT001456,Malware Detection,Incident Response Team,Closed,26 min,"Endpoint isolated, malware removed"
+INC1405,EVT006831,File Access,SOC Tier 2,In Progress,59 min,Pending review
+INC1406,EVT001184,Malware Detection,Incident Response Team,Closed,55 min,"Endpoint isolated, malware removed"
+INC1407,EVT009000,Port Scan,SOC Tier 2,Closed,45 min,Source IP flagged and monitored
+INC1408,EVT002305,Brute Force,SOC Tier 1,Closed,9 min,Source IP blocked at firewall
+INC1409,EVT008484,Privilege Escalation,Incident Response Team,Closed,20 min,"Access revoked, account access reviewed"
+INC1410,EVT004559,SQL Injection Attempt,SOC Tier 3,In Progress,59 min,Pending review
+INC1411,EVT009532,Phishing Email,Incident Response Team,In Progress,16 min,Pending review
+INC1412,EVT006733,SQL Injection Attempt,SOC Tier 3,Closed,9 min,"Request blocked, WAF rule updated"
+INC1413,EVT004246,File Access,SOC Tier 1,In Progress,85 min,Pending review
+INC1414,EVT006050,Privilege Escalation,SOC Tier 3,In Progress,53 min,Pending review
+INC1415,EVT001302,Failed Login,SOC Tier 1,Open,81 min,Pending review
+INC1416,EVT005189,SQL Injection Attempt,SOC Tier 2,Closed,24 min,"Request blocked, WAF rule updated"
+INC1417,EVT000721,File Access,SOC Tier 1,Closed,11 min,"Reviewed, no action required"
+INC1418,EVT009916,Brute Force,SOC Tier 3,Closed,19 min,Source IP blocked at firewall
+INC1419,EVT007873,USB Device Connected,SOC Tier 2,Closed,26 min,"Device inspected, no threat found"
+INC1420,EVT006410,Brute Force,Incident Response Team,In Progress,48 min,Pending review
+INC1421,EVT004510,Brute Force,Incident Response Team,Closed,25 min,Source IP blocked at firewall
+INC1422,EVT008154,File Access,Incident Response Team,In Progress,86 min,Pending review
+INC1423,EVT001449,Failed Login,SOC Tier 1,Closed,85 min,"Account temporarily locked, user verified"
+INC1424,EVT007551,Brute Force,Incident Response Team,Closed,8 min,Source IP blocked at firewall
+INC1425,EVT007221,Failed Login,Incident Response Team,Closed,31 min,"Account temporarily locked, user verified"
+INC1426,EVT007358,Phishing Email,Incident Response Team,Closed,88 min,"Email quarantined, user notified"
+INC1427,EVT007141,File Access,Incident Response Team,Open,34 min,Pending review
+INC1428,EVT007506,SQL Injection Attempt,SOC Tier 3,Closed,68 min,"Request blocked, WAF rule updated"
+INC1429,EVT006150,File Access,Incident Response Team,Closed,82 min,"Reviewed, no action required"
+INC1430,EVT003921,File Access,Incident Response Team,Closed,66 min,"Reviewed, no action required"
+INC1431,EVT008671,Malware Detection,Incident Response Team,Closed,64 min,"Endpoint isolated, malware removed"
+INC1432,EVT008775,Failed Login,SOC Tier 1,Closed,18 min,"Account temporarily locked, user verified"
+INC1433,EVT007289,Privilege Escalation,SOC Tier 3,Open,40 min,Pending review
+INC1434,EVT000918,SQL Injection Attempt,Incident Response Team,Open,8 min,Pending review
+INC1435,EVT005342,SQL Injection Attempt,SOC Tier 2,Closed,79 min,"Request blocked, WAF rule updated"
+INC1436,EVT001080,Malware Detection,Incident Response Team,Closed,22 min,"Endpoint isolated, malware removed"
+INC1437,EVT002863,USB Device Connected,SOC Tier 2,Closed,69 min,"Device inspected, no threat found"
+INC1438,EVT000489,Port Scan,SOC Tier 3,In Progress,75 min,Pending review
+INC1439,EVT000413,Phishing Email,SOC Tier 2,Open,43 min,Pending review
+INC1440,EVT006327,SQL Injection Attempt,SOC Tier 1,Open,34 min,Pending review
+INC1441,EVT002939,Failed Login,SOC Tier 1,In Progress,38 min,Pending review
+INC1442,EVT004272,Phishing Email,Incident Response Team,In Progress,34 min,Pending review
+INC1443,EVT009550,Port Scan,Incident Response Team,In Progress,19 min,Pending review
+INC1444,EVT000325,Failed Login,SOC Tier 2,Open,67 min,Pending review
+INC1445,EVT001774,Failed Login,SOC Tier 3,Closed,80 min,"Account temporarily locked, user verified"
+INC1446,EVT002326,SQL Injection Attempt,SOC Tier 2,In Progress,83 min,Pending review
+INC1447,EVT009499,Brute Force,SOC Tier 1,Closed,43 min,Source IP blocked at firewall
+INC1448,EVT004609,Malware Detection,SOC Tier 3,Closed,35 min,"Endpoint isolated, malware removed"
+INC1449,EVT002647,Failed Login,SOC Tier 3,Closed,83 min,"Account temporarily locked, user verified"
+INC1450,EVT004354,USB Device Connected,SOC Tier 3,Closed,55 min,"Device inspected, no threat found"
+INC1451,EVT005403,Privilege Escalation,SOC Tier 1,Open,49 min,Pending review
+INC1452,EVT005983,Failed Login,SOC Tier 1,In Progress,57 min,Pending review
+INC1453,EVT003477,Phishing Email,SOC Tier 3,Closed,42 min,"Email quarantined, user notified"
+INC1454,EVT002787,Port Scan,Incident Response Team,Open,25 min,Pending review
+INC1455,EVT000465,Phishing Email,SOC Tier 1,Closed,35 min,"Email quarantined, user notified"
+INC1456,EVT005314,Failed Login,Incident Response Team,Closed,24 min,"Account temporarily locked, user verified"
+INC1457,EVT000470,Malware Detection,Incident Response Team,In Progress,42 min,Pending review
+INC1458,EVT002626,Phishing Email,SOC Tier 1,Closed,56 min,"Email quarantined, user notified"
+INC1459,EVT002092,Phishing Email,Incident Response Team,In Progress,71 min,Pending review
+INC1460,EVT005793,Brute Force,SOC Tier 3,In Progress,45 min,Pending review
+INC1461,EVT000248,Port Scan,SOC Tier 3,In Progress,78 min,Pending review
+INC1462,EVT006543,Login Success,SOC Tier 3,Closed,26 min,"Reviewed, no action required"
+INC1463,EVT006356,Failed Login,SOC Tier 2,Closed,29 min,"Account temporarily locked, user verified"
+INC1464,EVT008291,Login Success,SOC Tier 1,In Progress,49 min,Pending review
+INC1465,EVT000523,Port Scan,Incident Response Team,Closed,72 min,Source IP flagged and monitored
+INC1466,EVT001024,SQL Injection Attempt,SOC Tier 3,Closed,72 min,"Request blocked, WAF rule updated"
+INC1467,EVT008040,Phishing Email,SOC Tier 3,Open,64 min,Pending review
+INC1468,EVT007866,Malware Detection,SOC Tier 2,Closed,79 min,"Endpoint isolated, malware removed"
+INC1469,EVT002718,Failed Login,SOC Tier 2,Closed,84 min,"Account temporarily locked, user verified"
+INC1470,EVT006264,File Access,Incident Response Team,Closed,20 min,"Reviewed, no action required"
+INC1471,EVT004991,Brute Force,SOC Tier 1,Closed,18 min,Source IP blocked at firewall
+INC1472,EVT002702,Malware Detection,Incident Response Team,In Progress,36 min,Pending review
+INC1473,EVT008094,Brute Force,SOC Tier 3,Closed,61 min,Source IP blocked at firewall
+INC1474,EVT002201,Phishing Email,SOC Tier 1,In Progress,25 min,Pending review
+INC1475,EVT002806,Login Success,SOC Tier 3,Open,54 min,Pending review
+INC1476,EVT005798,Malware Detection,SOC Tier 1,Closed,13 min,"Endpoint isolated, malware removed"
+INC1477,EVT009477,Port Scan,SOC Tier 3,Closed,86 min,Source IP flagged and monitored
+INC1478,EVT008893,USB Device Connected,SOC Tier 3,In Progress,84 min,Pending review
+INC1479,EVT003038,SQL Injection Attempt,SOC Tier 1,In Progress,82 min,Pending review
+INC1480,EVT002799,Login Success,SOC Tier 1,Closed,88 min,"Reviewed, no action required"
+INC1481,EVT005808,SQL Injection Attempt,SOC Tier 2,In Progress,27 min,Pending review
+INC1482,EVT009615,Malware Detection,SOC Tier 3,Closed,76 min,"Endpoint isolated, malware removed"
+INC1483,EVT005427,File Access,SOC Tier 1,Closed,82 min,"Reviewed, no action required"
+INC1484,EVT002433,Privilege Escalation,SOC Tier 2,In Progress,28 min,Pending review
+INC1485,EVT005917,Brute Force,SOC Tier 1,Closed,89 min,Source IP blocked at firewall
+INC1486,EVT007357,Phishing Email,SOC Tier 2,Open,41 min,Pending review
+INC1487,EVT000447,Port Scan,SOC Tier 3,Closed,44 min,Source IP flagged and monitored
+INC1488,EVT008910,Failed Login,SOC Tier 3,In Progress,45 min,Pending review
+INC1489,EVT001425,SQL Injection Attempt,SOC Tier 1,In Progress,74 min,Pending review
+INC1490,EVT005934,File Access,Incident Response Team,Closed,75 min,"Reviewed, no action required"
+INC1491,EVT004760,Port Scan,SOC Tier 3,Closed,65 min,Source IP flagged and monitored
+INC1492,EVT006395,USB Device Connected,SOC Tier 3,Closed,23 min,"Device inspected, no threat found"
+INC1493,EVT008804,Malware Detection,SOC Tier 3,In Progress,69 min,Pending review
+INC1494,EVT004060,Brute Force,SOC Tier 3,Closed,50 min,Source IP blocked at firewall
+INC1495,EVT002244,Port Scan,Incident Response Team,Closed,35 min,Source IP flagged and monitored
+INC1496,EVT003444,Login Success,Incident Response Team,Closed,65 min,"Reviewed, no action required"
+INC1497,EVT004463,Login Success,SOC Tier 1,Closed,40 min,"Reviewed, no action required"
+INC1498,EVT001334,Phishing Email,SOC Tier 2,Closed,20 min,"Email quarantined, user notified"
+INC1499,EVT005562,Login Success,SOC Tier 3,Closed,30 min,"Reviewed, no action required"
+INC1500,EVT000532,SQL Injection Attempt,SOC Tier 1,In Progress,71 min,Pending review
